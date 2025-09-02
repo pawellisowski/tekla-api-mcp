@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "tekla-api-mcp": {
+      "command": "node",
+      "args": [
+        "D:\\Repos\\tekla-api-mcp\\dist\\index.js"
+      ],
+      "cwd": "D:\\Repos\\tekla-api-mcp"
+    }
+  }
+}

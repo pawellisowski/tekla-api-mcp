@@ -1,0 +1,677 @@
+[
+  {
+    "title": "Assertion Class",
+    "description": "Defines an assertion by the method it failed in and the messages it provided.",
+    "summary": "Gets a hash code for this instance.\n            Calculated as recommended at http://msdn.microsoft.com/en-us/library/system.object.gethashcode.aspx",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "ad52597a-0408-037b-a3d1-689855b86dc5.htm"
+  },
+  {
+    "title": "ClashCheckOptions Class",
+    "description": "The ClashCheckOptions class represents the clash check options.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "7d696961-d1d1-d6bd-91a4-96109ba5b0d5.htm"
+  },
+  {
+    "title": "ComponentOptions Class",
+    "description": "The ComponentOptions class represents the component options.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "af50ad50-32e9-d812-74ef-dfe45170f2b0.htm"
+  },
+  {
+    "title": "Identifier Class",
+    "description": "The Identifier class represents an identifier that holds information about the identifier number of an object.",
+    "summary": "The object's globally unique identifier.\n            If the GUID value is set manually, the ID is initialized to 0 and the identification is done based on the GUID.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "957a7507-7619-f1f9-acfb-6ff8de2d9e27.htm"
+  },
+  {
+    "title": "ModuleManager Class",
+    "description": "The ModuleManager class handles the product model module configuration information: the information that defines what configuration the customer is currently running.",
+    "summary": "The ModuleManager class handles the product model module configuration information: the\n            information that defines what configuration the customer is currently running.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "03aec97c-c61b-fc99-7d7e-e4c7c935b7b6.htm"
+  },
+  {
+    "title": "TeklaStructuresFiles Class",
+    "description": "The TeklaStructuresFiles class is for the paths where the attributes file will be searched for.",
+    "summary": "The TeklaStructuresFiles class is for the paths where the attributes file will be searched for.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "085dde53-6ee8-0f4f-0872-55b88314e523.htm"
+  },
+  {
+    "title": "TeklaStructuresInfo Class",
+    "description": "The TeklaStructuresInfo class provides information about Tekla Structures.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "2a9f3fee-0ba1-486f-02bf-75a848487149.htm"
+  },
+  {
+    "title": "TeklaStructuresSettings Class",
+    "description": "The TeklaStructuresSettings class provides methods to inquire application settings.",
+    "summary": "Gets the value of an advanced option as a list of valid paths.\n            Strings with path separator ; are split into separate paths and any blank paths (containing only white space) are ignored.\n            Paths do not need to exist but must use valid characters and format.\n            Note: All valid paths are returned even when invalid paths are encountered.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "7c4799d1-b9cb-cbb1-9b3d-4ce81b05ccc6.htm"
+  },
+  {
+    "title": "TeklaStructuresSettings.ToolOptionNames Class",
+    "description": "Tool option names.",
+    "summary": "The TeklaStructuresSettingsAddLanguageSpecificTextSet(\"LSTF9C3EF81_4?cs=.|vb=.|cpp=::|nu=.|fs=.\");ToolOptionNames type exposes the following members.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "547f5380-8245-79e2-3758-11f811c4a0d4.htm"
+  },
+  {
+    "title": "TeklaStructuresVariables Class",
+    "description": "The EnvironmentVariables class contains a sorted list specializing in getting active environment variables and advanced option settings. It also checks options.ini files in the active model folder as well as options_user.ini files.",
+    "summary": "The EnvironmentVariables class contains a sorted list specializing in getting active\n            environment variables and advanced option settings. It also checks options.ini files\n            in the active model folder as well as options_user.ini files.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "a2b71094-2e13-c03d-5ddd-723c90c5e43f.htm"
+  },
+  {
+    "title": "Analysis Class",
+    "description": "The Analysis class is a class from which the user can query analysis instances.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "47cb0854-5cb1-9863-234f-acf7ca8ae087.htm"
+  },
+  {
+    "title": "AnalysisArea Class",
+    "description": "The AnalysisArea class contains information related to analysis areas.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "fe26f692-3c0c-caac-b3ad-08ae4f6ba405.htm"
+  },
+  {
+    "title": "AnalysisAreaPolygon Class",
+    "description": "The AnalysisAreaPolygon class contains information related to analysis area polygons.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "9a4c35fa-8955-e019-2812-a8737c70355e.htm"
+  },
+  {
+    "title": "AnalysisBar Class",
+    "description": "The AnalysisBar class contains information related to analysis bars.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "3ff27579-557f-2457-d76c-ea70b2c3101e.htm"
+  },
+  {
+    "title": "AnalysisBeamEnd Class",
+    "description": "The AnalysisBeamEnd class contains information related to analysis beam ends.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "4cb46c46-20b2-25d2-ded2-1d065a7fd2b0.htm"
+  },
+  {
+    "title": "AnalysisCompositeBeam Class",
+    "description": "The AnalysisCompositeBeam class contains information related to analysis composite beams.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "0841f981-87ab-b1ee-55e4-2ad372f7a37e.htm"
+  },
+  {
+    "title": "AnalysisConnectivity Class",
+    "description": "The AnalysisConnectivity class contains information related to analysis connectivities.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "08abc530-b7e9-5a6b-1e33-1ef3014d58f6.htm"
+  },
+  {
+    "title": "AnalysisCrossSection Class",
+    "description": "The AnalysisCrossSection class contains information related to analysis cross sections.",
+    "summary": "Selects an analysis cross section.\n            The AnalysisModelName and ID/Name have to be set.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "5f39479f-2ea4-9799-a226-6ed9360a9da4.htm"
+  },
+  {
+    "title": "AnalysisCurvature Class",
+    "description": "The AnalysisCurvature class contains information related to analysis curvatures.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "b108b86e-c2e8-1ffd-c04b-c142bdc96cd2.htm"
+  },
+  {
+    "title": "AnalysisDecomposedAreaLoad Class",
+    "description": "The AnalysisDecomposedAreaLoad class contains decomposed area load information.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "9b6f3d15-7357-85f8-7ef6-183af0a7631f.htm"
+  },
+  {
+    "title": "AnalysisDecomposedBarLoad Class",
+    "description": "The AnalysisDecomposedBarLoad class contains information related to decomposed bar loads.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "d62778b8-087d-2b97-4faa-b858fbb50b6e.htm"
+  },
+  {
+    "title": "AnalysisDecomposedLoad Class",
+    "description": "The AnalysisDecomposedLoad class contains information related to decomposed loads.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "22170c59-65ac-2f10-37d7-71a9a4c7305b.htm"
+  },
+  {
+    "title": "AnalysisDecomposedMemberLoad Class",
+    "description": "The AnalysisDecomposedMemberLoad class contains information related to decomposed member loads.",
+    "summary": "The AnalysisDecomposedMemberLoad class contains information related to decomposed member loads.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "fb83ca48-74bb-aad8-d98f-5c5e5682ec9d.htm"
+  },
+  {
+    "title": "AnalysisDecomposedNodeLoad Class",
+    "description": "The AnalysisDecomposedNodeLoad class contains information related to decomposed node loads.",
+    "summary": "The AnalysisDecomposedNodeLoad class contains information related to decomposed node loads.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "011ed77b-258f-8ac0-d366-64b030d82715.htm"
+  },
+  {
+    "title": "AnalysisDecomposedSelfweightLoad Class",
+    "description": "The AnalysisDecomposedSelfweightLoad class contains information of decomposed selfweight loads.",
+    "summary": "The AnalysisDecomposedSelfweightLoad class contains information of decomposed selfweight loads.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "d957d7ca-bf9f-ae3c-2a91-d4e9543f8337.htm"
+  },
+  {
+    "title": "AnalysisDecomposedTemperatureLoad Class",
+    "description": "The AnalysisDecomposedTemperatureLoad class contains information related to decomposed temperature loads.",
+    "summary": "The AnalysisDecomposedTemperatureLoad class contains information related to decomposed temperature loads.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "60970561-01bc-66b7-8aa5-691afb9cd4db.htm"
+  },
+  {
+    "title": "AnalysisDeltaZ Class",
+    "description": "The AnalysisDeltaZ class contains delta Z information for an analysis model.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "d8870681-dfba-d8e5-2e0f-f970fb7b0c35.htm"
+  },
+  {
+    "title": "AnalysisDesignCode Class",
+    "description": "The AnalysisDesignCode class contains information related to analysis design codes.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "eb046690-d5ab-6cfe-0853-e7e2cbeb80d7.htm"
+  },
+  {
+    "title": "AnalysisDesignParameter Class",
+    "description": "The AnalysisDesignParameter class contains information related to analysis design parameters.",
+    "summary": "The AnalysisDesignParameter class contains information related to analysis design parameters.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "038a7c51-a979-0b8a-8f4e-1b601f05e0f9.htm"
+  },
+  {
+    "title": "AnalysisDesignParameterBase Class",
+    "description": "The AnalysisDesignParameterBase class contains base information related to analysis design parameters.",
+    "summary": "Modifies an analysis design parameter at the database.\n            Inserts if parameter does not exist.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "eedee4c6-7724-7b18-f12c-64f2462a82b8.htm"
+  },
+  {
+    "title": "AnalysisDesignParameterMulti Class",
+    "description": "The AnalysisDesignParameterMulti class contains information related to analysis design parameters with multi values.",
+    "summary": "The AnalysisDesignParameterMulti class contains information related to analysis design parameters with multi values.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "e5c963ca-08c8-2ebf-1042-fc8738da262e.htm"
+  },
+  {
+    "title": "AnalysisDesignSettings Class",
+    "description": "The AnalysisDesignSettings class contains information about analysis design settings.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "bc513219-786a-654a-ca22-1c340ddca845.htm"
+  },
+  {
+    "title": "AnalysisEccentricity Class",
+    "description": "The AnalysisEccentricity class contains eccentricity information for an analysis model.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "57b5d953-4d56-f84f-a67b-ac58260e690e.htm"
+  },
+  {
+    "title": "AnalysisEdge Class",
+    "description": "The AnalysisEdge class contains information related to analysis edges.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "d8425917-6ede-07de-d448-2967ae5abea4.htm"
+  },
+  {
+    "title": "AnalysisFace Class",
+    "description": "The AnalysisFace class contains information related to analysis faces.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "ff6b2584-c4e1-7eea-04b2-7995b08c06a5.htm"
+  },
+  {
+    "title": "AnalysisLabel Class",
+    "description": "The AnalysisLabel class contains information related to analysis labels.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "b21f9ac8-644c-e9c7-9f10-eef6a5a7e270.htm"
+  },
+  {
+    "title": "AnalysisLoadCombination Class",
+    "description": "The AnalysisLoadCombination class contains information related to analysis load combinations.",
+    "summary": "Modifies an analysis load combination.\n            The AnalysisModelName and ID have to be set.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "3398e50a-555b-78be-e25a-f8c7c92aa83d.htm"
+  },
+  {
+    "title": "AnalysisLoadGroup Class",
+    "description": "The AnalysisLoadGroup class contains information related to analysis load groups.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "24cabe5a-7528-384d-0a1b-e9c8ad887b43.htm"
+  },
+  {
+    "title": "AnalysisLocalCoordinateSystem Class",
+    "description": "The AnalysisLocalCoordinateSystem class contains local coordinate system information for an analysis model.",
+    "summary": "The AnalysisLocalCoordinateSystem class contains local coordinate system\n            information for an analysis model.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "7dd7ab45-ce94-0f2f-0fb3-cbb823608016.htm"
+  },
+  {
+    "title": "AnalysisMaterial Class",
+    "description": "The AnalysisMaterial class contains the material information.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "ef408345-da5e-30c3-daae-ed0ba09e502f.htm"
+  },
+  {
+    "title": "AnalysisMember Class",
+    "description": "The AnalysisMember class contains information related to analysis members.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "714466d6-06c3-35b3-2a23-0895a5394913.htm"
+  },
+  {
+    "title": "AnalysisModel Class",
+    "description": "The AnalysisModel class contains information related to analysis models.",
+    "summary": "Gets or sets the secondary keep axis settings.\n            Not used, bracing/secondary members always have KEEP_AXIS_NO initially.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "8186bfc0-ae67-5ac2-8c87-c9ba59724faf.htm"
+  },
+  {
+    "title": "AnalysisModelAnalysisProperties Class",
+    "description": "The AnalysisModelAnalysisProperties class contains the analysis property information for an analysis model.",
+    "summary": "The AnalysisModelAnalysisProperties class contains the analysis property information for an analysis model.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "df9bd9d1-a56b-8056-735f-a3a523c4dab3.htm"
+  },
+  {
+    "title": "AnalysisModelConnectivityRule Class",
+    "description": "The AnalysisModelConnectivityRule class contains information related to analysis model connectivity rules.",
+    "summary": "The AnalysisModelConnectivityRule class contains information related to analysis model connectivity rules.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "d6c5fe24-23bd-5e24-35d5-cfe63d1f4195.htm"
+  },
+  {
+    "title": "AnalysisModelDesignProperties Class",
+    "description": "The AnalysisModelDesignProperties class contains information related to analysis model design properties.",
+    "summary": "The AnalysisModelDesignProperties class contains information related to analysis model design properties.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "7cd03721-f7d8-15f8-052e-a25114c9da1a.htm"
+  },
+  {
+    "title": "AnalysisModelGeneralProperties Class",
+    "description": "The AnalysisModelGeneralProperties class contains the general property information for an analysis model.",
+    "summary": "The AnalysisModelGeneralProperties class contains the general property information for an analysis model.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "535258bb-120b-fa8a-590c-32e2395a6ead.htm"
+  },
+  {
+    "title": "AnalysisModelHandler Class",
+    "description": "The AnalysisModelHandler class contains information related to analysis models.",
+    "summary": "Removes a load from the analysis model.\n            The ConstructionMethod must be SELECTED_PARTS, SELECTED_PARTS_AND_LOADS or FLOOR_BY_SELECTED_PARTS_AND_LOADS.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "81f3cd95-1301-fdf4-3894-e4cea5d79aca.htm"
+  },
+  {
+    "title": "AnalysisModelIssue Class",
+    "description": "Analysis model issue (error, warning, information)",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "99efdba4-1ad6-54f6-0635-643d0b7563e1.htm"
+  },
+  {
+    "title": "AnalysisModelJobProperties Class",
+    "description": "The AnalysisModelJobProperties class contains information related to analysis model job properties.",
+    "summary": "The AnalysisModelJobProperties class contains information related to analysis model job properties.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "20c301d6-c98c-adcb-321e-d6997db05993.htm"
+  },
+  {
+    "title": "AnalysisModelLoad Class",
+    "description": "The AnalysisModelLoad class contains information related to the model loads that are included in the analysis model. The identifier is the identifier of the Tekla.Structures.Model object.",
+    "summary": "The AnalysisModelLoad class contains information related to the model loads that are included in the analysis model.\n            The identifier is the identifier of the Tekla.Structures.Model object.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "c16103d8-1215-79ae-2240-b355f8915be0.htm"
+  },
+  {
+    "title": "AnalysisModelModalAnalysisProperties Class",
+    "description": "The AnalysisModelModalAnalysisProperties class contains information related to analysis model modal analysis properties.",
+    "summary": "The AnalysisModelModalAnalysisProperties class contains information related to analysis model modal analysis properties.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "715e3969-7cde-65df-fc37-09f24d0b442e.htm"
+  },
+  {
+    "title": "AnalysisModelOutputProperties Class",
+    "description": "The AnalysisModelOutputProperties class contains information related to analysis model output properties.",
+    "summary": "The AnalysisModelOutputProperties class contains information related to analysis model output properties.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "995eb0dd-5cef-88a8-e391-a1c2f6f6f75d.htm"
+  },
+  {
+    "title": "AnalysisModelSeismicProperties Class",
+    "description": "The AnalysisModelSeismicProperties class contains information related to analysis model seismic properties.",
+    "summary": "The AnalysisModelSeismicProperties class contains information related to analysis model seismic properties.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "6262ad0b-b2cc-6daa-334b-64ae23fd6c44.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties Class",
+    "description": "The AnalysisModelSpectrumProperties class contains information related to analysis model spectrum properties.",
+    "summary": "The AnalysisModelSpectrumProperties class contains information related to analysis model spectrum properties.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "25c416a5-cb07-6343-4334-8e85a092f6d5.htm"
+  },
+  {
+    "title": "AnalysisNode Class",
+    "description": "The AnalysisNode class contains information related to analysis nodes.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "ec555e9b-0b3d-d1e4-efe5-f3340b40f0c0.htm"
+  },
+  {
+    "title": "AnalysisNodeLink Class",
+    "description": "The AnalysisNodeLink class contains information related to analysis node links.",
+    "summary": "Inserts a user analysis node link.\n            The AnalysisModelName has to be set.\n            The StartNodeID has to be set.\n            The EndNodeID has to be set.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "d633193f-9412-06da-c274-9b02cac9186f.htm"
+  },
+  {
+    "title": "AnalysisObject Class",
+    "description": "The AnalysisObject class is an abstract base class for all analysis objects.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "1a5c5655-7804-dc7a-64d6-c356c382be27.htm"
+  },
+  {
+    "title": "AnalysisObjectEnumerator Class",
+    "description": "The AnalysisObjectEnumerator class provides the means to iterate through analysis object instances.",
+    "summary": "Gets or sets a value indicating whether the instance's Select() is called when the \"Current\" item is asked from the enumerator.\n            The user can set this to \"false\" if no members are ever asked from the instance. This is the case\n            when e.g. asking only a report property from this identifier. WARNING: normally the user should not change this value.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "aef284e6-9106-6341-067c-fd6fa330dcc1.htm"
+  },
+  {
+    "title": "AnalysisObjectSelector Class",
+    "description": "The AnalysisObjectSelector class contains methods for getting objects.",
+    "summary": "Returns an enumerator of all the selected model objects in the current model.\n            NOT YET IMPLEMENTED.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "302cf92f-a39e-a869-a38b-1b6683f77dac.htm"
+  },
+  {
+    "title": "AnalysisPart Class",
+    "description": "The AnalysisPart class contains information related to analysis parts.",
+    "summary": "The up direction of the analysis part (in the global coordinate system).\n            The axis vector (connecting member end nodes) and the up direction vector define the local XY plane of the member.\n            The local Z can be calculated as localZ = localX x UpDirection (cross product),\n            and after this localY = localZ x localX (cross product).",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "79fa39f8-7f9f-4f98-8ae6-20c6efc31c1f.htm"
+  },
+  {
+    "title": "AnalysisPartAnalysisProperties Class",
+    "description": "The AnalysisPartAnalysisProperties class contains information related to analysis part analysis properties.",
+    "summary": "The AnalysisPartAnalysisProperties class contains information related to analysis part analysis properties.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "4f9a542f-63fa-730d-3e5b-7b292c6aa99f.htm"
+  },
+  {
+    "title": "AnalysisPartAreaAttributes Class",
+    "description": "The AnalysisPartAreaAttributes class contains information related to analysis part area attributes.",
+    "summary": "The AnalysisPartAreaAttributes class contains information related to analysis part area attributes.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "413b0561-05af-f353-df9e-be7a291c50af.htm"
+  },
+  {
+    "title": "AnalysisPartBarAttributes Class",
+    "description": "The AnalysisPartBarAttributes class contains information related to analysis part bar attributes.",
+    "summary": "The AnalysisPartBarAttributes class contains information related to analysis part bar attributes.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "f62c3da6-9858-b482-c809-35c91b0b59ed.htm"
+  },
+  {
+    "title": "AnalysisPartCompositeProperties Class",
+    "description": "The AnalysisPartCompositeProperties class contains information related to analysis part composite properties.",
+    "summary": "The AnalysisPartCompositeProperties class contains information related to analysis part composite properties.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "fca7e2a4-a548-78fa-dc81-d2d64f7c25db.htm"
+  },
+  {
+    "title": "AnalysisPartEnd Class",
+    "description": "The AnalysisPartEnd class contains information related to analysis part ends.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "e9e24f96-5487-123d-4b75-1bf34e51f390.htm"
+  },
+  {
+    "title": "AnalysisPartLoadingProperties Class",
+    "description": "The AnalysisPartLoadingProperties class contains information related to analysis part loading properties.",
+    "summary": "The AnalysisPartLoadingProperties class contains information related to analysis part loading properties.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "4f3a0d61-c97c-03ad-35a5-2209874b0ff9.htm"
+  },
+  {
+    "title": "AnalysisPartPositionProperties Class",
+    "description": "The AnalysisPartPositionProperties class contains information related to analysis part position properties.",
+    "summary": "The AnalysisPartPositionProperties class contains information related to analysis part position properties.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "078f86fd-4ad5-70dd-5624-9249b39ab2e6.htm"
+  },
+  {
+    "title": "AnalysisPartSpanningProperties Class",
+    "description": "The AnalysisPartSpanningProperties class contains information related to analysis part spanning properties.",
+    "summary": "The AnalysisPartSpanningProperties class contains information related to analysis part spanning properties.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "f3750ff1-4fd4-8586-6ebf-cdd7cc8156ef.htm"
+  },
+  {
+    "title": "AnalysisPosition Class",
+    "description": "The AnalysisPosition class contains information related to analysis positions.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "f38a9da6-b305-8662-72e4-06bf8c3e5a02.htm"
+  },
+  {
+    "title": "AnalysisRestraintData Class",
+    "description": "The AnalysisRestraintData class contains the restraint data for an analysis part.",
+    "summary": "The AnalysisRestraintData class contains the restraint data for an\n            analysis part.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "3d4a69be-8813-ff6a-3d3b-9489ea90bd39.htm"
+  },
+  {
+    "title": "AnalysisRestraints Class",
+    "description": "The AnalysisRestraints class contains analysis restraints information for an analysis part.",
+    "summary": "The AnalysisRestraints class contains analysis restraints information\n            for an analysis part.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "12b522fa-9fb8-a5b7-3fb2-b487f9a8e76e.htm"
+  },
+  {
+    "title": "AnalysisResult Class",
+    "description": "The AnalysisResult class contains analysis result information.",
+    "summary": "The identifier of the object.\n            If ObjectType is OBJECT_TYPE_PART, ObjectId is (physical) part ID.\n            If ObjectType is OBJECT_TYPE_MEMBER, ObjectId is the bar number when analysis bars are used in integration,\n            otherwise ObjectId is the member number.\n            If ObjectType is OBJECT_TYPE_AREA, ObjectId is the area number.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "9c245008-64d8-2846-76e1-b1ec8c6eb6b1.htm"
+  },
+  {
+    "title": "AnalysisResultPositions Class",
+    "description": "The AnalysisResultPositions class contains information about analysis result positions.",
+    "summary": "The object type. In result query the only supported type is the physical member (the part).",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "c7f892eb-bdaa-bff3-e743-d9977b9c252b.htm"
+  },
+  {
+    "title": "AnalysisRigidDiaphragm Class",
+    "description": "The AnalysisRigidDiaphragm class contains information related to analysis rigid diaphragms.",
+    "summary": "The AnalysisRigidDiaphragm class contains information related to analysis rigid diaphragms.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "504098c8-62bf-74ad-0484-83dbd264e7e2.htm"
+  },
+  {
+    "title": "AnalysisSubSection Class",
+    "description": "The AnalysisSubSection class contains information related to analysis subsections.",
+    "summary": "Selects an analysis subsection.\n            The analysis subsection identifier must be set.",
+    "namespace": "",
+    "type": "class",
+    "level": 0,
+    "htmlFile": "4f52c2c7-2e95-c2d5-7fe1-4c7ebdb275bc.htm"
+  }
+]

@@ -1,0 +1,2117 @@
+[
+  {
+    "title": "Assertion Constructor",
+    "description": "Initializes a new instance of the class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "5aec3393-43a1-a580-67b1-ab08feed94c4.htm"
+  },
+  {
+    "title": "Assertion.Equals Method",
+    "description": "The equals.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "0e1a8744-a12a-74b6-4bcd-6f67e2c54fc2.htm"
+  },
+  {
+    "title": "Assertion.GetHashCode Method",
+    "description": "Gets a hash code for this instance. Calculated as recommended at http://msdn.microsoft.com/en-us/library/system.object.gethashcode.aspx",
+    "summary": "Gets a hash code for this instance.\n            Calculated as recommended at http://msdn.microsoft.com/en-us/library/system.object.gethashcode.aspx",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "0694a655-97f1-d848-0561-2b43332e2ecf.htm"
+  },
+  {
+    "title": "Assertion.ToString Method",
+    "description": "The tostring.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "ca2065a8-4966-563c-8b29-4e84a9e0acab.htm"
+  },
+  {
+    "title": "ClashCheckOptions Constructor",
+    "description": "Tekla.Structures.ClashCheckOptions",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "2e7249b6-7ad6-d8bf-cb10-41d33a9705fb.htm"
+  },
+  {
+    "title": "ComponentOptions Constructor",
+    "description": "Tekla.Structures.ComponentOptions",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "bcc8d2c4-bdfb-49f6-f564-ed445ec29cde.htm"
+  },
+  {
+    "title": "Identifier Constructor",
+    "description": "",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "f5d05772-1b1b-7390-1b67-f8923c3165f1.htm"
+  },
+  {
+    "title": "Identifier Constructor",
+    "description": "Constructs an empty identifier.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "4868e096-73c4-0b63-0abf-0b67b4e59313.htm"
+  },
+  {
+    "title": "Identifier Constructor (Guid)",
+    "description": "Constructs an identifier with the given GUID.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "e773ee15-b501-c1a4-3dcd-272cfcbb2c05.htm"
+  },
+  {
+    "title": "Identifier Constructor (Int32)",
+    "description": "Constructs an identifier with the given ID.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "46d5ee66-3669-67ff-4f79-5e5fd02f87d9.htm"
+  },
+  {
+    "title": "Identifier Constructor (String)",
+    "description": "Constructs an identifier with the given GUID string.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "84bc0c91-cf27-caef-4365-f341eb03225a.htm"
+  },
+  {
+    "title": "Identifier.Equals Method",
+    "description": "",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "bbe97bc1-dff4-6057-02ae-2f68d5c26f3b.htm"
+  },
+  {
+    "title": "Identifier.Equals Method (Object)",
+    "description": "Compares the identifier with another object instance.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "4419ffcd-5422-43bf-66d3-eb2f5d7f8c37.htm"
+  },
+  {
+    "title": "Identifier.Equals Method (Identifier)",
+    "description": "Compares the identifier with another identifier instance.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "05e18bd6-3e91-7fc2-4965-fd6fbc2de331.htm"
+  },
+  {
+    "title": "Identifier.GetHashCode Method",
+    "description": "Gets the hash number of the identifier.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "db9e3441-19e4-840e-44de-55692dc0890c.htm"
+  },
+  {
+    "title": "Identifier.IsValid Method",
+    "description": "Returns true if the identifier seems to be valid. The validation is done based on the ID or GUID property.",
+    "summary": "Returns true if the identifier seems to be valid.\n            The validation is done based on the ID or GUID property.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "ad94afee-596d-cd8c-4a85-854c234e178c.htm"
+  },
+  {
+    "title": "Identifier.ToString Method",
+    "description": "Returns the integer ID as a string.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "ea0f0a40-bce9-e6a4-cf65-06f82a19ac59.htm"
+  },
+  {
+    "title": "ModuleManager Constructor",
+    "description": "Tekla.Structures.ModuleManager",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "23c1d3b5-7516-84ec-0ae0-37aa315c10ac.htm"
+  },
+  {
+    "title": "TeklaStructuresFiles Constructor",
+    "description": "Initializes a new instance of the class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "533503cd-dac4-4839-bd5b-73c6706bef29.htm"
+  },
+  {
+    "title": "TeklaStructuresFiles.GetAttributeFile Method",
+    "description": "",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "578b72b8-b89a-fe41-c03a-a853e858cdda.htm"
+  },
+  {
+    "title": "TeklaStructuresFiles.GetAttributeFile Method (String)",
+    "description": "Gets a file info representing the first match in the standard property file directories.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "9a341c18-e6db-ebe1-2ab9-afcf2ec9ce15.htm"
+  },
+  {
+    "title": "TeklaStructuresFiles.GetAttributeFile Method (List(String), String)",
+    "description": "Gets a file info representing the first match in the search directories.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "d5bb70ef-8c5c-698e-3c33-5121d54eee52.htm"
+  },
+  {
+    "title": "TeklaStructuresFiles.GetFileDictionaryByExtension Method",
+    "description": "Retrieves a dictionary of file names and their corresponding paths from multiple directories.",
+    "summary": "Retrieves a dictionary of file names and their corresponding paths from multiple directories.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "a9bbbec7-6b73-ffcd-a2e0-1d3a249dfb05.htm"
+  },
+  {
+    "title": "TeklaStructuresFiles.GetMultiDirectoryFileList Method",
+    "description": "Gets a list of files with the given extension from the default search directories.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "da0bbcb4-ea14-c355-cb9e-d98cbbbbf5c7.htm"
+  },
+  {
+    "title": "TeklaStructuresInfo Constructor",
+    "description": "Tekla.Structures.TeklaStructuresInfo",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "e5bcf3e0-46ec-9727-17c4-80a59b68e737.htm"
+  },
+  {
+    "title": "TeklaStructuresInfo.GetBuildNumber Method",
+    "description": "Returns the Tekla Structures build number.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "50f50908-3f5c-2773-53fd-224a6eeff144.htm"
+  },
+  {
+    "title": "TeklaStructuresInfo.GetCommonAppDataFolder Method",
+    "description": "Returns (XSDATADIR)environments installation folder of the Tekla Structures as string.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "05bcf770-3562-717a-cfb7-54411b2042f8.htm"
+  },
+  {
+    "title": "TeklaStructuresInfo.GetCopyRightText Method",
+    "description": "Returns the Tekla Structures copyright text as string.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "e6370f74-6753-5fbe-b34d-1f4707bc8c0c.htm"
+  },
+  {
+    "title": "TeklaStructuresInfo.GetCurrentProgramVersion Method",
+    "description": "Returns the current Tekla Structures version.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "fb2133c4-9bbd-c937-7c28-360dcc2a1024.htm"
+  },
+  {
+    "title": "TeklaStructuresInfo.GetCurrentUser Method",
+    "description": "Returns the current Tekla Structures user.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "bfb41c15-c986-3f19-deed-441826d2d6a2.htm"
+  },
+  {
+    "title": "TeklaStructuresInfo.GetFullTSRegistryKeyText Method",
+    "description": "Returns full registry key of the Tekla Structures as string.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "8c418356-738f-fd33-7979-0be189410276.htm"
+  },
+  {
+    "title": "TeklaStructuresInfo.GetLocalAppDataFolder Method",
+    "description": "Returns (XSUSERDATADIR) user's local appdata folder of the Tekla Structures as string.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "6eab7354-6339-58f6-1a10-6b7087297f4d.htm"
+  },
+  {
+    "title": "TeklaStructuresInfo.GetPluginsFolder Method",
+    "description": "Returns main TS plugins folder, not extensions folder",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "c59332bb-8052-cc1d-e593-db4706d2b0ba.htm"
+  },
+  {
+    "title": "TeklaStructuresInfo.GetRevisionDate Method",
+    "description": "Returns the Tekla Structures revision date as string.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "0908b72b-8b87-70bb-02c3-076e5ad3cfc5.htm"
+  },
+  {
+    "title": "TeklaStructuresSettings Constructor",
+    "description": "Tekla.Structures.TeklaStructuresSettings",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "ab75b5ab-ed36-3c6d-d9ec-d84e0275ce4f.htm"
+  },
+  {
+    "title": "TeklaStructuresSettings.GetAdvancedOption Method",
+    "description": "",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "b6a6f435-82ea-674c-58c0-19b63e7d931e.htm"
+  },
+  {
+    "title": "TeklaStructuresSettings.GetAdvancedOption Method (String, Boolean)",
+    "description": "Returns the value of an advanced option variable.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "8aa73d82-ab8b-e43d-63c7-cdde9ff4eb6e.htm"
+  },
+  {
+    "title": "TeklaStructuresSettings.GetAdvancedOption Method (String, Double)",
+    "description": "Returns the value of an advanced option variable.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "a4ddad5c-eccd-0038-3056-e7c41a86eb13.htm"
+  },
+  {
+    "title": "TeklaStructuresSettings.GetAdvancedOption Method (String, Int32)",
+    "description": "Returns the value of an advanced option variable.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "765beeeb-fe53-93b4-24fd-d68dd05aa37c.htm"
+  },
+  {
+    "title": "TeklaStructuresSettings.GetAdvancedOption Method (String, String)",
+    "description": "Returns the value of an advanced option variable.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "251a7058-3458-8683-9135-d39aa3de182b.htm"
+  },
+  {
+    "title": "TeklaStructuresSettings.GetAdvancedOptionPaths Method",
+    "description": "Gets the value of an advanced option as a list of valid paths. Strings with path separator ; are split into separate paths and any blank paths (containing only white space) are ignored. Paths do not need to exist but must use valid characters and format.",
+    "summary": "Gets the value of an advanced option as a list of valid paths.\n            Strings with path separator ; are split into separate paths and any blank paths (containing only white space) are ignored.\n            Paths do not need to exist but must use valid characters and format.\n            Note: All valid paths are returned even when invalid paths are encountered.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "00e86aee-ab47-95ed-1985-3f79cc91215c.htm"
+  },
+  {
+    "title": "TeklaStructuresSettings.GetOptions Method",
+    "description": "",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "6bcfb319-3cc9-bb92-719c-e16b80eb3c3c.htm"
+  },
+  {
+    "title": "TeklaStructuresSettings.GetOptions Method (ClashCheckOptions)",
+    "description": "Returns the value of the clash check options.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "fa761e3b-f4ef-59b8-da2d-2cba78d907d4.htm"
+  },
+  {
+    "title": "TeklaStructuresSettings.GetOptions Method (ComponentOptions)",
+    "description": "Returns the value of the component options.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "870f7c68-41f6-22e5-e591-550bede2d30b.htm"
+  },
+  {
+    "title": "TeklaStructuresSettings.IsPourEnabled Method",
+    "description": "Determines whether pour management is enabled.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "11cf2635-0c47-669c-770f-228d798e0d4b.htm"
+  },
+  {
+    "title": "TeklaStructuresSettings.IsToolOptionOn Method",
+    "description": "Determines whether select switch is on.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "43438834-9d98-9090-4a02-15e6fe958c33.htm"
+  },
+  {
+    "title": "TeklaStructuresSettings.SetOptions Method",
+    "description": "",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "797abb18-bce6-27f5-f096-7791fecd5bf9.htm"
+  },
+  {
+    "title": "TeklaStructuresSettings.SetOptions Method (ClashCheckOptions)",
+    "description": "Sets the clash check options.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "0de6b6e4-7696-1801-862e-fe2b8cf0aad5.htm"
+  },
+  {
+    "title": "TeklaStructuresSettings.SetOptions Method (ComponentOptions)",
+    "description": "Sets the component options.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "1c1d8098-bb5b-7a6c-c73a-5069345ac004.htm"
+  },
+  {
+    "title": "TeklaStructuresVariables.Add Method",
+    "description": "Adds a variable to the list.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "6be71bf8-01ce-7aef-1c32-22ba3f8ff426.htm"
+  },
+  {
+    "title": "TeklaStructuresVariables.ContainsVariable Method",
+    "description": "Gets a key.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "35e0bbbf-008d-7f5d-f202-52276614aa3d.htm"
+  },
+  {
+    "title": "TeklaStructuresVariables.Get Method",
+    "description": "Gets a key.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "f8b3823f-87a5-7e86-68b1-36598d8403f9.htm"
+  },
+  {
+    "title": "Analysis Constructor",
+    "description": "Initializes a new instance of the class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "3197bc6b-758e-69aa-8274-63e69cad7e6d.htm"
+  },
+  {
+    "title": "Analysis.GetAnalysisObjectSelector Method",
+    "description": "Returns the analysis object selector.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "d6520431-c9b4-c5f5-f4d5-b1d04b4e3bc8.htm"
+  },
+  {
+    "title": "Analysis.GetConnectionStatus Method",
+    "description": "Checks the connection status of the Tekla Structures process.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "acbd9e7c-d498-507f-1f7a-2a09269dfca8.htm"
+  },
+  {
+    "title": "AnalysisArea Constructor",
+    "description": "Initializes a new instance of the class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "f7f705ba-ea6c-7249-7196-3bf143d66bc0.htm"
+  },
+  {
+    "title": "AnalysisArea.Delete Method",
+    "description": "Deletes an analysis area. Method is not implemented yet.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "afc5eb62-d1b4-41e2-f375-2a911ce2aa08.htm"
+  },
+  {
+    "title": "AnalysisArea.GetAreaHoles Method",
+    "description": "Gets the area holes of the analysis area.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "64f5bd46-62ea-5754-ae19-db73cfc9e27c.htm"
+  },
+  {
+    "title": "AnalysisArea.GetInnerPositions Method",
+    "description": "Gets the inner positions of the analysis area.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "f0447753-dfec-1cab-f755-3015aacddfa6.htm"
+  },
+  {
+    "title": "AnalysisArea.Modify Method",
+    "description": "Modifies an analysis area. Method is not implemented yet.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "bac7832b-0fb2-0f4a-8ad3-974f53791682.htm"
+  },
+  {
+    "title": "AnalysisArea.Select Method",
+    "description": "Selects an analysis area. The AnalysisModelName and ID have to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "d8032a19-efb2-cd48-99d5-f0bb7895330b.htm"
+  },
+  {
+    "title": "AnalysisAreaPolygon Constructor",
+    "description": "Creates a new instance of the AnalysisAreaPolygon class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "f8aab803-2bfe-5ef2-d7ba-cbb6362ca9a5.htm"
+  },
+  {
+    "title": "AnalysisAreaPolygon.Add Method",
+    "description": "Adds a position to the analysis area polygon. Also adds an edge.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "dcd56480-7cc2-7ec3-1bcd-bd9cb1cd6baf.htm"
+  },
+  {
+    "title": "AnalysisAreaPolygon.GetEdges Method",
+    "description": "Gets the edges of the area polygon.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "4a17d0fa-4e43-7502-a6dd-fd2cefede0fc.htm"
+  },
+  {
+    "title": "AnalysisAreaPolygon.GetPositions Method",
+    "description": "Gets the positions of the area polygon.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "431e508a-512d-97ac-648e-5564b1adb941.htm"
+  },
+  {
+    "title": "AnalysisAreaPolygon.Insert Method",
+    "description": "Inserts an analysis area polygon. The AnalysisModelName has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "5af081d1-cafd-db09-5aab-aaea9159158a.htm"
+  },
+  {
+    "title": "AnalysisAreaPolygon.Select Method",
+    "description": "Selects an analysis area polygon. The AnalysisObjectType has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "08537d0f-a7c1-bdb6-243b-9fa55b88f3b6.htm"
+  },
+  {
+    "title": "AnalysisBar Constructor",
+    "description": "Initializes a new instance of the class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "8c5bff53-a09b-0de8-6315-a7572415c2f1.htm"
+  },
+  {
+    "title": "AnalysisBar.Add Method",
+    "description": "",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "5d9cfda4-f993-ad70-6bf3-7f52778e8ef6.htm"
+  },
+  {
+    "title": "AnalysisBar.Add Method (AnalysisPosition)",
+    "description": "Adds a position to the analysis bar.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "94840bd0-1058-900f-d0d7-e1ce12084405.htm"
+  },
+  {
+    "title": "AnalysisBar.Add Method (AnalysisPosition, AnalysisMember)",
+    "description": "Adds a position and member to the analysis bar.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "7b09f522-a98f-884b-899c-df298172e861.htm"
+  },
+  {
+    "title": "AnalysisBar.Delete Method",
+    "description": "Deletes an analysis bar. The method is not implemented.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "bf807987-579b-264b-fe75-744322dcbcfc.htm"
+  },
+  {
+    "title": "AnalysisBar.GetMembers Method",
+    "description": "Gets the members of the analysis bar.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "6e0db972-47fa-4b46-4ecd-74d9ca57cc92.htm"
+  },
+  {
+    "title": "AnalysisBar.GetPositions Method",
+    "description": "Gets the positions of the analysis bar.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "ca833661-fac3-9807-2b22-01cd84711b6f.htm"
+  },
+  {
+    "title": "AnalysisBar.Modify Method",
+    "description": "Modifies an analysis bar. The method is not implemented.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "3d7699e4-55da-aac0-c137-f8670077b40b.htm"
+  },
+  {
+    "title": "AnalysisBar.Select Method",
+    "description": "Selects an analysis bar. The AnalysisModelName and ID have to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "3a0291d9-eb64-9cba-5173-51025d0d1f36.htm"
+  },
+  {
+    "title": "AnalysisBeamEnd Constructor",
+    "description": "Initializes a new instance of the class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "07d2e665-8eeb-da6c-ff38-560c31e3219d.htm"
+  },
+  {
+    "title": "AnalysisCompositeBeam Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisCompositeBeam",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "06102a2b-cca8-2f4b-ecd1-882e31151667.htm"
+  },
+  {
+    "title": "AnalysisConnectivity Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisConnectivity",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "e9b53827-e4dc-288c-132c-d79162dda8d4.htm"
+  },
+  {
+    "title": "AnalysisCrossSection Constructor",
+    "description": "Creates a new instance of an analysis cross section.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "69353284-0624-c0df-d4fb-478aa10f3ac2.htm"
+  },
+  {
+    "title": "AnalysisCrossSection.Delete Method",
+    "description": "Deletes an analysis cross section. The AnalysisModelName and ID have to be set.",
+    "summary": "Deletes an analysis cross section.\n            The AnalysisModelName and ID have to be set.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "2dda6dcb-28dc-50c6-bba0-e0681d0e086a.htm"
+  },
+  {
+    "title": "AnalysisCrossSection.GetCrossSectionGroup Method",
+    "description": "Gets the cross section group.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "907ce96f-4947-c62d-fe9d-acad76f92dad.htm"
+  },
+  {
+    "title": "AnalysisCrossSection.Insert Method",
+    "description": "Inserts an analysis cross section. The AnalysisModelName has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "ec7fbfb2-4c6f-0125-d408-12fd89973166.htm"
+  },
+  {
+    "title": "AnalysisCrossSection.Select Method",
+    "description": "Selects an analysis cross section. The AnalysisModelName and ID/Name have to be set.",
+    "summary": "Selects an analysis cross section.\n            The AnalysisModelName and ID/Name have to be set.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "3fb513b9-840d-175c-a250-9e1f2f642a4a.htm"
+  },
+  {
+    "title": "AnalysisCurvature Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisCurvature",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "2870f896-593d-5c75-582b-d70fa9316ae4.htm"
+  },
+  {
+    "title": "AnalysisDecomposedAreaLoad Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisDecomposedAreaLoad",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "154fa56d-87e3-4eda-498d-b1b422077e2c.htm"
+  },
+  {
+    "title": "AnalysisDecomposedAreaLoad.Select Method",
+    "description": "Selects an analysis decomposed area load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "1c9fd463-f53d-dfe4-3f32-60b68fc9de8b.htm"
+  },
+  {
+    "title": "AnalysisDecomposedBarLoad Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisDecomposedBarLoad",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "51332039-a8a0-d311-b1cd-786a67fc9274.htm"
+  },
+  {
+    "title": "AnalysisDecomposedBarLoad.Select Method",
+    "description": "Selects an analysis decomposed bar load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "8394bba1-db92-0c3a-9b53-032465b48ed5.htm"
+  },
+  {
+    "title": "AnalysisDecomposedLoad Constructor",
+    "description": "Initializes a new instance of the class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "aca16ae1-3d7f-78b7-cbd1-57980279c347.htm"
+  },
+  {
+    "title": "AnalysisDecomposedMemberLoad Constructor",
+    "description": "Initializes a new instance of the class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "03baae94-c19b-fd13-bfa0-8b3ea3d23a2b.htm"
+  },
+  {
+    "title": "AnalysisDecomposedMemberLoad.Select Method",
+    "description": "Selects the analysis decomposed member load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "9018b6b7-89b2-b1cc-8a51-d9dafcb7c0d6.htm"
+  },
+  {
+    "title": "AnalysisDecomposedNodeLoad Constructor",
+    "description": "Initializes a new instance of the class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "10a28a84-0fbb-abc0-8974-5988bb2cae1c.htm"
+  },
+  {
+    "title": "AnalysisDecomposedNodeLoad.Select Method",
+    "description": "Selects an analysis decomposed node load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "1163b258-2c7a-0a1b-51dd-3a610ac0f40d.htm"
+  },
+  {
+    "title": "AnalysisDecomposedSelfweightLoad Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisDecomposedSelfweightLoad",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "72fc9bc5-167a-cab6-41d9-67c559181b88.htm"
+  },
+  {
+    "title": "AnalysisDecomposedSelfweightLoad.Select Method",
+    "description": "Selects an analysis decomposed selfweight load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "0979f81f-5085-6ac2-4fa9-71b328f7e938.htm"
+  },
+  {
+    "title": "AnalysisDecomposedTemperatureLoad Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisDecomposedTemperatureLoad",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "01dc7836-0471-8f1b-69d4-2a17a2802ad0.htm"
+  },
+  {
+    "title": "AnalysisDecomposedTemperatureLoad.Select Method",
+    "description": "Selects an analysis decomposed temperature load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "589d0e8d-a12f-70e0-0d38-6eaa5b6e4367.htm"
+  },
+  {
+    "title": "AnalysisDeltaZ Constructor",
+    "description": "Creates a new instance of an analysis delta Z.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "bf4eaa3e-9c25-11df-e8db-f09ceef83e3d.htm"
+  },
+  {
+    "title": "AnalysisDesignCode Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisDesignCode",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "f2259a2e-bd3b-10f6-3c88-c160011b9b21.htm"
+  },
+  {
+    "title": "AnalysisDesignParameter Constructor",
+    "description": "",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "aaedfdcc-aa79-cafc-6394-aa536b75e302.htm"
+  },
+  {
+    "title": "AnalysisDesignParameter Constructor (Int32)",
+    "description": "Initializes a new instance of the class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "975810c7-415f-d0c7-3179-5dd3ad67c64e.htm"
+  },
+  {
+    "title": "AnalysisDesignParameter Constructor (String, Int32, Identifier, Double)",
+    "description": "Initializes a new instance of the class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "f37bbd36-db6e-2b5d-b674-9534a89d500a.htm"
+  },
+  {
+    "title": "AnalysisDesignParameter.Modify Method",
+    "description": "Modifies an analysis design parameter. The ID has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "39293609-a0f3-aa6b-1f08-fd1f8d0122fd.htm"
+  },
+  {
+    "title": "AnalysisDesignParameter.Select Method",
+    "description": "Selects an analysis design parameter.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "fe470643-e424-a5c1-ab58-43510bd03610.htm"
+  },
+  {
+    "title": "AnalysisDesignParameterBase.Modify Method",
+    "description": "Modifies an analysis design parameter at the database. Inserts if parameter does not exist.",
+    "summary": "Modifies an analysis design parameter at the database.\n            Inserts if parameter does not exist.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "ba96bb8e-a7b4-4531-8f46-acb145de22d0.htm"
+  },
+  {
+    "title": "AnalysisDesignParameterMulti Constructor",
+    "description": "",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "10d95758-690a-fa00-469a-765b4b8e565a.htm"
+  },
+  {
+    "title": "AnalysisDesignParameterMulti Constructor (Int32)",
+    "description": "Initializes a new instance of the class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "eb3f0702-86fd-5375-88c8-81aa4e02218e.htm"
+  },
+  {
+    "title": "AnalysisDesignParameterMulti Constructor (String, Int32, Identifier)",
+    "description": "Initializes a new instance of the class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "7e6e2f0b-1ed3-864d-9f3a-4fe6a89e9351.htm"
+  },
+  {
+    "title": "AnalysisDesignParameterMulti.GetValue Method",
+    "description": "Gets the value specified by the index of the analysis design parameter.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "f6895b51-f553-4e17-24d9-95812e97ab6a.htm"
+  },
+  {
+    "title": "AnalysisDesignParameterMulti.Modify Method",
+    "description": "Modifies an analysis design parameter. The ID has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "4ebae5d9-5c9e-9955-fcfb-fcce8f7cfefe.htm"
+  },
+  {
+    "title": "AnalysisDesignParameterMulti.Select Method",
+    "description": "Selects an analysis design parameter.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "7de57939-b5ee-bd2b-a373-26c1832e4753.htm"
+  },
+  {
+    "title": "AnalysisDesignParameterMulti.SetValue Method",
+    "description": "Sets the value specified by the index of the analysis design parameter.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "2b53c57a-62a1-2098-6d42-915962610188.htm"
+  },
+  {
+    "title": "AnalysisDesignSettings Constructor",
+    "description": "Creates a new analysis design settings instance.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "c05542b8-ffe7-4c8f-6a5b-ad70863e714f.htm"
+  },
+  {
+    "title": "AnalysisEccentricity Constructor",
+    "description": "Creates a new analysis eccentricity instance.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "2441df0f-7dfe-540a-8d32-bbc8983ef94d.htm"
+  },
+  {
+    "title": "AnalysisEdge Constructor",
+    "description": "Creates a new instance of the AnalysisEdge class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "6c64ffd8-6c28-0d37-9218-a7e38217ec9a.htm"
+  },
+  {
+    "title": "AnalysisEdge.AddSplit Method",
+    "description": "Adds a split position to the analysis edge.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "97fb70fe-2bf3-1123-3eaf-933faa33cd11.htm"
+  },
+  {
+    "title": "AnalysisEdge.CopyData Method",
+    "description": "Copies data from another analysis edge.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "bd114c63-7989-e9dc-7120-19315857a5a3.htm"
+  },
+  {
+    "title": "AnalysisEdge.GetSplitPositions Method",
+    "description": "Gets the split positions of the analysis edge.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "0dfbec6e-354f-1b34-b69e-451f583d2be9.htm"
+  },
+  {
+    "title": "AnalysisEdge.Modify Method",
+    "description": "Modifies an analysis edge. The AnalysisModelName has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "6c457e77-05cc-2d55-e9bc-13da787aa80f.htm"
+  },
+  {
+    "title": "AnalysisEdge.Select Method",
+    "description": "Selects an analysis edge.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "2b38b971-27ff-c814-1587-f036332eb619.htm"
+  },
+  {
+    "title": "AnalysisFace Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisFace",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "27b341c4-2b20-7189-2bff-357e31209f35.htm"
+  },
+  {
+    "title": "AnalysisFace.Select Method",
+    "description": "Selects an analysis face.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "f9ddd3e3-8588-869a-d472-67c50612874b.htm"
+  },
+  {
+    "title": "AnalysisLabel Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisLabel",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "b230ba6f-5181-d987-957d-971a98a8d7a3.htm"
+  },
+  {
+    "title": "AnalysisLoadCombination Constructor",
+    "description": "Initializes a new instance of the class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "66bb9653-9eb6-594b-4de1-aa2e522b0853.htm"
+  },
+  {
+    "title": "AnalysisLoadCombination.Delete Method",
+    "description": "Deletes an analysis load combination. The AnalysisModelName and ID have to be set.",
+    "summary": "Deletes an analysis load combination.\n            The AnalysisModelName and ID have to be set.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "943ade7c-b4ff-bc04-439f-bc5a62bda9b0.htm"
+  },
+  {
+    "title": "AnalysisLoadCombination.Insert Method",
+    "description": "Inserts an analysis load combination. The AnalysisModelName has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "2fb0708b-a2a9-740b-b25e-8cab93c8f0e8.htm"
+  },
+  {
+    "title": "AnalysisLoadCombination.Modify Method",
+    "description": "Modifies an analysis load combination. The AnalysisModelName and ID have to be set.",
+    "summary": "Modifies an analysis load combination.\n            The AnalysisModelName and ID have to be set.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "5b5a160e-31f8-767c-0533-ac0a0caf0854.htm"
+  },
+  {
+    "title": "AnalysisLoadCombination.Select Method",
+    "description": "Selects an analysis load combination. The AnalysisModelName and ID have to be set.",
+    "summary": "Selects an analysis load combination.\n            The AnalysisModelName and ID have to be set.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "a035c2cd-3fbc-3158-6575-808a2262cbde.htm"
+  },
+  {
+    "title": "AnalysisLoadCombination.SetLoads Method",
+    "description": "Sets the loads.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "2da09cbf-b58c-9aab-7c3a-e2a4797d2d8a.htm"
+  },
+  {
+    "title": "AnalysisLoadGroup Constructor",
+    "description": "Initializes a new instance of the AnalysisLoadGroup class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "f98494eb-ca73-3883-a4b9-ddb91d9e0e39.htm"
+  },
+  {
+    "title": "AnalysisLoadGroup.GetTypeName Method",
+    "description": "Get load group type name, translated to current language.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "c8df68e9-6555-bd7d-de0b-0798e23adf1d.htm"
+  },
+  {
+    "title": "AnalysisLoadGroup.IsEmpty Method",
+    "description": "Check if load group is empty (no loading exists).",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "bea58da2-9fb8-b013-3c35-22e720c6e37d.htm"
+  },
+  {
+    "title": "AnalysisLoadGroup.IsSelfWeight Method",
+    "description": "Check if load group is self weight load group.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "40c25a63-12da-aee2-c68a-d932b7ce09a1.htm"
+  },
+  {
+    "title": "AnalysisLoadGroup.Select Method",
+    "description": "Selects an AnalysisLoadGroup. The ID has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "79cc408a-009f-71df-c73e-0762d0e7b95c.htm"
+  },
+  {
+    "title": "AnalysisLocalCoordinateSystem Constructor",
+    "description": "Creates a new analysis local coordinate system instance.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "8d47baa7-0a56-8e66-f5d4-788cca76b7c6.htm"
+  },
+  {
+    "title": "AnalysisMaterial Constructor",
+    "description": "Initializes a new instance of the class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "86696dee-5d43-afd7-73ca-84d6ceaa7f86.htm"
+  },
+  {
+    "title": "AnalysisMaterial.Select Method",
+    "description": "Selects an analysis material. The AnalysisModelName and Name have to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "33e681ec-38e0-1b5a-c4ae-a85d39a266d3.htm"
+  },
+  {
+    "title": "AnalysisMember Constructor",
+    "description": "Initializes a new instance of the class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "4bb077fb-685b-841d-28b6-eb6f3c0c128f.htm"
+  },
+  {
+    "title": "AnalysisMember.CopyData Method",
+    "description": "Copies data from another analysis member.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "7b9bab44-4378-ccac-812d-feabc828a0ba.htm"
+  },
+  {
+    "title": "AnalysisMember.Modify Method",
+    "description": "Modifies an analysis member. The AnalysisModelName has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "bea6cbda-7622-5b8d-4acf-2a6883299bc8.htm"
+  },
+  {
+    "title": "AnalysisMember.Select Method",
+    "description": "Selects an analysis member. The AnalysisModelName and ID have to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "2145077e-6a7d-dc86-b945-0929c497d700.htm"
+  },
+  {
+    "title": "AnalysisModel Constructor",
+    "description": "Initializes a new instance of the class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "2048b6d6-d56b-4b9b-02d7-4837d2ca1b5f.htm"
+  },
+  {
+    "title": "AnalysisModel.Delete Method",
+    "description": "Deletes an analysis model. The AnalysisModelName has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "0d04a451-e528-f758-6971-4f844133eef7.htm"
+  },
+  {
+    "title": "AnalysisModel.GetIssues Method",
+    "description": "Get analysis model issues.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "8c9e3dbc-63d7-69b2-e63e-0192196652ae.htm"
+  },
+  {
+    "title": "AnalysisModel.Insert Method",
+    "description": "Inserts a new analysis model into the Tekla Structures model. The AnalysisModelName has to be set.",
+    "summary": "Inserts a new analysis model into the Tekla Structures model.\n            The AnalysisModelName has to be set.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "cf8651fe-b4fe-9219-a849-978ef567254c.htm"
+  },
+  {
+    "title": "AnalysisModel.Modify Method",
+    "description": "Modifies an analysis model. The AnalysisModelName has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "70a4a6f1-39f2-6e34-d1e5-fea6d37dc33f.htm"
+  },
+  {
+    "title": "AnalysisModel.Select Method",
+    "description": "",
+    "summary": "Selects an analysis model. Updates the model.\n            The AnalysisModelName or ID has to be set.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "a95a0682-5b14-d6b4-e3b6-ddc2ed7992d3.htm"
+  },
+  {
+    "title": "AnalysisModel.Select Method",
+    "description": "Selects an analysis model. Updates the model. The AnalysisModelName or ID has to be set.",
+    "summary": "Selects an analysis model. Updates the model.\n            The AnalysisModelName or ID has to be set.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "754a6dbd-1581-b4bf-98cc-f4334db31c84.htm"
+  },
+  {
+    "title": "AnalysisModel.Select Method (Boolean)",
+    "description": "Selects an analysis model. The AnalysisModelName or ID has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "6f0dc619-b143-ca2b-7fec-9f75294ba493.htm"
+  },
+  {
+    "title": "AnalysisModelAnalysisProperties Constructor",
+    "description": "Creates a new analysis model analysis properties instance.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "bc62f9ec-5844-9bf2-43ea-fcbc407d82e9.htm"
+  },
+  {
+    "title": "AnalysisModelConnectivityRule Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisModelConnectivityRule",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "2625900a-1313-f402-49d1-6ea7477523a2.htm"
+  },
+  {
+    "title": "AnalysisModelConnectivityRule.Select Method",
+    "description": "Selects an analysis connectivity rule. The ID has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "2f473acf-e09d-0c80-08d2-3225114ddc7b.htm"
+  },
+  {
+    "title": "AnalysisModelDesignProperties Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisModelDesignProperties",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "5644c606-acf5-c3fc-eb96-2aa61211f80b.htm"
+  },
+  {
+    "title": "AnalysisModelGeneralProperties Constructor",
+    "description": "Creates a new analysis model general properties instance.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "5bb10cba-2243-cff6-06a7-d730c10fe46f.htm"
+  },
+  {
+    "title": "AnalysisModelHandler Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisModelHandler",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "0f2f5dcd-070f-ec2c-c12f-ca9a26e0e2fa.htm"
+  },
+  {
+    "title": "AnalysisModelHandler.AddLoad Method",
+    "description": "Adds a load to the analysis model. The ConstructionMethod must be SELECTED_PARTS, SELECTED_PARTS_AND_LOADS or FLOOR_BY_SELECTED_PARTS_AND_LOADS.",
+    "summary": "Adds a load to the analysis model.\n            The ConstructionMethod must be SELECTED_PARTS, SELECTED_PARTS_AND_LOADS or FLOOR_BY_SELECTED_PARTS_AND_LOADS.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "5546fc34-2f62-dfcf-c3c1-d4a36a0d9c11.htm"
+  },
+  {
+    "title": "AnalysisModelHandler.AddPart Method",
+    "description": "Adds a part to the analysis model. The ConstructionMethod must be SELECTED_PARTS, SELECTED_PARTS_AND_LOADS or FLOOR_BY_SELECTED_PARTS_AND_LOADS.",
+    "summary": "Adds a part to the analysis model.\n            The ConstructionMethod must be SELECTED_PARTS, SELECTED_PARTS_AND_LOADS or FLOOR_BY_SELECTED_PARTS_AND_LOADS.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "7ef1b329-8542-0e1c-e32e-f6da38518297.htm"
+  },
+  {
+    "title": "AnalysisModelHandler.GetActiveModel Method",
+    "description": "Gets the active model.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "9fba4ad4-3677-279c-e06e-6d986d05892e.htm"
+  },
+  {
+    "title": "AnalysisModelHandler.RemoveLoad Method",
+    "description": "Removes a load from the analysis model. The ConstructionMethod must be SELECTED_PARTS, SELECTED_PARTS_AND_LOADS or FLOOR_BY_SELECTED_PARTS_AND_LOADS.",
+    "summary": "Removes a load from the analysis model.\n            The ConstructionMethod must be SELECTED_PARTS, SELECTED_PARTS_AND_LOADS or FLOOR_BY_SELECTED_PARTS_AND_LOADS.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "3f0b05fa-cd06-7e36-6871-6f21ee51e7e5.htm"
+  },
+  {
+    "title": "AnalysisModelHandler.RemovePart Method",
+    "description": "Removes a part from the analysis model. The ConstructionMethod must be SELECTED_PARTS, SELECTED_PARTS_AND_LOADS or FLOOR_BY_SELECTED_PARTS_AND_LOADS.",
+    "summary": "Removes a part from the analysis model.\n            The ConstructionMethod must be SELECTED_PARTS, SELECTED_PARTS_AND_LOADS or FLOOR_BY_SELECTED_PARTS_AND_LOADS.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "3155a7d5-d251-6247-0273-21bcd6bd7b52.htm"
+  },
+  {
+    "title": "AnalysisModelHandler.SetActiveModel Method",
+    "description": "Sets the active model. The AnalysisModelName or ID has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "6d4c76b2-b00d-fb79-e6e9-817f80757055.htm"
+  },
+  {
+    "title": "AnalysisModelIssue Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisModelIssue",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "0def0918-0b12-c6a0-8efd-db020b8fa89e.htm"
+  },
+  {
+    "title": "AnalysisModelJobProperties Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisModelJobProperties",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "82210e49-472b-fac3-950a-d4274f6a2775.htm"
+  },
+  {
+    "title": "AnalysisModelLoad Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisModelLoad",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "3f29ab6f-7b3f-ba01-0734-372958c9d77a.htm"
+  },
+  {
+    "title": "AnalysisModelLoad.Select Method",
+    "description": "Selects an analysis node. The ID has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "a493355c-c2ee-eb6b-64cc-94dfff937e34.htm"
+  },
+  {
+    "title": "AnalysisModelModalAnalysisProperties Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisModelModalAnalysisProperties",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "0a3ea1cc-6393-741a-a1ea-cc3a278ae1ad.htm"
+  },
+  {
+    "title": "AnalysisModelOutputProperties Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisModelOutputProperties",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "0e05a1df-a62a-ba67-14df-1494a6654eb0.htm"
+  },
+  {
+    "title": "AnalysisModelSeismicProperties Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisModelSeismicProperties",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "8bf756f3-24ea-1e79-c042-c4cccc617ab0.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisModelSpectrumProperties",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "9e0ba12b-f754-2748-3f67-f775bb1a05ca.htm"
+  },
+  {
+    "title": "AnalysisNode Constructor",
+    "description": "Initializes a new instance of the class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "fc72b503-0b14-4f68-4630-5a097e34a608.htm"
+  },
+  {
+    "title": "AnalysisNode.Delete Method",
+    "description": "Deletes an analysis node. The ID has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "7e14c3f5-c191-c336-7c80-370d3e1ee686.htm"
+  },
+  {
+    "title": "AnalysisNode.GetAnalysisNodeLinks Method",
+    "description": "Get analysis nodelinks connected to node.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "9e08ff95-60a7-6ae3-4404-5661aff5d2e4.htm"
+  },
+  {
+    "title": "AnalysisNode.GetAnalysisParts Method",
+    "description": "Get analysis parts connected to node.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "ff69f4e7-472f-acac-5ee8-1841d45eb90d.htm"
+  },
+  {
+    "title": "AnalysisNode.Insert Method",
+    "description": "Inserts an analysis node. The AnalysisModelName has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "3364bda8-1d4c-4308-3e31-744335f93688.htm"
+  },
+  {
+    "title": "AnalysisNode.Modify Method",
+    "description": "Modifies an analysis node. The ID has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "c2c1f970-d078-3fc8-f139-3c8ef67bfd81.htm"
+  },
+  {
+    "title": "AnalysisNode.Select Method",
+    "description": "Selects an analysis node. The ID has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "4c6487ef-01ee-e6d1-4dd6-7aececbc8f5c.htm"
+  },
+  {
+    "title": "AnalysisNodeLink Constructor",
+    "description": "Initializes a new instance of the class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "0e022a2d-ecf3-f0e2-9379-8ddc1f864515.htm"
+  },
+  {
+    "title": "AnalysisNodeLink.Delete Method",
+    "description": "Deletes a user analysis node link. The ID has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "fad6764e-4f78-b6e3-335a-11d701e5ac43.htm"
+  },
+  {
+    "title": "AnalysisNodeLink.Insert Method",
+    "description": "Inserts a user analysis node link. The AnalysisModelName has to be set. The StartNodeID has to be set. The EndNodeID has to be set.",
+    "summary": "Inserts a user analysis node link.\n            The AnalysisModelName has to be set.\n            The StartNodeID has to be set.\n            The EndNodeID has to be set.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "a6f7596c-cf99-b230-4184-fdd8692c8522.htm"
+  },
+  {
+    "title": "AnalysisNodeLink.Modify Method",
+    "description": "Modifies an analysis node link. The ID has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "6ea9ed3b-10e2-94bf-43ee-4d899bdb8371.htm"
+  },
+  {
+    "title": "AnalysisNodeLink.Select Method",
+    "description": "Selects an analysis node link. The ID has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "6ff1a838-95ce-325d-1630-0783a93ecd60.htm"
+  },
+  {
+    "title": "AnalysisObject Constructor",
+    "description": "Initializes a new instance of the class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "1d8dcd7c-a595-a92d-130b-0a2126ef0a65.htm"
+  },
+  {
+    "title": "AnalysisObject.Select Method",
+    "description": "Selects an analysis object from the database.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "838ad5fe-ed14-8f58-d432-efd635e6c7ea.htm"
+  },
+  {
+    "title": "AnalysisObjectEnumerator.GetEnumerator Method",
+    "description": "Returns a pointer to the existing instance of the class. This allows the usage of the foreach statement with AnalysisObjectEnumerator.",
+    "summary": "Returns a pointer to the existing instance of the class.\n            This allows the usage of the foreach statement with AnalysisObjectEnumerator.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "a339d39c-900f-230d-fab8-3ba7e3ec4ee9.htm"
+  },
+  {
+    "title": "AnalysisObjectEnumerator.GetSize Method",
+    "description": "Returns the total amout of items.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "e76342ea-c2b1-59eb-96c5-86d4471533bc.htm"
+  },
+  {
+    "title": "AnalysisObjectEnumerator.MoveNext Method",
+    "description": "Moves to the next item in the enumerator.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "c924d65b-4a72-8d8b-2ff9-072c75e0684d.htm"
+  },
+  {
+    "title": "AnalysisObjectEnumerator.Refresh Method",
+    "description": "Refreshes the enumerator with latest data at database.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "f6837180-aefb-6c1f-a2ef-a2a97595aadb.htm"
+  },
+  {
+    "title": "AnalysisObjectEnumerator.Reset Method",
+    "description": "Resets the enumerator to the beginning.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "31822a54-63fc-8431-ebe3-1201c2dfafc6.htm"
+  },
+  {
+    "title": "AnalysisObjectSelector.GetAllObjects Method",
+    "description": "Returns an enumerator of all the model objects in the current model. NOT YET IMPLEMENTED.",
+    "summary": "Returns an enumerator of all the model objects in the current model.\n            NOT YET IMPLEMENTED.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "2d75a66e-dc18-0739-17a1-342d7ff82771.htm"
+  },
+  {
+    "title": "AnalysisObjectSelector.GetAllObjectsWithType Method",
+    "description": "Returns an enumerator of all the model objects in the current model with the given type.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "c9afcf88-f1ec-9cf1-0280-66a70e47e66a.htm"
+  },
+  {
+    "title": "AnalysisObjectSelector.GetAnalysisModels Method",
+    "description": "Returns an enumerator of all the analysis model objects.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "327fdf82-56ca-888e-a9ff-bf12bc757028.htm"
+  },
+  {
+    "title": "AnalysisObjectSelector.GetSelectedObjects Method",
+    "description": "Returns an enumerator of all the selected model objects in the current model. NOT YET IMPLEMENTED.",
+    "summary": "Returns an enumerator of all the selected model objects in the current model.\n            NOT YET IMPLEMENTED.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "82197e0a-7acf-41b1-05d7-b1c4c95f8e3d.htm"
+  },
+  {
+    "title": "AnalysisPart Constructor",
+    "description": "Initializes a new instance of the class.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "57cd1b04-6c87-36a6-de04-af2c0d832778.htm"
+  },
+  {
+    "title": "AnalysisPart.Add Method",
+    "description": "",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "d9b2227c-42a1-0436-5834-f089783e2a6e.htm"
+  },
+  {
+    "title": "AnalysisPart.Add Method (AnalysisArea)",
+    "description": "Adds an analysis area to the analysis part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "593e179d-1ef5-f69c-cc04-aa77832c2a64.htm"
+  },
+  {
+    "title": "AnalysisPart.Add Method (AnalysisBar)",
+    "description": "Adds an analysis bar to the analysis part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "8ee05e2c-7864-0c43-7b1d-c0b84e753f03.htm"
+  },
+  {
+    "title": "AnalysisPart.Delete Method",
+    "description": "Deletes an analysis part. The method is not implemented.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "913d5fc8-12a5-3842-401e-1fa9c3b457f9.htm"
+  },
+  {
+    "title": "AnalysisPart.DeleteAnalysisPart Method",
+    "description": "Deletes the analysis part by ID.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "4f473d30-9ec6-d949-746c-0c8ef34b245d.htm"
+  },
+  {
+    "title": "AnalysisPart.GetAnalysisAreas Method",
+    "description": "Gets the analysis areas of the analysis part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "ab93e725-314c-4b9a-f203-056d6d64702b.htm"
+  },
+  {
+    "title": "AnalysisPart.GetAnalysisBars Method",
+    "description": "Gets the analysis bars of the analysis part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "0da734f3-344d-69b2-6b60-44d0982272ec.htm"
+  },
+  {
+    "title": "AnalysisPart.GetAnalysisVolumes Method",
+    "description": "Gets the analysis volumes of the analysis part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "ea25e3ca-8245-726d-53e8-3a727fb3c931.htm"
+  },
+  {
+    "title": "AnalysisPart.GetMainParts Method",
+    "description": "Get the main analysis parts of this analysis part. There are no main analysis parts if this is not a sub analysis part.",
+    "summary": "Get the main analysis parts of this analysis part.\n            There are no main analysis parts if this is not a sub analysis part.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "497f3914-70d0-aad9-e950-effe84eaa9d1.htm"
+  },
+  {
+    "title": "AnalysisPart.GetSubParts Method",
+    "description": "Get the sub analysis parts of this analysis part. There are no sub analysis parts if this is not a main analysis part.",
+    "summary": "Get the sub analysis parts of this analysis part.\n            There are no sub analysis parts if this is not a main analysis part.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "470af607-1d81-d92c-5897-a316ec333ef5.htm"
+  },
+  {
+    "title": "AnalysisPart.Insert Method",
+    "description": "Inserts a new analysis part into the Tekla Structures model. The AnalysisModelName has to be set.",
+    "summary": "Inserts a new analysis part into the Tekla Structures model.\n            The AnalysisModelName has to be set.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "22f458e3-89e3-9026-c42e-d9056e5a4f43.htm"
+  },
+  {
+    "title": "AnalysisPart.IsMainPart Method",
+    "description": "Check if this analysis part is a main analysis part (has sub analysis parts).",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "4bf5cd08-99b9-bbae-bce7-6bc34d71a0c9.htm"
+  },
+  {
+    "title": "AnalysisPart.IsSubPart Method",
+    "description": "Check if this analysis part is a sub analysis part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "779dd4a8-54b9-a77a-d4fc-dfeed6e88a84.htm"
+  },
+  {
+    "title": "AnalysisPart.Modify Method",
+    "description": "Modifies an analysis part. The ID, or the PartID and the AnalysisModelName, has to be set.",
+    "summary": "Modifies an analysis part.\n            The ID, or the PartID and the AnalysisModelName, has to be set.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "f5f4208a-209f-80c4-7d27-95ce16fe0c83.htm"
+  },
+  {
+    "title": "AnalysisPart.MovePosition Method",
+    "description": "Move analysis position.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "82b2187a-548d-dc58-4dc3-0a4654c17480.htm"
+  },
+  {
+    "title": "AnalysisPart.Select Method",
+    "description": "Selects an analysis part. The ID, or the PartID and the AnalysisModelName, has to be set.",
+    "summary": "Selects an analysis part.\n            The ID, or the PartID and the AnalysisModelName, has to be set.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "0f61b68a-9046-e767-7a57-a7e0b3283537.htm"
+  },
+  {
+    "title": "AnalysisPartAnalysisProperties Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisPartAnalysisProperties",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "18dfbb8f-5098-d057-83a7-0784719fbbab.htm"
+  },
+  {
+    "title": "AnalysisPartAreaAttributes Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisPartAreaAttributes",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "546c24c2-d079-2ca8-2124-c8fb67e90c59.htm"
+  },
+  {
+    "title": "AnalysisPartBarAttributes Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisPartBarAttributes",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "70ceb66f-fd56-10d2-7260-894fdf0df5e1.htm"
+  },
+  {
+    "title": "AnalysisPartCompositeProperties Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisPartCompositeProperties",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "98248c1f-fbe0-5b8c-af6a-3137a20504c0.htm"
+  },
+  {
+    "title": "AnalysisPartEnd Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisPartEnd",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "292506d2-8371-c8bc-37b2-7c7b5c97bef1.htm"
+  },
+  {
+    "title": "AnalysisPartLoadingProperties Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisPartLoadingProperties",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "9b97a13f-5cef-0c42-8527-c1f5287c2d6d.htm"
+  },
+  {
+    "title": "AnalysisPartPositionProperties Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisPartPositionProperties",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "9f9672eb-4e95-8633-7bf9-8efc6628f6d9.htm"
+  },
+  {
+    "title": "AnalysisPartSpanningProperties Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisPartSpanningProperties",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "84c17cd4-5912-a9a7-9b79-e2ad041ce1da.htm"
+  },
+  {
+    "title": "AnalysisPosition Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisPosition",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "99c1aa89-2a1f-ebab-8640-7502b9a63c4f.htm"
+  },
+  {
+    "title": "AnalysisPosition.Select Method",
+    "description": "Selects an analysis position.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "365ea44a-0b65-d4ce-9977-bf4dd7bfe713.htm"
+  },
+  {
+    "title": "AnalysisRestraintData Constructor",
+    "description": "Creates a new instance of an analysis restraint data.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "5a65503b-2889-7640-cdcf-d8dc11c6cffd.htm"
+  },
+  {
+    "title": "AnalysisRestraints Constructor",
+    "description": "Creates a new analysis restraints instance.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "f9626f4b-d5bb-358e-e388-54baa9c5795e.htm"
+  },
+  {
+    "title": "AnalysisResult Constructor",
+    "description": "Creates a new analysis result instance.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "21e50959-a6b5-d3ae-931d-edfbeaee49a8.htm"
+  },
+  {
+    "title": "AnalysisResult.Delete Method",
+    "description": "Delete analysis results by the given key.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "aef9329d-e4b2-886a-f21e-f9fac02c5aeb.htm"
+  },
+  {
+    "title": "AnalysisResult.DeleteAll Method",
+    "description": "Delete all analysis results.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "1a48788a-c8f2-8b6c-c545-6ec68430cc0e.htm"
+  },
+  {
+    "title": "AnalysisResult.DeleteLoadcase Method",
+    "description": "Delete analysis results by load case.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "a75b4887-0b6b-005d-59e6-ca8d03dc3240.htm"
+  },
+  {
+    "title": "AnalysisResult.GetResultObjectIds Method",
+    "description": "Get ID numbers of objects with results.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "d985ddea-02c1-6c83-3801-3e013b31965e.htm"
+  },
+  {
+    "title": "AnalysisResult.GetResults Method",
+    "description": "Get analysis results.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "dfecc942-baf1-3d44-c192-046868786c11.htm"
+  },
+  {
+    "title": "AnalysisResult.Insert Method",
+    "description": "Insert analysis result. Results are always stored to physical parts. When OBJECT_TYPE_MEMBER or OBJECT_TYPE_AREA is used the analysis model must be active.",
+    "summary": "Insert analysis result. Results are always stored to physical parts.\n            When OBJECT_TYPE_MEMBER or OBJECT_TYPE_AREA is used the analysis model must be active.\n            All results for given part must be inserted within one commit (CommitChanges),\n            older results of this part are removed automatically.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "110a28e3-09a8-5646-20a4-ac3a2252de80.htm"
+  },
+  {
+    "title": "AnalysisResult.QueryAnalysisResult Method",
+    "description": "Queries an analysis result.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "792d80e9-e3ce-cbf2-626a-a3d9cad719f6.htm"
+  },
+  {
+    "title": "AnalysisResultPositions Constructor",
+    "description": "Creates a new analysis result positions instance.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "52837001-094d-3a53-1306-eefe18dd21c0.htm"
+  },
+  {
+    "title": "AnalysisResultPositions.GetResultPositions Method",
+    "description": "Gets the analysis result positions.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "0e17cde9-3d30-1d38-2cdb-11721904ffcf.htm"
+  },
+  {
+    "title": "AnalysisRigidDiaphragm Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisRigidDiaphragm",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "590acb5e-03b1-a203-44a7-1095f115ac33.htm"
+  },
+  {
+    "title": "AnalysisRigidDiaphragm.Select Method",
+    "description": "Selects an analysis rigid diaphragm. The ID has to be set.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "d45af225-559c-3250-3bac-6dbe620a437f.htm"
+  },
+  {
+    "title": "AnalysisSubSection Constructor",
+    "description": "Tekla.Structures.Analysis.AnalysisSubSection",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "method",
+    "level": 0,
+    "htmlFile": "8137e14c-ba1f-85a6-ee8a-09fd57d70495.htm"
+  }
+]

@@ -1,0 +1,4349 @@
+[
+  {
+    "title": "Assertion.DetailedMessage Property",
+    "description": "Gets the detailed message provided by the assertion.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "06cc5ffb-4d37-a181-6eea-10f1731e9862.htm"
+  },
+  {
+    "title": "Assertion.Message Property",
+    "description": "Gets the message provided by the assertion.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "1084ee22-2c17-71d7-d951-36ac03793d31.htm"
+  },
+  {
+    "title": "Assertion.MethodName Property",
+    "description": "Gets the name of the method the assertion failed in.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "25d24911-ca3d-e5ae-9a5c-728f79f7abe0.htm"
+  },
+  {
+    "title": "ClashCheckOptions.BoltHeadDiameter Property",
+    "description": "The bolt head diameter.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ca623d4f-f945-858a-c36a-c191757b5c99.htm"
+  },
+  {
+    "title": "ClashCheckOptions.NutThickness Property",
+    "description": "The nut thickness.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "f0c21821-594e-7633-cba9-cdb697646d1d.htm"
+  },
+  {
+    "title": "ComponentOptions.AssemblyLoosePartPositionPrefix Property",
+    "description": "The assembly loose position prefix.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "96ad97cc-30e8-dca5-56c9-e23eed60bac8.htm"
+  },
+  {
+    "title": "ComponentOptions.AssemblyLoosePartStartNumber Property",
+    "description": "The assembly loose part number.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "96e880b7-2759-093b-7874-d0c8c1a53eab.htm"
+  },
+  {
+    "title": "ComponentOptions.BoltEdgeDistanceFactor Property",
+    "description": "The factor of bolt edge distance.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "f51387da-ee0c-ccc0-d976-85663b794504.htm"
+  },
+  {
+    "title": "ComponentOptions.BoltEdgeDistanceReference Property",
+    "description": "The bolt edge distance reference.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "73ab5817-9b38-26e7-9f40-450cee6fa137.htm"
+  },
+  {
+    "title": "ComponentOptions.BoltSize Property",
+    "description": "The bolt size.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "a85936c5-51b8-f231-b5a0-fb8a4d4b4dab.htm"
+  },
+  {
+    "title": "ComponentOptions.BoltStandard Property",
+    "description": "The bolt standard.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "39994c58-fa64-b729-949c-5967b1f98064.htm"
+  },
+  {
+    "title": "ComponentOptions.FoldedPlateProfileName Property",
+    "description": "The folded plate profile name.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "7ca82afe-5f80-ac9d-21e0-2201e8f713dc.htm"
+  },
+  {
+    "title": "ComponentOptions.LoosePartPositionPrefix Property",
+    "description": "The loose part position prefix.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "3d798821-2386-12ac-7cde-7a906ce9792b.htm"
+  },
+  {
+    "title": "ComponentOptions.LoosePartStartNumber Property",
+    "description": "The loose part start number.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "aad198ff-fca2-7f60-0ce6-ad490df4b481.htm"
+  },
+  {
+    "title": "ComponentOptions.PartMaterial Property",
+    "description": "The part material.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "8e696437-1feb-b392-506a-8198c3b1e7f6.htm"
+  },
+  {
+    "title": "ComponentOptions.PartWeldedToPrimaryPositionPrefix Property",
+    "description": "The part welded to primary position prefix.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "13938c88-feaf-ea7a-bc04-f41f0f0f9ae5.htm"
+  },
+  {
+    "title": "ComponentOptions.PartWeldedToPrimaryStartNumber Property",
+    "description": "The part welded to primary start number.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "aff7a28a-9001-c3b3-758d-c94fda221722.htm"
+  },
+  {
+    "title": "ComponentOptions.PartWeldedToSecondaryPositionPrefix Property",
+    "description": "The part welded to secondary position prefix.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "65330e3c-28f8-dafe-4711-5a1eb76c117e.htm"
+  },
+  {
+    "title": "ComponentOptions.PartWeldedToSecondaryStartNumber Property",
+    "description": "The part welded to secondary start number.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "f2e19ff6-c33e-82ac-13c1-873f2a5c9f3c.htm"
+  },
+  {
+    "title": "ComponentOptions.PlateProfileName Property",
+    "description": "The plate profile name.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "c293d03c-2b72-d63c-1d15-428366f044c1.htm"
+  },
+  {
+    "title": "Identifier.GUID Property",
+    "description": "The object's globally unique identifier. If the GUID value is set manually, the ID is initialized to 0 and the identification is done based on the GUID.",
+    "summary": "The object's globally unique identifier.\n            If the GUID value is set manually, the ID is initialized to 0 and the identification is done based on the GUID.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "6957c7fb-5f35-44e5-c7f4-ecbb2d8e8d0e.htm"
+  },
+  {
+    "title": "Identifier.ID Property",
+    "description": "The identifier number. If the ID value is set manually, the GUID is initialized to Guid.Empty and the identification is done based on the ID.",
+    "summary": "The identifier number.\n            If the ID value is set manually, the GUID is initialized to Guid.Empty and the identification is done based on the ID.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "f30bf8f9-bc63-07c5-0d56-8cd34a4a112b.htm"
+  },
+  {
+    "title": "Identifier.ID2 Property",
+    "description": "The sub identifier number. If the subID value is set manually, the GUID is initialized to Guid.Empty and the identification is done based on the ID.",
+    "summary": "The sub identifier number.\n            If the subID value is set manually, the GUID is initialized to Guid.Empty and the identification is done based on the ID.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "49e5f804-b22d-6b67-a4ae-895a0121e378.htm"
+  },
+  {
+    "title": "ModuleManager.AnalysisAndDesign Property",
+    "description": "Indicates whether the Analysis and Design management is enabled.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2cb0637f-ec60-e9a1-cdbb-0edf6dc39419.htm"
+  },
+  {
+    "title": "ModuleManager.CIPModeling Property",
+    "description": "Indicates whether the CIP modeling is enabled.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "c7a68c0e-03e9-4852-b20c-aafb706d7810.htm"
+  },
+  {
+    "title": "ModuleManager.ConcreteDetailing Property",
+    "description": "Indicates whether the concrete detailing is enabled.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ab60400c-1960-9de5-b13d-935b2fcf4c67.htm"
+  },
+  {
+    "title": "ModuleManager.Configuration Property",
+    "description": "The currently running configuration of Tekla Structures.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "cd1204b7-246f-e9b7-c64f-5057038b1e5b.htm"
+  },
+  {
+    "title": "ModuleManager.LoadModeling Property",
+    "description": "Indicates whether the load modeling is enabled.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "13e44f04-4a99-57c8-fc91-b22a938d5a76.htm"
+  },
+  {
+    "title": "ModuleManager.MultimaterialModeling Property",
+    "description": "Indicates whether the multimaterial modeling is enabled.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "bcf561aa-95f0-d4a4-c079-aaeeb107c2d0.htm"
+  },
+  {
+    "title": "ModuleManager.RebarModeling Property",
+    "description": "Indicates whether the rebar modeling is enabled.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "fbaa52af-5997-e9f2-1906-2d982d7aeb55.htm"
+  },
+  {
+    "title": "ModuleManager.SteelDetailing Property",
+    "description": "Indicates whether the steel detailing is enabled.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "8a1e9839-d289-4082-ce3f-17ca163c4fc5.htm"
+  },
+  {
+    "title": "ModuleManager.TaskManagement Property",
+    "description": "Indicates whether the task management is enabled.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "4b60116b-645d-23c9-c905-3ea7ddc3fd9d.htm"
+  },
+  {
+    "title": "TeklaStructuresFiles.PropertyFileDirectories Property",
+    "description": "The directories where to look for property files.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "dce004c9-2c6d-5429-6f4c-3e17bb84ab60.htm"
+  },
+  {
+    "title": "AnalysisArea.AnalysisDesignCode Property",
+    "description": "Gets or sets the design code of the analysis area.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "1daae090-cdd4-4141-7aa6-2feac0537f2c.htm"
+  },
+  {
+    "title": "AnalysisArea.AnalysisType Property",
+    "description": "Gets or sets the analysis type of the analysis area.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "9bc33bf2-3bba-69ac-93ca-4546663dffd3.htm"
+  },
+  {
+    "title": "AnalysisArea.Area Property",
+    "description": "Gets or sets the area polygon of the analysis area.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "a31c48f4-6bd9-d76b-8558-2e19b38757e7.htm"
+  },
+  {
+    "title": "AnalysisArea.AreaHoles Property",
+    "description": "Gets or sets the area holes of the analysis area.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "14a1c0cb-7f07-d4ee-6fb9-777095a03060.htm"
+  },
+  {
+    "title": "AnalysisArea.InnerPositions Property",
+    "description": "Gets or sets the inner positions of the analysis area.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "c7c79aac-5264-22e9-b451-17a2cec5857a.htm"
+  },
+  {
+    "title": "AnalysisArea.Label Property",
+    "description": "Gets or sets the label of the analysis area.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b307d80b-4eab-76b8-138e-cd399fdf54e2.htm"
+  },
+  {
+    "title": "AnalysisArea.Material Property",
+    "description": "Gets or sets the material of the analysis area.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "a867a9ed-c161-45c9-d072-88bc20732375.htm"
+  },
+  {
+    "title": "AnalysisArea.Profile Property",
+    "description": "Gets or sets the profile of the analysis area.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b95098f4-81bd-6c55-aacc-72d981a72189.htm"
+  },
+  {
+    "title": "AnalysisArea.RigidDiaphragm Property",
+    "description": "Gets or sets the rigid diaphragm of the analysis area.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "4cb7a9ab-f3ed-460c-f38e-d8ae5de5ea4c.htm"
+  },
+  {
+    "title": "AnalysisArea.Thickness Property",
+    "description": "Gets or sets the thickness of the analysis area.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "17560863-a54e-82f9-e7a4-2ad65f1d6426.htm"
+  },
+  {
+    "title": "AnalysisAreaPolygon.Edges Property",
+    "description": "The edges of the area polygon.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2f6315f4-90d8-e179-b1f9-372d65b19ae8.htm"
+  },
+  {
+    "title": "AnalysisAreaPolygon.Positions Property",
+    "description": "The positions of the area polygon.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "0cf92abe-0ce1-16bc-85f9-cd90d6f4b48f.htm"
+  },
+  {
+    "title": "AnalysisBar.AnalysisDesignCode Property",
+    "description": "Gets or sets the analysis design code of the analysis bar.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "3a7df778-ef29-2203-77ba-c11266af1412.htm"
+  },
+  {
+    "title": "AnalysisBar.AnalysisType Property",
+    "description": "Gets or sets the analysis type of the analysis bar.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "6afb8512-406c-5507-d74d-12f7a082fee3.htm"
+  },
+  {
+    "title": "AnalysisBar.CardinalPoint Property",
+    "description": "Gets or sets the cardinal point of the analysis bar.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "5ecbeb43-adeb-74bb-84a7-71a8c81e6af3.htm"
+  },
+  {
+    "title": "AnalysisBar.Composite Property",
+    "description": "Gets or sets the composite beam of the analysis bar.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "9ea42645-29d1-b6ab-5796-25e2b11fc7ef.htm"
+  },
+  {
+    "title": "AnalysisBar.Curvature Property",
+    "description": "Gets or sets the curvature of the analysis bar.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "311b67ed-2773-9452-7de5-dbe6703df1e8.htm"
+  },
+  {
+    "title": "AnalysisBar.Label Property",
+    "description": "Gets or sets the label of the analysis bar.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2a047fe2-c4bf-ccfa-40f7-9148ce49fbb1.htm"
+  },
+  {
+    "title": "AnalysisBar.Material Property",
+    "description": "Gets or sets the material of the analysis bar.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "38bf9d9e-860a-e0a7-11e4-8d7251a9965a.htm"
+  },
+  {
+    "title": "AnalysisBar.Members Property",
+    "description": "Gets the members of the analysis bar.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "397fc758-f161-ea07-d237-cea3e07ecb32.htm"
+  },
+  {
+    "title": "AnalysisBar.Positions Property",
+    "description": "Gets the positions of the analysis bar.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "88706cd8-d075-8f96-eda0-3d39e378bb9f.htm"
+  },
+  {
+    "title": "AnalysisBar.ProfileEnd Property",
+    "description": "Gets or sets the end profile of the analysis bar.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "30551c21-52e4-b900-e12b-3b28daec9cff.htm"
+  },
+  {
+    "title": "AnalysisBar.ProfileStart Property",
+    "description": "Gets or sets the start profile of the analysis bar.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "21795bed-e94d-73d4-3e1e-35bffe434167.htm"
+  },
+  {
+    "title": "AnalysisBeamEnd.Connectivity Property",
+    "description": "Gets or sets the connectivity at the beam end.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "dadef039-44da-0679-8732-bbd7e6286152.htm"
+  },
+  {
+    "title": "AnalysisBeamEnd.Eccentricity Property",
+    "description": "Gets or sets the eccentricity at the beam end (in the member's local coordinate system).",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "332ec1e9-1134-32c3-9ed1-d8312be02ae7.htm"
+  },
+  {
+    "title": "AnalysisBeamEnd.Profile Property",
+    "description": "Gets or sets the profile at the beam end.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "964a904c-3802-380c-e71f-280737984880.htm"
+  },
+  {
+    "title": "AnalysisCompositeBeam.Composite Property",
+    "description": "Indicates whether the beam is composite.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b49deeb9-40f9-cd16-653b-c4402fd1c005.htm"
+  },
+  {
+    "title": "AnalysisCompositeBeam.ConcreteStrength Property",
+    "description": "The strength of the concrete of the analysis composite beam.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "4159729e-3f02-4f31-3f8b-b1c2555e0e45.htm"
+  },
+  {
+    "title": "AnalysisCompositeBeam.RibDirection Property",
+    "description": "The direction of the rib of the analysis composite beam (in the global coordinate system).",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "455fee4d-6b41-9dce-dc0b-2e5d8300fd02.htm"
+  },
+  {
+    "title": "AnalysisCompositeBeam.RibHeight Property",
+    "description": "The height of the rib of the analysis composite beam.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "e988dc62-ccca-667f-e6e5-3b3b7216c674.htm"
+  },
+  {
+    "title": "AnalysisCompositeBeam.RibWidth Property",
+    "description": "The width of the rib of the analysis composite beam.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "bd7b9975-0e7b-6157-f1d1-f688e4d82fcf.htm"
+  },
+  {
+    "title": "AnalysisCompositeBeam.SlabMaterial Property",
+    "description": "The slab material of the analysis composite beam.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "bd030c96-d46f-ad31-7b8c-d535eb5acf4e.htm"
+  },
+  {
+    "title": "AnalysisCompositeBeam.SlabThickness Property",
+    "description": "The thickness of the slab of the analysis composite beam.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "c6c37ee8-0b1f-d9f1-9776-114984071928.htm"
+  },
+  {
+    "title": "AnalysisCompositeBeam.SlabWidthLeft Property",
+    "description": "The left width of the slab of the analysis composite beam.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "eadf2d45-92f8-8966-19e9-b5016eee3834.htm"
+  },
+  {
+    "title": "AnalysisCompositeBeam.SlabWidthRight Property",
+    "description": "The right width of the slab of the analysis composite beam.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ded844ec-7bc7-bcce-0def-b12640b63931.htm"
+  },
+  {
+    "title": "AnalysisCompositeBeam.StudDiameter Property",
+    "description": "The diameter of the stud of the analysis composite beam.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "cff2e4b0-e73c-d9d9-d44a-8db92b8797fa.htm"
+  },
+  {
+    "title": "AnalysisCompositeBeam.StudLength Property",
+    "description": "The length of the stud of the analysis composite beam.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ddcb7003-138f-7548-b8d9-160e13e378b7.htm"
+  },
+  {
+    "title": "AnalysisConnectivity.Connectivity Property",
+    "description": "The connectivity type of the analysis connectivity.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "6b941c2a-8e08-6aef-59bb-73082d04ef4b.htm"
+  },
+  {
+    "title": "AnalysisConnectivity.Spring Property",
+    "description": "The spring values of the analysis connectivity.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "639a4156-1d11-b3e6-3f45-e2cb79f615ac.htm"
+  },
+  {
+    "title": "AnalysisCrossSection.A Property",
+    "description": "The cross section area (m2) of the analysis cross section.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "dd8a3410-d71e-38d5-4739-d66c2cf0282f.htm"
+  },
+  {
+    "title": "AnalysisCrossSection.AnalysisSubSections Property",
+    "description": "The subsections of the analysis cross section.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "78fd5c13-37a4-882e-1326-c35ea8f25394.htm"
+  },
+  {
+    "title": "AnalysisCrossSection.Avy Property",
+    "description": "The shear area for loads parallel to the Y-axis (m2) of the analysis cross section.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "18401b1a-6936-738f-845c-be6cd4e1cb4a.htm"
+  },
+  {
+    "title": "AnalysisCrossSection.Avz Property",
+    "description": "The shear area for loads parallel to the Z-axis (m2) of the analysis cross section.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "c856ac1e-209d-33e9-a1a8-c9d7295e116d.htm"
+  },
+  {
+    "title": "AnalysisCrossSection.Calculated Property",
+    "description": "Indicates whether section values have been calculated.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "0735adfd-e600-1fd7-6420-08c4848a34ff.htm"
+  },
+  {
+    "title": "AnalysisCrossSection.G Property",
+    "description": "The mass per unit of length (kg/m) of the analysis cross section.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "5bdb45e1-9643-a58d-df56-f5e6a77cc531.htm"
+  },
+  {
+    "title": "AnalysisCrossSection.It Property",
+    "description": "The torsion moment (m4) of the analysis cross section.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "3129694c-0238-69df-42cb-1ce1f93f94c7.htm"
+  },
+  {
+    "title": "AnalysisCrossSection.Iw Property",
+    "description": "The warping constant (m6) of the analysis cross section.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2ee7f483-2413-8622-5bf1-1310dbb0f664.htm"
+  },
+  {
+    "title": "AnalysisCrossSection.Iy Property",
+    "description": "The radius of gyration about the Y-axis (m) of the analysis cross section.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "7a347215-aca4-b94a-6cb7-216549630384.htm"
+  },
+  {
+    "title": "AnalysisCrossSection.Iyy Property",
+    "description": "The moment of inertia about the Y-axis (m4) of the analysis cross section.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "4fabd82b-800c-3124-7840-ee392ca636d4.htm"
+  },
+  {
+    "title": "AnalysisCrossSection.Iz Property",
+    "description": "The radius of gyration about the Z-axis (m) of the analysis cross section.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "4ae97500-f329-1bb7-05a5-5e987eddc2e7.htm"
+  },
+  {
+    "title": "AnalysisCrossSection.Izz Property",
+    "description": "The moment of inertia about the Z-axis (m4) of the analysis cross section.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "abeb16a4-65de-d66a-1761-1f03ba0d608c.htm"
+  },
+  {
+    "title": "AnalysisCrossSection.Name Property",
+    "description": "The name of the analysis cross section.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "e90b4937-ca8b-7c02-65ef-94e6c85a921a.htm"
+  },
+  {
+    "title": "AnalysisCrossSection.Wplyy Property",
+    "description": "The plastic modulus about the Y-axis (m3) of the analysis cross section.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "42ef3273-238b-df93-c45f-d80b69f971db.htm"
+  },
+  {
+    "title": "AnalysisCrossSection.Wplzz Property",
+    "description": "The plastic modulus about the Z-axis (m3) of the analysis cross section.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "dbe4c2f6-032d-56a1-37a5-e6836a5810cd.htm"
+  },
+  {
+    "title": "AnalysisCrossSection.Wyy Property",
+    "description": "The elastic modulus about the Y-axis (m3) of the analysis cross section.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "047df163-28d9-87a0-3d4b-c1b27bc4f9e1.htm"
+  },
+  {
+    "title": "AnalysisCrossSection.Wzz Property",
+    "description": "The elastic modulus about the Z-axis (m3) of the analysis cross section.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b2f59284-c24c-7cad-4cff-5267b175111e.htm"
+  },
+  {
+    "title": "AnalysisCurvature.Radius Property",
+    "description": "The radius of the beam curvature.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "13a26a4b-fc8e-6c2e-c391-e53f564679d0.htm"
+  },
+  {
+    "title": "AnalysisCurvature.RadiusDirection Property",
+    "description": "The radius direction of the beam curvature.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2ec883ab-51d5-ecae-4cb6-47ff463934ed.htm"
+  },
+  {
+    "title": "AnalysisDecomposedAreaLoad.Direction Property",
+    "description": "The direction of the decomposed area load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "699864b2-0900-ef0c-6145-1f01adf76541.htm"
+  },
+  {
+    "title": "AnalysisDecomposedAreaLoad.Magnitudes Property",
+    "description": "The magnitudes of the decomposed area load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "480ba048-efdf-c3b5-1cbe-17bb262541c6.htm"
+  },
+  {
+    "title": "AnalysisDecomposedAreaLoad.Positions Property",
+    "description": "The positions of the decomposed area load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "46ad0d64-d488-9c36-6ca3-493cfd923bd4.htm"
+  },
+  {
+    "title": "AnalysisDecomposedBarLoad.CSCode Property",
+    "description": "The CS code of the decomposed bar load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "6a6cca87-f67e-4f6f-abe8-2aa9060fb194.htm"
+  },
+  {
+    "title": "AnalysisDecomposedBarLoad.EndDistance Property",
+    "description": "The end distance of the decomposed bar load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2651777b-bef7-76ae-17c8-21c89e699528.htm"
+  },
+  {
+    "title": "AnalysisDecomposedBarLoad.EndValue Property",
+    "description": "The end value of the decomposed bar load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b427529b-7bf6-c5f1-07ee-aef22b5b5e16.htm"
+  },
+  {
+    "title": "AnalysisDecomposedBarLoad.StartDistance Property",
+    "description": "The start distance of the decomposed bar load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "6890d27a-8a66-3281-0485-5ceadfd7607e.htm"
+  },
+  {
+    "title": "AnalysisDecomposedBarLoad.StartValue Property",
+    "description": "The start value of the decomposed bar load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b2c830e1-4fe4-b4a2-a8d2-c7c83c806a22.htm"
+  },
+  {
+    "title": "AnalysisDecomposedLoad.AnalysisLoadType Property",
+    "description": "Gets or sets the type of the analysis decomposed load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ace48bcf-1b30-ca15-3729-d103b4ed9868.htm"
+  },
+  {
+    "title": "AnalysisDecomposedLoad.ModelLoadGroupID Property",
+    "description": "Gets or sets the identifier of the load group.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "213762ac-ac77-9169-cdeb-e113e53ff81e.htm"
+  },
+  {
+    "title": "AnalysisDecomposedLoad.ModelLoadID Property",
+    "description": "Gets or sets the identifier of the model load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "6ba8c478-1e4a-124c-935d-461588f5c31e.htm"
+  },
+  {
+    "title": "AnalysisDecomposedLoad.ObjectAttachedToID Property",
+    "description": "Gets or sets the identifier of the object the load is attached to.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "d65aaf5e-3329-e257-1e60-238ce61d2a50.htm"
+  },
+  {
+    "title": "AnalysisDecomposedLoad.ObjectAttachedToType Property",
+    "description": "Gets or sets the type of the object the load is attached to.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "4a5461b3-8bfa-7f30-bed9-781f67facf46.htm"
+  },
+  {
+    "title": "AnalysisDecomposedMemberLoad.CSCode Property",
+    "description": "Gets or sets the CS code of the decomposed member load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ed183d60-2660-2cd2-4c48-3f6a07d59464.htm"
+  },
+  {
+    "title": "AnalysisDecomposedMemberLoad.EndDistance Property",
+    "description": "Gets or sets the end distance of the decomposed member load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "549a0dee-98e6-9676-8311-15df21dfcda6.htm"
+  },
+  {
+    "title": "AnalysisDecomposedMemberLoad.EndValue Property",
+    "description": "Gets or sets the end value of the decomposed member load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "402dfcb3-4121-5f48-5006-84109d1f82db.htm"
+  },
+  {
+    "title": "AnalysisDecomposedMemberLoad.StartDistance Property",
+    "description": "Gets or sets the start distance of the decomposed member load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b6f44a1a-65ab-d063-35d5-b11f9e6b79e0.htm"
+  },
+  {
+    "title": "AnalysisDecomposedMemberLoad.StartValue Property",
+    "description": "Gets or sets the start value of the decomposed member load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "4009ba08-450e-877f-bc98-946eaf8f7c1e.htm"
+  },
+  {
+    "title": "AnalysisDecomposedNodeLoad.F Property",
+    "description": "Gets or sets the force of the analysis decomposed node load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "38c4187a-ee14-b6e7-aabe-3fa5a4a3302e.htm"
+  },
+  {
+    "title": "AnalysisDecomposedNodeLoad.M Property",
+    "description": "Gets or sets the moment of the analysis decomposed node load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "23221b59-8633-121d-e81d-096ec78058a2.htm"
+  },
+  {
+    "title": "AnalysisDecomposedSelfweightLoad.Directions Property",
+    "description": "The directions of the decomposed selfweight load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "6b304b95-c715-7b3a-6057-510627fc06a1.htm"
+  },
+  {
+    "title": "AnalysisDecomposedSelfweightLoad.Factors Property",
+    "description": "The factors of the decomposed selfweight load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "9ffe3810-473b-65e1-8b83-9a59ac24dd4c.htm"
+  },
+  {
+    "title": "AnalysisDecomposedTemperatureLoad.AxialTemperatureDifference Property",
+    "description": "The axial temperature difference of the decomposed temperature load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "4ad200b4-92c4-8cb4-57c0-02d758c4f2f8.htm"
+  },
+  {
+    "title": "AnalysisDecomposedTemperatureLoad.HorizontalTemperatureDifference Property",
+    "description": "The horizontal temperature difference of the decomposed temperature load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "7f26405d-cb71-49ea-6b4c-a993ae381b9f.htm"
+  },
+  {
+    "title": "AnalysisDecomposedTemperatureLoad.Strain Property",
+    "description": "The strain of the decomposed temperature load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "92bf8583-10a9-64ac-d1c9-3d57db7fde37.htm"
+  },
+  {
+    "title": "AnalysisDecomposedTemperatureLoad.VerticalTemperatureDifference Property",
+    "description": "The vertical temperature difference of the decomposed temperature load.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "a8de9eda-1f50-0003-6a6b-5d5b6c717e7f.htm"
+  },
+  {
+    "title": "AnalysisDeltaZ.Bottom Property",
+    "description": "The delta Z at the bottom.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b7dc497c-2f06-2ba6-8964-da1f39443bb7.htm"
+  },
+  {
+    "title": "AnalysisDeltaZ.Top Property",
+    "description": "The delta Z at the top.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "5cb3801c-b362-b666-bb29-31bf27c52a30.htm"
+  },
+  {
+    "title": "AnalysisDesignCode.DesignParameters Property",
+    "description": "Gets or sets the design parameters of the analysis design code.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "6275cc6d-6847-711b-969d-21934bf5918e.htm"
+  },
+  {
+    "title": "AnalysisDesignCode.ID Property",
+    "description": "Gets or sets the identifier of the analysis design code.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "57d31c1e-f8ef-a141-c700-f0be50a56fd6.htm"
+  },
+  {
+    "title": "AnalysisDesignCode.MaterialType Property",
+    "description": "Gets the material type of the analysis analysis design code.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "575765b6-a9e3-819d-7e37-42287f62c9d7.htm"
+  },
+  {
+    "title": "AnalysisDesignCode.Name Property",
+    "description": "Gets the name of the analysis design code.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "1a23c53c-83e4-ab35-ff66-329065d2d8ba.htm"
+  },
+  {
+    "title": "AnalysisDesignParameter.Value Property",
+    "description": "Gets or sets the value of the analysis design parameter.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ad3f1a96-b214-2700-7c7a-f1da42be725e.htm"
+  },
+  {
+    "title": "AnalysisDesignParameterBase.IsGeneral Property",
+    "description": "Gets or sets a value indicating whether the design parameter is general.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "49744ae8-1ba6-49de-b508-4c29afa4186a.htm"
+  },
+  {
+    "title": "AnalysisDesignParameterBase.Name Property",
+    "description": "Gets or sets the name of the analysis design parameter.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "573036a1-105c-02e8-a7bf-711d1f41476a.htm"
+  },
+  {
+    "title": "AnalysisDesignParameterBase.Unit Property",
+    "description": "Gets or sets the unit of the analysis design parameter.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "f70ac0ea-558b-84ad-d34e-710ae1a4f6d3.htm"
+  },
+  {
+    "title": "AnalysisDesignParameterMulti.MultiValueCount Property",
+    "description": "Gets the multi value count of the analysis design parameter.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "c260f534-269b-941a-22bd-6aa196a9359d.htm"
+  },
+  {
+    "title": "AnalysisDesignSettings.ConcreteDesignCode Property",
+    "description": "The concrete design code.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "bd31ee22-7db9-9281-c9c8-ce8a1d0070da.htm"
+  },
+  {
+    "title": "AnalysisDesignSettings.ConcreteDesignMethod Property",
+    "description": "The concrete design method.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "3a48ac7c-2058-ea6b-aa2e-221570517b91.htm"
+  },
+  {
+    "title": "AnalysisDesignSettings.SteelDesignCode Property",
+    "description": "The steel design code.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "343674a0-ba53-1f22-e015-85c41aeff8ad.htm"
+  },
+  {
+    "title": "AnalysisDesignSettings.SteelDesignMethod Property",
+    "description": "The steel design method.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "baa15c2a-8287-081d-480e-ed982093aac3.htm"
+  },
+  {
+    "title": "AnalysisDesignSettings.TimberDesignCode Property",
+    "description": "The timber design code.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "d7bb9459-ca5a-6df7-ceca-19519e4fb381.htm"
+  },
+  {
+    "title": "AnalysisDesignSettings.TimberDesignMethod Property",
+    "description": "The timber design method.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "3cefba0c-65ea-7993-dea0-27be0ec8876b.htm"
+  },
+  {
+    "title": "AnalysisEccentricity.End Property",
+    "description": "The eccentricity at the end.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "9d7b104c-795c-5bbd-3f2c-28ff573d021b.htm"
+  },
+  {
+    "title": "AnalysisEccentricity.Start Property",
+    "description": "The eccentricity at the start.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "197394e4-f93a-131c-2107-a603e1f7256d.htm"
+  },
+  {
+    "title": "AnalysisEdge.Connectivity Property",
+    "description": "The connectivity of the analysis edge.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b5719732-44b0-60ea-fe6f-4aafbc7478ec.htm"
+  },
+  {
+    "title": "AnalysisEdge.Radius Property",
+    "description": "The radius of the analysis edge.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2ce5b2b7-a1c2-21e4-1e41-9a8de6238671.htm"
+  },
+  {
+    "title": "AnalysisEdge.SplitPositions Property",
+    "description": "The split positions of the analysis edge.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "17c9db1a-0f42-ac31-0042-8648759e43ff.htm"
+  },
+  {
+    "title": "AnalysisFace.Positions Property",
+    "description": "The positions of the analysis face.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "007c9498-fd8d-2d1e-0191-f68a12af163f.htm"
+  },
+  {
+    "title": "AnalysisLabel.Number Property",
+    "description": "The number of the analysis label.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "9e3169a6-175f-9ae4-47f4-669178af9d79.htm"
+  },
+  {
+    "title": "AnalysisLabel.Prefix Property",
+    "description": "The prefix of the analysis label.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "0061a4a4-e935-7ceb-d2e4-48048df382ad.htm"
+  },
+  {
+    "title": "AnalysisLoadCombination.GroupIDs Property",
+    "description": "Gets or sets the identifiers of the groups of the analysis load combination.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "05708237-5495-ef1a-d196-6be1aeb0c927.htm"
+  },
+  {
+    "title": "AnalysisLoadCombination.Name Property",
+    "description": "Gets or sets the name of the analysis load combination.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b299b2f7-0530-a611-fe00-90175edba7e3.htm"
+  },
+  {
+    "title": "AnalysisLoadCombination.PartialSafetyFactors Property",
+    "description": "Gets or sets the partial safety factors of the analysis load combination.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "a9bf9496-fc3a-60a1-c747-0955965757ab.htm"
+  },
+  {
+    "title": "AnalysisLoadCombination.ReductionFactors Property",
+    "description": "Gets or sets the reduction factors of the analysis load combination.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2ab859e0-a211-c960-3e1d-6429c8cb7592.htm"
+  },
+  {
+    "title": "AnalysisLoadCombination.ScalingFactors Property",
+    "description": "Gets or sets the scaling factors of the analysis load combination.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "48d0d089-b58b-39bb-4974-8fe9722a0a51.htm"
+  },
+  {
+    "title": "AnalysisLoadCombination.Type Property",
+    "description": "Gets or sets the combination type of the analysis load combination.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "d002c8c8-40d9-8dcf-e693-48a4549804f7.htm"
+  },
+  {
+    "title": "AnalysisLoadGroup.Compatible Property",
+    "description": "Gets or sets a value indicating whether the load group is compatible.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "7732aa89-fa9f-7f65-b018-ded423853973.htm"
+  },
+  {
+    "title": "AnalysisLoadGroup.CompatibleNumber Property",
+    "description": "Gets or sets the load group compatible number.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ada748c0-7c55-e2ac-6586-d87be0777711.htm"
+  },
+  {
+    "title": "AnalysisLoadGroup.Direction Property",
+    "description": "Gets or sets the direction of the load group.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2a0a5848-b5d7-425b-29d4-eb2dae5a5c2e.htm"
+  },
+  {
+    "title": "AnalysisLoadGroup.Incompatible Property",
+    "description": "Gets or sets a value indicating whether the load group is incompatible.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "17baf4c8-809a-5055-95ba-b4229671f02e.htm"
+  },
+  {
+    "title": "AnalysisLoadGroup.IncompatibleNumber Property",
+    "description": "Gets or sets the load group incompatible number.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2ff36efb-a60e-f9cf-6450-30008c533190.htm"
+  },
+  {
+    "title": "AnalysisLoadGroup.LoadGroupID Property",
+    "description": "Gets or sets the identifier of the load group.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "93e1b04d-ca0a-7a9c-b526-83cb9744f47a.htm"
+  },
+  {
+    "title": "AnalysisLoadGroup.Name Property",
+    "description": "Gets or sets the name of the load group.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "0ba64a4b-2fb2-8fac-2d18-36e86fb4a2dc.htm"
+  },
+  {
+    "title": "AnalysisLoadGroup.Type Property",
+    "description": "Gets or sets the type of the load group.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "dfad6a44-c5c4-2e4f-039a-3071507f27c4.htm"
+  },
+  {
+    "title": "AnalysisLocalCoordinateSystem.LocalX Property",
+    "description": "The local X direction.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "e9ad0533-8654-40de-81e0-e1944fd447ac.htm"
+  },
+  {
+    "title": "AnalysisLocalCoordinateSystem.LocalY Property",
+    "description": "The local Y direction.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "8cac9969-25c7-ff86-7888-b3f5b840643a.htm"
+  },
+  {
+    "title": "AnalysisMaterial.DampingFactor Property",
+    "description": "Gets or sets the damping factor of the material.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "5f7fc9d1-e475-0dfb-0a26-94132c209fb3.htm"
+  },
+  {
+    "title": "AnalysisMaterial.Density Property",
+    "description": "Gets or sets the density of the material.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "1fa5ef8a-0a62-3514-a701-c72c49608eb2.htm"
+  },
+  {
+    "title": "AnalysisMaterial.MaterialType Property",
+    "description": "Gets or sets tThe type of the material.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "f6da373c-3f43-ee2f-590b-80a033aa51f1.htm"
+  },
+  {
+    "title": "AnalysisMaterial.ModulusOfElasticity Property",
+    "description": "Gets or sets the modulus of elasticity of the analysis material.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "1632268f-65e4-846d-6268-77039b228dd1.htm"
+  },
+  {
+    "title": "AnalysisMaterial.Name Property",
+    "description": "Gets or sets the name of the analysis material.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "59a7a179-335b-7689-9c6d-3d6781758a95.htm"
+  },
+  {
+    "title": "AnalysisMaterial.PoissonsRatio Property",
+    "description": "Gets or sets the Poisson's ratio of the analysis material.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "eb3f308d-f222-2b1d-bf1b-b54542430530.htm"
+  },
+  {
+    "title": "AnalysisMaterial.ThermalDilatation Property",
+    "description": "Gets or sets the thermal dilatation of the analysis material.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "1d5e47c0-3551-2dfd-9db8-78d6ec1a131b.htm"
+  },
+  {
+    "title": "AnalysisMember.AnalysisDesignCode Property",
+    "description": "Gets or sets the analysis design code of the member.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "bf127628-0931-ee6c-4ef9-b417ad5ffc7d.htm"
+  },
+  {
+    "title": "AnalysisMember.Composite Property",
+    "description": "Gets or sets the composite settings of the member.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2709053b-9738-73b0-fec3-ad25c5dbcac2.htm"
+  },
+  {
+    "title": "AnalysisMember.Curvature Property",
+    "description": "Gets or sets the beam curvature of the member.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "93f475eb-c5f7-9078-c0ed-0ae24e5c69a3.htm"
+  },
+  {
+    "title": "AnalysisMember.End Property",
+    "description": "Gets or sets the analysis beam end settings at the end of the member.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "940d1088-5508-cb93-a995-d57a3a11a2ff.htm"
+  },
+  {
+    "title": "AnalysisMember.Label Property",
+    "description": "Gets or sets the label of the analysis member.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "3394b21b-b97e-29d1-7b03-da7fe983205c.htm"
+  },
+  {
+    "title": "AnalysisMember.Material Property",
+    "description": "Gets or sets the material of the analysis member.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "de7414ff-77ff-7642-bac5-1be3af70358c.htm"
+  },
+  {
+    "title": "AnalysisMember.Start Property",
+    "description": "Gets or sets the analysis beam end settings at the start of the member.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "e45a3d95-41f8-9435-1d05-bfe863f56026.htm"
+  },
+  {
+    "title": "AnalysisModel.AnalysisConnectivityRules Property",
+    "description": "Gets or sets the analysis model connectivity rules.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "4342274b-9948-f2e8-06d3-92eb38211627.htm"
+  },
+  {
+    "title": "AnalysisModel.AnalysisEngine Property",
+    "description": "Gets or sets the analysis engine of the analysis model.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "17b59f55-a243-8539-282d-335d007d5ea0.htm"
+  },
+  {
+    "title": "AnalysisModel.AnalysisLoadCombinations Property",
+    "description": "Gets the analysis load combinations of the analysis model.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "283737fc-5c28-6c54-96cc-1f6d29ab5494.htm"
+  },
+  {
+    "title": "AnalysisModel.AnalysisLoadGroups Property",
+    "description": "Gets the analysis load groups of the analysis model.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "6adae94f-c11a-75de-35ca-a2b8ec78998a.htm"
+  },
+  {
+    "title": "AnalysisModel.AnalysisMethod Property",
+    "description": "Gets or sets the analysis method of the analysis model.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "88b0dc1a-daac-bc75-7bc6-1bb752193e57.htm"
+  },
+  {
+    "title": "AnalysisModel.AnalysisModelDesignProperties Property",
+    "description": "Gets or sets the analysis model design properties.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "031bf6ca-4467-9cad-208d-ae25c174639d.htm"
+  },
+  {
+    "title": "AnalysisModel.AnalysisModelJobProperties Property",
+    "description": "Gets or sets the analysis model job properties.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "0108cff6-588b-5749-8446-1eacd96b9f6d.htm"
+  },
+  {
+    "title": "AnalysisModel.AnalysisModelModalAnalysisProperties Property",
+    "description": "Gets or sets the analysis model modal analysis properties.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b469be37-f3f8-9456-32a7-a320703d0ba9.htm"
+  },
+  {
+    "title": "AnalysisModel.AnalysisModelOutputProperties Property",
+    "description": "Gets or sets the analysis model output properties.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "0c00f6b1-929e-1122-515d-54ae1a85e504.htm"
+  },
+  {
+    "title": "AnalysisModel.AnalysisModelSeismicProperties Property",
+    "description": "Gets or sets the analysis model seismic properties.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "23bc0aa0-c8a2-0ef8-c64d-5ceb562bca3b.htm"
+  },
+  {
+    "title": "AnalysisModel.AnalysisModelSpectrumProperties Property",
+    "description": "Gets or sets the analysis model spectrum properties",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "afc9af2c-05c4-d4fd-1e19-d49e0bd4db15.htm"
+  },
+  {
+    "title": "AnalysisModel.AnalysisNodeLinks Property",
+    "description": "Gets the analysis node links of the analysis model.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "a04485ff-ad27-a10d-21c2-e092acd436ca.htm"
+  },
+  {
+    "title": "AnalysisModel.AnalysisNodes Property",
+    "description": "Gets the analysis nodes of the analysis model.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "f991c7ad-f35e-772f-3e96-fdc4b18a4d62.htm"
+  },
+  {
+    "title": "AnalysisModel.AnalysisParts Property",
+    "description": "Gets the analysis parts of the analysis model.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2d0817ff-4403-c1db-091d-f5399bc42cc8.htm"
+  },
+  {
+    "title": "AnalysisModel.AnalysisRigidDiaphragms Property",
+    "description": "Gets the analysis rigid diaphragms of the analysis model.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "31f0640f-ad1c-9079-0876-ff5e7ab3dc46.htm"
+  },
+  {
+    "title": "AnalysisModel.AutodetectSecondaries Property",
+    "description": "Gets or sets a value indicating whether bracing members are detected automatically.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b7ff7f29-c9d9-4f26-cee8-9e3ff31f4e86.htm"
+  },
+  {
+    "title": "AnalysisModel.BracingFilterName Property",
+    "description": "Gets or sets the bracing filter name.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "73c75c02-d41f-4dde-830e-ae6a6ef9db2d.htm"
+  },
+  {
+    "title": "AnalysisModel.ConstructionMethod Property",
+    "description": "Gets or sets the construction method of the analysis model.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "e5cb7b92-5b3e-d82b-fabd-6765c613ef13.htm"
+  },
+  {
+    "title": "AnalysisModel.FilterName Property",
+    "description": "Gets or sets the filter name of the analysis model.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "f07d8053-8f55-b75c-8ef8-120b301b9197.htm"
+  },
+  {
+    "title": "AnalysisModel.IncludeImperfections Property",
+    "description": "Gets or sets a value indicating whether imperfections are to be included.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "4c81c585-271b-f520-178b-c2e2ae8eb426.htm"
+  },
+  {
+    "title": "AnalysisModel.MemberAxislocation Property",
+    "description": "Gets or sets the axis location of the members.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "c084e97a-8c4c-fdc0-f4a5-ec8ad1738be5.htm"
+  },
+  {
+    "title": "AnalysisModel.MemberEndReleaseMethodByJoint Property",
+    "description": "Gets or sets a value indicating whether the end releases are set by joint properties.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "08bd7e7f-4057-853c-4086-6536df633307.htm"
+  },
+  {
+    "title": "AnalysisModel.ModelUpdateModificationIdentifier Property",
+    "description": "Gets or sets the identifier of the model update modification.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ce02c155-40f5-e9fc-1928-812a43b47cee.htm"
+  },
+  {
+    "title": "AnalysisModel.NodePositionTolerance Property",
+    "description": "Gets or sets the node position tolerance of the analysis model.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "a261ce27-738c-e8f4-a6dd-04165bfa596a.htm"
+  },
+  {
+    "title": "AnalysisModel.NumberOfIterations Property",
+    "description": "Gets or sets the number of iterations of the analysis model.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "bc617b1c-b2b3-a7a0-59cd-c945f9b02419.htm"
+  },
+  {
+    "title": "AnalysisModel.PhysicalFreezed Property",
+    "description": "Gets or sets a value indicating whether the physical objects are frozen.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "5e152048-cceb-0d5d-6cb0-8c2e21412b9c.htm"
+  },
+  {
+    "title": "AnalysisModel.PhysicalFrozen Property",
+    "description": "Gets or sets a value indicating whether the physical objects are frozen.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "db32ecbe-e920-575f-3b96-da7b2a1549e2.htm"
+  },
+  {
+    "title": "AnalysisModel.RelativeAccuracy Property",
+    "description": "Gets or sets the relative accuracy of the analysis model.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "59050006-0784-0f03-d414-814644505c02.htm"
+  },
+  {
+    "title": "AnalysisModel.ResultsFreezed Property",
+    "description": "Gets or sets a value indicating whether the results are frozen.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "d1908dbe-d089-31fa-a79f-3aa80bf5d13d.htm"
+  },
+  {
+    "title": "AnalysisModel.ResultsFrozen Property",
+    "description": "Gets or sets a value indicating whether the results are frozen.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2540e1e5-cc62-4d4a-dce2-52b2bc52e50a.htm"
+  },
+  {
+    "title": "AnalysisModel.ResultsModificationIdentifier Property",
+    "description": "Gets or sets the results modification identifier.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "a1467b07-2d4b-9084-b811-531f34ce1b02.htm"
+  },
+  {
+    "title": "AnalysisModel.ResultsTime Property",
+    "description": "Gets or sets the results time.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "9c7bc835-11c0-1c0d-a4a1-c236ca493ebc.htm"
+  },
+  {
+    "title": "AnalysisModel.SecondaryFilterName Property",
+    "description": "Gets or sets the bracing filter name.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b599a3ef-b66c-6f75-be6c-184279879a46.htm"
+  },
+  {
+    "title": "AnalysisModel.SecondaryKeepAxis Property",
+    "description": "Gets or sets the secondary keep axis settings. Not used, bracing/secondary members always have KEEP_AXIS_NO initially.",
+    "summary": "Gets or sets the secondary keep axis settings.\n            Not used, bracing/secondary members always have KEEP_AXIS_NO initially.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "f79a771d-9480-5db0-5146-4c270acc5131.htm"
+  },
+  {
+    "title": "AnalysisModel.SecondaryMemberFilterName Property",
+    "description": "Gets or sets the secondary member filter name.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "07e77731-75c2-f22b-bf2b-35fe61b2d5b0.htm"
+  },
+  {
+    "title": "AnalysisModel.SnapDistance Property",
+    "description": "Gets or sets the snap distance of the analysis model.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "50c1226b-e4a6-39cd-08c7-8fa77a5dc658.htm"
+  },
+  {
+    "title": "AnalysisModel.UseModelMerge Property",
+    "description": "Gets or sets a value indicating whether model merge is used.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "84df7d64-ad38-3ae2-9d46-45e145dafd2a.htm"
+  },
+  {
+    "title": "AnalysisModel.UseTrueCurvedMembers Property",
+    "description": "Gets or sets a value indicating whether members are true curved.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "f86705a0-4617-860e-5994-8bd4da6196ab.htm"
+  },
+  {
+    "title": "AnalysisModel.UseTwinProfiles Property",
+    "description": "Gets or sets a value indicating whether twin profiles are used.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "09b189e8-a7b3-0e23-aa79-db88ddda77ff.htm"
+  },
+  {
+    "title": "AnalysisModelAnalysisProperties.AccuracyOfIterations Property",
+    "description": "The accuracy of the iterations.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "5812de09-7038-ea89-7207-dd6b7677195f.htm"
+  },
+  {
+    "title": "AnalysisModelAnalysisProperties.AnalysisMethod Property",
+    "description": "The analysis method.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2fb669fe-5415-f36b-e68d-23075c382a25.htm"
+  },
+  {
+    "title": "AnalysisModelAnalysisProperties.MaxIterations Property",
+    "description": "The maximum number of iterations.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "93b6444f-12d5-7249-d897-6bb7d5be601a.htm"
+  },
+  {
+    "title": "AnalysisModelConnectivityRule.Group1 Property",
+    "description": "The group name 1 of the connectivity rule.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "926bdd0d-cc3e-e78d-2eda-bbe2890c77ee.htm"
+  },
+  {
+    "title": "AnalysisModelConnectivityRule.Group2 Property",
+    "description": "The group name 2 of the connectivity rule.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "cbcc5fc7-0df5-eb5b-f2c5-316b6396840f.htm"
+  },
+  {
+    "title": "AnalysisModelConnectivityRule.Linkage1 Property",
+    "description": "The linkage 1 of the connectivity rule.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "4b03bb32-2c16-1612-69b2-41cc4f24d3e9.htm"
+  },
+  {
+    "title": "AnalysisModelConnectivityRule.Linkage2 Property",
+    "description": "The linkage 2 of the connectivity rule.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "10c4c7d0-99ff-48f0-94ac-bdfdf464ecfc.htm"
+  },
+  {
+    "title": "AnalysisModelConnectivityRule.MagneticDistance Property",
+    "description": "The magnetic distance of the connectivity rule.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "957d1d5f-e634-b7de-1b9a-97426b3e9f43.htm"
+  },
+  {
+    "title": "AnalysisModelConnectivityRule.Status Property",
+    "description": "The status of the connectivity rule.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "0181d727-d01e-a26c-3733-634d15b401b7.htm"
+  },
+  {
+    "title": "AnalysisModelDesignProperties.ConcreteDesign Property",
+    "description": "The concrete code used.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b9cff2c0-5b69-678d-e138-5b06c265adf0.htm"
+  },
+  {
+    "title": "AnalysisModelDesignProperties.ConcreteDesignMethod Property",
+    "description": "The concrete design method.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "5f281d5f-c725-8b69-be4b-9938dd6b518a.htm"
+  },
+  {
+    "title": "AnalysisModelDesignProperties.SteelDesign Property",
+    "description": "The steel code used.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "74cbdf54-5c29-f4a6-4b83-82c32ab5dcbb.htm"
+  },
+  {
+    "title": "AnalysisModelDesignProperties.SteelDesignMethod Property",
+    "description": "The steel design method.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "020e6413-c8a7-d6ce-c986-a1536295ef00.htm"
+  },
+  {
+    "title": "AnalysisModelDesignProperties.TimberDesign Property",
+    "description": "The timber code used.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "c60b94e6-e800-6741-0745-2b9e591b0158.htm"
+  },
+  {
+    "title": "AnalysisModelDesignProperties.TimberDesignMethod Property",
+    "description": "The timber design method.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "4f268bbd-7dc8-e8c9-5a85-8ac0f919828e.htm"
+  },
+  {
+    "title": "AnalysisModelGeneralProperties.AnalysisEngineName Property",
+    "description": "The name of the analysis engine.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "7d2381fa-b80d-f35a-2992-fa2a3379f2a1.htm"
+  },
+  {
+    "title": "AnalysisModelGeneralProperties.ExtendedClashCheck Property",
+    "description": "Defines whether the extended clash check is used.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "f437a0d2-b44c-6c81-e77c-3017878704ed.htm"
+  },
+  {
+    "title": "AnalysisModelGeneralProperties.FilterName Property",
+    "description": "The name of the filter.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "9890506b-e3ab-64ba-50e6-9697b6dff1ba.htm"
+  },
+  {
+    "title": "AnalysisModelGeneralProperties.MemberAxisLocation Property",
+    "description": "The location of the member axis.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "a14c4a6f-6fd3-902f-999a-15c44eaeb0ad.htm"
+  },
+  {
+    "title": "AnalysisModelGeneralProperties.MemberEndReleaseMethodByConnection Property",
+    "description": "Defines whether the support conditions of connections or parts are used.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "8c0bf5fe-6780-b785-d432-b92565071496.htm"
+  },
+  {
+    "title": "AnalysisModelGeneralProperties.ModalAnalysisModel Property",
+    "description": "Defines whether the modal analysis properties are used instead of the static load combinations.",
+    "summary": "Defines whether the modal analysis properties are used instead of the static load combinations.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "493ead46-853f-51fa-e8fe-ad30885a413a.htm"
+  },
+  {
+    "title": "AnalysisModelGeneralProperties.ModelCreationType Property",
+    "description": "The model creation type.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "3d7f082e-13d0-0a0f-5b4a-d1ddec615bb5.htm"
+  },
+  {
+    "title": "AnalysisModelGeneralProperties.ModelMerging Property",
+    "description": "Defines whether the model merging is used.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "e8056256-d678-f448-bf4f-9f35b0126503.htm"
+  },
+  {
+    "title": "AnalysisModelGeneralProperties.ModelName Property",
+    "description": "The name of the model.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "46c10f50-1372-e18b-fa04-ec78182bd67d.htm"
+  },
+  {
+    "title": "AnalysisModelGeneralProperties.NodeDefinition Property",
+    "description": "Defines how the nodes and node positions are defined.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "96b5d452-0815-d0dd-3804-f67f48e4ee51.htm"
+  },
+  {
+    "title": "AnalysisModelIssue.AnalysisObjects Property",
+    "description": "Gets or sets the analysis objects of the issue",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "4e77f9b5-7e27-777f-a00e-fd313b6b5ad1.htm"
+  },
+  {
+    "title": "AnalysisModelIssue.Description Property",
+    "description": "Gets or sets the description of the issue, translated to the current language",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "31653d96-f182-f315-1126-537320a6139a.htm"
+  },
+  {
+    "title": "AnalysisModelIssue.Details Property",
+    "description": "Gets or sets the details of the issue, translated to the current language",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "c0d1d645-a781-3922-a285-824912c04e78.htm"
+  },
+  {
+    "title": "AnalysisModelIssue.ModelObjects Property",
+    "description": "Gets or sets the model objects of the issue",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "1ec97300-cdef-54bd-4762-da183004fc8a.htm"
+  },
+  {
+    "title": "AnalysisModelIssue.Positions Property",
+    "description": "Gets or sets the positions of the issue",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ff2f47ab-d234-da54-7fdc-8edf43708b27.htm"
+  },
+  {
+    "title": "AnalysisModelIssue.Severity Property",
+    "description": "Gets or sets the issue severity",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "c8ebaf4b-1b1c-7003-4e97-6a3da8c3dc5a.htm"
+  },
+  {
+    "title": "AnalysisModelIssue.Type Property",
+    "description": "Gets or sets the issue type",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "bae4ab82-fe67-0a0d-3864-daa5147030cb.htm"
+  },
+  {
+    "title": "AnalysisModelJobProperties.ApprovedDate Property",
+    "description": "The date of the approval.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "a32aa702-ef31-e0e1-56e7-418700f077da.htm"
+  },
+  {
+    "title": "AnalysisModelJobProperties.ApprovedName Property",
+    "description": "The name of approver.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "dfbf2d69-2813-1e46-9db5-40822b3b6cc1.htm"
+  },
+  {
+    "title": "AnalysisModelJobProperties.CheckerDate Property",
+    "description": "The date of the checking.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "6f8d03e1-52d9-0c40-9cad-a0685d9baf7b.htm"
+  },
+  {
+    "title": "AnalysisModelJobProperties.CheckerName Property",
+    "description": "The name of the checker.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "01a46ec9-bce4-565a-6ed0-a52db2398e3a.htm"
+  },
+  {
+    "title": "AnalysisModelJobProperties.ClientName Property",
+    "description": "The name of the client.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b71faeae-5902-0ea3-f369-404d7baef9a9.htm"
+  },
+  {
+    "title": "AnalysisModelJobProperties.EngineerDate Property",
+    "description": "The date of the engineering.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "009d2c4a-ff14-b921-de3a-47932ad38646.htm"
+  },
+  {
+    "title": "AnalysisModelJobProperties.EngineerName Property",
+    "description": "The name of the engineer.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "cbe5adc2-b296-ffc6-61eb-b4db5709e730.htm"
+  },
+  {
+    "title": "AnalysisModelJobProperties.JobComment Property",
+    "description": "The comment of the job.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "d9b10624-3a88-2566-43ba-d3ee0fc54c6b.htm"
+  },
+  {
+    "title": "AnalysisModelJobProperties.JobName Property",
+    "description": "The name of the job.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "dc4e9882-7ecd-602c-1904-f3d4b9f6f671.htm"
+  },
+  {
+    "title": "AnalysisModelJobProperties.JobNumber Property",
+    "description": "The number of the job.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ea098c19-9987-7a29-2566-7f0a880118ce.htm"
+  },
+  {
+    "title": "AnalysisModelJobProperties.PartNumber Property",
+    "description": "The number of the part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "7a4c52ac-3ef1-c797-9e91-ac4d66ef89f0.htm"
+  },
+  {
+    "title": "AnalysisModelJobProperties.ReferenceNumber Property",
+    "description": "The reference number.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "aab5444f-ee6d-0e91-9fee-51edf6a0de3f.htm"
+  },
+  {
+    "title": "AnalysisModelModalAnalysisProperties.ModalAnalysisIncludeSelfWeightMass Property",
+    "description": "Indicates whether selfweight mass is included in the modal analysis.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "8e89358d-5266-7538-2bc0-cda6a14da3b7.htm"
+  },
+  {
+    "title": "AnalysisModelModalAnalysisProperties.ModalAnalysisMassLoadGroupDirections Property",
+    "description": "The mass load group directions of the modal analysis.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "cd764c75-d4df-6d5f-32ea-26bcb57de22d.htm"
+  },
+  {
+    "title": "AnalysisModelModalAnalysisProperties.ModalAnalysisMassLoadGroupFactors Property",
+    "description": "The mass load group factors of the modal analysis.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "364fd17e-bde2-e021-dd38-836d9a035dbe.htm"
+  },
+  {
+    "title": "AnalysisModelModalAnalysisProperties.ModalAnalysisMassLoadGroupIds Property",
+    "description": "The mass load group indentifier of the modal analysis.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b49a2afe-7feb-1f25-04fe-b1e3785ee44c.htm"
+  },
+  {
+    "title": "AnalysisModelModalAnalysisProperties.ModalAnalysisMaxFrequency Property",
+    "description": "The modal analysis maximum frequence.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "f719fa97-bd85-7095-9505-83fceb37085f.htm"
+  },
+  {
+    "title": "AnalysisModelModalAnalysisProperties.ModalAnalysisModeCount Property",
+    "description": "The modal analysis mode count.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "9f22e768-1a8f-5c45-5243-e0db55f88410.htm"
+  },
+  {
+    "title": "AnalysisModelModalAnalysisProperties.ModalAnalysisModel Property",
+    "description": "Indicates whether a modal analysis model is used.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "28875c2f-4bdd-ecb7-0a8e-b145ed00f087.htm"
+  },
+  {
+    "title": "AnalysisModelOutputProperties.OutputAnalysisResults Property",
+    "description": "Indicates whether the analysis results are created.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "77550ad8-b365-3288-3440-f24c92b04a6f.htm"
+  },
+  {
+    "title": "AnalysisModelOutputProperties.OutputElementForces Property",
+    "description": "Indicates whether the element forces are created.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "1f5c9901-31ba-2da3-b971-8d0e25476081.htm"
+  },
+  {
+    "title": "AnalysisModelOutputProperties.OutputElementInformation Property",
+    "description": "Indicates whether the element information is created.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "f78b0c3e-dca6-e4ff-fdda-7724c5b1af46.htm"
+  },
+  {
+    "title": "AnalysisModelOutputProperties.OutputElementJointStresses Property",
+    "description": "Indicates whether the element joint stresses are created.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "279a0599-499b-cef5-f71e-ab4d2f98a9a3.htm"
+  },
+  {
+    "title": "AnalysisModelOutputProperties.OutputElementJointStressesSolid Property",
+    "description": "Indicates whether the element joint stresses solid is created.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "6f13f0c0-1d73-0163-a5da-cd1fc2562d6f.htm"
+  },
+  {
+    "title": "AnalysisModelOutputProperties.OutputEntireSteelTable Property",
+    "description": "Indicates whether the entire steel table is created.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2adb46e8-04e3-edb2-f825-0dec26c2fcaa.htm"
+  },
+  {
+    "title": "AnalysisModelOutputProperties.OutputJointCoordinates Property",
+    "description": "Indicates whether the joint coordinates are created.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "7da53eb9-96f5-b7aa-c476-acb9f9fc1679.htm"
+  },
+  {
+    "title": "AnalysisModelOutputProperties.OutputJointDisplacements Property",
+    "description": "Indicates whether the joint displacements are created.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b2678971-80b6-4968-6330-0cb9ed2a1aa2.htm"
+  },
+  {
+    "title": "AnalysisModelOutputProperties.OutputMaterialProperties Property",
+    "description": "Indicates whether the material properties are created.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "dd660f6b-8ff2-bd7a-25ed-f88f752c9cc9.htm"
+  },
+  {
+    "title": "AnalysisModelOutputProperties.OutputMemberForces Property",
+    "description": "Indicates whether the member forces are created.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ca2219f1-121b-9e53-1bfa-ef148f698970.htm"
+  },
+  {
+    "title": "AnalysisModelOutputProperties.OutputMemberInformation Property",
+    "description": "Indicates whether the member information is created.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "162ccfc9-b1dc-78cc-3319-e244c3098471.htm"
+  },
+  {
+    "title": "AnalysisModelOutputProperties.OutputMemberProperties Property",
+    "description": "Indicates whether the member properties are created.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "48e2baa2-9213-292d-4861-386141beaa26.htm"
+  },
+  {
+    "title": "AnalysisModelOutputProperties.OutputMemberSectionForces Property",
+    "description": "Indicates whether the member section forces are created.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "bca4af45-8ea2-ff7b-8433-3e893f62570b.htm"
+  },
+  {
+    "title": "AnalysisModelOutputProperties.OutputMemberStresses Property",
+    "description": "Indicates whether the member stresses are created.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "9e7b1c69-caf3-16c5-7ae4-c8e818f320bf.htm"
+  },
+  {
+    "title": "AnalysisModelOutputProperties.OutputModeShapes Property",
+    "description": "Indicates whether the mode shapes are created.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "8589dc17-84c2-d032-99a7-e7991a521376.htm"
+  },
+  {
+    "title": "AnalysisModelOutputProperties.OutputStoryDrift Property",
+    "description": "Indicates whether the story drift is created.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "a57dce5a-eda8-ab1d-3ae5-e7cf6bc6e5fc.htm"
+  },
+  {
+    "title": "AnalysisModelOutputProperties.OutputSupportInformation Property",
+    "description": "Indicates whether the support information is created.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "12e9ba12-8bfc-5484-c10f-16699412bd81.htm"
+  },
+  {
+    "title": "AnalysisModelOutputProperties.OutputSupportReactions Property",
+    "description": "Indicates whether the supported reactions are created.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "97c6039d-b53f-6744-b50d-ef4309dc7229.htm"
+  },
+  {
+    "title": "AnalysisModelSeismicProperties.SeismicIncludeSelfWeightMass Property",
+    "description": "Indicates whether the selfweight is included.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "5e9a18e8-d25c-8de6-4fac-d3d55d673d76.htm"
+  },
+  {
+    "title": "AnalysisModelSeismicProperties.SeismicMassLoadGroupFactors Property",
+    "description": "The factors of the mass load group.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "96dfa632-a01c-fd4f-f7b4-18c333dade3f.htm"
+  },
+  {
+    "title": "AnalysisModelSeismicProperties.SeismicMassLoadGroupIds Property",
+    "description": "The identifier of the mass load group.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "886d2e6a-1d6e-8b29-a7b0-737bac5a88d2.htm"
+  },
+  {
+    "title": "AnalysisModelSeismicProperties.SeismicParameters Property",
+    "description": "The seismic parameters.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "7e8144d0-5fbd-6f04-ff03-b4ff7a9da5f5.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumAcceleration Property",
+    "description": "The list of the accelerations of the spectrum.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "7e525708-3b69-8a91-3576-ea959b95d5ca.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumASCEf1 Property",
+    "description": "The ASCEf1 value of the spectrum.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "30b3b6a6-4c01-935c-056a-714836150412.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumASCEf2 Property",
+    "description": "The ASCEf2 value of the spectrum.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "c32cc80c-f627-0a11-10cf-456a18cdfbdc.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumCombination Property",
+    "description": "The spectrum combination.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "0b48fc05-3c36-ea61-db48-30c2b17f9e1a.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumCompositeDampingRatioX Property",
+    "description": "The list of the composite damping rations in the X direction of the spectrum.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "4bd9299a-f0c2-c4a4-e772-0f4cb74cf5da.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumCompositeDampingRatioY Property",
+    "description": "The list of the composite damping rations in the Y direction of the spectrum.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "a7ec4143-2212-fd66-75ce-e6c8adca6ecf.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumCompositeDampingRatioZ Property",
+    "description": "The list of the composite damping rations in the Z direction of the spectrum.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "34bfd276-c094-16e7-ac4e-4f1bc424ebc2.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumDampingFactor Property",
+    "description": "The damping factor of the spectrum.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "e8c37ea0-5fdc-821e-cf0b-6494806512db.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumDampingPointID Property",
+    "description": "The list of the damping point identifiers of the spectrum.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "9120d653-fab3-ac87-ff96-8580bdd27914.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumDampingType Property",
+    "description": "The type of the spectrum damping.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ca560cbf-3e4d-00ce-623d-e724e1d24548.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumInterpolation Property",
+    "description": "The interpolation of the spectrum.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "34fe6d24-dd59-2243-9ec7-7dc8b41522c4.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumMaximumDampingRatio Property",
+    "description": "The maximum damping ratio of the spectrum.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "8de2b6cf-792e-e0cd-20d6-72f83a6dc8f0.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumMinimumDampingRatio Property",
+    "description": "The minimum damping ratio of the spectrum.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b081740e-ed29-271f-44b3-354be24955f1.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumMissingMass Property",
+    "description": "The missing mass of the spectrum.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "60b2c789-0c16-1222-42f7-8a4014c29b2a.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumMissingMassEnable Property",
+    "description": "Indicates whether the missing mass of the spectrum is enabled.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "0404b559-6740-fd02-bb49-a6e5e3d84cc7.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumModalDampingRatio Property",
+    "description": "The list of the modal damping ratios of the spectrum.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "6490cdeb-8cd3-1e1d-a1bf-f1ddbe130c1e.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumModalDampingRatioEnable Property",
+    "description": "Indicates whether the damping ratio of the spectrum is enabled.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "adf77210-9076-e421-5b88-74fbe401a197.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumModeCount Property",
+    "description": "The count of the spectrum mode.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "575f6c59-8e4c-70b7-f1be-9d58c9f2bac2.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumPeriod Property",
+    "description": "The list of the periods of the spectrum.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2d493cd7-47fe-69d2-d37e-232a1ff012cc.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumScale Property",
+    "description": "The scale of the spectrum.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "38e66fc3-4590-015a-bf23-3f895fb255a2.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumType Property",
+    "description": "The type of the spectrum.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "e7d5f57b-2c37-57da-db51-09530b05e47e.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumXdirection Property",
+    "description": "The X direction of the spectrum.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2f0366d4-62e2-55ae-a93c-b92c02e05e06.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumXdirectionEnable Property",
+    "description": "Indicates whether the X direction of the spectrum is enabled.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ce13e2e1-dbc3-81ab-dedb-971c45e1cdad.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumYdirection Property",
+    "description": "The Y direction of the spectrum.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "e2354a92-ea7b-984c-d8d6-3d0264b4036b.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumYdirectionEnable Property",
+    "description": "Indicates whether the Y direction of the spectrum is enabled.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "dc0e5e5a-e6dd-183e-b62a-694a1f152101.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumZdirection Property",
+    "description": "The Z direction of the spectrum.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "91b0e4b9-6670-bc5b-f63c-bfb1024dae8a.htm"
+  },
+  {
+    "title": "AnalysisModelSpectrumProperties.SpectrumZdirectionEnable Property",
+    "description": "Indicates whether the Z direction of the spectrum is enabled.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "faf189dc-e2fe-eb65-3b6f-3547c4092255.htm"
+  },
+  {
+    "title": "AnalysisNode.CoordinateSystem Property",
+    "description": "The coordinate system of the analysis node.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "7bd496fc-a90a-a1c0-3339-94aa6a0ec579.htm"
+  },
+  {
+    "title": "AnalysisNode.IsUserNode Property",
+    "description": "Indicates whether the analysis node is a user node.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ea4338bc-8872-b251-8117-b1a1283eb203.htm"
+  },
+  {
+    "title": "AnalysisNode.IsUserSupport Property",
+    "description": "Indicates whether the analysis node has a user node.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "d519b15f-6dc0-9f3e-1f43-b6cc42644b89.htm"
+  },
+  {
+    "title": "AnalysisNode.Label Property",
+    "description": "The label of the analysis node.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "7ca80486-3f4a-963c-3980-0cc3da4acaad.htm"
+  },
+  {
+    "title": "AnalysisNode.Position Property",
+    "description": "The position of the analysis node (in the global coordinate system).",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "7bab0d4e-18bb-f454-54a6-9f358ca2dc20.htm"
+  },
+  {
+    "title": "AnalysisNode.Support Property",
+    "description": "The support of the analysis node.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "351e263e-fe53-4d26-37c2-3efea015fe0f.htm"
+  },
+  {
+    "title": "AnalysisNodeLink.CoordinateSystem Property",
+    "description": "The coordinate system of the analysis node link.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "f65e61ce-e939-ca29-b214-5e31c849dd05.htm"
+  },
+  {
+    "title": "AnalysisNodeLink.Disabled Property",
+    "description": "Indicates whether the analysis node link is disabled.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "94bf1796-fd82-3597-951d-0f2e676db526.htm"
+  },
+  {
+    "title": "AnalysisNodeLink.EndConnectivity Property",
+    "description": "The end connectivity of the analysis node link.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "83b34880-ceb7-f773-8ed2-6f15426492af.htm"
+  },
+  {
+    "title": "AnalysisNodeLink.EndNode Property",
+    "description": "The end node.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "003a8c90-1431-fa0d-973b-33a824fda9cb.htm"
+  },
+  {
+    "title": "AnalysisNodeLink.IsUserConnectivity Property",
+    "description": "Indicates whether the analysis node has a user defined connectivity.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "96376f06-f3e7-65bd-3a0d-1a06209c875d.htm"
+  },
+  {
+    "title": "AnalysisNodeLink.IsUserNodeLink Property",
+    "description": "Indicates whether the analysis node is a user node link.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "d8d606da-4e07-2656-145d-2d33db4fdc10.htm"
+  },
+  {
+    "title": "AnalysisNodeLink.OwnerPartIDs Property",
+    "description": "The list of the identifiers of the owner parts.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "f88353eb-dbe9-eb8b-1674-7c1762e26eba.htm"
+  },
+  {
+    "title": "AnalysisNodeLink.StartConnectivity Property",
+    "description": "The start connectivity of the analysis node link.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "8015d666-2213-40f7-7a38-be23dfe954ab.htm"
+  },
+  {
+    "title": "AnalysisNodeLink.StartNode Property",
+    "description": "The start node.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "611ac002-4d8d-405c-39be-f294fb252c3f.htm"
+  },
+  {
+    "title": "AnalysisObject.AnalysisModelName Property",
+    "description": "Gets or sets the analysis model name.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "820dc60f-92bc-f84c-9b4f-bf71faf2b76a.htm"
+  },
+  {
+    "title": "AnalysisObject.AnalysisObjectType Property",
+    "description": "Gets or sets the type of the analysis object.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2a2631ed-5e7b-7e60-f1d2-52186a5a17c4.htm"
+  },
+  {
+    "title": "AnalysisObject.FatherObject2ID Property",
+    "description": "Gets or sets the identifier of the father part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "3cc2e3ff-3afd-4def-2559-7c1827233bec.htm"
+  },
+  {
+    "title": "AnalysisObject.FatherObject2Type Property",
+    "description": "Gets or sets the type of the father object.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "7b5d643a-2a12-5281-7f65-a312171bafcc.htm"
+  },
+  {
+    "title": "AnalysisObject.FatherObjectID Property",
+    "description": "Gets or sets the identifier of the father part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "7e55f4c8-ca1a-2761-edd6-2b69663ff941.htm"
+  },
+  {
+    "title": "AnalysisObject.FatherObjectType Property",
+    "description": "Gets or sets the type of the father object.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "739bcea1-858d-70e2-ff0d-9c4928129c3e.htm"
+  },
+  {
+    "title": "AnalysisObject.ID Property",
+    "description": "Gets or sets the identifier of the analysis object.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "289caef6-9b6e-cd4c-dcbc-6397be2f9de0.htm"
+  },
+  {
+    "title": "AnalysisObjectEnumerator.Current Property",
+    "description": "Gets the current analysis object in the enumerator.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "d05acf00-bb17-97c2-78a3-3166c2f60bdf.htm"
+  },
+  {
+    "title": "AnalysisObjectEnumerator.CurrentItem Property",
+    "description": "Gets or sets the index of the current item.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "5b4cb8cd-2979-3d3a-ca04-8fa408875821.htm"
+  },
+  {
+    "title": "AnalysisObjectEnumerator.CurrentSelected Property",
+    "description": "Gets or sets the currently selected item.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "4b2a9d19-7b16-361d-0733-ed374ffef705.htm"
+  },
+  {
+    "title": "AnalysisObjectEnumerator.SelectInstances Property",
+    "description": "Gets or sets a value indicating whether the instance's Select() is called when the \"Current\" item is asked from the enumerator. The user can set this to \"false\" if no members are ever asked from the instance. This is the case when e.g.",
+    "summary": "Gets or sets a value indicating whether the instance's Select() is called when the \"Current\" item is asked from the enumerator.\n            The user can set this to \"false\" if no members are ever asked from the instance. This is the case\n            when e.g. asking only a report property from this identifier. WARNING: normally the user should not change this value.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "47e71c25-7dfa-23a0-277d-7fa2a26a2d53.htm"
+  },
+  {
+    "title": "AnalysisPart.AnalysisAreas Property",
+    "description": "The analysis areas of the analysis part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "283b06b3-8e00-9567-5172-9faee244a591.htm"
+  },
+  {
+    "title": "AnalysisPart.AnalysisBars Property",
+    "description": "The analysis bars of the analysis part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "d875ecfc-7ff2-bf6c-3da7-6155755a5a3c.htm"
+  },
+  {
+    "title": "AnalysisPart.AnalysisDesignCode Property",
+    "description": "The analysis design code of the analysis part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b58896ef-207d-ff2c-4ae3-358a31b9e518.htm"
+  },
+  {
+    "title": "AnalysisPart.AnalysisPartAnalysisProperties Property",
+    "description": "The analysis part analysis properties.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "bf519cc8-5c5d-15a6-accc-baa306fc5f03.htm"
+  },
+  {
+    "title": "AnalysisPart.AnalysisPartAreaAttributes Property",
+    "description": "The analysis part area attributes.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "fb261b08-dd7e-d5f7-e11a-aef1a3e14d05.htm"
+  },
+  {
+    "title": "AnalysisPart.AnalysisPartBarAttributes Property",
+    "description": "The analysis part bar attributes.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "5ce72885-fe7f-69da-91e4-20eb664a0306.htm"
+  },
+  {
+    "title": "AnalysisPart.AnalysisPartCompositeProperties Property",
+    "description": "The analysis part composite properties.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "cdc498fd-48d9-e063-85a0-ddcb86a77fe1.htm"
+  },
+  {
+    "title": "AnalysisPart.AnalysisPartLoadingProperties Property",
+    "description": "The analysis part loading properties.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "aaaec75a-30e4-13b1-7d9e-bd86ce7492bd.htm"
+  },
+  {
+    "title": "AnalysisPart.AnalysisPartPositionProperties Property",
+    "description": "The analysis part position properties.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "221ab3b1-5da8-d150-1fa6-3153f11700f0.htm"
+  },
+  {
+    "title": "AnalysisPart.AnalysisPartSpanningProperties Property",
+    "description": "The analysis part spanning properties.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "bbd17e2a-2e3c-0425-8bb9-700202043e42.htm"
+  },
+  {
+    "title": "AnalysisPart.AnalysisType Property",
+    "description": "The analysis type of the analysis part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "95737a31-e42b-848b-b049-db70e004e220.htm"
+  },
+  {
+    "title": "AnalysisPart.AnalysisVolumes Property",
+    "description": "The analysis volumes of the analysis part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b4270f8e-3013-e875-a5f3-3f2566940087.htm"
+  },
+  {
+    "title": "AnalysisPart.CoordinateSystem Property",
+    "description": "The coordinate system of the analysis part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "5bda2e53-82c5-47f5-549b-7e504e1d2f17.htm"
+  },
+  {
+    "title": "AnalysisPart.Curvature Property",
+    "description": "The curvature of the analysis part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "7d62a511-a568-c528-b0cc-b5952430f7ab.htm"
+  },
+  {
+    "title": "AnalysisPart.LoadBearingOrder Property",
+    "description": "The load bearing order.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "58c6e74a-25d0-7ab2-43d0-3f367ab1dddf.htm"
+  },
+  {
+    "title": "AnalysisPart.Material Property",
+    "description": "The material of the analysis part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "1e215fb6-f5a8-ddf6-cf7e-8ef17f8a7f8a.htm"
+  },
+  {
+    "title": "AnalysisPart.OverrideProfile Property",
+    "description": "The override profile of the analysis part. In case of tapered profile, only the name is available, and more details are available in the start/end properties of the analysis members.",
+    "summary": "The override profile of the analysis part.\n            In case of tapered profile, only the name is available,\n            and more details are available in the start/end properties of the analysis members.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "524edbed-8a26-c613-b8dc-a3dca0023565.htm"
+  },
+  {
+    "title": "AnalysisPart.PartID Property",
+    "description": "The identifier of the physical part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "d5f06544-5df8-7036-fd0e-05cd116b37b6.htm"
+  },
+  {
+    "title": "AnalysisPart.PartName Property",
+    "description": "The name of the physical part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "913c605b-8a3c-4998-48ac-cdd4d88e2926.htm"
+  },
+  {
+    "title": "AnalysisPart.PartType Property",
+    "description": "The type of the physical part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "d645c9d3-bc5a-3d02-2b38-a9561da768b3.htm"
+  },
+  {
+    "title": "AnalysisPart.Profile Property",
+    "description": "The profile of the analysis part. Note: OverrideProfile may exist to replace this. In case of tapered profile, only the name is available, ID is 0 and values are not returned. More details are available in the start/end properties of the analysis members.",
+    "summary": "The profile of the analysis part. Note: OverrideProfile may exist to replace this.\n            In case of tapered profile, only the name is available, ID is 0 and values are not returned.\n            More details are available in the start/end properties of the analysis members.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "d9fa7452-226f-71f7-b845-942271ad476d.htm"
+  },
+  {
+    "title": "AnalysisPart.SnapDistance Property",
+    "description": "The snap distance. Use 0.0 for manual connectivity, positive value for automatic connectivity.",
+    "summary": "The snap distance. Use 0.0 for manual connectivity, positive value for automatic connectivity.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "a4381082-6480-bb89-d647-5be592ec3cce.htm"
+  },
+  {
+    "title": "AnalysisPart.UpDirection Property",
+    "description": "The up direction of the analysis part (in the global coordinate system). The axis vector (connecting member end nodes) and the up direction vector define the local XY plane of the member.",
+    "summary": "The up direction of the analysis part (in the global coordinate system).\n            The axis vector (connecting member end nodes) and the up direction vector define the local XY plane of the member.\n            The local Z can be calculated as localZ = localX x UpDirection (cross product),\n            and after this localY = localZ x localX (cross product).",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b70d5de8-db71-3484-409e-9251f0f11d26.htm"
+  },
+  {
+    "title": "AnalysisPartAnalysisProperties.AnalysisClass Property",
+    "description": "The analysis class of the analysis part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "cbfd7f35-8b12-7054-3b00-c83c201cf00a.htm"
+  },
+  {
+    "title": "AnalysisPartAnalysisProperties.BuiltupMode Property",
+    "description": "The builtup mode of the analysis part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "e7e1d1db-56bf-b6e8-54b2-00dac67d789d.htm"
+  },
+  {
+    "title": "AnalysisPartAnalysisProperties.DesignGroup Property",
+    "description": "The design group of the analysis part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "78071663-cb54-948c-8b14-7f75de3905a5.htm"
+  },
+  {
+    "title": "AnalysisPartAnalysisProperties.PhysicalFreezed Property",
+    "description": "Indicates whether the physical part has been freezed.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "66fd292a-eee2-a0f8-62e7-8f3e56784917.htm"
+  },
+  {
+    "title": "AnalysisPartAreaAttributes.AreaElementSizeHoles Property",
+    "description": "Gets or sets the area element size holes.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "6881311e-09f3-1d83-71ee-423e8c9f0b03.htm"
+  },
+  {
+    "title": "AnalysisPartAreaAttributes.AreaElementSizeX Property",
+    "description": "Gets or sets the area element size X.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "4f0fef03-966e-2bf9-98cb-d913c5d71ee1.htm"
+  },
+  {
+    "title": "AnalysisPartAreaAttributes.AreaElementSizeY Property",
+    "description": "Gets or sets the area element size Y.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "f9a71ad1-edc2-c29f-b2fa-69b109a212be.htm"
+  },
+  {
+    "title": "AnalysisPartAreaAttributes.AreaElementType Property",
+    "description": "Gets or sets the area element type.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "c9aef74c-d6b1-d492-b136-f2d70410deea.htm"
+  },
+  {
+    "title": "AnalysisPartAreaAttributes.AreaRotationXY Property",
+    "description": "Gets or sets the area rotation XY.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "3db88343-8c63-e254-55bb-cf8fb7597cf7.htm"
+  },
+  {
+    "title": "AnalysisPartAreaAttributes.AreaStartNumber Property",
+    "description": "Gets or sets the start number of the area.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ca74df8f-aab5-57c2-5354-9bd41258c7ee.htm"
+  },
+  {
+    "title": "AnalysisPartAreaAttributes.AreaSupport Property",
+    "description": "Gets or sets the area support.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "954b6dd7-bc84-8e30-839e-9cf75454196d.htm"
+  },
+  {
+    "title": "AnalysisPartAreaAttributes.AreaSupportType Property",
+    "description": "Gets or sets the area support type.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "e0d3cc59-e2f3-d37f-41cf-763cd7f2d590.htm"
+  },
+  {
+    "title": "AnalysisPartAreaAttributes.MinimumAreaHoleSize Property",
+    "description": "Gets or sets the minimum area hole size.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "766e5d4d-88f7-c1d3-6982-5f02d6264ac2.htm"
+  },
+  {
+    "title": "AnalysisPartAreaAttributes.RigidDiaphragmFilterName Property",
+    "description": "Gets or sets the filter name of the rigid diaphragm.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "25bdb3ee-b32c-b435-9935-32c8bfe9bd5a.htm"
+  },
+  {
+    "title": "AnalysisPartAreaAttributes.UseSimpleArea Property",
+    "description": "Gets or sets a value indicating whether simple areas are used.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "3a61957a-2ecb-0ff1-f72f-5e667b57805f.htm"
+  },
+  {
+    "title": "AnalysisPartBarAttributes.BarEndCondition Property",
+    "description": "The bar end condition.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "e1cab14b-560f-bbb9-87cf-627a93c12b3c.htm"
+  },
+  {
+    "title": "AnalysisPartBarAttributes.BarStartCondition Property",
+    "description": "The bar start condition.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "e3903c9e-9a68-a4c7-119c-a4ebabab83fa.htm"
+  },
+  {
+    "title": "AnalysisPartBarAttributes.BarStartNumber Property",
+    "description": "The start number of the bar.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "4f4f9115-1790-ecee-0d0b-e80b07c7a90c.htm"
+  },
+  {
+    "title": "AnalysisPartBarAttributes.ForceStraightSegments Property",
+    "description": "The straight force segments.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "a9ee970b-3f9b-02b6-10d0-ca0bb5868dbc.htm"
+  },
+  {
+    "title": "AnalysisPartBarAttributes.MemberStartNumber Property",
+    "description": "The start number of the member.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "5691aa3d-532a-466f-d5de-d147774c340e.htm"
+  },
+  {
+    "title": "AnalysisPartBarAttributes.OverrideProfileName Property",
+    "description": "The override profile name.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ba8c6391-dc33-6e2c-4ff6-642aec469359.htm"
+  },
+  {
+    "title": "AnalysisPartBarAttributes.SplitDistances Property",
+    "description": "The split distances.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "83d98774-31fa-c3b9-949e-f0ead8f6f002.htm"
+  },
+  {
+    "title": "AnalysisPartBarAttributes.SplitNodeCount Property",
+    "description": "The count of the split node.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "e89dc191-a67b-06a7-b9a2-ed85c6f68594.htm"
+  },
+  {
+    "title": "AnalysisPartCompositeProperties.CompositeBeamSlabMaterial Property",
+    "description": "The composite beam slab material.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ac2689ad-633b-ed29-6c48-9e9bded7cae0.htm"
+  },
+  {
+    "title": "AnalysisPartCompositeProperties.CompositeBeamSlabThickness Property",
+    "description": "The composite beam slab thickness.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "f26bc12f-6c3f-d60b-e393-f6a00bd32034.htm"
+  },
+  {
+    "title": "AnalysisPartCompositeProperties.CompositeBeamType Property",
+    "description": "The composite beam type.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ed619da6-8ab5-f269-193f-193eda60d4af.htm"
+  },
+  {
+    "title": "AnalysisPartCompositeProperties.CompositeBeamWidthFromSpanFactor Property",
+    "description": "The composite beam width from span factor.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "04ae3968-d737-3eb4-20eb-baaa4d5df589.htm"
+  },
+  {
+    "title": "AnalysisPartCompositeProperties.CompositeBeamWidthLeft Property",
+    "description": "The composite beam width left.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "1e7fadb0-f242-6eca-8494-c52593cf24db.htm"
+  },
+  {
+    "title": "AnalysisPartCompositeProperties.CompositeBeamWidthModeLeft Property",
+    "description": "The composite beam width mode left.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "fbaff13f-9331-51be-d054-bc84d423b1ee.htm"
+  },
+  {
+    "title": "AnalysisPartCompositeProperties.CompositeBeamWidthModeRight Property",
+    "description": "The composite beam width mode right.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "c010fac5-0f41-e91e-7c5d-dd14c3475377.htm"
+  },
+  {
+    "title": "AnalysisPartCompositeProperties.CompositeBeamWidthRight Property",
+    "description": "The composite beam width right.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "45e43f6d-f180-91c2-cc64-665e2c8489a9.htm"
+  },
+  {
+    "title": "AnalysisPartEnd.Condition Property",
+    "description": "The condition of the part end.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "113ebc68-417f-2394-38fa-1300fe8c3e51.htm"
+  },
+  {
+    "title": "AnalysisPartEnd.Connectivity Property",
+    "description": "The connectivity of the part end.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "31dafc51-50eb-f93e-89af-9e1a756a32db.htm"
+  },
+  {
+    "title": "AnalysisPartEnd.Eccentricity Property",
+    "description": "The eccentricity of the part end (in the local coordinate system).",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ac325b70-a9bc-7f72-a474-5ed965182312.htm"
+  },
+  {
+    "title": "AnalysisPartEnd.EccentricityMode Property",
+    "description": "The eccentricity mode of the part end.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "e63b3970-15f2-d892-cc56-41433270dbad.htm"
+  },
+  {
+    "title": "AnalysisPartEnd.Support Property",
+    "description": "The support of the part end.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "675c5d73-bc08-1238-e347-52da17b59a59.htm"
+  },
+  {
+    "title": "AnalysisPartEnd.SupportCoordSystem Property",
+    "description": "The coordinate system of the support.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "c2475e1e-b357-25b0-20ad-6aee1267ff1f.htm"
+  },
+  {
+    "title": "AnalysisPartLoadingProperties.LoadGenerationAutoCreateFixedSupports Property",
+    "description": "Indicates whether fixed supports are automatically created.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2e72f59c-3433-8aac-8546-0f1142b4f38b.htm"
+  },
+  {
+    "title": "AnalysisPartLoadingProperties.LoadGenerationGroupIdentifierFactors Property",
+    "description": "The load generation group identifier factors.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "3b68a778-bcf7-0198-e3f6-ef7ad35e7557.htm"
+  },
+  {
+    "title": "AnalysisPartLoadingProperties.LoadGenerationPartNames Property",
+    "description": "The load generation part names.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "8bef0116-3375-c8bc-5e85-02cfbf807f59.htm"
+  },
+  {
+    "title": "AnalysisPartLoadingProperties.LoadGenerationPartNamesInclude Property",
+    "description": "Indicates whether part names are included in the load generation.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "822d9bbe-1b48-0917-0bca-6634e13e9304.htm"
+  },
+  {
+    "title": "AnalysisPartLoadingProperties.LoadGenerationSelfWeight Property",
+    "description": "Indicates whether the selfweight load is generated.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "451dc799-d977-966d-28dd-d60a779a7f20.htm"
+  },
+  {
+    "title": "AnalysisPartPositionProperties.AxisCoordinateX Property",
+    "description": "The axis coordinate in the X direction.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b4cfb6a8-c9b2-55b5-3373-f1fb1365804f.htm"
+  },
+  {
+    "title": "AnalysisPartPositionProperties.AxisCoordinateY Property",
+    "description": "The axis coordinate in the Y direction.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "aadf6e7e-0159-57c2-334b-8aca74981562.htm"
+  },
+  {
+    "title": "AnalysisPartPositionProperties.AxisCoordinateZ Property",
+    "description": "The axis coordinate in the Z direction.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "141f2493-71f2-065e-ede9-8c7b00f92df9.htm"
+  },
+  {
+    "title": "AnalysisPartPositionProperties.AxisLocation Property",
+    "description": "The axis location of the analysis part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ceb621c3-1a62-db71-be48-1a8bdde27cd4.htm"
+  },
+  {
+    "title": "AnalysisPartPositionProperties.AxisModifierX Property",
+    "description": "The axis modifier in the X direction.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b0bf08aa-ca10-98f8-4488-786a710e75b6.htm"
+  },
+  {
+    "title": "AnalysisPartPositionProperties.AxisModifierY Property",
+    "description": "The axis modifier in the Y direction.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "d68ac692-be76-cedf-261f-d8aabc62831f.htm"
+  },
+  {
+    "title": "AnalysisPartPositionProperties.AxisModifierZ Property",
+    "description": "The axis modifier in the Z direction.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "06bb387a-1cc1-b304-ece6-2e5d8dd78b7d.htm"
+  },
+  {
+    "title": "AnalysisPartPositionProperties.AxisOffset Property",
+    "description": "The axis offset of the analysis part (in the global coordinate system).",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "1e5d1f80-3acf-ee27-dbfc-1a0551235b40.htm"
+  },
+  {
+    "title": "AnalysisPartPositionProperties.KeepAxis Property",
+    "description": "The keep axis setting of the analysis part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "8d5cb598-518c-c4a7-59b8-d63b0fa311e9.htm"
+  },
+  {
+    "title": "AnalysisPartPositionProperties.LongitudinalOffsetMode Property",
+    "description": "The longitudinal offset mode.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "bfb68a86-3401-9aea-53c0-0db62aed672d.htm"
+  },
+  {
+    "title": "AnalysisPartSpanningProperties.SpanningDirection Property",
+    "description": "The spanning direction (in the global coordinate system).",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "aa08a30d-8b37-353a-1c89-3681403fff51.htm"
+  },
+  {
+    "title": "AnalysisPartSpanningProperties.SpanningType Property",
+    "description": "The spanning type.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ea817cff-de68-4f6d-5ef7-9ee2bf3d1e10.htm"
+  },
+  {
+    "title": "AnalysisPosition.Node Property",
+    "description": "The node of the position.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "a002eb50-a61a-81a5-75a8-4666beb7e721.htm"
+  },
+  {
+    "title": "AnalysisPosition.Type Property",
+    "description": "The type of the position.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "863ba8a3-f978-5afa-4d1a-627a94efe3c4.htm"
+  },
+  {
+    "title": "AnalysisRestraintData.LocalCoordinateSystem Property",
+    "description": "The local coordinate system.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2c5efbec-00d6-2b21-fada-ecfeac4cc93a.htm"
+  },
+  {
+    "title": "AnalysisRestraintData.ReleaseType Property",
+    "description": "The release type.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "acba67fd-96e3-0cf8-9341-49bf2de0b953.htm"
+  },
+  {
+    "title": "AnalysisRestraintData.RxSpring Property",
+    "description": "The rotation in the X-axis direction (Nmm/rad).",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "a06f6d4b-7512-9a52-2756-642d4c5f2211.htm"
+  },
+  {
+    "title": "AnalysisRestraintData.RxType Property",
+    "description": "The restraint type for the rotation in the X-axis direction.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "78834b5d-aab0-7e78-2d66-faf17c8d54bb.htm"
+  },
+  {
+    "title": "AnalysisRestraintData.RySpring Property",
+    "description": "The rotation in the Y-axis direction (Nmm/rad).",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "f912f3d1-d78a-31e4-7c1d-cfb00c851c53.htm"
+  },
+  {
+    "title": "AnalysisRestraintData.RyType Property",
+    "description": "The restraint type for the rotation in the Y-axis direction.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "417f5a2a-1a88-5d73-b73e-70520e3e0776.htm"
+  },
+  {
+    "title": "AnalysisRestraintData.RzSpring Property",
+    "description": "The rotation in the Z-axis direction (Nmm/rad).",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2fc65925-8758-44c6-9bcd-7c85005ff649.htm"
+  },
+  {
+    "title": "AnalysisRestraintData.RzType Property",
+    "description": "The restraint type for the rotation in the Z-axis direction.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "022b91c1-d098-8424-7bee-4fd531a8b5bc.htm"
+  },
+  {
+    "title": "AnalysisRestraintData.Supported Property",
+    "description": "The support condition.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "f30163a1-666d-48dd-03fd-7cd71803ca8a.htm"
+  },
+  {
+    "title": "AnalysisRestraintData.UxSpring Property",
+    "description": "The displacement in the X-axis direction (N/mm).",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "591ab526-7b5e-9a48-13de-f3c4f4c5c668.htm"
+  },
+  {
+    "title": "AnalysisRestraintData.UxType Property",
+    "description": "The restraint type for the displacement in the X-axis direction.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2c511025-1969-46cd-d2a7-6c8ec709adba.htm"
+  },
+  {
+    "title": "AnalysisRestraintData.UySpring Property",
+    "description": "The displacement in the Y-axis direction (N/mm).",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "950b8584-6b7c-9a8a-3982-1419053fb306.htm"
+  },
+  {
+    "title": "AnalysisRestraintData.UyType Property",
+    "description": "The restraint type for the displacement in the Y-axis direction.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "240b9647-68ad-e4fd-f174-0769b9147bc2.htm"
+  },
+  {
+    "title": "AnalysisRestraintData.UzSpring Property",
+    "description": "The displacement in the Z-axis direction (N/mm).",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "5f75297e-f4d5-1bf0-062e-e00af5f3cbd5.htm"
+  },
+  {
+    "title": "AnalysisRestraintData.UzType Property",
+    "description": "The restraint type for the displacement in the Z-axis direction.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "f40b0a6b-bc8f-126c-cb0c-c1f1047d44ad.htm"
+  },
+  {
+    "title": "AnalysisRestraints.End Property",
+    "description": "Data related to the second part end.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "fa66f654-cf65-be09-4c57-601ae6803e57.htm"
+  },
+  {
+    "title": "AnalysisRestraints.Start Property",
+    "description": "Data related to the first part end.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "762ee870-8b63-126c-e554-e06173300399.htm"
+  },
+  {
+    "title": "AnalysisResult.LoadCase Property",
+    "description": "The load case. The real load cases have positive values 1, 2, 3, ... For min/max queries LoadCaseForMinMaxEnum can be used.",
+    "summary": "The load case.\n            The real load cases have positive values 1, 2, 3, ...\n            For min/max queries LoadCaseForMinMaxEnum can be used.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "9dd25ac2-aa40-c368-ba7f-f439ce7db6e2.htm"
+  },
+  {
+    "title": "AnalysisResult.LoadCaseInfo Property",
+    "description": "The load case info (optional, max length 128).",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "bb1d5a22-cb42-4feb-dcf3-4c1866b033dd.htm"
+  },
+  {
+    "title": "AnalysisResult.LoadCaseName Property",
+    "description": "The load case name (max length 64).",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "df8c64fd-782e-c3b5-3a6d-986c58218224.htm"
+  },
+  {
+    "title": "AnalysisResult.LoadCaseType Property",
+    "description": "The load case type.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "60c5fe74-e350-7bf8-0a6d-2a9c30c33479.htm"
+  },
+  {
+    "title": "AnalysisResult.ModId Property",
+    "description": "The time stamp of the result.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "e003bdc5-0506-2119-e55d-632dffddd3c6.htm"
+  },
+  {
+    "title": "AnalysisResult.ObjectId Property",
+    "description": "The identifier of the object. If ObjectType is OBJECT_TYPE_PART, ObjectId is (physical) part ID. If ObjectType is OBJECT_TYPE_MEMBER, ObjectId is the bar number when analysis bars are used in integration, otherwise ObjectId is the member number.",
+    "summary": "The identifier of the object.\n            If ObjectType is OBJECT_TYPE_PART, ObjectId is (physical) part ID.\n            If ObjectType is OBJECT_TYPE_MEMBER, ObjectId is the bar number when analysis bars are used in integration,\n            otherwise ObjectId is the member number.\n            If ObjectType is OBJECT_TYPE_AREA, ObjectId is the area number.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "26b66775-3ea1-0c04-a2ae-9e7c538836f8.htm"
+  },
+  {
+    "title": "AnalysisResult.ObjectType Property",
+    "description": "The object type. In result query the only supported type is the physical member (the part).",
+    "summary": "The object type. In result query the only supported type is the physical member (the part).",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "0a74ebdf-4b27-bdfd-ac5e-7afb0cafe694.htm"
+  },
+  {
+    "title": "AnalysisResult.Position Property",
+    "description": "The position on the part's START/END/...",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ecb7bfa4-cec5-db76-f88c-7095098c37cd.htm"
+  },
+  {
+    "title": "AnalysisResult.PositionCoordX Property",
+    "description": "Global coordinate X (mm) when inserting result. Local (part) coordinate X (mm) when getting results.",
+    "summary": "Global coordinate X (mm) when inserting result.\n            Local (part) coordinate X (mm) when getting results.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "d7246f1e-e3ee-753e-49bd-752a7c6284a0.htm"
+  },
+  {
+    "title": "AnalysisResult.PositionCoordY Property",
+    "description": "Global coordinate Y (mm) when inserting result. Local (part) coordinate Y (mm) when getting results.",
+    "summary": "Global coordinate Y (mm) when inserting result.\n            Local (part) coordinate Y (mm) when getting results.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "70f6a682-e352-97ad-dd07-d53c8b9d7dcb.htm"
+  },
+  {
+    "title": "AnalysisResult.PositionCoordZ Property",
+    "description": "Global coordinate Z (mm) when inserting result. Local (part) coordinate Z (mm) when getting results.",
+    "summary": "Global coordinate Z (mm) when inserting result.\n            Local (part) coordinate Z (mm) when getting results.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "4316b5db-fc09-864c-b468-747056ad35e3.htm"
+  },
+  {
+    "title": "AnalysisResult.PositionTolerance Property",
+    "description": "The position's coordinate tolerance.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "5164366b-4e3f-ed8c-aa73-80098c4b2fd6.htm"
+  },
+  {
+    "title": "AnalysisResult.Value Property",
+    "description": "The result value.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "656d7bae-2fd8-2c66-d5ed-2ef10a7c8847.htm"
+  },
+  {
+    "title": "AnalysisResult.ValueType Property",
+    "description": "The result value type.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "8732d319-85e3-e145-0cdf-96b92d8ad707.htm"
+  },
+  {
+    "title": "AnalysisResultPositions.aPositions Property",
+    "description": "The position types.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "d615cc50-47cd-b18a-e581-241ce5e948fe.htm"
+  },
+  {
+    "title": "AnalysisResultPositions.aPositionsX Property",
+    "description": "The X coordinates of the positions.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "611a60e8-31fa-c39f-6cbb-3b1e2cf13f0c.htm"
+  },
+  {
+    "title": "AnalysisResultPositions.aPositionsY Property",
+    "description": "The Y coordinates of the positions.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "c005886f-15a7-7aa2-6c3b-0c09dfbd9147.htm"
+  },
+  {
+    "title": "AnalysisResultPositions.aPositionsZ Property",
+    "description": "The Z coordinates of the positions.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "abd4b964-9f6d-7815-6e3a-6fb987325e72.htm"
+  },
+  {
+    "title": "AnalysisResultPositions.nPositions Property",
+    "description": "The number of returned positions.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "220bcd7e-d8bc-c37c-a85a-06408f538019.htm"
+  },
+  {
+    "title": "AnalysisResultPositions.ObjectId Property",
+    "description": "The identifier of the object.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "8c9ee586-4b5a-cfc8-ddb2-ec085b19f940.htm"
+  },
+  {
+    "title": "AnalysisResultPositions.ObjectType Property",
+    "description": "The object type. In result query the only supported type is the physical member (the part).",
+    "summary": "The object type. In result query the only supported type is the physical member (the part).",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "9a14dcd0-2478-5203-bf85-618dc2a91046.htm"
+  },
+  {
+    "title": "AnalysisRigidDiaphragm.ExtremaMaximum Property",
+    "description": "The maximum of the extrema (in the global coordinate system).",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ec1fa465-ac61-49be-7285-06ed3d5e9795.htm"
+  },
+  {
+    "title": "AnalysisRigidDiaphragm.ExtremaMinimum Property",
+    "description": "The minimum of the extrema (in the global coordinate system).",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "9b515947-2a47-d97e-4a50-569410e1e0a7.htm"
+  },
+  {
+    "title": "AnalysisRigidDiaphragm.MasterNodeID Property",
+    "description": "The identifier of the master node.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "5cfb89a7-ccc2-3566-d6e3-0799447c6522.htm"
+  },
+  {
+    "title": "AnalysisRigidDiaphragm.PartIDs Property",
+    "description": "The part identifier.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "f143f695-ccf0-433a-fec1-773af5420e44.htm"
+  },
+  {
+    "title": "AnalysisRigidDiaphragm.SlaveNodeIDs Property",
+    "description": "The slave node identifier.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "d870690a-e437-cf35-3573-d9bf70791b61.htm"
+  },
+  {
+    "title": "AnalysisSubSection.B Property",
+    "description": "The B value.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "edec47e1-d9a6-0068-d860-badc6570f6d6.htm"
+  },
+  {
+    "title": "AnalysisSubSection.B1 Property",
+    "description": "The B1 value.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "02c40c70-98b4-28b0-abb9-5708f48ff819.htm"
+  },
+  {
+    "title": "AnalysisSubSection.B2 Property",
+    "description": "The B2 value.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "4a739ece-1f7f-255e-69de-11d02583b37b.htm"
+  },
+  {
+    "title": "AnalysisSubSection.B3 Property",
+    "description": "The B3 value.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "4ebc54c8-d3ca-f2b0-6130-5a5a8eb5aa8a.htm"
+  },
+  {
+    "title": "AnalysisSubSection.B4 Property",
+    "description": "The B4 value.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "9aee711d-d9db-921e-5351-b4819d3b4da8.htm"
+  },
+  {
+    "title": "AnalysisSubSection.H Property",
+    "description": "The H value.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "310bda25-6959-20a5-5619-894e4f669e2e.htm"
+  },
+  {
+    "title": "AnalysisSubSection.H1 Property",
+    "description": "The H1 value.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "46cb9df9-26a3-dc17-cc7e-fcf72ff59bb7.htm"
+  },
+  {
+    "title": "AnalysisSubSection.H2 Property",
+    "description": "The H2 value.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "c5096dab-93e9-3872-f91c-a6906f1f6277.htm"
+  },
+  {
+    "title": "AnalysisSubSection.IsHole Property",
+    "description": "Defines whether the subsection is a hole.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "0517baff-4ac5-507f-e71c-f59129bc49b9.htm"
+  },
+  {
+    "title": "AnalysisSubSection.Material Property",
+    "description": "The material of the subsection.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "07e63198-1ae1-ef99-27fc-1b603d36a4a9.htm"
+  },
+  {
+    "title": "AnalysisSubSection.OffsetAngle Property",
+    "description": "The offset angle.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "c8998e56-94be-90d9-0b17-ba4499175412.htm"
+  },
+  {
+    "title": "AnalysisSubSection.OffsetY Property",
+    "description": "The offset in the direction of the Y-axis.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "60120a2f-dd50-217d-b9a9-9a6a19a9fe6f.htm"
+  },
+  {
+    "title": "AnalysisSubSection.OffsetZ Property",
+    "description": "The offset in the direction of the Z-axis.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "8315abfe-d331-77f3-a736-fb4e90f441e9.htm"
+  },
+  {
+    "title": "AnalysisSubSection.Points Property",
+    "description": "The points of the subsection.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "727bb08e-1baf-a556-3bd7-00eeb89709d0.htm"
+  },
+  {
+    "title": "AnalysisSubSection.R1 Property",
+    "description": "The R1 value.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "7fd2edb5-6d73-2f5b-9747-7f9e66350c24.htm"
+  },
+  {
+    "title": "AnalysisSubSection.R2 Property",
+    "description": "The R2 value.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "ca327191-fb5c-0c71-9442-17e29f1c441c.htm"
+  },
+  {
+    "title": "AnalysisSubSection.SubType Property",
+    "description": "The subtype of the subsection.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "dd7001b3-49bc-4d1c-62d9-b31050db82b1.htm"
+  },
+  {
+    "title": "AnalysisSubSection.T1 Property",
+    "description": "The T1 value.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "33527a5c-5394-879c-471f-73dc40a4178c.htm"
+  },
+  {
+    "title": "AnalysisSubSection.T2 Property",
+    "description": "The T2 value.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "b738bd53-712d-35fc-9809-1e55300fa641.htm"
+  },
+  {
+    "title": "AnalysisSubSection.T3 Property",
+    "description": "The T3 value.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "7284fce1-0d73-3324-a7f7-586d885dbaba.htm"
+  },
+  {
+    "title": "AnalysisSubSection.T4 Property",
+    "description": "The T4 value.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "27551e32-1b0e-5e53-125d-97a7bf083439.htm"
+  },
+  {
+    "title": "AnalysisSubSection.TF Property",
+    "description": "The TF value.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "72a336ee-0917-4466-f8b5-59538e460f26.htm"
+  },
+  {
+    "title": "AnalysisSubSection.TW Property",
+    "description": "The TW value.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "d104ec5f-cbc0-402e-b47a-b691a64254b1.htm"
+  },
+  {
+    "title": "AnalysisSubSection.Type Property",
+    "description": "The type of the subsection.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "property",
+    "level": 0,
+    "htmlFile": "2f5258bd-4bf2-6c68-59ac-77b8834e3227.htm"
+  }
+]

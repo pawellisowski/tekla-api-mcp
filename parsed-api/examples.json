@@ -1,0 +1,2779 @@
+[
+  {
+    "name": "BeamApplication",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\BeamApplication",
+    "description": "﻿Tekla Open API Example\r\n\r\nAn extended application that creates a beam in the model.\r\n\r\nAPI:s used: Tekla.Structures.Model.",
+    "files": [
+      "Model\\Applications\\BeamApplication\\Form1.cs",
+      "Model\\Applications\\BeamApplication\\Form1.Designer.cs",
+      "Model\\Applications\\BeamApplication\\Program.cs",
+      "Model\\Applications\\BeamApplication\\Properties\\Resources.Designer.cs",
+      "Model\\Applications\\BeamApplication\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "BeamApplication - Form1 Method",
+        "code": "\r\n        public Form1()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from BeamApplication example"
+      },
+      {
+        "title": "BeamApplication - button1_Click Method",
+        "code": "private void button1_Click(object sender, EventArgs e)\r\n        {\r\n            Model myModel = new Model();\r\n\r\n            Beam myBeam = new Beam(new TSG.Point(1000, 1000, 1000),\r\n                                    new TSG.Point(6000, 6000, 1000));\r\n            myBeam.Material.MaterialString = \"S235JR\";\r\n            myBeam.Profile.ProfileString = \"HEA400\";\r\n            myBeam.Insert();\r\n            myModel.CommitChanges();\r\n        }",
+        "language": "csharp",
+        "description": "Method from BeamApplication example"
+      },
+      {
+        "title": "BeamApplication - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from BeamApplication example"
+      },
+      {
+        "title": "BeamApplication - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from BeamApplication example"
+      },
+      {
+        "title": "BeamApplication - API Usage",
+        "code": "this.button1.Location = new System.Drawing.Point(49, 56);\nthis.button1.Name = \"button1\";",
+        "language": "csharp",
+        "description": "Code snippet from BeamApplication example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Geometry3d"
+    ]
+  },
+  {
+    "name": "BentPlateExample",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\BentPlateExample",
+    "description": "",
+    "files": [
+      "Model\\Applications\\BentPlateExample\\BentPlateModificationExample\\Form1.cs",
+      "Model\\Applications\\BentPlateExample\\BentPlateModificationExample\\Form1.Designer.cs",
+      "Model\\Applications\\BentPlateExample\\BentPlateModificationExample\\Program.cs",
+      "Model\\Applications\\BentPlateExample\\BentPlateModificationExample\\Properties\\Resources.Designer.cs",
+      "Model\\Applications\\BentPlateExample\\BentPlateModificationExample\\Properties\\Settings.Designer.cs",
+      "Model\\Applications\\BentPlateExample\\BentPlateSampleCreation\\Form1.cs",
+      "Model\\Applications\\BentPlateExample\\BentPlateSampleCreation\\Form1.Designer.cs",
+      "Model\\Applications\\BentPlateExample\\BentPlateSampleCreation\\Program.cs",
+      "Model\\Applications\\BentPlateExample\\BentPlateSampleCreation\\Properties\\Resources.Designer.cs",
+      "Model\\Applications\\BentPlateExample\\BentPlateSampleCreation\\Properties\\Settings.Designer.cs",
+      "Model\\Applications\\BentPlateExample\\BoxCreationExample\\Form1.cs",
+      "Model\\Applications\\BentPlateExample\\BoxCreationExample\\Form1.Designer.cs",
+      "Model\\Applications\\BentPlateExample\\BoxCreationExample\\Program.cs",
+      "Model\\Applications\\BentPlateExample\\BoxCreationExample\\Properties\\Resources.Designer.cs",
+      "Model\\Applications\\BentPlateExample\\BoxCreationExample\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "BentPlateExample - Form1 Method",
+        "code": "\r\n\r\n        public Form1()\r\n        {\r\n            InitializeComponent();\r\n            this.bentPlate = null;\r\n            this.model = new Model();\r\n        }",
+        "language": "csharp",
+        "description": "Method from BentPlateExample example"
+      },
+      {
+        "title": "BentPlateExample - CreateSimpleBentPlate1_Click Method",
+        "code": "private void CreateSimpleBentPlate1_Click(object sender, EventArgs e)\r\n        {\r\n            this.ModifyPlateSide.Enabled = true;\r\n            //Creates simple BentPlate object in the model.\r\n            this.CreateSampleBentPlate();\r\n        }",
+        "language": "csharp",
+        "description": "Method from BentPlateExample example"
+      },
+      {
+        "title": "BentPlateExample - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from BentPlateExample example"
+      },
+      {
+        "title": "BentPlateExample - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from BentPlateExample example"
+      },
+      {
+        "title": "BentPlateExample - API Usage",
+        "code": "((System.ComponentModel.ISupportInitialize)(this.RadiusValue)).BeginInit();\nthis.SuspendLayout();",
+        "language": "csharp",
+        "description": "Code snippet from BentPlateExample example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Geometry3d"
+    ]
+  },
+  {
+    "name": "BRepExample",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\BRepExample",
+    "description": "",
+    "files": [
+      "Model\\Applications\\BRepExample\\Form1.cs",
+      "Model\\Applications\\BRepExample\\Form1.Designer.cs",
+      "Model\\Applications\\BRepExample\\Program.cs",
+      "Model\\Applications\\BRepExample\\Properties\\Resources.Designer.cs",
+      "Model\\Applications\\BRepExample\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "BRepExample - Form1 Method",
+        "code": "\r\n\r\n        public Form1()\r\n        {\r\n            InitializeComponent();\r\n            Length = 500.0;\r\n        }",
+        "language": "csharp",
+        "description": "Method from BRepExample example"
+      },
+      {
+        "title": "BRepExample - API Usage",
+        "code": "brep.EndPoint = new Tekla.Structures.Geometry3d.Point(xPos + Length, yPos, 0);\nbrep.Profile.ProfileString = ShapeName;",
+        "language": "csharp",
+        "description": "Code snippet from BRepExample example"
+      },
+      {
+        "title": "BRepExample - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from BRepExample example"
+      },
+      {
+        "title": "BRepExample - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from BRepExample example"
+      },
+      {
+        "title": "BRepExample - API Usage",
+        "code": "this.button1.Location = new System.Drawing.Point(37, 52);\nthis.button1.Name = \"button1\";",
+        "language": "csharp",
+        "description": "Code snippet from BRepExample example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Catalogs",
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Geometry3d.Point"
+    ]
+  },
+  {
+    "name": "ClashCheckExample",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\ClashCheckExample",
+    "description": "",
+    "files": [
+      "Model\\Applications\\ClashCheckExample\\ClashCheck.cs",
+      "Model\\Applications\\ClashCheckExample\\ClashCheckExampleForm.cs",
+      "Model\\Applications\\ClashCheckExample\\ClashCheckExampleForm.Designer.cs",
+      "Model\\Applications\\ClashCheckExample\\Program.cs",
+      "Model\\Applications\\ClashCheckExample\\Properties\\Resources.Designer.cs",
+      "Model\\Applications\\ClashCheckExample\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "ClashCheckExample - API Usage",
+        "code": "//ModelObjectEnumerator modelObjectEnumerator = _Model.GetModelObjectSelector().GetAllObjects();\n//foreach (ModelObject modelObject in modelObjectEnumerator)\n//{\n//    ObjectsToSelect.Add(modelObject);",
+        "language": "csharp",
+        "description": "Code snippet from ClashCheckExample example"
+      },
+      {
+        "title": "ClashCheckExample - ClashCheckExampleForm Method",
+        "code": "\r\n\r\n        public ClashCheckExampleForm()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from ClashCheckExample example"
+      },
+      {
+        "title": "ClashCheckExample - button1_Click Method",
+        "code": "private void button1_Click(object sender, EventArgs e)\r\n        {\r\n            richTextBox1.Clear();\r\n            if (clashCheckExample.ClashCheck())\r\n            {\r\n                ArrayList ClashCheckData = clashCheckExample.Clashes;\r\n                foreach (string data in ClashCheckData)\r\n                {\r\n                    richTextBox1.AppendText(data + \"\\r\\n\");\r\n                }",
+        "language": "csharp",
+        "description": "Method from ClashCheckExample example"
+      },
+      {
+        "title": "ClashCheckExample - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from ClashCheckExample example"
+      },
+      {
+        "title": "ClashCheckExample - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from ClashCheckExample example"
+      },
+      {
+        "title": "ClashCheckExample - API Usage",
+        "code": "System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ClashCheckExampleForm));\nthis.richTextBox1 = new System.Windows.Forms.RichTextBox();",
+        "language": "csharp",
+        "description": "Code snippet from ClashCheckExample example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Model.UI.ModelObjectSelector",
+      "Tekla.Structures.Dialog"
+    ]
+  },
+  {
+    "name": "CNCSolidExample",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\CNCSolidExample",
+    "description": "",
+    "files": [
+      "Model\\Applications\\CNCSolidExample\\CNCSolidLogic.cs",
+      "Model\\Applications\\CNCSolidExample\\Form1.cs",
+      "Model\\Applications\\CNCSolidExample\\Form1.Designer.cs",
+      "Model\\Applications\\CNCSolidExample\\Program.cs",
+      "Model\\Applications\\CNCSolidExample\\Properties\\Resources.Designer.cs",
+      "Model\\Applications\\CNCSolidExample\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "CNCSolidExample - ArePointAligned Method",
+        "code": "internal static bool ArePointAligned(Point Point1, Point Point2, Point Point3)\r\n        {\r\n            Vector Vector1 = new Vector(Point2.X - Point1.X, Point2.Y - Point1.Y, Point2.Z - Point1.Z);\r\n            Vector Vector2 = new Vector(Point3.X - Point1.X, Point3.Y - Point1.Y, Point3.Z - Point1.Z);\r\n\r\n            return Parallel.VectorToVector(Vector1, Vector2);\r\n        }",
+        "language": "csharp",
+        "description": "Method from CNCSolidExample example"
+      },
+      {
+        "title": "CNCSolidExample - API Usage",
+        "code": "using Tekla.Structures.Model.UI;\nusing Point = Tekla.Structures.Geometry3d.Point;",
+        "language": "csharp",
+        "description": "Code snippet from CNCSolidExample example"
+      },
+      {
+        "title": "CNCSolidExample - Form1 Method",
+        "code": "\r\n        public Form1()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from CNCSolidExample example"
+      },
+      {
+        "title": "CNCSolidExample - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from CNCSolidExample example"
+      },
+      {
+        "title": "CNCSolidExample - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from CNCSolidExample example"
+      },
+      {
+        "title": "CNCSolidExample - API Usage",
+        "code": "this.button1.Location = new System.Drawing.Point(85, 89);\nthis.button1.Name = \"button1\";",
+        "language": "csharp",
+        "description": "Code snippet from CNCSolidExample example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Solid",
+      "Tekla.Structures.Model.UI",
+      "Tekla.Structures.Geometry3d.Point",
+      "Tekla.Structures.Model.Solid"
+    ]
+  },
+  {
+    "name": "CNC_Exporter",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\CNC_Exporter",
+    "description": "Tekla Open API Example\r\n\r\nExport model objects to NC files via scripting and API calls.\r\n\r\nAPI:s used: Tekla.Structures.Model.",
+    "files": [
+      "Model\\Applications\\CNC_Exporter\\Form1.cs",
+      "Model\\Applications\\CNC_Exporter\\Form1.Designer.cs",
+      "Model\\Applications\\CNC_Exporter\\Program.cs",
+      "Model\\Applications\\CNC_Exporter\\Properties\\Resources.Designer.cs",
+      "Model\\Applications\\CNC_Exporter\\Properties\\Settings.Designer.cs",
+      "Model\\Applications\\CNC_Exporter\\Resource1.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "CNC_Exporter - Form1 Method",
+        "code": "\r\n        public Form1()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from CNC_Exporter example"
+      },
+      {
+        "title": "CNC_Exporter - API Usage",
+        "code": "using TSMO = Tekla.Structures.Model.Operations;\n\nnamespace CNC_Exporter\n{\npublic partial class Form1 : Form\n{\npublic Form1()\n{\nInitializeComponent();",
+        "language": "csharp",
+        "description": "Code snippet from CNC_Exporter example"
+      },
+      {
+        "title": "CNC_Exporter - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from CNC_Exporter example"
+      },
+      {
+        "title": "CNC_Exporter - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from CNC_Exporter example"
+      },
+      {
+        "title": "CNC_Exporter - API Usage",
+        "code": "System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));\nthis.button2 = new System.Windows.Forms.Button();",
+        "language": "csharp",
+        "description": "Code snippet from CNC_Exporter example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Model.Operations",
+      "TeklaStructuresInfo",
+      "TeklaStructuresSettings"
+    ]
+  },
+  {
+    "name": "ConstructionObjectsExample",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\ConstructionObjectsExample",
+    "description": "",
+    "files": [
+      "Model\\Applications\\ConstructionObjectsExample\\Form1.cs",
+      "Model\\Applications\\ConstructionObjectsExample\\Form1.Designer.cs",
+      "Model\\Applications\\ConstructionObjectsExample\\Program.cs",
+      "Model\\Applications\\ConstructionObjectsExample\\Properties\\Resources.Designer.cs",
+      "Model\\Applications\\ConstructionObjectsExample\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "ConstructionObjectsExample - Form1 Method",
+        "code": "\r\n\r\n        public Form1()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from ConstructionObjectsExample example"
+      },
+      {
+        "title": "ConstructionObjectsExample - Form1_Load Method",
+        "code": "private void Form1_Load(object sender, EventArgs e)\r\n        {\r\n\r\n        }",
+        "language": "csharp",
+        "description": "Method from ConstructionObjectsExample example"
+      },
+      {
+        "title": "ConstructionObjectsExample - API Usage",
+        "code": "using Tekla.Structures.Model.UI;\nusing Point = Tekla.Structures.Geometry3d.Point;",
+        "language": "csharp",
+        "description": "Code snippet from ConstructionObjectsExample example"
+      },
+      {
+        "title": "ConstructionObjectsExample - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from ConstructionObjectsExample example"
+      },
+      {
+        "title": "ConstructionObjectsExample - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from ConstructionObjectsExample example"
+      },
+      {
+        "title": "ConstructionObjectsExample - API Usage",
+        "code": "this.CreateExampleArc.Location = new System.Drawing.Point(39, 39);\nthis.CreateExampleArc.Name = \"CreateExampleArc\";",
+        "language": "csharp",
+        "description": "Code snippet from ConstructionObjectsExample example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Model.UI",
+      "Tekla.Structures.Geometry3d.Point"
+    ]
+  },
+  {
+    "name": "CrossSectionProfiles",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\CrossSectionProfiles",
+    "description": "",
+    "files": [
+      "Model\\Applications\\CrossSectionProfiles\\Form1.cs",
+      "Model\\Applications\\CrossSectionProfiles\\Form1.Designer.cs",
+      "Model\\Applications\\CrossSectionProfiles\\Program.cs",
+      "Model\\Applications\\CrossSectionProfiles\\Properties\\Resources.Designer.cs",
+      "Model\\Applications\\CrossSectionProfiles\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "CrossSectionProfiles - Form1 Method",
+        "code": "\r\n        public Form1()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from CrossSectionProfiles example"
+      },
+      {
+        "title": "CrossSectionProfiles - API Usage",
+        "code": "using Tekla.Structures.Model.UI;\nusing Tekla.Structures.Geometry3d;",
+        "language": "csharp",
+        "description": "Code snippet from CrossSectionProfiles example"
+      },
+      {
+        "title": "CrossSectionProfiles - API Usage",
+        "code": "var mySelectedPart = moe.Current as Tekla.Structures.Model.Part;\n\nif (mySelectedPart == null || String.IsNullOrEmpty(mySelectedPart.Profile.ProfileString)) return;",
+        "language": "csharp",
+        "description": "Code snippet from CrossSectionProfiles example"
+      },
+      {
+        "title": "CrossSectionProfiles - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from CrossSectionProfiles example"
+      },
+      {
+        "title": "CrossSectionProfiles - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from CrossSectionProfiles example"
+      },
+      {
+        "title": "CrossSectionProfiles - API Usage",
+        "code": "this.label1.Location = new System.Drawing.Point(69, 50);\nthis.label1.Name = \"label1\";",
+        "language": "csharp",
+        "description": "Code snippet from CrossSectionProfiles example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Catalogs",
+      "Tekla.Structures.Model.UI",
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model.Part"
+    ]
+  },
+  {
+    "name": "ExportComponents",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\ExportComponents",
+    "description": "﻿Tekla Open API Example\r\n\r\nAn extended application that exports model objects to different formats (IFC, DXF, etc.)\r\n\r\nAPI:s used: Tekla.Structures.Model.",
+    "files": [
+      "Model\\Applications\\ExportComponents\\Form1.cs",
+      "Model\\Applications\\ExportComponents\\Form1.Designer.cs",
+      "Model\\Applications\\ExportComponents\\Program.cs",
+      "Model\\Applications\\ExportComponents\\Properties\\Resources.Designer.cs",
+      "Model\\Applications\\ExportComponents\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "ExportComponents - API Usage",
+        "code": "if (!new Tekla.Structures.Model.Model().GetConnectionStatus())\n{\nMessageBox.Show(\"TeklaStructures is not running, restart the application when a TeklaStructures model is open\", \"\", MessageBoxButtons.OK, MessageBoxIcon.Warning);",
+        "language": "csharp",
+        "description": "Code snippet from ExportComponents example"
+      },
+      {
+        "title": "ExportComponents - API Usage",
+        "code": "SelectedFormat_Number = Tekla.Structures.Model.BaseComponent.PLUGIN_OBJECT_NUMBER; //Mandatory\nSelectedFormat_Name = \"BVBSExport\"; // Mandatory",
+        "language": "csharp",
+        "description": "Code snippet from ExportComponents example"
+      },
+      {
+        "title": "ExportComponents - API Usage",
+        "code": "SelectedFormat_Number = Tekla.Structures.Model.BaseComponent.PLUGIN_OBJECT_NUMBER; //Mandatory\nSelectedFormat_Name = \"ExportIFC\"; // Mandatory",
+        "language": "csharp",
+        "description": "Code snippet from ExportComponents example"
+      },
+      {
+        "title": "ExportComponents - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from ExportComponents example"
+      },
+      {
+        "title": "ExportComponents - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from ExportComponents example"
+      },
+      {
+        "title": "ExportComponents - API Usage",
+        "code": "this.comboBoxFile.Location = new System.Drawing.Point(435, 254);\nthis.comboBoxFile.Name = \"comboBoxFile\";",
+        "language": "csharp",
+        "description": "Code snippet from ExportComponents example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Model.Model",
+      "Tekla.Structures.Model.BaseComponent.PLUGIN_OBJECT_NUMBER",
+      "Tekla.Structures.Dialog.UIControls.EnvironmentFiles.GetStandardPropertyFileDirectories",
+      "Tekla.Structures.Dialog.UIControls.EnvironmentFiles.GetMultiDirectoryFileList",
+      "Tekla.Structures.Model.ComponentInput",
+      "Tekla.Structures.Geometry3d.Point",
+      "Tekla.Structures.Model.Component"
+    ]
+  },
+  {
+    "name": "ExportXml",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\ExportXml",
+    "description": "﻿Tekla Open API Example\r\n\r\nA console application that exports solid info of the selected parts to an XML file (C:\\TeklaStructuresModels\\TSModel.xml).\r\n\r\nAPI:s used: Tekla.Structures.Model.",
+    "files": [
+      "Model\\Applications\\ExportXml\\XmlExport.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "ExportXml - API Usage",
+        "code": "private const string document = \"c:\\\\teklastructuresmodels\\\\TSModel.xml\";\n/// <summary>\n/// The main entry point for the application.\n/// </summary>\n[STAThread]\nstatic void Main(string[] args)\n{\nWriteXmlFileSample myWriteXmlFileSample = new WriteXmlFileSample();",
+        "language": "csharp",
+        "description": "Code snippet from ExportXml example"
+      },
+      {
+        "title": "ExportXml - API Usage",
+        "code": "WorkPlaneHandler planeHandler = myModel.GetWorkPlaneHandler();\nTransformationPlane CurrentPlane = planeHandler.GetCurrentTransformationPlane();",
+        "language": "csharp",
+        "description": "Code snippet from ExportXml example"
+      },
+      {
+        "title": "ExportXml - API Usage",
+        "code": "WorkPlaneHandler planeHandler = myModel.GetWorkPlaneHandler();\nTransformationPlane CurrentPlane = planeHandler.GetCurrentTransformationPlane();",
+        "language": "csharp",
+        "description": "Code snippet from ExportXml example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures",
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Solid",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Model.UI"
+    ]
+  },
+  {
+    "name": "FilterPoursSurfacesExample",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\FilterPoursSurfacesExample",
+    "description": "",
+    "files": [
+      "Model\\Applications\\FilterPoursSurfacesExample\\Form1.cs",
+      "Model\\Applications\\FilterPoursSurfacesExample\\Form1.Designer.cs",
+      "Model\\Applications\\FilterPoursSurfacesExample\\Program.cs",
+      "Model\\Applications\\FilterPoursSurfacesExample\\Properties\\Resources.Designer.cs",
+      "Model\\Applications\\FilterPoursSurfacesExample\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "FilterPoursSurfacesExample - Form1 Method",
+        "code": "\r\n\r\n        public Form1()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from FilterPoursSurfacesExample example"
+      },
+      {
+        "title": "FilterPoursSurfacesExample - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from FilterPoursSurfacesExample example"
+      },
+      {
+        "title": "FilterPoursSurfacesExample - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from FilterPoursSurfacesExample example"
+      },
+      {
+        "title": "FilterPoursSurfacesExample - API Usage",
+        "code": "this.checkBox_pourNumber.Location = new System.Drawing.Point(42, 21);\nthis.checkBox_pourNumber.Name = \"checkBox_pourNumber\";",
+        "language": "csharp",
+        "description": "Code snippet from FilterPoursSurfacesExample example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures",
+      "Tekla.Structures.Filtering",
+      "Tekla.Structures.Filtering.Categories",
+      "Tekla.Structures.Model"
+    ]
+  },
+  {
+    "name": "MatrixFactoryExample",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\MatrixFactoryExample",
+    "description": "",
+    "files": [
+      "Model\\Applications\\MatrixFactoryExample\\Program.cs"
+    ],
+    "codeSnippets": [],
+    "apiElements": [
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.DetailTypeEnum.END"
+    ]
+  },
+  {
+    "name": "ObjectTestApplication",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\ObjectTestApplication",
+    "description": "Tekla Open API Example\r\n\r\nA Windows Form application which contains examples of creating and modifying objects and also different enumeration methods.\r\n\r\nAPI:s used: Tekla.Structures, Tekla.Structures.Model.",
+    "files": [
+      "Model\\Applications\\ObjectTestApplication\\Form1.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "ObjectTestApplication - Form1 Method",
+        "code": "\r\n\r\n        public Form1()\r\n        {\r\n            //\r\n            // Required for Windows Form Designer support\r\n            //\r\n            InitializeComponent();\r\n            if (!Model.GetConnectionStatus())\r\n            {\r\n                WriteLine(\"Failed to connect to TS!\");\r\n                Environment.Exit(-1);\r\n            }",
+        "language": "csharp",
+        "description": "Method from ObjectTestApplication example"
+      },
+      {
+        "title": "ObjectTestApplication - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing)\r\n            {\r\n                if (components != null)\r\n                {\r\n                    components.Dispose();\r\n                }",
+        "language": "csharp",
+        "description": "Method from ObjectTestApplication example"
+      },
+      {
+        "title": "ObjectTestApplication - API Usage",
+        "code": "private System.ComponentModel.Container components = null;\nprivate System.Windows.Forms.StatusBarPanel statusBarPanel1;",
+        "language": "csharp",
+        "description": "Code snippet from ObjectTestApplication example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures",
+      "Tekla.Structures.Solid",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.ModelInternal",
+      "Tekla.Structures.Model.Boolean",
+      "Tekla.Structures.Model.UI.ModelObjectSelector",
+      "TeklaStructuresInfo"
+    ]
+  },
+  {
+    "name": "PartCenterLineIntersection",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\PartCenterLineIntersection",
+    "description": "",
+    "files": [
+      "Model\\Applications\\PartCenterLineIntersection\\PartCenterLineIntersection.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "PartCenterLineIntersection - DrawFaceOfIntersectionPoint Method",
+        "code": "private static void DrawFaceOfIntersectionPoint(Point intersectPoint, Dictionary<Plane, Face> partPlanes)\r\n        {\r\n            foreach (Plane plane in partPlanes.Keys)\r\n            {\r\n                GeometricPlane geometricPlane = new GeometricPlane(plane.Origin, plane.AxisX, plane.AxisY);\r\n                double myDistance = Distance.PointToPlane(intersectPoint, geometricPlane);\r\n\r\n                if (myDistance <= 1)\r\n                    DrawMesh(partPlanes[plane]);\r\n            }",
+        "language": "csharp",
+        "description": "Method from PartCenterLineIntersection example"
+      },
+      {
+        "title": "PartCenterLineIntersection - API Usage",
+        "code": "using Tekla.Structures.Model.UI;\nusing Tekla.Structures.Solid;",
+        "language": "csharp",
+        "description": "Code snippet from PartCenterLineIntersection example"
+      },
+      {
+        "title": "PartCenterLineIntersection - API Usage",
+        "code": "myModel.GetWorkPlaneHandler().SetCurrentTransformationPlane(new TransformationPlane());\n\nPicker myPicker = new Picker();",
+        "language": "csharp",
+        "description": "Code snippet from PartCenterLineIntersection example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Model.UI",
+      "Tekla.Structures.Solid"
+    ]
+  },
+  {
+    "name": "PointCloudExample",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\PointCloudExample",
+    "description": "",
+    "files": [
+      "Model\\Applications\\PointCloudExample\\Form1.cs",
+      "Model\\Applications\\PointCloudExample\\Form1.Designer.cs",
+      "Model\\Applications\\PointCloudExample\\Program.cs",
+      "Model\\Applications\\PointCloudExample\\Properties\\Resources.Designer.cs",
+      "Model\\Applications\\PointCloudExample\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "PointCloudExample - Form1 Method",
+        "code": "\r\n        public Form1()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from PointCloudExample example"
+      },
+      {
+        "title": "PointCloudExample - button1_Click Method",
+        "code": "private void button1_Click(object sender, EventArgs e)\r\n        {\r\n            this.openFileDialog1.ShowDialog();\r\n            this.textBox1.Text = this.openFileDialog1.FileName;\r\n        }",
+        "language": "csharp",
+        "description": "Method from PointCloudExample example"
+      },
+      {
+        "title": "PointCloudExample - API Usage",
+        "code": "using Tekla.Structures.Model.UI;\n\nnamespace PointCloudExample\n{\npublic partial class Form1 : Form\n{\npublic Form1()\n{\nInitializeComponent();",
+        "language": "csharp",
+        "description": "Code snippet from PointCloudExample example"
+      },
+      {
+        "title": "PointCloudExample - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from PointCloudExample example"
+      },
+      {
+        "title": "PointCloudExample - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from PointCloudExample example"
+      },
+      {
+        "title": "PointCloudExample - API Usage",
+        "code": "this.button1.Location = new System.Drawing.Point(450, 56);\nthis.button1.Name = \"button1\";",
+        "language": "csharp",
+        "description": "Code snippet from PointCloudExample example"
+      },
+      {
+        "title": "PointCloudExample - API Usage",
+        "code": "if (myModel.GetConnectionStatus() == false)\n{\nMessageBox.Show(\"Tekla Structures is not running.\");",
+        "language": "csharp",
+        "description": "Code snippet from PointCloudExample example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Model.UI",
+      "Tekla.Structures.Model.UI.View"
+    ]
+  },
+  {
+    "name": "RadialGridExample",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\RadialGridExample",
+    "description": "",
+    "files": [
+      "Model\\Applications\\RadialGridExample\\Form1.cs",
+      "Model\\Applications\\RadialGridExample\\Form1.Designer.cs",
+      "Model\\Applications\\RadialGridExample\\Program.cs",
+      "Model\\Applications\\RadialGridExample\\Properties\\Resources.Designer.cs",
+      "Model\\Applications\\RadialGridExample\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "RadialGridExample - RadialGridExample Method",
+        "code": "\r\n\r\n        public RadialGridExample()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from RadialGridExample example"
+      },
+      {
+        "title": "RadialGridExample - RadialGridExample_Load Method",
+        "code": "private void RadialGridExample_Load(object sender, EventArgs e)\r\n        {\r\n            // Set the angle unit to degrees *in the context of this application* (won't affect the user-set unit in\r\n            // Tekla Structures).\r\n            Angle.CurrentUnitType = Angle.UnitType.Degrees;\r\n        }",
+        "language": "csharp",
+        "description": "Method from RadialGridExample example"
+      },
+      {
+        "title": "RadialGridExample - API Usage",
+        "code": "Color = System.Drawing.Color.DarkMagenta,\n};",
+        "language": "csharp",
+        "description": "Code snippet from RadialGridExample example"
+      },
+      {
+        "title": "RadialGridExample - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from RadialGridExample example"
+      },
+      {
+        "title": "RadialGridExample - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from RadialGridExample example"
+      },
+      {
+        "title": "RadialGridExample - API Usage",
+        "code": "this.CreateExampleRadialGridButton.Location = new System.Drawing.Point(31, 20);\nthis.CreateExampleRadialGridButton.Name = \"CreateExampleRadialGridButton\";",
+        "language": "csharp",
+        "description": "Code snippet from RadialGridExample example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Datatype",
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Datatype.Distance"
+    ]
+  },
+  {
+    "name": "RebarExamples",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\RebarExamples",
+    "description": "",
+    "files": [
+      "Model\\Applications\\RebarExamples\\macro\\RebarSample1B.cs",
+      "Model\\Applications\\RebarExamples\\macro\\RebarSample2B.cs",
+      "Model\\Applications\\RebarExamples\\RebarSample1\\RebarSample1.cs",
+      "Model\\Applications\\RebarExamples\\RebarSample2\\RebarSample2.cs",
+      "Model\\Applications\\RebarExamples\\RebarSample3\\RebarSample3.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "RebarExamples - API Usage",
+        "code": "ModelObjectEnumerator myEnum = myModel.GetModelObjectSelector().GetSelectedObjects();\n\nwhile(myEnum.MoveNext())\n{\nBeam myPart = myEnum.Current as Beam;",
+        "language": "csharp",
+        "description": "Code snippet from RebarExamples example"
+      },
+      {
+        "title": "RebarExamples - API Usage",
+        "code": "TransformationPlane currentPlane = myModel.GetWorkPlaneHandler().GetCurrentTransformationPlane();\n\n// set new work plane same as part's local coordsys\nTransformationPlane localPlane = new TransformationPlane(myPart.GetCoordinateSystem());",
+        "language": "csharp",
+        "description": "Code snippet from RebarExamples example"
+      },
+      {
+        "title": "RebarExamples - API Usage",
+        "code": "myModel.GetWorkPlaneHandler().SetCurrentTransformationPlane(localPlane);\n\n// get solid of part to be used for rebar point calculations\nSolid solid = myPart.GetSolid() as Solid;",
+        "language": "csharp",
+        "description": "Code snippet from RebarExamples example"
+      },
+      {
+        "title": "RebarExamples - API Usage",
+        "code": "ModelObjectEnumerator myEnum = myModel.GetModelObjectSelector().GetSelectedObjects();\n\nwhile (myEnum.MoveNext())\n{\nBeam myPart = myEnum.Current as Beam;",
+        "language": "csharp",
+        "description": "Code snippet from RebarExamples example"
+      },
+      {
+        "title": "RebarExamples - API Usage",
+        "code": "TransformationPlane currentPlane = myModel.GetWorkPlaneHandler().GetCurrentTransformationPlane();\n\n// set new work plane same as part's local coordsys\nTransformationPlane localPlane = new TransformationPlane(myPart.GetCoordinateSystem());",
+        "language": "csharp",
+        "description": "Code snippet from RebarExamples example"
+      },
+      {
+        "title": "RebarExamples - API Usage",
+        "code": "myModel.GetWorkPlaneHandler().SetCurrentTransformationPlane(localPlane);\n\n// get solid of part to be used for rebar component point calculations\nSolid solid = myPart.GetSolid() as Solid;",
+        "language": "csharp",
+        "description": "Code snippet from RebarExamples example"
+      },
+      {
+        "title": "RebarExamples - API Usage",
+        "code": "TransformationPlane currentPlane = myModel.GetWorkPlaneHandler().GetCurrentTransformationPlane();\n\n// set new work plane same as part's local coordsys\nTransformationPlane localPlane = new TransformationPlane(myPart.GetCoordinateSystem());",
+        "language": "csharp",
+        "description": "Code snippet from RebarExamples example"
+      },
+      {
+        "title": "RebarExamples - API Usage",
+        "code": "myModel.GetWorkPlaneHandler().SetCurrentTransformationPlane(localPlane);\n\n// get solid of part to be used for rebar point calculations\nSolid solid = myPart.GetSolid() as Solid;",
+        "language": "csharp",
+        "description": "Code snippet from RebarExamples example"
+      },
+      {
+        "title": "RebarExamples - API Usage",
+        "code": "myModel.CommitChanges();\n}\ncatch (Exception e)\n{\nConsole.WriteLine(\"Exception: \" + e.ToString());",
+        "language": "csharp",
+        "description": "Code snippet from RebarExamples example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Technology.Akit.ScriptBuilder",
+      "Tekla.Structures",
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model",
+      "Tekla.Technology.Akit.UserScript",
+      "Tekla.Technology.Akit.IScript",
+      "Tekla.Structures.Model.UI",
+      "Tekla.Net"
+    ]
+  },
+  {
+    "name": "RebarSetExamples",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\RebarSetExamples",
+    "description": "",
+    "files": [
+      "Model\\Applications\\RebarSetExamples\\Form1.cs",
+      "Model\\Applications\\RebarSetExamples\\Form1.Designer.cs",
+      "Model\\Applications\\RebarSetExamples\\Program.cs",
+      "Model\\Applications\\RebarSetExamples\\Properties\\Resources.Designer.cs",
+      "Model\\Applications\\RebarSetExamples\\Properties\\Settings.Designer.cs",
+      "Model\\Applications\\RebarSetExamples\\RebarSetLogic.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "RebarSetExamples - Form1 Method",
+        "code": "\r\n\r\n        public Form1()\r\n        {\r\n            InitializeComponent();\r\n            rebarSetLogic = new RebarSetLogic();\r\n        }",
+        "language": "csharp",
+        "description": "Method from RebarSetExamples example"
+      },
+      {
+        "title": "RebarSetExamples - DisableControls Method",
+        "code": "private void DisableControls(Control con)\r\n        {\r\n            foreach (Button c in con.Controls)\r\n            {\r\n                c.Enabled = false;\r\n            }",
+        "language": "csharp",
+        "description": "Method from RebarSetExamples example"
+      },
+      {
+        "title": "RebarSetExamples - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from RebarSetExamples example"
+      },
+      {
+        "title": "RebarSetExamples - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from RebarSetExamples example"
+      },
+      {
+        "title": "RebarSetExamples - API Usage",
+        "code": "this.btnInsertRebarSet.Location = new System.Drawing.Point(18, 33);\nthis.btnInsertRebarSet.Name = \"btnInsertRebarSet\";",
+        "language": "csharp",
+        "description": "Code snippet from RebarSetExamples example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures"
+    ]
+  },
+  {
+    "name": "ShapeCatalog",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\ShapeCatalog",
+    "description": "",
+    "files": [
+      "Model\\Applications\\ShapeCatalog\\Form1.cs",
+      "Model\\Applications\\ShapeCatalog\\Form1.Designer.cs",
+      "Model\\Applications\\ShapeCatalog\\Program.cs",
+      "Model\\Applications\\ShapeCatalog\\Properties\\Resources.Designer.cs",
+      "Model\\Applications\\ShapeCatalog\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "ShapeCatalog - Form1 Method",
+        "code": "\r\n        public Form1()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from ShapeCatalog example"
+      },
+      {
+        "title": "ShapeCatalog - button1_Click Method",
+        "code": "private void button1_Click(object sender, EventArgs e)\r\n        {\r\n            Model myModel = new Model();\r\n            if (this.textBox1.Text == string.Empty)\r\n            {\r\n                Beam myBeam = new Beam(new TSG.Point(1000, 1000, 1000),\r\n                                        new TSG.Point(6000, 6000, 1000));\r\n                myBeam.Material.MaterialString = \"S235JR\";\r\n                myBeam.Profile.ProfileString = \"HEA400\";\r\n                myBeam.Insert();\r\n            }",
+        "language": "csharp",
+        "description": "Method from ShapeCatalog example"
+      },
+      {
+        "title": "ShapeCatalog - API Usage",
+        "code": "ModelObjectEnumerator myEnum = myModel.GetModelObjectSelector().GetAllObjectsWithType(ModelObject.ModelObjectEnum.BEAM);\nmyEnum.MoveNext();",
+        "language": "csharp",
+        "description": "Code snippet from ShapeCatalog example"
+      },
+      {
+        "title": "ShapeCatalog - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from ShapeCatalog example"
+      },
+      {
+        "title": "ShapeCatalog - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from ShapeCatalog example"
+      },
+      {
+        "title": "ShapeCatalog - API Usage",
+        "code": "this.shapeCatalog1 = new Tekla.Structures.Dialog.UIControls.ShapeCatalog();\nthis.textBox1 = new System.Windows.Forms.TextBox();",
+        "language": "csharp",
+        "description": "Code snippet from ShapeCatalog example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Dialog",
+      "Tekla.Structures.Dialog.UIControls.ShapeCatalog"
+    ]
+  },
+  {
+    "name": "SpiralBeamExample",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\SpiralBeamExample",
+    "description": "",
+    "files": [
+      "Model\\Applications\\SpiralBeamExample\\Form1.cs",
+      "Model\\Applications\\SpiralBeamExample\\Form1.Designer.cs",
+      "Model\\Applications\\SpiralBeamExample\\Program.cs",
+      "Model\\Applications\\SpiralBeamExample\\Properties\\Resources.Designer.cs",
+      "Model\\Applications\\SpiralBeamExample\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "SpiralBeamExample - SpiralBeamForm Method",
+        "code": "\r\n\r\n        public SpiralBeamForm()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from SpiralBeamExample example"
+      },
+      {
+        "title": "SpiralBeamExample - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from SpiralBeamExample example"
+      },
+      {
+        "title": "SpiralBeamExample - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from SpiralBeamExample example"
+      },
+      {
+        "title": "SpiralBeamExample - API Usage",
+        "code": "this.CreateSpiralBeam.Location = new System.Drawing.Point(3, 53);\nthis.CreateSpiralBeam.Name = \"CreateSpiralBeam\";",
+        "language": "csharp",
+        "description": "Code snippet from SpiralBeamExample example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model"
+    ]
+  },
+  {
+    "name": "SplitPolygonWeld",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\SplitPolygonWeld",
+    "description": "",
+    "files": [
+      "Model\\Applications\\SplitPolygonWeld\\MainForm.cs",
+      "Model\\Applications\\SplitPolygonWeld\\MainForm.Designer.cs",
+      "Model\\Applications\\SplitPolygonWeld\\Program.cs",
+      "Model\\Applications\\SplitPolygonWeld\\Properties\\Resources.Designer.cs",
+      "Model\\Applications\\SplitPolygonWeld\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "SplitPolygonWeld - MainForm Method",
+        "code": "\r\n        public MainForm()\r\n        {\r\n            this.InitializeComponent();\r\n            _model = new Model();\r\n        }",
+        "language": "csharp",
+        "description": "Method from SplitPolygonWeld example"
+      },
+      {
+        "title": "SplitPolygonWeld - API Usage",
+        "code": "using Tekla.Structures.Model.UI;\n\npublic partial class MainForm : Form\n{\n/// <summary>\n/// Tekla Structures model.\n/// </summary>\nprivate readonly Model _model;",
+        "language": "csharp",
+        "description": "Code snippet from SplitPolygonWeld example"
+      },
+      {
+        "title": "SplitPolygonWeld - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from SplitPolygonWeld example"
+      },
+      {
+        "title": "SplitPolygonWeld - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from SplitPolygonWeld example"
+      },
+      {
+        "title": "SplitPolygonWeld - API Usage",
+        "code": "this.splitPolygonWeldButton.Location = new System.Drawing.Point(41, 26);\nthis.splitPolygonWeldButton.Name = \"splitPolygonWeldButton\";",
+        "language": "csharp",
+        "description": "Code snippet from SplitPolygonWeld example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Model.Operations",
+      "Tekla.Structures.Model.UI"
+    ]
+  },
+  {
+    "name": "TeklaEvents",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\TeklaEvents",
+    "description": "",
+    "files": [
+      "Model\\Applications\\TeklaEvents\\Form1.cs",
+      "Model\\Applications\\TeklaEvents\\Form1.Designer.cs",
+      "Model\\Applications\\TeklaEvents\\Program.cs",
+      "Model\\Applications\\TeklaEvents\\Properties\\Resources.Designer.cs",
+      "Model\\Applications\\TeklaEvents\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "TeklaEvents - Form1 Method",
+        "code": "\r\n\r\n        public Form1()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from TeklaEvents example"
+      },
+      {
+        "title": "TeklaEvents - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from TeklaEvents example"
+      },
+      {
+        "title": "TeklaEvents - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from TeklaEvents example"
+      },
+      {
+        "title": "TeklaEvents - API Usage",
+        "code": "this.buttonActivate.Location = new System.Drawing.Point(91, 68);\nthis.buttonActivate.Name = \"buttonActivate\";",
+        "language": "csharp",
+        "description": "Code snippet from TeklaEvents example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Model"
+    ]
+  },
+  {
+    "name": "WpfBeamApplication",
+    "category": "Model/Applications",
+    "path": "tekla-examples\\Model\\Applications\\WpfBeamApplication",
+    "description": "",
+    "files": [
+      "Model\\Applications\\WpfBeamApplication\\App.xaml.cs",
+      "Model\\Applications\\WpfBeamApplication\\MainWindow.xaml.cs",
+      "Model\\Applications\\WpfBeamApplication\\MainWindowViewModel.cs",
+      "Model\\Applications\\WpfBeamApplication\\Properties\\Resources.Designer.cs",
+      "Model\\Applications\\WpfBeamApplication\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "WpfBeamApplication - OnStartup Method",
+        "code": " void OnStartup(StartupEventArgs e)\r\n        {\r\n            base.OnStartup(e);\r\n\r\n            var window = new MainWindow();\r\n            if(new Model().GetConnectionStatus())\r\n            {\r\n                events.TeklaStructuresExit += Events_ExitEvent;\r\n\r\n                new System.Windows.Interop.WindowInteropHelper(window).Owner = Tekla.Structures.Dialog.MainWindow.Frame.Handle;\r\n                window.Show();\r\n            }",
+        "language": "csharp",
+        "description": "Method from WpfBeamApplication example"
+      },
+      {
+        "title": "WpfBeamApplication - Events_ExitEvent Method",
+        "code": "\r\n\r\n        void Events_ExitEvent()\r\n        {\r\n            base.Shutdown();\r\n        }",
+        "language": "csharp",
+        "description": "Method from WpfBeamApplication example"
+      },
+      {
+        "title": "WpfBeamApplication - API Usage",
+        "code": "private Events events = new Tekla.Structures.Model.Events();\n\nprotected override void OnStartup(StartupEventArgs e)\n{\nbase.OnStartup(e);",
+        "language": "csharp",
+        "description": "Code snippet from WpfBeamApplication example"
+      },
+      {
+        "title": "WpfBeamApplication - MainWindow Method",
+        "code": "\r\n        public MainWindow()\r\n        {\r\n            InitializeComponent();\r\n            this.DataContext = viewModel;\r\n            this.InitializeDataStorage(viewModel);\r\n            if(this.GetConnectionStatus())\r\n            { \r\n                InitializeDistanceUnitDecimals();\r\n            }",
+        "language": "csharp",
+        "description": "Method from WpfBeamApplication example"
+      },
+      {
+        "title": "WpfBeamApplication - WPFOkCreateCancel_CancelClicked Method",
+        "code": "private void WPFOkCreateCancel_CancelClicked(object sender, EventArgs e)\r\n        {\r\n            this.Close();\r\n        }",
+        "language": "csharp",
+        "description": "Method from WpfBeamApplication example"
+      },
+      {
+        "title": "WpfBeamApplication - API Usage",
+        "code": "this.viewModel.CreateBeam();\n}).Start();",
+        "language": "csharp",
+        "description": "Code snippet from WpfBeamApplication example"
+      },
+      {
+        "title": "WpfBeamApplication - OnPropertyChanged Method",
+        "code": "protected void OnPropertyChanged(string name)\r\n        {\r\n            PropertyChangedEventHandler handler = PropertyChanged;\r\n            if (handler != null)\r\n            {\r\n                handler(this, new PropertyChangedEventArgs(name));\r\n            }",
+        "language": "csharp",
+        "description": "Method from WpfBeamApplication example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Model.Events",
+      "Tekla.Structures.Dialog.MainWindow.Frame.Handle",
+      "Tekla.Structures.Dialog",
+      "Tekla.Structures.Datatype",
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model.UI",
+      "Tekla.Structures.Model.Operations"
+    ]
+  },
+  {
+    "name": "BeamCustomPart",
+    "category": "Model/Plugins",
+    "path": "tekla-examples\\Model\\Plugins\\BeamCustomPart",
+    "description": "",
+    "files": [
+      "Model\\Plugins\\BeamCustomPart\\BeamCustomPart.cs",
+      "Model\\Plugins\\BeamCustomPart\\BeamCustomPartForm.cs",
+      "Model\\Plugins\\BeamCustomPart\\BeamCustomPartForm.Designer.cs",
+      "Model\\Plugins\\BeamCustomPart\\Properties\\Resources.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "BeamCustomPart - BeamCustomPart Method",
+        "code": "\r\n        public BeamCustomPart(StructuresData data)\r\n        {\r\n            this.Data = data;\r\n        }",
+        "language": "csharp",
+        "description": "Method from BeamCustomPart example"
+      },
+      {
+        "title": "BeamCustomPart - API Usage",
+        "code": "Tekla.Structures.Model.Operations.Operation.DisplayPrompt(ex.Message);\n}\n\nreturn true;",
+        "language": "csharp",
+        "description": "Code snippet from BeamCustomPart example"
+      },
+      {
+        "title": "BeamCustomPart - BeamCustomPartForm Method",
+        "code": "\r\n        public BeamCustomPartForm()\r\n        {\r\n            this.InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from BeamCustomPart example"
+      },
+      {
+        "title": "BeamCustomPart - LoadValuesPath Method",
+        "code": " string LoadValuesPath(string fileName)\r\n        {\r\n            this.SetAttributeValue(this.textBoxLengthFactor, 2d);  // One line for each plugin attribute\r\n            this.SetAttributeValue(this.textBoxProfile, \"HEA300\");\r\n            string result = base.LoadValuesPath(fileName);\r\n            this.Apply();\r\n            return result;\r\n        }",
+        "language": "csharp",
+        "description": "Method from BeamCustomPart example"
+      },
+      {
+        "title": "BeamCustomPart - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (this.components != null))\r\n            {\r\n                this.components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from BeamCustomPart example"
+      },
+      {
+        "title": "BeamCustomPart - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from BeamCustomPart example"
+      },
+      {
+        "title": "BeamCustomPart - API Usage",
+        "code": "this.saveLoad1 = new Tekla.Structures.Dialog.UIControls.SaveLoad();\nthis.lengthFactorLabel = new System.Windows.Forms.Label();",
+        "language": "csharp",
+        "description": "Code snippet from BeamCustomPart example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Plugins",
+      "Tekla.Structures.Catalogs",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Model.Operations.Operation.DisplayPrompt",
+      "Tekla.Structures.Dialog",
+      "Tekla.Structures.Dialog.UIControls.OkApplyModifyGetOnOffCancel",
+      "Tekla.Structures.Dialog.UIControls.SaveLoad",
+      "Tekla.Structures.Dialog.UIControls.ProfileCatalog",
+      "Tekla.Structures.Dialog.UIControls.SaveLoad.HelpFileTypeEnum.General"
+    ]
+  },
+  {
+    "name": "BeamPlugin",
+    "category": "Model/Plugins",
+    "path": "tekla-examples\\Model\\Plugins\\BeamPlugin",
+    "description": "",
+    "files": [
+      "Model\\Plugins\\BeamPlugin\\BeamPlugin.cs",
+      "Model\\Plugins\\BeamPlugin\\BeamPluginForm.cs",
+      "Model\\Plugins\\BeamPlugin\\BeamPluginForm.Designer.cs",
+      "Model\\Plugins\\BeamPlugin\\Properties\\Resources.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "BeamPlugin - BeamPlugin Method",
+        "code": "\r\n        public BeamPlugin(StructuresData data)\r\n        {\r\n            TSM.Model M = new TSM.Model();\r\n            Data = data;\r\n        }",
+        "language": "csharp",
+        "description": "Method from BeamPlugin example"
+      },
+      {
+        "title": "BeamPlugin - API Usage",
+        "code": "using Tekla.Structures.Model.UI;\nusing Tekla.Structures.Plugins;",
+        "language": "csharp",
+        "description": "Code snippet from BeamPlugin example"
+      },
+      {
+        "title": "BeamPlugin - BeamPluginForm Method",
+        "code": "\r\n        public BeamPluginForm()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from BeamPlugin example"
+      },
+      {
+        "title": "BeamPlugin - LoadValuesPath Method",
+        "code": " string LoadValuesPath(string fileName)\r\n        {\r\n            SetAttributeValue(textBoxLengthFactor, 2d);  // One line for each plugin attribute\r\n            SetAttributeValue(textBoxProfile, \"HEA300\");\r\n            string Result = base.LoadValuesPath(fileName);\r\n            Apply();\r\n            return Result;\r\n        }",
+        "language": "csharp",
+        "description": "Method from BeamPlugin example"
+      },
+      {
+        "title": "BeamPlugin - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from BeamPlugin example"
+      },
+      {
+        "title": "BeamPlugin - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from BeamPlugin example"
+      },
+      {
+        "title": "BeamPlugin - API Usage",
+        "code": "this.saveLoad1 = new Tekla.Structures.Dialog.UIControls.SaveLoad();\nthis.textBoxLengthFactor = new System.Windows.Forms.TextBox();",
+        "language": "csharp",
+        "description": "Code snippet from BeamPlugin example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model.UI",
+      "Tekla.Structures.Plugins",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Dialog",
+      "Tekla.Structures.Dialog.UIControls.OkApplyModifyGetOnOffCancel",
+      "Tekla.Structures.Dialog.UIControls.SaveLoad",
+      "Tekla.Structures.Dialog.UIControls.SaveLoad.HelpFileTypeEnum.General"
+    ]
+  },
+  {
+    "name": "FlangeBrace",
+    "category": "Model/Plugins",
+    "path": "tekla-examples\\Model\\Plugins\\FlangeBrace",
+    "description": "",
+    "files": [
+      "Model\\Plugins\\FlangeBrace\\FlangeBrace.cs",
+      "Model\\Plugins\\FlangeBrace\\FlangeBraceForm.cs",
+      "Model\\Plugins\\FlangeBrace\\FlangeBraceForm.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "FlangeBrace - FlangeBrace Method",
+        "code": "\r\n        public FlangeBrace(StructuresData data)\r\n        {\r\n            // Link to model.\r\n            _model = new TSModel.Model();\r\n            // Link to input values.\r\n            _data = data;\r\n        }",
+        "language": "csharp",
+        "description": "Method from FlangeBrace example"
+      },
+      {
+        "title": "FlangeBrace - API Usage",
+        "code": "public TSModel.Model Model\n{\nget { return _model; }",
+        "language": "csharp",
+        "description": "Code snippet from FlangeBrace example"
+      },
+      {
+        "title": "FlangeBrace - API Usage",
+        "code": "_model = new TSModel.Model();\n// Link to input values.\n_data = data;",
+        "language": "csharp",
+        "description": "Code snippet from FlangeBrace example"
+      },
+      {
+        "title": "FlangeBrace - FlangeBraceForm Method",
+        "code": "\r\n        public FlangeBraceForm()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from FlangeBrace example"
+      },
+      {
+        "title": "FlangeBrace - okApplyModifyGetOnOffCancel1_ApplyClicked Method",
+        "code": "private void okApplyModifyGetOnOffCancel1_ApplyClicked(object sender, EventArgs e)\r\n        {\r\n            this.Apply();\r\n            \r\n        }",
+        "language": "csharp",
+        "description": "Method from FlangeBrace example"
+      },
+      {
+        "title": "FlangeBrace - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from FlangeBrace example"
+      },
+      {
+        "title": "FlangeBrace - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from FlangeBrace example"
+      },
+      {
+        "title": "FlangeBrace - API Usage",
+        "code": "this.okApplyModifyGetOnOffCancel1 = new Tekla.Structures.Dialog.UIControls.OkApplyModifyGetOnOffCancel();\nthis.checkBox1 = new System.Windows.Forms.CheckBox();",
+        "language": "csharp",
+        "description": "Code snippet from FlangeBrace example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Datatype",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Plugins",
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures",
+      "Tekla.Structures.Model.UI",
+      "Tekla.Structures.Plugins.StructuresField",
+      "Tekla.Structures.Dialog",
+      "Tekla.Structures.Dialog.UIControls.SaveLoad",
+      "Tekla.Structures.Dialog.UIControls.OkApplyModifyGetOnOffCancel",
+      "Tekla.Structures.Dialog.UIControls.BoltCatalogSize",
+      "Tekla.Structures.Dialog.UIControls.BoltCatalogStandard",
+      "Tekla.Structures.Dialog.UIControls.MaterialCatalog",
+      "Tekla.Structures.Dialog.UIControls.ProfileCatalog"
+    ]
+  },
+  {
+    "name": "FormPlugin",
+    "category": "Model/Plugins",
+    "path": "tekla-examples\\Model\\Plugins\\FormPlugin",
+    "description": "﻿Tekla Open API Example\r\n\r\nA plug-in with Windows Form dialog that creates a column in the model.\r\n\r\nAPI:s used: Tekla.Structures.Datatype, Tekla.Structures.Dialog, Tekla.Structures.Model, Tekla.Structures.Plugins.",
+    "files": [
+      "Model\\Plugins\\FormPlugin\\MainForm.cs",
+      "Model\\Plugins\\FormPlugin\\MainForm.Designer.cs",
+      "Model\\Plugins\\FormPlugin\\MainPlugin.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "FormPlugin - MainForm Method",
+        "code": "\r\n        public MainForm()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from FormPlugin example"
+      },
+      {
+        "title": "FormPlugin - okButton_Click Method",
+        "code": "private void okButton_Click(object sender, EventArgs e)\r\n        {\r\n            this.Apply();\r\n            this.Close();\r\n        }",
+        "language": "csharp",
+        "description": "Method from FormPlugin example"
+      },
+      {
+        "title": "FormPlugin - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from FormPlugin example"
+      },
+      {
+        "title": "FormPlugin - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from FormPlugin example"
+      },
+      {
+        "title": "FormPlugin - API Usage",
+        "code": "this.heightTextBox.Location = new System.Drawing.Point(67, 27);\nthis.heightTextBox.Name = \"heightTextBox\";",
+        "language": "csharp",
+        "description": "Code snippet from FormPlugin example"
+      },
+      {
+        "title": "FormPlugin - MainPlugin Method",
+        "code": "\r\n\r\n        public MainPlugin(StructuresData data)\r\n        {\r\n            // Link to model.\r\n            _model = new TSModel.Model();\r\n\r\n            // Link to input values.\r\n            _data = data;\r\n        }",
+        "language": "csharp",
+        "description": "Method from FormPlugin example"
+      },
+      {
+        "title": "FormPlugin - API Usage",
+        "code": "public TSModel.Model Model\n{\nget { return _model; }",
+        "language": "csharp",
+        "description": "Code snippet from FormPlugin example"
+      },
+      {
+        "title": "FormPlugin - API Usage",
+        "code": "_model = new TSModel.Model();\n\n// Link to input values.\n_data = data;",
+        "language": "csharp",
+        "description": "Code snippet from FormPlugin example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Datatype",
+      "Tekla.Structures.Dialog",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Plugins",
+      "Tekla.Structures.Geometry3d.Point"
+    ]
+  },
+  {
+    "name": "ImageListComboBoxExample",
+    "category": "Model/Plugins",
+    "path": "tekla-examples\\Model\\Plugins\\ImageListComboBoxExample",
+    "description": "",
+    "files": [
+      "Model\\Plugins\\ImageListComboBoxExample\\ImageListComboBoxPlugin.cs",
+      "Model\\Plugins\\ImageListComboBoxExample\\PluginForm.cs",
+      "Model\\Plugins\\ImageListComboBoxExample\\PluginForm.Designer.cs",
+      "Model\\Plugins\\ImageListComboBoxExample\\Properties\\Resources.Designer.cs",
+      "Model\\Plugins\\ImageListComboBoxExample\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "ImageListComboBoxExample - ImageListComboBoxPlugin Method",
+        "code": "\r\n        public ImageListComboBoxPlugin(StructuresData data)\r\n        {\r\n            TSM.Model myModel = new TSM.Model();\r\n            Data = data;\r\n        }",
+        "language": "csharp",
+        "description": "Method from ImageListComboBoxExample example"
+      },
+      {
+        "title": "ImageListComboBoxExample - CreateBeam Method",
+        "code": "private void CreateBeam(Point Point1, Point Point2)\r\n        {\r\n            TSM.Beam MyBeam = new TSM.Beam(Point1, Point2);\r\n\r\n            MyBeam.Profile.ProfileString = _Profile;\r\n            MyBeam.Class = _Color.ToString();\r\n            MyBeam.Insert();\r\n        }",
+        "language": "csharp",
+        "description": "Method from ImageListComboBoxExample example"
+      },
+      {
+        "title": "ImageListComboBoxExample - API Usage",
+        "code": "using Tekla.Structures.Model.UI;\nusing Tekla.Structures.Plugins;",
+        "language": "csharp",
+        "description": "Code snippet from ImageListComboBoxExample example"
+      },
+      {
+        "title": "ImageListComboBoxExample - PluginForm Method",
+        "code": "\r\n        public PluginForm()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from ImageListComboBoxExample example"
+      },
+      {
+        "title": "ImageListComboBoxExample - LoadValuesPath Method",
+        "code": " string LoadValuesPath(string fileName)\r\n        {\r\n            SetAttributeValue(ColorComboBox, 2);  // One line for each plugin attribute\r\n            SetAttributeValue(textBoxProfile, \"HEA300\");\r\n            string Result = base.LoadValuesPath(fileName);\r\n            Apply();\r\n            return Result;\r\n        }",
+        "language": "csharp",
+        "description": "Method from ImageListComboBoxExample example"
+      },
+      {
+        "title": "ImageListComboBoxExample - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from ImageListComboBoxExample example"
+      },
+      {
+        "title": "ImageListComboBoxExample - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from ImageListComboBoxExample example"
+      },
+      {
+        "title": "ImageListComboBoxExample - API Usage",
+        "code": "System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PluginForm));\nthis.imageList1 = new System.Windows.Forms.ImageList(this.components);",
+        "language": "csharp",
+        "description": "Code snippet from ImageListComboBoxExample example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model.UI",
+      "Tekla.Structures.Plugins",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Dialog",
+      "Tekla.Structures.Dialog.UIControls.ImageListComboBox",
+      "Tekla.Structures.Dialog.UIControls.SaveLoad",
+      "Tekla.Structures.Dialog.UIControls.OkApplyModifyGetOnOffCancel",
+      "Tekla.Structures.Dialog.UIControls.SaveLoad.HelpFileTypeEnum.General"
+    ]
+  },
+  {
+    "name": "ReinforcedBeam",
+    "category": "Model/Plugins",
+    "path": "tekla-examples\\Model\\Plugins\\ReinforcedBeam",
+    "description": "",
+    "files": [
+      "Model\\Plugins\\ReinforcedBeam\\ReinforcedBeam.cs",
+      "Model\\Plugins\\ReinforcedBeam\\ReinforcedBeamForm.cs",
+      "Model\\Plugins\\ReinforcedBeam\\ReinforcedBeamForm.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "ReinforcedBeam - ReinforcedBeam Method",
+        "code": "\r\n        public ReinforcedBeam(StructuresData StructuresData)\r\n        {\r\n            Model = new Model();\r\n            Data = StructuresData;\r\n        }",
+        "language": "csharp",
+        "description": "Method from ReinforcedBeam example"
+      },
+      {
+        "title": "ReinforcedBeam - Run Method",
+        "code": " bool Run(List<InputDefinition> Input)\r\n        {\r\n            try\r\n            {\r\n                GetValuesFromDialog();\r\n                \r\n                ArrayList Points = (ArrayList) Input[0].GetInput();\r\n                Point StartPoint = Points[0] as Point;\r\n                Point EndPoint = Points[1] as Point;\r\n\r\n                Beam Beam = CreateBeam(StartPoint, EndPoint);\r\n\r\n                if(Beam != null)\r\n                    AddReinforcement(Beam);\r\n                \r\n\r\n            }",
+        "language": "csharp",
+        "description": "Method from ReinforcedBeam example"
+      },
+      {
+        "title": "ReinforcedBeam - API Usage",
+        "code": "using Tekla.Structures.Model.UI;\nusing Tekla.Structures.Plugins;",
+        "language": "csharp",
+        "description": "Code snippet from ReinforcedBeam example"
+      },
+      {
+        "title": "ReinforcedBeam - ReinforcedBeamForm Method",
+        "code": "\r\n        public ReinforcedBeamForm()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from ReinforcedBeam example"
+      },
+      {
+        "title": "ReinforcedBeam - okApplyModifyGetOnOffCancel1_OkClicked Method",
+        "code": "private void okApplyModifyGetOnOffCancel1_OkClicked(object sender, EventArgs e)\r\n        {\r\n            this.Apply();\r\n            this.Close();\r\n        }",
+        "language": "csharp",
+        "description": "Method from ReinforcedBeam example"
+      },
+      {
+        "title": "ReinforcedBeam - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if(disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from ReinforcedBeam example"
+      },
+      {
+        "title": "ReinforcedBeam - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from ReinforcedBeam example"
+      },
+      {
+        "title": "ReinforcedBeam - API Usage",
+        "code": "this.saveLoad1 = new Tekla.Structures.Dialog.UIControls.SaveLoad();\nthis.tabControl1 = new System.Windows.Forms.TabControl();",
+        "language": "csharp",
+        "description": "Code snippet from ReinforcedBeam example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Model.UI",
+      "Tekla.Structures.Plugins",
+      "Tekla.Structures.Datatype",
+      "Tekla.Structures.Datatype.Distance",
+      "Tekla.Structures.Dialog",
+      "Tekla.Structures.Dialog.UIControls.SaveLoad",
+      "Tekla.Structures.Dialog.UIControls.ProfileCatalog",
+      "Tekla.Structures.Dialog.UIControls.ReinforcementCatalog",
+      "Tekla.Structures.Dialog.UIControls.OkApplyModifyGetOnOffCancel"
+    ]
+  },
+  {
+    "name": "SidePaneExamples",
+    "category": "Model/Plugins",
+    "path": "tekla-examples\\Model\\Plugins\\SidePaneExamples",
+    "description": "",
+    "files": [
+      "Model\\Plugins\\SidePaneExamples\\BeamPluginSidePaneFeature\\BeamPluginSidePaneFeature.cs",
+      "Model\\Plugins\\SidePaneExamples\\BeamPluginSidePaneFeature\\Properties\\AssemblyInfo.cs",
+      "Model\\Plugins\\SidePaneExamples\\CustomPartSidePaneFeature\\CustomPartSidePaneFeature.cs",
+      "Model\\Plugins\\SidePaneExamples\\CustomPartSidePaneFeature\\Properties\\AssemblyInfo.cs",
+      "Model\\Plugins\\SidePaneExamples\\SpliceConnSidePaneFeature\\Properties\\AssemblyInfo.cs",
+      "Model\\Plugins\\SidePaneExamples\\SpliceConnSidePaneFeature\\SpliceConnSidePaneFeature.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "SidePaneExamples - BeamPluginSidePaneFeature Method",
+        "code": "\r\n        public BeamPluginSidePaneFeature()\r\n        {\r\n            // BeamPlugin project is also available in TeklaStructures Open API Examples solution\r\n            this.InitializeFeature(\"BeamPlugin\", \"BeamPlugin\", \"no_help_implemented\", PropertyPaneType.Plugin, string.Empty, false);\r\n            BuildTemplate();\r\n        }",
+        "language": "csharp",
+        "description": "Method from SidePaneExamples example"
+      },
+      {
+        "title": "SidePaneExamples - BuildTemplate Method",
+        "code": "private void BuildTemplate()\r\n        {\r\n            AddPropertyGroup(\"Props\", \"General Properties\");\r\n            AddCatalogProperty(\"Props\", Catalog.Profile, \"Profile\", \"\", \"\", \"Beam Profile\", \"\");\r\n\r\n            AddPropertyGroup(\"General\", \"General\");\r\n            AddSingleProperty(\"General\", Single.Double, \"LengthFactor\", \"Length Factor: \", \"\");\r\n        }",
+        "language": "csharp",
+        "description": "Method from SidePaneExamples example"
+      },
+      {
+        "title": "SidePaneExamples - CustomPartSidePaneFeature Method",
+        "code": "\r\n        public CustomPartSidePaneFeature()\r\n        {\r\n            // BeamCustomPart project is also available in TeklaStructures Open API Examples solution\r\n            this.InitializeFeature(\"BeamCustomPart\", \"BeamCustomPart\", \"no_help_implemented\", PropertyPaneType.CustomPart, string.Empty, false);\r\n            BuildTemplate();\r\n        }",
+        "language": "csharp",
+        "description": "Method from SidePaneExamples example"
+      },
+      {
+        "title": "SidePaneExamples - BuildTemplate Method",
+        "code": "private void BuildTemplate()\r\n        {\r\n            AddPropertyGroup(\"Props\", \"General Properties\");\r\n            AddCatalogProperty(\"Props\", Catalog.Profile, \"Profile\", \"\", \"\", \"Beam Profile\", \"\");\r\n\r\n            AddPropertyGroup(\"General\", \"General\");\r\n            AddSingleProperty(\"General\", Single.Double, \"LengthFactor\", \"Length Factor: \", \"\");\r\n        }",
+        "language": "csharp",
+        "description": "Method from SidePaneExamples example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Plugins.PropertyPane"
+    ]
+  },
+  {
+    "name": "SpliceConnection",
+    "category": "Model/Plugins",
+    "path": "tekla-examples\\Model\\Plugins\\SpliceConnection",
+    "description": "Tekla Open API Example\r\n\r\nA plug-in with Windows Form dialog that splices two beams.\r\n\r\nAPI:s used: Tekla.Structures.Datatype, Tekla.Structures.Dialog, Tekla.Structures.Model, Tekla.Structures.Plugins.",
+    "files": [
+      "Model\\Plugins\\SpliceConnection\\Properties\\Resources.Designer.cs",
+      "Model\\Plugins\\SpliceConnection\\SpliceConnection.cs",
+      "Model\\Plugins\\SpliceConnection\\SpliceConnectionForm.cs",
+      "Model\\Plugins\\SpliceConnection\\SpliceConnectionForm.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "SpliceConnection - Resources Method",
+        "code": "\r\n        internal Resources() {\r\n        }",
+        "language": "csharp",
+        "description": "Method from SpliceConnection example"
+      },
+      {
+        "title": "SpliceConnection - API Usage",
+        "code": "[global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]\ninternal static global::System.Globalization.CultureInfo Culture {\nget {\nreturn resourceCulture;",
+        "language": "csharp",
+        "description": "Code snippet from SpliceConnection example"
+      },
+      {
+        "title": "SpliceConnection - API Usage",
+        "code": "internal static System.Drawing.Bitmap UpDirection {\nget {\nobject obj = ResourceManager.GetObject(\"UpDirection\", resourceCulture);",
+        "language": "csharp",
+        "description": "Code snippet from SpliceConnection example"
+      },
+      {
+        "title": "SpliceConnection - SpliceConnection Method",
+        "code": "\r\n        public SpliceConnection(StructuresData data)\r\n        {\r\n            _model = new Model();\r\n            _data = data;\r\n        }",
+        "language": "csharp",
+        "description": "Method from SpliceConnection example"
+      },
+      {
+        "title": "SpliceConnection - SpliceConnection Method",
+        "code": "\r\n    public SpliceConnection()\r\n    {\r\n        InitializeComponent();\r\n    }",
+        "language": "csharp",
+        "description": "Method from SpliceConnection example"
+      },
+      {
+        "title": "SpliceConnection - okApplyModifyGetOnOffCancel1_ApplyClicked Method",
+        "code": "private void okApplyModifyGetOnOffCancel1_ApplyClicked(object sender, EventArgs e)\r\n    {\r\n        this.Apply();\r\n    }",
+        "language": "csharp",
+        "description": "Method from SpliceConnection example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures",
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Plugins",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Dialog"
+    ]
+  },
+  {
+    "name": "SplicePlugin",
+    "category": "Model/Plugins",
+    "path": "tekla-examples\\Model\\Plugins\\SplicePlugin",
+    "description": "﻿Tekla Open API Example\r\n\r\nA plug-in with INP dialog that creates beams and splices between the beams.\r\n\r\nAPI:s used: Tekla.Structures.Model, Tekla.Structures.Plugins.",
+    "files": [
+      "Model\\Plugins\\SplicePlugin\\SplicePlugin.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "SplicePlugin - SplicePlugin Method",
+        "code": "\r\n        public SplicePlugin(StructuresData data)\r\n        {\r\n            this._data = data;\r\n            _model = new TSM.Model();\r\n        }",
+        "language": "csharp",
+        "description": "Method from SplicePlugin example"
+      },
+      {
+        "title": "SplicePlugin - API Usage",
+        "code": "using Tekla.Structures.Model.UI;\nusing Tekla.Structures.Plugins;",
+        "language": "csharp",
+        "description": "Code snippet from SplicePlugin example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Model.UI",
+      "Tekla.Structures.Plugins",
+      "Tekla.Structures.Geometry3d.Point",
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Samples.SplicePlugin",
+      "Tekla.Structures.Plugins.StructuresField"
+    ]
+  },
+  {
+    "name": "WPFPlugin",
+    "category": "Model/Plugins",
+    "path": "tekla-examples\\Model\\Plugins\\WPFPlugin",
+    "description": "",
+    "files": [
+      "Model\\Plugins\\WPFPlugin\\MainWindow.xaml.cs",
+      "Model\\Plugins\\WPFPlugin\\MainWindowViewModel.cs",
+      "Model\\Plugins\\WPFPlugin\\ModelPlugin.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "WPFPlugin - MainWindow Method",
+        "code": "\r\n\r\n        public MainWindow(MainWindowViewModel DataModel)\r\n        {\r\n            InitializeComponent();\r\n            dataModel = DataModel;\r\n        }",
+        "language": "csharp",
+        "description": "Method from WPFPlugin example"
+      },
+      {
+        "title": "WPFPlugin - WPFOkApplyModifyGetOnOffCancel_ApplyClicked Method",
+        "code": "private void WPFOkApplyModifyGetOnOffCancel_ApplyClicked(object sender, EventArgs e)\r\n        {\r\n            this.Apply();\r\n        }",
+        "language": "csharp",
+        "description": "Method from WPFPlugin example"
+      },
+      {
+        "title": "WPFPlugin - OnPropertyChanged Method",
+        "code": "protected void OnPropertyChanged(string name)\r\n        {\r\n            PropertyChangedEventHandler handler = PropertyChanged;\r\n            if (handler != null)\r\n            {\r\n                handler(this, new PropertyChangedEventArgs(name));\r\n            }",
+        "language": "csharp",
+        "description": "Method from WPFPlugin example"
+      },
+      {
+        "title": "WPFPlugin - WPFPlugin Method",
+        "code": "\r\n        public WPFPlugin(PluginData data)\r\n        {\r\n            Model = new Model();\r\n            Data = data;\r\n        }",
+        "language": "csharp",
+        "description": "Method from WPFPlugin example"
+      },
+      {
+        "title": "WPFPlugin - API Usage",
+        "code": "using Tekla.Structures.Model.UI;\nusing Tekla.Structures.Plugins;",
+        "language": "csharp",
+        "description": "Code snippet from WPFPlugin example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Dialog",
+      "Tekla.Structures.Datatype",
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Model.Operations",
+      "Tekla.Structures.Model.UI",
+      "Tekla.Structures.Plugins"
+    ]
+  },
+  {
+    "name": "BasicViews",
+    "category": "Drawings/Applications",
+    "path": "tekla-examples\\Drawings\\Applications\\BasicViews",
+    "description": "﻿Tekla Open API Example\r\n\r\nAn extended application that creates a drawing containing basic views of the selected parts.\r\n\r\nAPI:s used: Tekla.Structures.Model, Tekla.Structures.Drawing.",
+    "files": [
+      "Drawings\\Applications\\BasicViews\\BasicViews.cs",
+      "Drawings\\Applications\\BasicViews\\BasicViews.Designer.cs",
+      "Drawings\\Applications\\BasicViews\\Program.cs",
+      "Drawings\\Applications\\BasicViews\\Properties\\Resources.Designer.cs",
+      "Drawings\\Applications\\BasicViews\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "BasicViews - BasicViews Method",
+        "code": "\r\n        public BasicViews()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from BasicViews example"
+      },
+      {
+        "title": "BasicViews - API Usage",
+        "code": "using TSMUI = Tekla.Structures.Model.UI;\n\nnamespace DrawingTestApplication1\n{\npublic partial class BasicViews : Form\n{\npublic BasicViews()\n{\nInitializeComponent();",
+        "language": "csharp",
+        "description": "Code snippet from BasicViews example"
+      },
+      {
+        "title": "BasicViews - API Usage",
+        "code": "result.AxisY = new Tekla.Structures.Geometry3d.Vector(objectCoordinateSystem.AxisY);\n\nTekla.Structures.Geometry3d.Vector tempVector = (result.AxisX.Cross(UpDirection));",
+        "language": "csharp",
+        "description": "Code snippet from BasicViews example"
+      },
+      {
+        "title": "BasicViews - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from BasicViews example"
+      },
+      {
+        "title": "BasicViews - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from BasicViews example"
+      },
+      {
+        "title": "BasicViews - API Usage",
+        "code": "this.button1.Location = new System.Drawing.Point(12, 12);\nthis.button1.Name = \"button1\";",
+        "language": "csharp",
+        "description": "Code snippet from BasicViews example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Drawing",
+      "Tekla.Structures.Model.UI",
+      "Tekla.Structures.Geometry3d.Vector",
+      "Tekla.Structures.Geometry3d.CoordinateSystem",
+      "Tekla.Structures.Geometry3d.Point",
+      "Tekla.Structures.Model.ModelObject",
+      "Tekla.Structures.Model.Part",
+      "Tekla.Structures.Model.Assembly",
+      "Tekla.Structures.Model.BaseComponent",
+      "Tekla.Structures.Model.Task",
+      "Tekla.Structures.Drawing.View",
+      "Tekla.Structures.Geometry3d.Matrix",
+      "Tekla.Structures.Geometry3d.MatrixFactory.Rotate"
+    ]
+  },
+  {
+    "name": "BoundingBoxDrawer",
+    "category": "Drawings/Applications",
+    "path": "tekla-examples\\Drawings\\Applications\\BoundingBoxDrawer",
+    "description": "Tekla Open API Example\r\n\r\n<description>\r\n\r\nAPI:s used: Tekla.Structures.Model, Tekla.Structures.Drawing.",
+    "files": [
+      "Drawings\\Applications\\BoundingBoxDrawer\\BoundingBoxDrawer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "BoundingBoxDrawer - e_SelectionChange Method",
+        "code": "\r\n\r\n        void e_SelectionChange()\r\n        {\r\n            lock (this)\r\n            {\r\n                DateTime now = DateTime.Now;\r\n                DeleteDrawingObjectsByUda(_drawingHandler.GetActiveDrawing().GetSheet(), \"__MyBBPolygon__\");\r\n                DateTime then = DateTime.Now;\r\n                System.Diagnostics.Debug.WriteLine(String.Format(\"Time used (deleting): {0}",
+        "language": "csharp",
+        "description": "Method from BoundingBoxDrawer example"
+      },
+      {
+        "title": "BoundingBoxDrawer - API Usage",
+        "code": "using Tekla.Structures.Drawing.UI;\nusing Tekla.Structures.Geometry3d;",
+        "language": "csharp",
+        "description": "Code snippet from BoundingBoxDrawer example"
+      },
+      {
+        "title": "BoundingBoxDrawer - API Usage",
+        "code": "Tekla.Structures.Drawing.UI.Events e = new Tekla.Structures.Drawing.UI.Events();\ne.SelectionChange += e_SelectionChange;",
+        "language": "csharp",
+        "description": "Code snippet from BoundingBoxDrawer example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Drawing",
+      "Tekla.Structures.Drawing.UI",
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Drawing.UI.Events"
+    ]
+  },
+  {
+    "name": "DimensionCreator",
+    "category": "Drawings/Applications",
+    "path": "tekla-examples\\Drawings\\Applications\\DimensionCreator",
+    "description": "Tekla Open API Example\r\n\r\n<description>\r\n\r\nAPI:s used: Tekla.Structures.Model, Tekla.Structures.Drawing.",
+    "files": [
+      "Drawings\\Applications\\DimensionCreator\\DimensionCreator.cs",
+      "Drawings\\Applications\\DimensionCreator\\Form1.cs",
+      "Drawings\\Applications\\DimensionCreator\\Form1.Designer.cs",
+      "Drawings\\Applications\\DimensionCreator\\Program.cs",
+      "Drawings\\Applications\\DimensionCreator\\Properties\\Resources.Designer.cs",
+      "Drawings\\Applications\\DimensionCreator\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "DimensionCreator - PickPoints Method",
+        "code": "\r\n\r\n        static void PickPoints(int numberToPick, ref PointList pointList, ref ViewBase view)\r\n        {\r\n            if (Repeat)\r\n            {\r\n                view = lastView;\r\n                foreach (Point pointt in lastPoints)\r\n                {\r\n                    pointList.Add(new Point(pointt));\r\n                }",
+        "language": "csharp",
+        "description": "Method from DimensionCreator example"
+      },
+      {
+        "title": "DimensionCreator - API Usage",
+        "code": "using Tekla.Structures.Drawing.UI;\nusing Tekla.Structures.Drawing;",
+        "language": "csharp",
+        "description": "Code snippet from DimensionCreator example"
+      },
+      {
+        "title": "DimensionCreator - Form1 Method",
+        "code": "\r\n        public Form1()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from DimensionCreator example"
+      },
+      {
+        "title": "DimensionCreator - angleDimensionButton_Click Method",
+        "code": "private void angleDimensionButton_Click(object sender, EventArgs e)\r\n        {\r\n            try\r\n            {\r\n                DimensionCreator.CreateAngleDimension();\r\n            }",
+        "language": "csharp",
+        "description": "Method from DimensionCreator example"
+      },
+      {
+        "title": "DimensionCreator - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from DimensionCreator example"
+      },
+      {
+        "title": "DimensionCreator - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from DimensionCreator example"
+      },
+      {
+        "title": "DimensionCreator - API Usage",
+        "code": "((System.ComponentModel.ISupportInitialize)(this.distanceNumericUpDown)).BeginInit();\nthis.groupBox1.SuspendLayout();",
+        "language": "csharp",
+        "description": "Code snippet from DimensionCreator example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Drawing.UI",
+      "Tekla.Structures.Drawing",
+      "Tekla.Structures.Geometry3d"
+    ]
+  },
+  {
+    "name": "DimensionExample",
+    "category": "Drawings/Applications",
+    "path": "tekla-examples\\Drawings\\Applications\\DimensionExample",
+    "description": "",
+    "files": [
+      "Drawings\\Applications\\DimensionExample\\DimensionExample.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "DimensionExample - API Usage",
+        "code": "using Tekla.Structures.Drawing.UI;\nusing Tekla.Structures.Drawing;",
+        "language": "csharp",
+        "description": "Code snippet from DimensionExample example"
+      },
+      {
+        "title": "DimensionExample - API Usage",
+        "code": "using TSMUI = Tekla.Structures.Model.UI;\nusing Tekla.Structures.Geometry3d;",
+        "language": "csharp",
+        "description": "Code snippet from DimensionExample example"
+      },
+      {
+        "title": "DimensionExample - API Usage",
+        "code": "DrawingObjectEnumerator DrawingObjectEnumerator = CurrentDrawing.GetSheet().GetAllObjects(typeof(Part));\n\nforeach (Part myPart in DrawingObjectEnumerator)\n{\nView View = myPart.GetView() as View;",
+        "language": "csharp",
+        "description": "Code snippet from DimensionExample example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures",
+      "Tekla.Structures.Drawing.UI",
+      "Tekla.Structures.Drawing",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Model.UI",
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model.ModelObject",
+      "Tekla.Structures.Drawing.Part",
+      "Tekla.Net"
+    ]
+  },
+  {
+    "name": "DimensionHeadExample",
+    "category": "Drawings/Applications",
+    "path": "tekla-examples\\Drawings\\Applications\\DimensionHeadExample",
+    "description": "",
+    "files": [
+      "Drawings\\Applications\\DimensionHeadExample\\DimensionHeadExample.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "DimensionHeadExample - API Usage",
+        "code": "using Tekla.Structures.Drawing.UI;\nusing Tekla.Structures.Drawing;",
+        "language": "csharp",
+        "description": "Code snippet from DimensionHeadExample example"
+      },
+      {
+        "title": "DimensionHeadExample - API Usage",
+        "code": "using TSMUI = Tekla.Structures.Model.UI;\nusing Tekla.Structures.Geometry3d;",
+        "language": "csharp",
+        "description": "Code snippet from DimensionHeadExample example"
+      },
+      {
+        "title": "DimensionHeadExample - API Usage",
+        "code": "DrawingObjectEnumerator DrawingObjectEnumerator = CurrentDrawing.GetSheet().GetAllObjects(typeof(Part));\n\nforeach (Part myPart in DrawingObjectEnumerator)\n{\nView View = myPart.GetView() as View;",
+        "language": "csharp",
+        "description": "Code snippet from DimensionHeadExample example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures",
+      "Tekla.Structures.Drawing.UI",
+      "Tekla.Structures.Drawing",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Model.UI",
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model.ModelObject",
+      "Tekla.Structures.Drawing.Part"
+    ]
+  },
+  {
+    "name": "DrawingMarkExample",
+    "category": "Drawings/Applications",
+    "path": "tekla-examples\\Drawings\\Applications\\DrawingMarkExample",
+    "description": "",
+    "files": [
+      "Drawings\\Applications\\DrawingMarkExample\\DrawingChangeUndo.cs",
+      "Drawings\\Applications\\DrawingMarkExample\\Form1.cs",
+      "Drawings\\Applications\\DrawingMarkExample\\Form1.Designer.cs",
+      "Drawings\\Applications\\DrawingMarkExample\\Program.cs",
+      "Drawings\\Applications\\DrawingMarkExample\\Properties\\Resources.Designer.cs",
+      "Drawings\\Applications\\DrawingMarkExample\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "DrawingMarkExample - Run Method",
+        "code": "public static void Run(Tekla.Macros.Runtime.IMacroRuntime runtime) {\r\n            Tekla.Macros.Wpf.Runtime.IWpfMacroHost wpf = runtime.Get<Tekla.Macros.Wpf.Runtime.IWpfMacroHost>();\r\n            wpf.InvokeCommand(\"CommandRepository\", \"Common.Undo\");\r\n        }",
+        "language": "csharp",
+        "description": "Method from DrawingMarkExample example"
+      },
+      {
+        "title": "DrawingMarkExample - DrawingMarkExampleForm Method",
+        "code": "\r\n        public DrawingMarkExampleForm()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from DrawingMarkExample example"
+      },
+      {
+        "title": "DrawingMarkExample - API Usage",
+        "code": "DrawingObjectEnumerator marks = activeDrawing.GetSheet().GetAllObjects(typeof(Mark));\nint nMarksBefore = marks.GetSize();",
+        "language": "csharp",
+        "description": "Code snippet from DrawingMarkExample example"
+      },
+      {
+        "title": "DrawingMarkExample - API Usage",
+        "code": "int nMarksAfter = activeDrawing.GetSheet().GetAllObjects(typeof(Mark)).GetSize();\n}\n\nprivate void buttonUndo_Click(object sender, System.EventArgs e)\n{\nTekla.Structures.ModelInternal.Operation.dotStartAction(\"Undo\", \"\");",
+        "language": "csharp",
+        "description": "Code snippet from DrawingMarkExample example"
+      },
+      {
+        "title": "DrawingMarkExample - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from DrawingMarkExample example"
+      },
+      {
+        "title": "DrawingMarkExample - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from DrawingMarkExample example"
+      },
+      {
+        "title": "DrawingMarkExample - API Usage",
+        "code": "this.buttonDelete.Location = new System.Drawing.Point(39, 29);\nthis.buttonDelete.Name = \"buttonDelete\";",
+        "language": "csharp",
+        "description": "Code snippet from DrawingMarkExample example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Macros.Wpf.Runtime",
+      "Tekla.Macros.Runtime",
+      "Tekla.Macros.Runtime.MacroEntryPointAttribute",
+      "Tekla.Macros.Runtime.IMacroRuntime",
+      "Tekla.Macros.Wpf.Runtime.IWpfMacroHost",
+      "Tekla.Structures.Drawing",
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.ModelInternal.Operation.dotStartAction",
+      "Tekla.Structures.Model.Model",
+      "Tekla.Structures.Model.Part"
+    ]
+  },
+  {
+    "name": "DrawingPartColorExample",
+    "category": "Drawings/Applications",
+    "path": "tekla-examples\\Drawings\\Applications\\DrawingPartColorExample",
+    "description": "",
+    "files": [
+      "Drawings\\Applications\\DrawingPartColorExample\\App.xaml.cs",
+      "Drawings\\Applications\\DrawingPartColorExample\\MainWindow.xaml.cs",
+      "Drawings\\Applications\\DrawingPartColorExample\\Properties\\Resources.Designer.cs",
+      "Drawings\\Applications\\DrawingPartColorExample\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "DrawingPartColorExample - MainWindow Method",
+        "code": "\r\n        public MainWindow()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from DrawingPartColorExample example"
+      },
+      {
+        "title": "DrawingPartColorExample - API Usage",
+        "code": "part.Attributes.VisibleLines.TrueColor = new TeklaDrawingColor(System.Drawing.Color.FromArgb(boxColor.R, boxColor.G, boxColor.B));\npart.Modify();",
+        "language": "csharp",
+        "description": "Code snippet from DrawingPartColorExample example"
+      },
+      {
+        "title": "DrawingPartColorExample - API Usage",
+        "code": "part.Attributes.VisibleLines.TrueColor = new TeklaDrawingColor(System.Drawing.Color.FromArgb(boxColor.R, boxColor.G, boxColor.B));\n}\nelse\n{\nColor boxColor = (WrongMarkColorBox.Fill as SolidColorBrush).Color;",
+        "language": "csharp",
+        "description": "Code snippet from DrawingPartColorExample example"
+      },
+      {
+        "title": "DrawingPartColorExample - Resources Method",
+        "code": "\r\n        internal Resources()\r\n        {\r\n        }",
+        "language": "csharp",
+        "description": "Method from DrawingPartColorExample example"
+      },
+      {
+        "title": "DrawingPartColorExample - API Usage",
+        "code": "[global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]\ninternal static global::System.Globalization.CultureInfo Culture\n{\nget\n{\nreturn resourceCulture;",
+        "language": "csharp",
+        "description": "Code snippet from DrawingPartColorExample example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Drawing",
+      "TeklaDrawingColor"
+    ]
+  },
+  {
+    "name": "FromDrawingToModel",
+    "category": "Drawings/Applications",
+    "path": "tekla-examples\\Drawings\\Applications\\FromDrawingToModel",
+    "description": "Tekla Open API Example\r\n\r\nAn extended application that takes a part selected from a drawing and retrieves\r\ninfo about the part from the model.\r\n\r\nAPI:s used: Tekla.Structures.Model, Tekla.Structures.Drawing.",
+    "files": [
+      "Drawings\\Applications\\FromDrawingToModel\\Form1.cs",
+      "Drawings\\Applications\\FromDrawingToModel\\Form1.Designer.cs",
+      "Drawings\\Applications\\FromDrawingToModel\\Program.cs",
+      "Drawings\\Applications\\FromDrawingToModel\\Properties\\Resources.Designer.cs",
+      "Drawings\\Applications\\FromDrawingToModel\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "FromDrawingToModel - Form1 Method",
+        "code": "\r\n\r\n        public Form1()\r\n        {\r\n            _drawingHandler = new DrawingHandler();\r\n            _model = new Model();\r\n\r\n            if(_model.GetConnectionStatus() && \r\n                _drawingHandler.GetConnectionStatus())\r\n            {\r\n                InitializeComponent();\r\n            }",
+        "language": "csharp",
+        "description": "Method from FromDrawingToModel example"
+      },
+      {
+        "title": "FromDrawingToModel - API Usage",
+        "code": "using Tekla.Structures.Drawing.UI;\nusing Tekla.Structures.Model;",
+        "language": "csharp",
+        "description": "Code snippet from FromDrawingToModel example"
+      },
+      {
+        "title": "FromDrawingToModel - API Usage",
+        "code": "//using ModelObject=Tekla.Structures.Model.ModelObject;\nusing TSM = Tekla.Structures.Model;",
+        "language": "csharp",
+        "description": "Code snippet from FromDrawingToModel example"
+      },
+      {
+        "title": "FromDrawingToModel - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from FromDrawingToModel example"
+      },
+      {
+        "title": "FromDrawingToModel - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from FromDrawingToModel example"
+      },
+      {
+        "title": "FromDrawingToModel - API Usage",
+        "code": "this.Quit.Location = new System.Drawing.Point(652, 382);\nthis.Quit.Name = \"Quit\";",
+        "language": "csharp",
+        "description": "Code snippet from FromDrawingToModel example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Drawing",
+      "Tekla.Structures.Drawing.UI",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Model.ModelObject",
+      "Tekla.Structures.Geometry3d.Point"
+    ]
+  },
+  {
+    "name": "LevelMark",
+    "category": "Drawings/Applications",
+    "path": "tekla-examples\\Drawings\\Applications\\LevelMark",
+    "description": "",
+    "files": [
+      "Drawings\\Applications\\LevelMark\\Form1.cs",
+      "Drawings\\Applications\\LevelMark\\Form1.Designer.cs",
+      "Drawings\\Applications\\LevelMark\\Program.cs",
+      "Drawings\\Applications\\LevelMark\\Properties\\Resources.Designer.cs",
+      "Drawings\\Applications\\LevelMark\\Properties\\Settings.Designer.cs",
+      "Drawings\\Applications\\LevelMark\\Resource1.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "LevelMark - Form1 Method",
+        "code": "\r\n        public Form1()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from LevelMark example"
+      },
+      {
+        "title": "LevelMark - SetDataToForm Method",
+        "code": "public void SetDataToForm(Tekla.Structures.Drawing.LevelMark levelMark)\r\n        {\r\n            this.Text = \"Level Mark Test\";\r\n            if(levelMark == null)\r\n                return;\r\n\r\n            var prop = levelMark.GetType().GetProperty(\"Identifier\", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic);\r\n            Identifier id =  prop.GetValue(levelMark) as Identifier;\r\n\r\n            if(id != null)\r\n                this.Text = $\"Level Mark ID:{id.ID}",
+        "language": "csharp",
+        "description": "Method from LevelMark example"
+      },
+      {
+        "title": "LevelMark - API Usage",
+        "code": "using Tekla.Structures.Drawing.UI;\nusing Tekla.Structures.Geometry3d;",
+        "language": "csharp",
+        "description": "Code snippet from LevelMark example"
+      },
+      {
+        "title": "LevelMark - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if(disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from LevelMark example"
+      },
+      {
+        "title": "LevelMark - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from LevelMark example"
+      },
+      {
+        "title": "LevelMark - API Usage",
+        "code": "((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();\nthis.SuspendLayout();",
+        "language": "csharp",
+        "description": "Code snippet from LevelMark example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Drawing",
+      "Tekla.Structures.Drawing.UI",
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures",
+      "Tekla.Structures.Drawing.LevelMark",
+      "Tekla.Structures.Drawing.LevelMark.LevelMarkType.NoArrowNoLeaderLine",
+      "Tekla.Structures.Drawing.LevelMark.LevelMarkType.ArrowWithoutLeaderLine",
+      "Tekla.Structures.Drawing.LevelMark.LevelMarkType.InclinedLeaderLine",
+      "Tekla.Structures.Drawing.LevelMark.LevelMarkType.OrthogonalLeaderLine",
+      "Tekla.Structures.Drawing.ModelObject",
+      "Tekla.Structures.Drawing.UI.Events"
+    ]
+  },
+  {
+    "name": "Print_Drawing_DPM",
+    "category": "Drawings/Applications",
+    "path": "tekla-examples\\Drawings\\Applications\\Print_Drawing_DPM",
+    "description": "",
+    "files": [
+      "Drawings\\Applications\\Print_Drawing_DPM\\Form1.cs",
+      "Drawings\\Applications\\Print_Drawing_DPM\\Form1.Designer.cs",
+      "Drawings\\Applications\\Print_Drawing_DPM\\Logic.cs",
+      "Drawings\\Applications\\Print_Drawing_DPM\\Program.cs",
+      "Drawings\\Applications\\Print_Drawing_DPM\\Properties\\Resources.Designer.cs",
+      "Drawings\\Applications\\Print_Drawing_DPM\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "Print_Drawing_DPM - Form1 Method",
+        "code": "\r\n        public Form1()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from Print_Drawing_DPM example"
+      },
+      {
+        "title": "Print_Drawing_DPM - button1_Click Method",
+        "code": "private void button1_Click(object sender, EventArgs e)\r\n        {\r\n            if (!ExecutePart1()) return;\r\n            if (!ExecutePart2()) return;\r\n\r\n            if (!ExecutePart3())\r\n                return;\r\n            else\r\n                label4.Visible = true;\r\n\r\n\r\n        }",
+        "language": "csharp",
+        "description": "Method from Print_Drawing_DPM example"
+      },
+      {
+        "title": "Print_Drawing_DPM - API Usage",
+        "code": "label1.ForeColor = System.Drawing.Color.Lime;\n}\nelse\n{\nlabel1.Text = label1.Text + \"  WRONG!\";",
+        "language": "csharp",
+        "description": "Code snippet from Print_Drawing_DPM example"
+      },
+      {
+        "title": "Print_Drawing_DPM - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from Print_Drawing_DPM example"
+      },
+      {
+        "title": "Print_Drawing_DPM - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from Print_Drawing_DPM example"
+      },
+      {
+        "title": "Print_Drawing_DPM - API Usage",
+        "code": "this.button1.Location = new System.Drawing.Point(43, 46);\nthis.button1.Name = \"button1\";",
+        "language": "csharp",
+        "description": "Code snippet from Print_Drawing_DPM example"
+      },
+      {
+        "title": "Print_Drawing_DPM - API Usage",
+        "code": "var mos = new Tekla.Structures.Model.UI.ModelObjectSelector();\nArrayList myList = new ArrayList();",
+        "language": "csharp",
+        "description": "Code snippet from Print_Drawing_DPM example"
+      },
+      {
+        "title": "Print_Drawing_DPM - API Usage",
+        "code": "var mos = new Tekla.Structures.Model.UI.ModelObjectSelector();\nModelObjectEnumerator moe = mos.GetSelectedObjects();",
+        "language": "csharp",
+        "description": "Code snippet from Print_Drawing_DPM example"
+      },
+      {
+        "title": "Print_Drawing_DPM - API Usage",
+        "code": "myModel.GetWorkPlaneHandler().SetCurrentTransformationPlane(new TransformationPlane());  // We use global transformation\nDrawingHandler dh = new DrawingHandler();",
+        "language": "csharp",
+        "description": "Code snippet from Print_Drawing_DPM example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures",
+      "Tekla.Structures.Drawing",
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Model.UI.ModelObjectSelector"
+    ]
+  },
+  {
+    "name": "SimpleDrawingList",
+    "category": "Drawings/Applications",
+    "path": "tekla-examples\\Drawings\\Applications\\SimpleDrawingList",
+    "description": "﻿Tekla Open API Example\r\n\r\nAn extended application that enumerates the available drawings and displays them.\r\n\r\nAPI:s used: Tekla.Structures.Drawing.",
+    "files": [
+      "Drawings\\Applications\\SimpleDrawingList\\Program.cs",
+      "Drawings\\Applications\\SimpleDrawingList\\Properties\\Resources.Designer.cs",
+      "Drawings\\Applications\\SimpleDrawingList\\Properties\\Settings.Designer.cs",
+      "Drawings\\Applications\\SimpleDrawingList\\SimpleDrawingList.cs",
+      "Drawings\\Applications\\SimpleDrawingList\\SimpleDrawingList.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "SimpleDrawingList - Resources Method",
+        "code": "\r\n        internal Resources() {\r\n        }",
+        "language": "csharp",
+        "description": "Method from SimpleDrawingList example"
+      },
+      {
+        "title": "SimpleDrawingList - API Usage",
+        "code": "[global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]\ninternal static global::System.Globalization.CultureInfo Culture {\nget {\nreturn resourceCulture;",
+        "language": "csharp",
+        "description": "Code snippet from SimpleDrawingList example"
+      }
+    ],
+    "apiElements": []
+  },
+  {
+    "name": "WeldMarkExample",
+    "category": "Drawings/Applications",
+    "path": "tekla-examples\\Drawings\\Applications\\WeldMarkExample",
+    "description": "",
+    "files": [
+      "Drawings\\Applications\\WeldMarkExample\\Form1.cs",
+      "Drawings\\Applications\\WeldMarkExample\\Form1.Designer.cs",
+      "Drawings\\Applications\\WeldMarkExample\\Program.cs",
+      "Drawings\\Applications\\WeldMarkExample\\Properties\\Resources.Designer.cs",
+      "Drawings\\Applications\\WeldMarkExample\\Properties\\Settings.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "WeldMarkExample - Form1 Method",
+        "code": "\r\n        public Form1()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from WeldMarkExample example"
+      },
+      {
+        "title": "WeldMarkExample - API Usage",
+        "code": "var weld = new Tekla.Structures.Model.Weld();\nweld.MainObject = cp1;",
+        "language": "csharp",
+        "description": "Code snippet from WeldMarkExample example"
+      },
+      {
+        "title": "WeldMarkExample - API Usage",
+        "code": "buttonCreatesAssDrawing.Enabled = true;\nlabel1.Text = \" Close Numbering dialog manually! \\n Assembly drawing will be created and opens automatically.\";",
+        "language": "csharp",
+        "description": "Code snippet from WeldMarkExample example"
+      },
+      {
+        "title": "WeldMarkExample - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from WeldMarkExample example"
+      },
+      {
+        "title": "WeldMarkExample - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from WeldMarkExample example"
+      },
+      {
+        "title": "WeldMarkExample - API Usage",
+        "code": "this.label1.Location = new System.Drawing.Point(92, 63);\nthis.label1.Name = \"label1\";",
+        "language": "csharp",
+        "description": "Code snippet from WeldMarkExample example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures",
+      "Tekla.Structures.Drawing",
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Model.Weld",
+      "Tekla.Structures.ModelInternal.Operation.dotStartAction",
+      "Tekla.Structures.Drawing.Weld"
+    ]
+  },
+  {
+    "name": "EllipsePlugin",
+    "category": "Drawings/Plugins",
+    "path": "tekla-examples\\Drawings\\Plugins\\EllipsePlugin",
+    "description": "",
+    "files": [
+      "Drawings\\Plugins\\EllipsePlugin\\EllipsePlugin.cs",
+      "Drawings\\Plugins\\EllipsePlugin\\EllipsePluginData.cs",
+      "Drawings\\Plugins\\EllipsePlugin\\EllipsePluginForm.cs",
+      "Drawings\\Plugins\\EllipsePlugin\\EllipsePluginForm.Designer.cs",
+      "Drawings\\Plugins\\EllipsePlugin\\EllipsePluginShapes.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "EllipsePlugin - EllipsePlugin Method",
+        "code": "\r\n\r\n        public EllipsePlugin(EllipsePluginData data)\r\n        {\r\n            Data = data;\r\n        }",
+        "language": "csharp",
+        "description": "Method from EllipsePlugin example"
+      },
+      {
+        "title": "EllipsePlugin - Run Method",
+        "code": " bool Run(List<InputDefinition> inputs)\r\n            {\r\n                ViewBase view = InputDefinitionFactory.GetView(inputs[0]);\r\n                PointList points = InputDefinitionFactory.GetPoints(inputs[0]);\r\n                if(Distance.PointToPoint(points[0], points[1]) <= Point.EPSILON_SQUARED)\r\n                {\r\n                    return false;\r\n                }",
+        "language": "csharp",
+        "description": "Method from EllipsePlugin example"
+      },
+      {
+        "title": "EllipsePlugin - CheckDefaults Method",
+        "code": "internal void CheckDefaults(DrawingPluginBase dp)\r\n        {\r\n            if (dp.IsDefaultValue(MajorAxis))\r\n            {\r\n                MajorAxis = 100.0;\r\n            }",
+        "language": "csharp",
+        "description": "Method from EllipsePlugin example"
+      },
+      {
+        "title": "EllipsePlugin - EllipsePluginForm Method",
+        "code": "\r\n        public EllipsePluginForm()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from EllipsePlugin example"
+      },
+      {
+        "title": "EllipsePlugin - ApplyClicked Method",
+        "code": "private void ApplyClicked(object sender, EventArgs e)\r\n        {\r\n            Apply();\r\n        }",
+        "language": "csharp",
+        "description": "Method from EllipsePlugin example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Plugins",
+      "Tekla.Structures.Drawing",
+      "Tekla.Structures.Drawing.Tools",
+      "Tekla.Structures.Drawing.UI",
+      "Tekla.Structures.Dialog"
+    ]
+  },
+  {
+    "name": "InsertMarkPlugin",
+    "category": "Drawings/Plugins",
+    "path": "tekla-examples\\Drawings\\Plugins\\InsertMarkPlugin",
+    "description": "",
+    "files": [
+      "Drawings\\Plugins\\InsertMarkPlugin\\InsertMarkPlugin.cs",
+      "Drawings\\Plugins\\InsertMarkPlugin\\InsertMarkPluginForm.cs",
+      "Drawings\\Plugins\\InsertMarkPlugin\\InsertMarkPluginForm.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "InsertMarkPlugin - InsertMarkPlugin Method",
+        "code": "\r\n        public InsertMarkPlugin(PluginData data)\r\n        {\r\n            Data = data;\r\n        }",
+        "language": "csharp",
+        "description": "Method from InsertMarkPlugin example"
+      },
+      {
+        "title": "InsertMarkPlugin - GetData Method",
+        "code": "private void GetData()\r\n        {\r\n            if (IsDefaultValue(Data.Text))\r\n            {\r\n                Data.Text = \"My Mark\";\r\n            }",
+        "language": "csharp",
+        "description": "Method from InsertMarkPlugin example"
+      },
+      {
+        "title": "InsertMarkPlugin - API Usage",
+        "code": "TSM.ModelObject modelObject = myModel.SelectModelObject(partOfMark.ModelIdentifier);\n\nTSM.Part modelPart = (TSM.Part)modelObject;",
+        "language": "csharp",
+        "description": "Code snippet from InsertMarkPlugin example"
+      },
+      {
+        "title": "InsertMarkPlugin - InsertMarkPluginForm Method",
+        "code": "\r\n        public InsertMarkPluginForm()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from InsertMarkPlugin example"
+      },
+      {
+        "title": "InsertMarkPlugin - OkApplyModifyGetOnOffCancel_OkClicked Method",
+        "code": "private void OkApplyModifyGetOnOffCancel_OkClicked(object sender, EventArgs e)\r\n        {\r\n            this.Apply();\r\n            this.Close();\r\n        }",
+        "language": "csharp",
+        "description": "Method from InsertMarkPlugin example"
+      },
+      {
+        "title": "InsertMarkPlugin - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from InsertMarkPlugin example"
+      },
+      {
+        "title": "InsertMarkPlugin - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from InsertMarkPlugin example"
+      },
+      {
+        "title": "InsertMarkPlugin - API Usage",
+        "code": "this.SaveLoadSaveAs = new Tekla.Structures.Dialog.UIControls.SaveLoad();\nthis.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();",
+        "language": "csharp",
+        "description": "Code snippet from InsertMarkPlugin example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Plugins",
+      "Tekla.Structures.Drawing",
+      "Tekla.Structures.Drawing.Tools",
+      "Tekla.Structures.Drawing.UI",
+      "Tekla.Structures.Drawing.View",
+      "Tekla.Structures.Drawing.ModelObject",
+      "Tekla.Structures.Plugins.StructuresField",
+      "Tekla.Structures.Dialog.PluginFormBase",
+      "Tekla.Structures.Dialog.UIControls.OkApplyModifyGetOnOffCancel",
+      "Tekla.Structures.Dialog.UIControls.SaveLoad",
+      "Tekla.Structures.Dialog.UIControls.SaveLoad.HelpFileTypeEnum.General"
+    ]
+  },
+  {
+    "name": "MarkPlugin",
+    "category": "Drawings/Plugins",
+    "path": "tekla-examples\\Drawings\\Plugins\\MarkPlugin",
+    "description": "",
+    "files": [
+      "Drawings\\Plugins\\MarkPlugin\\MarkPlugin.cs",
+      "Drawings\\Plugins\\MarkPlugin\\MarkPluginForm.cs",
+      "Drawings\\Plugins\\MarkPlugin\\MarkPluginForm.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "MarkPlugin - MarkPlugin Method",
+        "code": "\r\n\r\n        public MarkPlugin(MarkPluginData data)\r\n        {\r\n            Data = data;\r\n        }",
+        "language": "csharp",
+        "description": "Method from MarkPlugin example"
+      },
+      {
+        "title": "MarkPlugin - FormatMarkText Method",
+        "code": "private static string FormatMarkText(string prefix, ViewBase view, PointList points)\r\n        {\r\n            return String.Format(\"{0}",
+        "language": "csharp",
+        "description": "Method from MarkPlugin example"
+      },
+      {
+        "title": "MarkPlugin - MarkPluginForm Method",
+        "code": "\r\n        public MarkPluginForm()\r\n        {\r\n            InitializeComponent();\r\n\r\n            cmbColor.DataSource = GetColors();\r\n        }",
+        "language": "csharp",
+        "description": "Method from MarkPlugin example"
+      },
+      {
+        "title": "MarkPlugin - GetColors Method",
+        "code": "private static ArrayList GetColors()\r\n        {\r\n            var colors = new ArrayList();\r\n            foreach (DrawingColors color in Enum.GetValues(typeof(DrawingColors)))\r\n            {\r\n                colors.Add(color);\r\n            }",
+        "language": "csharp",
+        "description": "Method from MarkPlugin example"
+      },
+      {
+        "title": "MarkPlugin - Dispose Method",
+        "code": " void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }",
+        "language": "csharp",
+        "description": "Method from MarkPlugin example"
+      },
+      {
+        "title": "MarkPlugin - API Usage",
+        "code": "private System.ComponentModel.IContainer components = null;\n\n/// <summary>\n/// Clean up any resources being used.\n/// </summary>\n/// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "language": "csharp",
+        "description": "Code snippet from MarkPlugin example"
+      },
+      {
+        "title": "MarkPlugin - API Usage",
+        "code": "this.components = new System.ComponentModel.Container();\nthis.txtPrefix = new System.Windows.Forms.TextBox();",
+        "language": "csharp",
+        "description": "Code snippet from MarkPlugin example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Plugins",
+      "Tekla.Structures.Drawing",
+      "Tekla.Structures.Drawing.Tools",
+      "Tekla.Structures.Drawing.UI",
+      "Tekla.Structures.Dialog",
+      "Tekla.Structures.Dialog.PluginFormBase",
+      "Tekla.Structures.Dialog.UIControls.OkApplyModifyGetOnOffCancel",
+      "Tekla.Structures.Dialog.UIControls.SaveLoad",
+      "Tekla.Structures.Dialog.UIControls.SaveLoad.HelpFileTypeEnum.General"
+    ]
+  },
+  {
+    "name": "SlotPlugin",
+    "category": "Drawings/Plugins",
+    "path": "tekla-examples\\Drawings\\Plugins\\SlotPlugin",
+    "description": "",
+    "files": [
+      "Drawings\\Plugins\\SlotPlugin\\BoltHelper.cs",
+      "Drawings\\Plugins\\SlotPlugin\\SlotPlugin.cs",
+      "Drawings\\Plugins\\SlotPlugin\\SlotPluginForm.cs",
+      "Drawings\\Plugins\\SlotPlugin\\SlotPluginForm.Designer.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "SlotPlugin - if Method",
+        "code": " even\r\n                    if (bolts.RotateSlots == BoltGroup.BoltRotateSlotsEnum.ROTATE_SLOTS_EVEN)\r\n                    {\r\n                        dimensionX = bolts.SlottedHoleY;\r\n                        dimensionY = bolts.SlottedHoleX;\r\n                    }",
+        "language": "csharp",
+        "description": "Method from SlotPlugin example"
+      },
+      {
+        "title": "SlotPlugin - API Usage",
+        "code": "using Part = Tekla.Structures.Model.Part;\nusing TSD = Tekla.Structures.Drawing;",
+        "language": "csharp",
+        "description": "Code snippet from SlotPlugin example"
+      },
+      {
+        "title": "SlotPlugin - API Usage",
+        "code": "slottedPart = Model.SelectModelObject(item.ModelIdentifier) as Part;\nbreak;",
+        "language": "csharp",
+        "description": "Code snippet from SlotPlugin example"
+      },
+      {
+        "title": "SlotPlugin - GetData Method",
+        "code": "private void GetData()\r\n        {\r\n            if (IsDefaultValue(Data.SymbolNumber))\r\n            {\r\n                Data.SymbolNumber = 0;\r\n            }",
+        "language": "csharp",
+        "description": "Method from SlotPlugin example"
+      },
+      {
+        "title": "SlotPlugin - SlotPlugin Method",
+        "code": "\r\n        public SlotPlugin(SlotPluginData data)\r\n        {\r\n            Data = data;\r\n        }",
+        "language": "csharp",
+        "description": "Method from SlotPlugin example"
+      },
+      {
+        "title": "SlotPlugin - API Usage",
+        "code": "using Tekla.Structures.Drawing.UI;\nusing Tekla.Structures.Geometry3d;",
+        "language": "csharp",
+        "description": "Code snippet from SlotPlugin example"
+      },
+      {
+        "title": "SlotPlugin - SlotPluginForm Method",
+        "code": "\r\n        public SlotPluginForm()\r\n        {\r\n            InitializeComponent();\r\n        }",
+        "language": "csharp",
+        "description": "Method from SlotPlugin example"
+      },
+      {
+        "title": "SlotPlugin - okApplyModifyGetOnOffCancel1_ApplyClicked Method",
+        "code": "private void okApplyModifyGetOnOffCancel1_ApplyClicked(object sender, EventArgs e)\r\n        {\r\n            this.Apply();\r\n        }",
+        "language": "csharp",
+        "description": "Method from SlotPlugin example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures",
+      "Tekla.Structures.Drawing",
+      "Tekla.Structures.Geometry3d",
+      "Tekla.Structures.Model",
+      "Tekla.Structures.Model.Part",
+      "Tekla.Structures.Drawing.Tools",
+      "Tekla.Structures.Drawing.UI",
+      "Tekla.Structures.Plugins",
+      "Tekla.Structures.Dialog"
+    ]
+  },
+  {
+    "name": "CustomPropertyTest",
+    "category": "CustomProperties",
+    "path": "tekla-examples\\CustomProperties\\CustomPropertyTest",
+    "description": "",
+    "files": [
+      "CustomProperties\\CustomPropertyTest\\CustomProperty.cs",
+      "CustomProperties\\CustomPropertyTest\\CustomProperty2025.cs",
+      "CustomProperties\\CustomPropertyTest\\ObjectTopLevelCustomPropertyExample.cs"
+    ],
+    "codeSnippets": [
+      {
+        "title": "CustomPropertyTest - GetIntegerProperty Method",
+        "code": "public int GetIntegerProperty(int objectId)\r\n        {\r\n            BaseComponent father = SelectFatherComponent(objectId);\r\n\r\n            if (father != null)\r\n                return father.Number;\r\n            else\r\n                return 0;\r\n        }",
+        "language": "csharp",
+        "description": "Method from CustomPropertyTest example"
+      },
+      {
+        "title": "CustomPropertyTest - GetStringProperty Method",
+        "code": "public string GetStringProperty(int objectId)\r\n        {\r\n            BaseComponent father = SelectFatherComponent(objectId);\r\n\r\n            if (father != null)\r\n                return father.Name;\r\n            else\r\n                return string.Empty;\r\n        }",
+        "language": "csharp",
+        "description": "Method from CustomPropertyTest example"
+      },
+      {
+        "title": "CustomPropertyTest - API Usage",
+        "code": "// using System.ComponentModel.Composition;\nusing Tekla.Structures.Model;",
+        "language": "csharp",
+        "description": "Code snippet from CustomPropertyTest example"
+      },
+      {
+        "title": "CustomPropertyTest - GetIntegerProperty Method",
+        "code": "public int GetIntegerProperty(int objectId)\r\n        {\r\n            return 2025;\r\n        }",
+        "language": "csharp",
+        "description": "Method from CustomPropertyTest example"
+      },
+      {
+        "title": "CustomPropertyTest - GetDoubleProperty Method",
+        "code": "public double GetDoubleProperty(int objectId)\r\n        {\r\n            return 2025.0;\r\n        }",
+        "language": "csharp",
+        "description": "Method from CustomPropertyTest example"
+      },
+      {
+        "title": "CustomPropertyTest - GetIntegerProperty Method",
+        "code": "public int GetIntegerProperty(int objectId)\r\n        {\r\n            return GetObjectTopLevel(objectId);\r\n        }",
+        "language": "csharp",
+        "description": "Method from CustomPropertyTest example"
+      },
+      {
+        "title": "CustomPropertyTest - GetStringProperty Method",
+        "code": "public string GetStringProperty(int objectId)\r\n        {\r\n            return GetObjectTopLevel(objectId).ToString();\r\n        }",
+        "language": "csharp",
+        "description": "Method from CustomPropertyTest example"
+      },
+      {
+        "title": "CustomPropertyTest - API Usage",
+        "code": "// using System.ComponentModel.Composition;\nusing Tekla.Structures;",
+        "language": "csharp",
+        "description": "Code snippet from CustomPropertyTest example"
+      }
+    ],
+    "apiElements": [
+      "Tekla.Structures.Model",
+      "Tekla.Structures.CustomPropertyPlugin",
+      "Tekla.Structures.Identifier",
+      "Tekla.Structures"
+    ]
+  }
+]

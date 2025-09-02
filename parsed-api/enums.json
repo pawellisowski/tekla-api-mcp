@@ -1,0 +1,524 @@
+[
+  {
+    "title": "AutoDirectionTypeEnum Enumeration",
+    "description": "The auto direction type defines how a connection or detail coordinate system will be oriented automatically.",
+    "summary": "The auto direction type defines how a connection or detail coordinate system will be oriented automatically.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "4a99522f-60bb-44d4-c332-f63428e34119.htm"
+  },
+  {
+    "title": "ComponentDefinitionTypeEnum Enumeration",
+    "description": "The component definition type tells what kind of a component is in question.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "f28368d2-a894-54a5-ba13-eb1eea31433c.htm"
+  },
+  {
+    "title": "ComponentOptions.BoltEdgeDistanceReferenceEnum Enumeration",
+    "description": "The bolt edge distance reference type.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "c668e8fe-10a6-c044-ca5d-f8216f73c335.htm"
+  },
+  {
+    "title": "ConnectionStatusEnum Enumeration",
+    "description": "The status type defines what the status of a connection or a detail is. In the model the color of the symbol (green, yellow, red) indicates the status.",
+    "summary": "The status type defines what the status of a connection or a detail is.\n            In the model the color of the symbol (green, yellow, red) indicates the status.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "89082ad9-82c1-795c-0e98-24eb136ccfed.htm"
+  },
+  {
+    "title": "DetailTypeEnum Enumeration",
+    "description": "The detail type defines what kind of a detail is in question.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "0d7cdc36-44c0-7f88-778a-d419f621809d.htm"
+  },
+  {
+    "title": "ModuleManager.ProgramConfigurationEnum Enumeration",
+    "description": "The configuration information of the program.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "a252a416-c746-9a3f-65f0-aefe05f547f7.htm"
+  },
+  {
+    "title": "PositionTypeEnum Enumeration",
+    "description": "The position type for connections and seams.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "c01f30a8-da00-a772-9a9e-2aaaceec2259.htm"
+  },
+  {
+    "title": "PropertyTypeEnum Enumeration",
+    "description": "The type of property: int/double/string.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "d70b9e6f-c199-2166-82a9-46fb8d3d6c16.htm"
+  },
+  {
+    "title": "TeklaStructuresDatabaseTypeEnum Enumeration",
+    "description": "The object types to be used in filter expressions.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "fa0bf845-2589-975e-2598-c8d53823bb09.htm"
+  },
+  {
+    "title": "AnalysisBar.CardinalPointEnum Enumeration",
+    "description": "The cardinal point types of the analysis bar.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "acd4ff4b-1095-b5ce-e3b3-871095db92d4.htm"
+  },
+  {
+    "title": "AnalysisConnectivity.CombinedTypeEnum Enumeration",
+    "description": "The combined types.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "6fcb495a-b35d-a303-9998-c8f9ade7379c.htm"
+  },
+  {
+    "title": "AnalysisConnectivity.ConnectivityEnum Enumeration",
+    "description": "The connectivity types.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "47869ce9-2303-0618-6f64-16f5cff42e3e.htm"
+  },
+  {
+    "title": "AnalysisDecomposedLoad.AnalysisDecomposedLoadDirectionEnum Enumeration",
+    "description": "Defines the analysis decomposed load directions.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "ce99bc57-d5a5-eaa3-b501-aef9f163635e.htm"
+  },
+  {
+    "title": "AnalysisDecomposedLoad.AnalysisLoadTypeEnum Enumeration",
+    "description": "Defines the analysis load types.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "568646ff-3247-512a-4629-433b141d7459.htm"
+  },
+  {
+    "title": "AnalysisDecomposedLoad.LoadCoordinateEnum Enumeration",
+    "description": "This defines whether local or global coordinates are used for loading the coordinate system.",
+    "summary": "This defines whether local or global coordinates are used for loading the coordinate system.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "3238e019-d3c8-abff-6066-9fc11a80623d.htm"
+  },
+  {
+    "title": "AnalysisDesignParameterMulti.DesignParIndex Enumeration",
+    "description": "Multi value design parameter indexes",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "d19ca947-d9d1-c906-e5ee-6c75bac378ff.htm"
+  },
+  {
+    "title": "AnalysisLoadCombination.LoadCombinationEnum Enumeration",
+    "description": "The load combination types.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "4e32fda4-81f6-2f3c-b147-125b3902f8d2.htm"
+  },
+  {
+    "title": "AnalysisLoadGroup.LoadGroupDirectionEnum Enumeration",
+    "description": "The directions of a load group.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "134c41eb-842f-c9f0-a7ce-8165fb7fe744.htm"
+  },
+  {
+    "title": "AnalysisLoadGroup.LoadGroupTypeEnum Enumeration",
+    "description": "The types of load groups.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "35b03eb4-d4e1-c307-377e-c524513588fc.htm"
+  },
+  {
+    "title": "AnalysisMaterial.MaterialTypeEnum Enumeration",
+    "description": "The material types.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "5430e7b6-0a98-1465-cc66-cfee387e5957.htm"
+  },
+  {
+    "title": "AnalysisModel.AnalysisMethodEnum Enumeration",
+    "description": "The analysis methods.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "35e76a03-c6d3-de4e-d51f-a540469de1f1.htm"
+  },
+  {
+    "title": "AnalysisModel.AxisLocationEnum Enumeration",
+    "description": "The axis location.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "bcbb854f-2310-7356-8706-f5eb9389867e.htm"
+  },
+  {
+    "title": "AnalysisModel.ConstructionMethodEnum Enumeration",
+    "description": "The construction methods.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "b06c0307-de43-92c7-81b1-41fac45c89ee.htm"
+  },
+  {
+    "title": "AnalysisModel.KeepAxisEnum Enumeration",
+    "description": "The keep axis settings.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "cd949ee2-54f6-c2a9-9c00-ccb7000fda70.htm"
+  },
+  {
+    "title": "AnalysisModelAnalysisProperties.AnalysisMethodEnum Enumeration",
+    "description": "Defines the analysis method.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "5f51756b-a4ea-585c-f137-e0fb47cbda85.htm"
+  },
+  {
+    "title": "AnalysisModelDesignProperties.DesignMethodEnum Enumeration",
+    "description": "The design methods.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "815f1c81-f8d4-c17f-b993-121c5846c569.htm"
+  },
+  {
+    "title": "AnalysisModelGeneralProperties.MemberAxisLocationEnum Enumeration",
+    "description": "Defines the member axis location.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "85038f7d-1ecb-5133-52b4-b9d67d860fe9.htm"
+  },
+  {
+    "title": "AnalysisModelGeneralProperties.ModelCreationTypeEnum Enumeration",
+    "description": "Defines the model creation type.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "1b93f9f4-65f6-8560-291a-bef55c181055.htm"
+  },
+  {
+    "title": "AnalysisModelIssue.SeverityEnum Enumeration",
+    "description": "Issue severity.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "a30423e9-4da3-a409-7a10-a4d98390af29.htm"
+  },
+  {
+    "title": "AnalysisModelIssue.TypeEnum Enumeration",
+    "description": "Issue type.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "2b03f57c-3255-d26d-1dfe-dc5deaa567dd.htm"
+  },
+  {
+    "title": "AnalysisObject.AnalysisObjectEnum Enumeration",
+    "description": "All subclasses of analysis objects are defined here. This enumeration can be used to select certain types of analysis objects.",
+    "summary": "All subclasses of analysis objects are defined here. This enumeration can be used to\n            select certain types of analysis objects.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "e1b54325-7dfc-88e4-92bb-830979fdb059.htm"
+  },
+  {
+    "title": "AnalysisObjectEnumerator.AnalysisEnumeratorTypeEnum Enumeration",
+    "description": "The available enumerator types.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "c0802039-8a74-6b35-75d9-e387925ec948.htm"
+  },
+  {
+    "title": "AnalysisPart.AnalysisTypeEnum Enumeration",
+    "description": "The analysis types.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "5bbef527-d904-3e64-2c56-9d7a1c007fe7.htm"
+  },
+  {
+    "title": "AnalysisPart.ItemTypeEnum Enumeration",
+    "description": "The item types.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "c1ab8b10-0725-0315-e221-8ccdb3e779ad.htm"
+  },
+  {
+    "title": "AnalysisPart.PartTypeEnum Enumeration",
+    "description": "The types of the physical model part.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "131441ba-c644-82f7-e390-379049b7d307.htm"
+  },
+  {
+    "title": "AnalysisPartAnalysisProperties.AnalysisClassEnum Enumeration",
+    "description": "The analysis classes.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "4cbde6d4-92ff-295c-6aba-7c2a92af06ac.htm"
+  },
+  {
+    "title": "AnalysisPartAnalysisProperties.BuiltupEnum Enumeration",
+    "description": "The builtup settings.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "1cb79936-3ab2-3121-88b4-0bac9e9c6e22.htm"
+  },
+  {
+    "title": "AnalysisPartAreaAttributes.AreaElementTypeEnum Enumeration",
+    "description": "The area element types.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "1b857ade-0ac9-4dbc-20a0-97b26afcc5f8.htm"
+  },
+  {
+    "title": "AnalysisPartAreaAttributes.AreaSupportEnum Enumeration",
+    "description": "The area support options.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "d61599db-50f4-3fdb-43a3-690dc7dcde2e.htm"
+  },
+  {
+    "title": "AnalysisPartAreaAttributes.AreaSupportTypeEnum Enumeration",
+    "description": "The new area support options.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "84d42166-d983-6890-310c-01acac51ca9a.htm"
+  },
+  {
+    "title": "AnalysisPartBarAttributes.ForceStraightSegmentsEnum Enumeration",
+    "description": "The straight force segments.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "e7208b24-34c6-77b4-601a-52869683712d.htm"
+  },
+  {
+    "title": "AnalysisPartCompositeProperties.CompositeBeamEnum Enumeration",
+    "description": "The composite beam options.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "135caca2-4966-9151-b833-8609654aafc7.htm"
+  },
+  {
+    "title": "AnalysisPartCompositeProperties.CompositeBeamWidthEnum Enumeration",
+    "description": "The composite beam width options.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "2f09c75a-32ca-7d83-409f-ae6c575e1e94.htm"
+  },
+  {
+    "title": "AnalysisPartEnd.ConditionEnum Enumeration",
+    "description": "The conditions of the part end.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "07a0eda9-b467-7e54-c958-12e48edf7e92.htm"
+  },
+  {
+    "title": "AnalysisPartEnd.EccentricityModeEnum Enumeration",
+    "description": "The eccentricity modes of the part end.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "feb2738e-06b6-ceed-ebf5-1bb155e41e74.htm"
+  },
+  {
+    "title": "AnalysisPartPositionProperties.AxisLocationEnum Enumeration",
+    "description": "The axis location.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "1abe87fa-f529-9083-4045-afa77b219693.htm"
+  },
+  {
+    "title": "AnalysisPartPositionProperties.AxisModifierEnum Enumeration",
+    "description": "The axis modifiers.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "43932d24-9b30-d746-131f-0c19730c88ad.htm"
+  },
+  {
+    "title": "AnalysisPartPositionProperties.LongitudinalOffsetEnum Enumeration",
+    "description": "The longitudinal offsets.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "a84274ce-172a-f056-3d8a-73a96ef7235c.htm"
+  },
+  {
+    "title": "AnalysisPartSpanningProperties.SpanningTypeEnum Enumeration",
+    "description": "The spanning types.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "f61bcc98-8df1-fb60-e56d-9c1b51bcb940.htm"
+  },
+  {
+    "title": "AnalysisPosition.TypeEnum Enumeration",
+    "description": "The position types.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "6b37b8a9-fc3d-ad14-e3cd-ca5d0f84ee57.htm"
+  },
+  {
+    "title": "AnalysisRestraintData.ReleaseTypeEnum Enumeration",
+    "description": "Defines the release type.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "c4969558-6118-4b46-caa3-8633b1ab1df6.htm"
+  },
+  {
+    "title": "AnalysisRestraintData.RestraintTypeEnum Enumeration",
+    "description": "Defines all the restraint types.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "4fde30d0-24b7-ba1b-7a4d-fd30e9d15113.htm"
+  },
+  {
+    "title": "AnalysisRestraintData.SupportedEnum Enumeration",
+    "description": "Defines how the part is supported.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "6ecc5af2-b81e-eb95-6670-da5178419279.htm"
+  },
+  {
+    "title": "AnalysisResult.LoadCaseForMinMaxEnum Enumeration",
+    "description": "Special load case numbers for min/max queries.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "63b98a3d-878d-ce75-ffeb-dfa9212b67f0.htm"
+  },
+  {
+    "title": "AnalysisResult.LoadCaseTypeEnum Enumeration",
+    "description": "The load case type.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "6ec3a114-0a91-d863-b137-45953d5d4c16.htm"
+  },
+  {
+    "title": "AnalysisResult.ObjectTypeEnum Enumeration",
+    "description": "The object type.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "6650f196-d4ff-c2de-60bd-d69a666f5331.htm"
+  },
+  {
+    "title": "AnalysisResult.ResultPositionEnum Enumeration",
+    "description": "The result position.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "a85864c1-c111-0d43-86d4-fc708b681cae.htm"
+  },
+  {
+    "title": "AnalysisResult.ValueTypeEnum Enumeration",
+    "description": "The value type.",
+    "summary": "Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.",
+    "namespace": "",
+    "type": "enum",
+    "level": 0,
+    "htmlFile": "e35fbe0b-b7da-a269-dbfc-8705df64e4f4.htm"
+  }
+]

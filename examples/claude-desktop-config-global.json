@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "tekla-api-mcp": {
+      "command": "tekla-api-mcp"
+    }
+  }
+}

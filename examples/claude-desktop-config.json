@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "tekla-api-mcp": {
+      "command": "npx",
+      "args": ["tekla-api-mcp"],
+      "cwd": "/path/to/your/project"
+    }
+  }
+}
