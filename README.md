@@ -55,6 +55,8 @@ After setup, add this to your Claude Desktop config file:
 }
 ```
 
+> **NPX Note**: The server runs from the NPM package cache, so no specific working directory is needed.
+
 **Global Install Version:**
 ```json
 {
@@ -66,16 +68,18 @@ After setup, add this to your Claude Desktop config file:
 }
 ```
 
-**Configuration File Locations:**
-- **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
-- **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json` 
-- **Linux**: `~/.config/claude/claude_desktop_config.json`
+**Configuration File Location (Windows):**
+- `%APPDATA%\Claude\claude_desktop_config.json`
+
+> **Note**: This MCP server is designed for Windows environments where Tekla Structures runs.
 
 ## 🛠️ Requirements
 
+- **Windows OS** (required for Tekla Structures compatibility)
 - **Node.js 18+**
-- **Tekla Open API CHM file** (TeklaOpenAPI_Reference.chm)
 - **Claude Desktop** or **Claude Code**
+
+> **Note**: Tekla Open API documentation and examples are included in the package - no additional files needed!
 
 ## 📖 Available Tools
 
@@ -177,10 +181,13 @@ npm install
 npm run build
 ```
 
-### Adding Your CHM File
-1. Place `TeklaOpenAPI_Reference.chm` in the project root
-2. Run `npm run setup` to process it
-3. The setup will extract and parse the documentation automatically
+### Documentation Included
+The Tekla Open API documentation (CHM file) and examples are pre-bundled with the package for immediate use. No additional setup required!
+
+For development or updates:
+1. The CHM file is already included in the package
+2. Run `npm run setup` to refresh examples or rebuild documentation
+3. All parsing and processing happens automatically
 
 ## 🐛 Troubleshooting
 
@@ -192,9 +199,10 @@ npm run build
 ```
 
 ### "No API data loaded" Warning  
-- Ensure you have the CHM file in the project directory
-- Run the setup script: `npm run setup`
-- Check that `parsed-api/` directory contains JSON files
+This is rare since data is pre-bundled, but if it occurs:
+- Reinstall the package: `npm install -g tekla-api-mcp` or `npx tekla-api-mcp setup`
+- Check that the `parsed-api/` directory contains JSON files
+- Try running setup again: `npm run setup` (for local development)
 
 ### Claude Desktop Connection Issues
 - Verify the configuration file path and format

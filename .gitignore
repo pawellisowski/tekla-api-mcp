@@ -48,3 +48,6 @@ coverage/
 # Test and development files
 test-*.js
 run-parse.js
+
+# NPM package artifacts
+*.tgz
