@@ -1,0 +1,76 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>ComponentInput Class</title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="ComponentInput class" /><meta name="System.Keywords" content="Tekla.Structures.Model.ComponentInput class" /><meta name="System.Keywords" content="ComponentInput class, about ComponentInput class" /><meta name="Microsoft.Help.F1" content="Tekla.Structures.Model.ComponentInput" /><meta name="Microsoft.Help.Id" content="T:Tekla.Structures.Model.ComponentInput" /><meta name="Description" content="The ComponentInput class handles the input of component objects and positions. A component has one component input. The component input must include all the needed input objects and points in the correct order." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Tekla.Structures.Model" /><meta name="file" content="2e678a2a-118b-ca18-2776-91cd29d4540c" /><meta name="guid" content="2e678a2a-118b-ca18-2776-91cd29d4540c" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Help1.css" /></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Tekla Open API Reference for Tekla Structures 2025</div><div class="pageBody"><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="logoColumn"><img src="../icons/logo.png" /></td><td class="titleColumn"><h1>ComponentInput Class</h1></td></tr></table><span class="introStyle"></span> <div class="summary">
+            The ComponentInput class handles the input of component objects and positions. A component has one component input.
+            The component input must include all the needed input objects and points in the correct order. For example,
+            an input with a point and a part is different from an input of a part and a point.
+            The maximum number of different input items in the collection is 10.
+            </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span></div><div id="ID0RBSection" class="collapsibleSection"><span class="nolink">System<span id="LST37DE0E68_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST37DE0E68_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span><br />  <span class="selflink">Tekla.Structures.Model<span id="LST37DE0E68_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST37DE0E68_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ComponentInput</span><br /></div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="ead2dd1b-97f2-a283-bd41-e985db80929d.htm">Tekla.Structures.Model</a><br />
+    <strong>Assembly:</strong>
+   Tekla.Structures.Model (in Tekla.Structures.Model.dll) Version: 2025.0.0-alpha00048669+a99462f17964bc42624ada6e8d316db2d795d226<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+<span class="keyword">public</span> <span class="keyword">sealed</span> <span class="keyword">class</span> <span class="identifier">ComponentInput</span> : <span class="identifier">ICollection</span>, 
+	<span class="identifier">IEnumerable</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
+<span class="keyword">Public</span> <span class="keyword">NotInheritable</span> <span class="keyword">Class</span> <span class="identifier">ComponentInput</span>
+	<span class="keyword">Implements</span> <span class="identifier">ICollection</span>, <span class="identifier">IEnumerable</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script></div><p>The <span class="selflink">ComponentInput</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID3RBSection" class="collapsibleSection"><table class="members" id="constructorList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="ecb2502b-3309-5862-98e1-c0214ab99229.htm">ComponentInput</a></td><td><div class="summary">
+            Creates a new component input object.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="9e048423-e83e-e00c-93c2-65ab87a88fef.htm">Count</a></td><td><div class="summary">
+            Gets the number of elements contained in the <span class="nolink">ICollection</span>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="f30221ee-a6ca-692f-ec1d-e383d109a6ff.htm">IsSynchronized</a></td><td><div class="summary">
+            Gets a value indicating whether access to the <span class="nolink">ICollection</span> is synchronized (thread safe).
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="a14dab55-81f7-7879-4d33-c8bbdd6bf9de.htm">SyncRoot</a></td><td><div class="summary">
+            Gets an object that can be used to synchronize access to the <span class="nolink">ICollection</span>.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID5RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="a5d879e1-4952-2600-40db-fdab2637adae.htm">AddInputObject</a></td><td><div class="summary">
+            Adds a model object to the component input.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="f7711bd2-4bf6-9b33-dd62-dc5702e62a2b.htm">AddInputObjects</a></td><td><div class="summary">
+            Adds an array list of  model objects to the component input.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="d50f8295-7d7b-90ce-e1a2-4a38b0a05826.htm">AddInputPolygon</a></td><td><div class="summary">
+            Adds a polygon to the component input.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="8aca8df7-49a3-0a9c-b4cd-66ba8b611345.htm">AddOneInputPosition</a></td><td><div class="summary">
+            Adds an input position to the component input.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="63f0c2d2-025a-9c81-915f-fd8df69f744a.htm">AddTwoInputPositions</a></td><td><div class="summary">
+            Adds two input positions to the component input.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="42454497-9e17-cd6b-cda6-b7ec6decbe1f.htm">CopyTo</a></td><td><div class="summary">
+            Copies the elements of the <span class="nolink">ICollection</span> to
+            an <span class="nolink">Array</span>, starting at a particular <span class="nolink">Array</span> index.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="c3e1a0fc-7e10-3647-deff-3a18bc3fb8c1.htm">GetEnumerator</a></td><td><div class="summary">
+            Returns an enumerator that iterates through a collection.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID6RBSection" class="collapsibleSection">
+            The following example creates a component with a given component input:
+            <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> Tekla.Structures.Model;
+<span class="highlight-keyword">using</span> Tekla.Structures.Geometry3d;
+<span class="highlight-keyword">using</span> System;
+
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> Example
+{
+       <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> Example1()
+       {
+           Beam Beam = <span class="highlight-keyword">new</span> Beam(<span class="highlight-keyword">new</span> Point(<span class="highlight-number">12000</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>), <span class="highlight-keyword">new</span> Point(<span class="highlight-number">12000</span>, <span class="highlight-number">0</span>, <span class="highlight-number">6000</span>));
+           Beam.Profile.ProfileString = <span class="highlight-literal">"380*380"</span>;
+           Beam.Material.MaterialString = <span class="highlight-literal">"K40-1"</span>;
+           Beam.Insert();
+
+           Component Component = <span class="highlight-keyword">new</span> Component();
+           Component.Name = <span class="highlight-literal">"Component Test"</span>;
+           Component.Number = <span class="highlight-number">30000063</span>;
+
+           ComponentInput ComponentInput = <span class="highlight-keyword">new</span> ComponentInput();
+           ComponentInput.AddInputObject(Beam);
+
+           Component.SetComponentInput(ComponentInput);
+
+           Component.LoadAttributesFromFile(<span class="highlight-literal">"standard"</span>);
+
+           Component.SetAttribute(<span class="highlight-literal">"side_bar_space"</span>, <span class="highlight-number">333.0</span>);
+
+           <span class="highlight-keyword">if</span> (!Component.Insert())
+           {
+               Console.WriteLine(<span class="highlight-literal">"Component Insert failed"</span>);
+           }
+       }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID7RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="ead2dd1b-97f2-a283-bd41-e985db80929d.htm">Tekla.Structures.Model Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.</p> </div></body></html>

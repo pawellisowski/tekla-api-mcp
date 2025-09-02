@@ -1,0 +1,77 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>TeklaStructuresSettings.GetAdvancedOptionPaths Method </title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="GetAdvancedOptionPaths method" /><meta name="System.Keywords" content="TeklaStructuresSettings.GetAdvancedOptionPaths method" /><meta name="Microsoft.Help.F1" content="Tekla.Structures.TeklaStructuresSettings.GetAdvancedOptionPaths" /><meta name="Microsoft.Help.Id" content="M:Tekla.Structures.TeklaStructuresSettings.GetAdvancedOptionPaths(System.String,System.Collections.Generic.List{System.String}@,Tekla.Structures.TeklaStructuresSettings.InvalidPathCallback)" /><meta name="Description" content="Gets the value of an advanced option as a list of valid paths. Strings with path separator ; are split into separate paths and any blank paths (containing only white space) are ignored. Paths do not need to exist but must use valid characters and format." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Tekla.Structures" /><meta name="file" content="00e86aee-ab47-95ed-1985-3f79cc91215c" /><meta name="guid" content="00e86aee-ab47-95ed-1985-3f79cc91215c" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Help1.css" /></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Tekla Open API Reference for Tekla Structures 2025</div><div class="pageBody"><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="logoColumn"><img src="../icons/logo.png" /></td><td class="titleColumn"><h1>TeklaStructuresSettings<span id="LSTA6B2EE2C_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA6B2EE2C_0?cpp=::|nu=.");</script>GetAdvancedOptionPaths Method </h1></td></tr></table><span class="introStyle"></span> <div class="summary">
+            Gets the value of an advanced option as a list of valid paths.
+            Strings with path separator ; are split into separate paths and any blank paths (containing only white space) are ignored.
+            Paths do not need to exist but must use valid characters and format.
+            Note: All valid paths are returned even when invalid paths are encountered.
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="9e348af4-4c32-9f4b-cd2f-6d83d1862bf1.htm">Tekla.Structures</a><br />
+    <strong>Assembly:</strong>
+   Tekla.Structures (in Tekla.Structures.dll) Version: 2025.0.0-alpha00048669+a99462f17964bc42624ada6e8d316db2d795d226<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">static</span> <span class="identifier">bool</span> <span class="identifier">GetAdvancedOptionPaths</span>(
+	<span class="identifier">string</span> <span class="parameter">advancedOption</span>,
+	<span class="keyword">out</span> <span class="identifier">List</span>&lt;<span class="identifier">string</span>&gt; <span class="parameter">paths</span>,
+	<span class="identifier">TeklaStructuresSettings<span id="LSTA6B2EE2C_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA6B2EE2C_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>InvalidPathCallback</span> <span class="parameter">errorHandler</span> = <span class="keyword">null</span>
+)</pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Shared</span> <span class="keyword">Function</span> <span class="identifier">GetAdvancedOptionPaths</span> ( 
+	<span class="parameter">advancedOption</span> <span class="keyword">As</span> <span class="identifier">String</span>,
+	&lt;<span class="identifier">OutAttribute</span>&gt; <span class="keyword">ByRef</span> <span class="parameter">paths</span> <span class="keyword">As</span> <span class="identifier">List</span>(<span class="keyword">Of</span> <span class="identifier">String</span>),
+	Optional <span class="parameter">errorHandler</span> <span class="keyword">As</span> <span class="identifier">TeklaStructuresSettings<span id="LSTA6B2EE2C_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA6B2EE2C_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>InvalidPathCallback</span> = <span class="keyword">Nothing</span>
+) <span class="keyword">As</span> <span class="identifier">Boolean</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">advancedOption</span></dt><dd>Type: <span class="nolink">System<span id="LSTA6B2EE2C_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA6B2EE2C_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>String</span><br />The advanced option name.</dd><dt><span class="parameter">paths</span></dt><dd>Type: <span class="nolink">System.Collections.Generic<span id="LSTA6B2EE2C_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA6B2EE2C_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>List</span><span id="LSTA6B2EE2C_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA6B2EE2C_5?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="nolink">String</span><span id="LSTA6B2EE2C_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA6B2EE2C_6?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LSTA6B2EE2C_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA6B2EE2C_7?cpp=%");</script><br />The paths.</dd><dt><span class="parameter">errorHandler</span> (Optional)</dt><dd>Type: <a href="390aea79-c14b-54ea-a412-7624c2061f40.htm">Tekla.Structures<span id="LSTA6B2EE2C_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA6B2EE2C_8?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>TeklaStructuresSettings<span id="LSTA6B2EE2C_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA6B2EE2C_9?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>InvalidPathCallback</a><br />The optional error handler callback.</dd></dl><h4 class="subHeading">Return Value</h4>Type: <span class="nolink">Boolean</span><br />True if the variable is read successfully and contains no invalid paths; otherwise false.</div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID2RBSection" class="collapsibleSection">
+            The following example gets the first existing instance of a specified file name from the firm,
+            project or system folders.
+            <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAEBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAEBA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAEBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> System;
+<span class="highlight-keyword">using</span> System.Collections.Generic;
+<span class="highlight-keyword">using</span> System.IO;
+<span class="highlight-keyword">using</span> Tekla.Structures;
+
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> Example
+{
+    &lt;summary&gt;An example GetAdvancedOptionPaths error callback which logs any advanced option path error.&lt;/summary&gt;&lt;param name=<span class="highlight-literal">"advancedOpt"</span>&gt;The advanced option being processed when the error occurred.&lt;/param&gt;&lt;param name=<span class="highlight-literal">"invalidString"</span>&gt;The invalid <span class="highlight-keyword">string</span> <span class="highlight-keyword">if</span> identified.&lt;/param&gt;&lt;param name=<span class="highlight-literal">"exceptionMessage"</span>&gt;The exception message <span class="highlight-keyword">if</span> an exception was thrown when converting the <span class="highlight-keyword">string</span> to a path.&lt;/param&gt;
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> MyGetAdvancedOptionPathsErrorCallback(<span class="highlight-keyword">string</span> advancedOpt, <span class="highlight-keyword">string</span> invalidString, <span class="highlight-keyword">string</span> exceptionMessage)
+    {
+        Console.WriteLine(
+            <span class="highlight-keyword">string</span>.Format(
+                <span class="highlight-literal">"The advanced option path string {0} could not be read correctly. Some or all of its content(s) will be ignored."</span>,
+                advancedOption));
+
+        <span class="highlight-keyword">if</span> (!<span class="highlight-keyword">string</span>.IsNullOrWhiteSpace(invalidString))
+        {
+            Console.WriteLine(<span class="highlight-literal">"The invalid string is: "</span> + invalidString);
+        }
+
+        <span class="highlight-keyword">if</span> (!<span class="highlight-keyword">string</span>.IsNullOrWhiteSpace(exceptionMessage))
+        {
+            Console.WriteLine(<span class="highlight-literal">"The exception message is: "</span> + exceptionMessage);
+        }
+    }
+
+    &lt;summary&gt;Tries to <span class="highlight-keyword">get</span> the first existing instance of a specified file name <span class="highlight-keyword">from</span> the firm, 
+    project or system folders.&lt;/summary&gt;&lt;param name=<span class="highlight-literal">"fileName"</span>&gt;Name of the file.&lt;/param&gt;&lt;param name=<span class="highlight-literal">"filePath"</span>&gt;The file path of the first file found.&lt;/param&gt;&lt;returns&gt;True <span class="highlight-keyword">if</span> successful; otherwise <span class="highlight-keyword">false</span>.&lt;/returns&gt;
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">static</span> <span class="highlight-keyword">bool</span> TryGetFileInFirmProjectOrSystemFolders(<span class="highlight-keyword">string</span> fileName, <span class="highlight-keyword">out</span> <span class="highlight-keyword">string</span> filePath)
+    {
+        filePath = <span class="highlight-keyword">null</span>;
+        <span class="highlight-keyword">var</span> advancedOptions = <span class="highlight-keyword">new</span> List&lt;<span class="highlight-keyword">string</span>&gt; { <span class="highlight-literal">"XS_FIRM"</span>, <span class="highlight-literal">"XS_PROJECT"</span>, <span class="highlight-literal">"XS_SYSTEM"</span> };
+        <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> advancedOption <span class="highlight-keyword">in</span> advancedOptions)
+        {
+            List&lt;<span class="highlight-keyword">string</span>&gt; paths;
+            <span class="highlight-keyword">if</span> (!TeklaStructuresSettings.GetAdvancedOptionPaths(
+                advancedOption,
+                <span class="highlight-keyword">out</span> paths,
+                MyGetAdvancedOptionPathsErrorCallback))
+            {
+                <span class="highlight-keyword">continue</span>;
+            }
+
+            <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> path <span class="highlight-keyword">in</span> paths)
+            {
+                <span class="highlight-keyword">var</span> fileToFind = Path.Combine(path, fileName);
+                <span class="highlight-keyword">if</span> (File.Exists(fileToFind))
+                {
+                    filePath = fileToFind;
+                    <span class="highlight-keyword">return</span> <span class="highlight-keyword">true</span>;
+                }
+            }
+        }
+
+        <span class="highlight-keyword">return</span> <span class="highlight-keyword">false</span>;
+    }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAEBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID3RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="7c4799d1-b9cb-cbb1-9b3d-4ce81b05ccc6.htm">TeklaStructuresSettings Class</a></div><div class="seeAlsoStyle"><a href="9e348af4-4c32-9f4b-cd2f-6d83d1862bf1.htm">Tekla.Structures Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.</p> </div></body></html>

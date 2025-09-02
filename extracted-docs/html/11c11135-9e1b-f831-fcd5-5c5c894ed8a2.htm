@@ -1,0 +1,174 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>ShapeItem.InsertUsingNormals Method </title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="InsertUsingNormals method" /><meta name="System.Keywords" content="ShapeItem.InsertUsingNormals method" /><meta name="Microsoft.Help.F1" content="Tekla.Structures.Catalogs.ShapeItem.InsertUsingNormals" /><meta name="Microsoft.Help.Id" content="M:Tekla.Structures.Catalogs.ShapeItem.InsertUsingNormals" /><meta name="Description" content="Inserts a shape to the shape catalog using the shape geometry. Uses vertex normals to determine edge visibility." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Tekla.Structures.Catalogs" /><meta name="file" content="11c11135-9e1b-f831-fcd5-5c5c894ed8a2" /><meta name="guid" content="11c11135-9e1b-f831-fcd5-5c5c894ed8a2" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Help1.css" /></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Tekla Open API Reference for Tekla Structures 2025</div><div class="pageBody"><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="logoColumn"><img src="../icons/logo.png" /></td><td class="titleColumn"><h1>ShapeItem<span id="LSTBA97D2B5_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBA97D2B5_0?cpp=::|nu=.");</script>InsertUsingNormals Method </h1></td></tr></table><span class="introStyle"></span> <div class="summary">
+             Inserts a shape to the shape catalog using the shape geometry. Uses vertex normals
+             to determine edge visibility. If the normal vectors of the vertices belonging to one
+             geometrical location are close enough, the edge will be considered smooth and will be
+             marked as hidden.
+             </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="cb701b36-e4be-454f-359a-34adaedd239d.htm">Tekla.Structures.Catalogs</a><br />
+    <strong>Assembly:</strong>
+   Tekla.Structures.Catalogs (in Tekla.Structures.Catalogs.dll) Version: 2025.0.0-alpha00048669+a99462f17964bc42624ada6e8d316db2d795d226<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="identifier">bool</span> <span class="identifier">InsertUsingNormals</span>()</pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">InsertUsingNormals</span> <span class="keyword">As</span> <span class="identifier">Boolean</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><h4 class="subHeading">Return Value</h4>Type: <span class="nolink">Boolean</span><br />
+             Returns true on success.
+             </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> System;
+<span class="highlight-keyword">using</span> Tekla.Structures.Catalogs;
+
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> Example()
+{
+  <span class="highlight-comment">/* One edge inside the hole and one on the outer surface of the box will be hidden. */</span>
+
+     <span class="highlight-keyword">var</span> vertices = <span class="highlight-keyword">new</span>[]
+     {
+         <span class="highlight-comment">/* The main cube vertices. Notice that all vertices are triplicated, because each is
+            present on three different faces. Thus we get three different vertex normals for each physical
+            corner too. */</span>
+
+         <span class="highlight-keyword">new</span> Vector(   <span class="highlight-number">0.0</span>,    <span class="highlight-number">0.0</span>,    <span class="highlight-number">0.0</span> ), <span class="highlight-comment">// 0</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">500.0</span>,    <span class="highlight-number">0.0</span>,    <span class="highlight-number">0.0</span> ), <span class="highlight-comment">// 1</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">500.0</span>,  <span class="highlight-number">500.0</span>,    <span class="highlight-number">0.0</span> ), <span class="highlight-comment">// 2</span>
+         <span class="highlight-keyword">new</span> Vector(   <span class="highlight-number">0.0</span>,  <span class="highlight-number">500.0</span>,    <span class="highlight-number">0.0</span> ), <span class="highlight-comment">// 3</span>
+         <span class="highlight-keyword">new</span> Vector(   <span class="highlight-number">0.0</span>,    <span class="highlight-number">0.0</span>,  <span class="highlight-number">500.0</span> ), <span class="highlight-comment">// 4</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">500.0</span>,    <span class="highlight-number">0.0</span>,  <span class="highlight-number">500.0</span> ), <span class="highlight-comment">// 5</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">500.0</span>,  <span class="highlight-number">500.0</span>,  <span class="highlight-number">500.0</span> ), <span class="highlight-comment">// 6</span>
+         <span class="highlight-keyword">new</span> Vector(   <span class="highlight-number">0.0</span>,  <span class="highlight-number">500.0</span>,  <span class="highlight-number">500.0</span> ), <span class="highlight-comment">// 7</span>
+
+         <span class="highlight-keyword">new</span> Vector(   <span class="highlight-number">0.0</span>,    <span class="highlight-number">0.0</span>,    <span class="highlight-number">0.0</span> ), <span class="highlight-comment">// 8</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">500.0</span>,    <span class="highlight-number">0.0</span>,    <span class="highlight-number">0.0</span> ), <span class="highlight-comment">// 9</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">500.0</span>,  <span class="highlight-number">500.0</span>,    <span class="highlight-number">0.0</span> ), <span class="highlight-comment">// 10</span>
+         <span class="highlight-keyword">new</span> Vector(   <span class="highlight-number">0.0</span>,  <span class="highlight-number">500.0</span>,    <span class="highlight-number">0.0</span> ), <span class="highlight-comment">// 11</span>
+         <span class="highlight-keyword">new</span> Vector(   <span class="highlight-number">0.0</span>,    <span class="highlight-number">0.0</span>,  <span class="highlight-number">500.0</span> ), <span class="highlight-comment">// 12</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">500.0</span>,    <span class="highlight-number">0.0</span>,  <span class="highlight-number">500.0</span> ), <span class="highlight-comment">// 13</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">500.0</span>,  <span class="highlight-number">500.0</span>,  <span class="highlight-number">500.0</span> ), <span class="highlight-comment">// 14</span>
+         <span class="highlight-keyword">new</span> Vector(   <span class="highlight-number">0.0</span>,  <span class="highlight-number">500.0</span>,  <span class="highlight-number">500.0</span> ), <span class="highlight-comment">// 15</span>
+
+         <span class="highlight-keyword">new</span> Vector(   <span class="highlight-number">0.0</span>,    <span class="highlight-number">0.0</span>,    <span class="highlight-number">0.0</span> ), <span class="highlight-comment">// 16</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">500.0</span>,    <span class="highlight-number">0.0</span>,    <span class="highlight-number">0.0</span> ), <span class="highlight-comment">// 17</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">500.0</span>,  <span class="highlight-number">500.0</span>,    <span class="highlight-number">0.0</span> ), <span class="highlight-comment">// 18</span>
+         <span class="highlight-keyword">new</span> Vector(   <span class="highlight-number">0.0</span>,  <span class="highlight-number">500.0</span>,    <span class="highlight-number">0.0</span> ), <span class="highlight-comment">// 19</span>
+         <span class="highlight-keyword">new</span> Vector(   <span class="highlight-number">0.0</span>,    <span class="highlight-number">0.0</span>,  <span class="highlight-number">500.0</span> ), <span class="highlight-comment">// 20</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">500.0</span>,    <span class="highlight-number">0.0</span>,  <span class="highlight-number">500.0</span> ), <span class="highlight-comment">// 21</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">500.0</span>,  <span class="highlight-number">500.0</span>,  <span class="highlight-number">500.0</span> ), <span class="highlight-comment">// 22</span>
+         <span class="highlight-keyword">new</span> Vector(   <span class="highlight-number">0.0</span>,  <span class="highlight-number">500.0</span>,  <span class="highlight-number">500.0</span> ), <span class="highlight-comment">// 23</span>
+
+         <span class="highlight-comment">/* The hole corner vertices */</span>
+
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">100.0</span>,  <span class="highlight-number">100.0</span>,  <span class="highlight-number">0.0</span> ), <span class="highlight-comment">// 24</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">300.0</span>,  <span class="highlight-number">100.0</span>,  <span class="highlight-number">0.0</span> ), <span class="highlight-comment">// 25</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">300.0</span>,  <span class="highlight-number">300.0</span>,  <span class="highlight-number">0.0</span> ), <span class="highlight-comment">// 26</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">100.0</span>,  <span class="highlight-number">300.0</span>,  <span class="highlight-number">0.0</span> ), <span class="highlight-comment">// 27</span>
+
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">100.0</span>,  <span class="highlight-number">100.0</span>, <span class="highlight-number">500.0</span> ), <span class="highlight-comment">// 28</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">300.0</span>,  <span class="highlight-number">100.0</span>, <span class="highlight-number">500.0</span> ), <span class="highlight-comment">// 29</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">300.0</span>,  <span class="highlight-number">300.0</span>, <span class="highlight-number">500.0</span> ), <span class="highlight-comment">// 30</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">100.0</span>,  <span class="highlight-number">300.0</span>, <span class="highlight-number">500.0</span> ), <span class="highlight-comment">// 31</span>
+
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">100.0</span>,  <span class="highlight-number">100.0</span>,  <span class="highlight-number">0.0</span> ), <span class="highlight-comment">// 32</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">300.0</span>,  <span class="highlight-number">100.0</span>,  <span class="highlight-number">0.0</span> ), <span class="highlight-comment">// 33</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">300.0</span>,  <span class="highlight-number">300.0</span>,  <span class="highlight-number">0.0</span> ), <span class="highlight-comment">// 34</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">100.0</span>,  <span class="highlight-number">300.0</span>,  <span class="highlight-number">0.0</span> ), <span class="highlight-comment">// 35</span>
+
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">100.0</span>,  <span class="highlight-number">100.0</span>, <span class="highlight-number">500.0</span> ), <span class="highlight-comment">// 36</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">300.0</span>,  <span class="highlight-number">100.0</span>, <span class="highlight-number">500.0</span> ), <span class="highlight-comment">// 37</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">300.0</span>,  <span class="highlight-number">300.0</span>, <span class="highlight-number">500.0</span> ), <span class="highlight-comment">// 38</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">100.0</span>,  <span class="highlight-number">300.0</span>, <span class="highlight-number">500.0</span> ), <span class="highlight-comment">// 39</span>
+     };
+
+     <span class="highlight-keyword">var</span> outloop = <span class="highlight-keyword">new</span>[]
+     {
+         <span class="highlight-keyword">new</span>[] {  <span class="highlight-number">0</span>,   <span class="highlight-number">3</span>,   <span class="highlight-number">2</span>,   <span class="highlight-number">1</span> },
+         <span class="highlight-keyword">new</span>[] {  <span class="highlight-number">8</span>,   <span class="highlight-number">9</span>,  <span class="highlight-number">13</span>,  <span class="highlight-number">12</span> },
+         <span class="highlight-keyword">new</span>[] { <span class="highlight-number">17</span>,  <span class="highlight-number">18</span>,  <span class="highlight-number">22</span>,  <span class="highlight-number">21</span> },
+         <span class="highlight-keyword">new</span>[] { <span class="highlight-number">10</span>,  <span class="highlight-number">11</span>,  <span class="highlight-number">15</span>,  <span class="highlight-number">14</span> },
+         <span class="highlight-keyword">new</span>[] { <span class="highlight-number">19</span>,  <span class="highlight-number">16</span>,  <span class="highlight-number">20</span>,  <span class="highlight-number">23</span> },
+         <span class="highlight-keyword">new</span>[] {  <span class="highlight-number">4</span>,   <span class="highlight-number">5</span>,   <span class="highlight-number">6</span>,   <span class="highlight-number">7</span> },
+
+         <span class="highlight-keyword">new</span>[] { <span class="highlight-number">31</span>, <span class="highlight-number">28</span>, <span class="highlight-number">24</span>, <span class="highlight-number">27</span> },
+         <span class="highlight-keyword">new</span>[] { <span class="highlight-number">30</span>, <span class="highlight-number">39</span>, <span class="highlight-number">35</span>, <span class="highlight-number">26</span> },
+         <span class="highlight-keyword">new</span>[] { <span class="highlight-number">29</span>, <span class="highlight-number">38</span>, <span class="highlight-number">34</span>, <span class="highlight-number">25</span> },
+         <span class="highlight-keyword">new</span>[] { <span class="highlight-number">36</span>, <span class="highlight-number">37</span>, <span class="highlight-number">33</span>, <span class="highlight-number">32</span> }
+     };
+
+     <span class="highlight-keyword">var</span> innerLoop = <span class="highlight-keyword">new</span> Dictionary{<span class="highlight-keyword">int</span>, <span class="highlight-keyword">int</span>[][]}
+     {
+         { <span class="highlight-number">0</span>, <span class="highlight-keyword">new</span>[] { <span class="highlight-keyword">new</span>[] {  <span class="highlight-number">24</span>, <span class="highlight-number">25</span>, <span class="highlight-number">26</span>, <span class="highlight-number">27</span> } } },
+         { <span class="highlight-number">5</span>, <span class="highlight-keyword">new</span>[] { <span class="highlight-keyword">new</span>[] {  <span class="highlight-number">28</span>, <span class="highlight-number">31</span>, <span class="highlight-number">30</span>, <span class="highlight-number">29</span> } } },
+     };
+
+     <span class="highlight-keyword">var</span> normals = <span class="highlight-keyword">new</span> Vector[]
+     {
+         <span class="highlight-comment">// Basic cube vertex normals</span>
+
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>,  <span class="highlight-number">0</span>, <span class="highlight-number">-1</span> ),
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>,  <span class="highlight-number">0</span>, <span class="highlight-number">-1</span> ),
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>,  <span class="highlight-number">0</span>, <span class="highlight-number">-1</span> ),
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>,  <span class="highlight-number">0</span>, <span class="highlight-number">-1</span> ),
+
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">1</span> ),
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">1</span> ),
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">1</span> ),
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">1</span> ),
+
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>,  <span class="highlight-number">0</span>, <span class="highlight-number">-1</span> ), <span class="highlight-comment">// CHANGE THIS TO (0, -1, 0) FOR A VISIBLE EDGE</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>,  <span class="highlight-number">0</span>, <span class="highlight-number">-1</span> ), <span class="highlight-comment">// CHANGE THIS TO (0, -1, 0) FOR A VISIBLE EDGE</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>,  <span class="highlight-number">1</span>,  <span class="highlight-number">0</span> ),
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>,  <span class="highlight-number">1</span>,  <span class="highlight-number">0</span> ),
+
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>, <span class="highlight-number">-1</span>,  <span class="highlight-number">0</span> ),
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>, <span class="highlight-number">-1</span>,  <span class="highlight-number">0</span> ),
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>,  <span class="highlight-number">1</span>,  <span class="highlight-number">0</span> ),
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>,  <span class="highlight-number">1</span>,  <span class="highlight-number">0</span> ),
+
+         <span class="highlight-keyword">new</span> Vector(<span class="highlight-number">-1</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">0</span> ),
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">1</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">0</span> ),
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">1</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">0</span> ),
+         <span class="highlight-keyword">new</span> Vector(<span class="highlight-number">-1</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">0</span> ),
+
+         <span class="highlight-keyword">new</span> Vector(<span class="highlight-number">-1</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">0</span> ),
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">1</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">0</span> ),
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">1</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">0</span> ),
+         <span class="highlight-keyword">new</span> Vector(<span class="highlight-number">-1</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">0</span> ),
+
+         <span class="highlight-comment">// Hole vertex normals</span>
+
+         <span class="highlight-keyword">new</span> Vector(<span class="highlight-number">-1</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">0</span> ), <span class="highlight-comment">// 24</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">1</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">0</span> ), <span class="highlight-comment">// 25</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>,  <span class="highlight-number">1</span>,  <span class="highlight-number">0</span> ), <span class="highlight-comment">// 26</span>
+         <span class="highlight-keyword">new</span> Vector(<span class="highlight-number">-1</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">0</span> ), <span class="highlight-comment">// 27</span>
+
+         <span class="highlight-keyword">new</span> Vector(<span class="highlight-number">-1</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">0</span> ), <span class="highlight-comment">// 28</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">1</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">0</span> ), <span class="highlight-comment">// 29</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>,  <span class="highlight-number">1</span>,  <span class="highlight-number">0</span> ), <span class="highlight-comment">// 30</span>
+         <span class="highlight-keyword">new</span> Vector(<span class="highlight-number">-1</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">0</span> ), <span class="highlight-comment">// 31</span>
+
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>, <span class="highlight-number">-1</span>,  <span class="highlight-number">0</span> ), <span class="highlight-comment">// 32</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>, <span class="highlight-number">-1</span>,  <span class="highlight-number">0</span> ), <span class="highlight-comment">// 33</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">1</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">0</span> ), <span class="highlight-comment">// 34</span>
+         <span class="highlight-keyword">new</span> Vector(<span class="highlight-number">-1</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">0</span> ), <span class="highlight-comment">// 35 CHANGE THIS TO (0, 1, 0) FOR A VISIBLE EDGE</span>
+
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>, <span class="highlight-number">-1</span>,  <span class="highlight-number">0</span> ), <span class="highlight-comment">// 36</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">0</span>, <span class="highlight-number">-1</span>,  <span class="highlight-number">0</span> ), <span class="highlight-comment">// 37</span>
+         <span class="highlight-keyword">new</span> Vector( <span class="highlight-number">1</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">0</span> ), <span class="highlight-comment">// 38</span>
+         <span class="highlight-keyword">new</span> Vector(<span class="highlight-number">-1</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">0</span> ), <span class="highlight-comment">// 39 CHANGE THIS TO (0, 1, 0) FOR A VISIBLE EDGE</span>
+     };
+
+     <span class="highlight-keyword">var</span> brep = <span class="highlight-keyword">new</span> FacetedBrepWithNormals(vertices, outloop, innerLoop, normals);
+
+     <span class="highlight-keyword">var</span> shapeItem = <span class="highlight-keyword">new</span> ShapeItem
+     {
+         Name = <span class="highlight-literal">"CubeWithHoleTwoEdgesHidden"</span>,
+         ShapeFacetedBrep = brep,
+         UpAxis = ShapeUpAxis.Z_Axis
+     };
+
+     <span class="highlight-keyword">var</span> retVal = shapeItem.InsertUsingNormals();
+
+     <span class="highlight-keyword">var</span> brep = <span class="highlight-keyword">new</span> Brep()
+     {
+         StartPoint = <span class="highlight-keyword">new</span> Point(<span class="highlight-number">0</span>, <span class="highlight-number">8000</span>, <span class="highlight-number">0</span>),
+         EndPoint = <span class="highlight-keyword">new</span> Point(<span class="highlight-number">1000</span>, <span class="highlight-number">8000</span>, <span class="highlight-number">0</span>),
+         Profile = { ProfileString = <span class="highlight-literal">"CubeWithHoleTwoEdgesHidden"</span> },
+     };
+
+     brep.Insert();
+
+     <span class="highlight-keyword">new</span> Model().CommitChanges();
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID3RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="3b2b9bdd-99b2-1ed9-3e1f-6a79989bfbd8.htm">ShapeItem Class</a></div><div class="seeAlsoStyle"><a href="cb701b36-e4be-454f-359a-34adaedd239d.htm">Tekla.Structures.Catalogs Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.</p> </div></body></html>

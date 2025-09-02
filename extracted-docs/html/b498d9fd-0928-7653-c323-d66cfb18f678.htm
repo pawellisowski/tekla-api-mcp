@@ -1,0 +1,133 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>CustomPartBase Class</title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="CustomPartBase class" /><meta name="System.Keywords" content="Tekla.Structures.Plugins.CustomPartBase class" /><meta name="System.Keywords" content="CustomPartBase class, about CustomPartBase class" /><meta name="Microsoft.Help.F1" content="Tekla.Structures.Plugins.CustomPartBase" /><meta name="Microsoft.Help.Id" content="T:Tekla.Structures.Plugins.CustomPartBase" /><meta name="Description" content="The CustomPartBase class is a base class for defining custom parts. These types are more specialized and restricted by the input values than the ones derived from PluginBase." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Tekla.Structures.Plugins" /><meta name="file" content="b498d9fd-0928-7653-c323-d66cfb18f678" /><meta name="guid" content="b498d9fd-0928-7653-c323-d66cfb18f678" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Help1.css" /></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Tekla Open API Reference for Tekla Structures 2025</div><div class="pageBody"><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="logoColumn"><img src="../icons/logo.png" /></td><td class="titleColumn"><h1>CustomPartBase Class</h1></td></tr></table><span class="introStyle"></span> <div class="summary">
+            The CustomPartBase class is a base class for defining custom parts.
+            These types are more specialized and restricted by the input values than the ones derived
+            from PluginBase.
+            <p>
+            The coordinate system for connections, details and seams is explained in the Tekla Structures
+            help, in the part about the position type of custom components. The position type defines the
+            origin of the custom component, relative to the main part.
+            </p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span></div><div id="ID0RBSection" class="collapsibleSection"><span class="nolink">System<span id="LST990E45AA_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST990E45AA_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span><br />  <span class="nolink">System<span id="LST990E45AA_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST990E45AA_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>MarshalByRefObject</span><br />    <span class="selflink">Tekla.Structures.Plugins<span id="LST990E45AA_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST990E45AA_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CustomPartBase</span><br /></div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="05391e09-fa6f-9510-0ec2-377aed487078.htm">Tekla.Structures.Plugins</a><br />
+    <strong>Assembly:</strong>
+   Tekla.Structures.Plugins (in Tekla.Structures.Plugins.dll) Version: 2025.0.0-alpha00048669+a99462f17964bc42624ada6e8d316db2d795d226<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">class</span> <span class="identifier">CustomPartBase</span> : <span class="identifier">MarshalByRefObject</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">MustInherit</span> <span class="keyword">Class</span> <span class="identifier">CustomPartBase</span>
+	<span class="keyword">Inherits</span> <span class="identifier">MarshalByRefObject</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script></div><p>The <span class="selflink">CustomPartBase</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID3RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="c56aebfc-751e-97f0-5755-ff5ceaed6c53.htm">Identifier</a></td><td><div class="summary">
+            The identifier of the executable plug-in instance.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="e839a39c-c161-1a90-e8d1-dc166b258473.htm">Positions</a></td><td><div class="summary">
+            The positional attributes for a custom part instance.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="0d112a60-b9ba-0cdc-49a9-b85f4a0d3557.htm">IsDefaultValue(Double)</a></td><td><div class="summary">
+            Returns true if the given value is set to the default value for this type.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="6dbb47e9-a1c7-82ca-4b8e-d5fa5bc2a7fc.htm">IsDefaultValue(Int32)</a></td><td><div class="summary">
+            Returns true if the given value is set to the default value for this type.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="43ce7a81-3e9e-0ae0-8030-c9d8a06534ff.htm">IsDefaultValue(String)</a></td><td><div class="summary">
+            Returns true if the given value is set to the default value (empty string).
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="2785e532-af81-6a7d-ef0c-9f615039a143.htm">Run</a></td><td><div class="summary">
+            The main method of the component. Inside Run the user can implement the logic based on
+            the user given attributes and input. Inside the method input can be found from the provided 
+            properties: Primary, Secondaries and Positions.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID5RBSection" class="collapsibleSection">
+            In the following example, a .inp file is used for defining the dialog.
+            Notice that starting from version 15.0, the System.Windows.Forms namespace
+            can be used to create rich user interfaces. See e.g. the PluginFormBase class
+            in the Tekla.Structures.Dialog documentation for more information. 
+            <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> System;
+<span class="highlight-keyword">using</span> System.Windows.Forms;
+
+<span class="highlight-keyword">using</span> Tekla.Structures.Model;
+<span class="highlight-keyword">using</span> Tekla.Structures.Plugins;
+<span class="highlight-keyword">using</span> Tekla.Structures.Geometry3d;
+
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> StructuresData3
+{
+    [StructuresField(<span class="highlight-literal">"P1"</span>)]
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">double</span> Parameter1;
+    [StructuresField(<span class="highlight-literal">"P2"</span>)]
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">string</span> Parameter2;
+}
+
+[Plugin(<span class="highlight-literal">"CustomBeam"</span>)] <span class="highlight-comment">// The name of the connection in the catalog</span>
+[PluginUserInterface(UserInterfaceDefinitions.Plugin3)]
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> CustomBeam: CustomPartBase
+{
+    <span class="highlight-keyword">private</span> <span class="highlight-keyword">readonly</span> StructuresData3 data;
+
+    <span class="highlight-keyword">public</span> CustomBeam(StructuresData3 data)
+    {
+        <span class="highlight-keyword">this</span>.data = data;
+    }
+
+    <span class="highlight-keyword">static</span> Beam CreateBeam(Point point1, Point point2, <span class="highlight-keyword">string</span> profile)
+    {
+        Beam myBeam = <span class="highlight-keyword">new</span> Beam(point1, point2);
+        myBeam.Profile.ProfileString = profile;
+        myBeam.Finish = <span class="highlight-literal">"PAINT"</span>;
+        myBeam.Position.Depth = Position.DepthEnum.MIDDLE;
+        myBeam.Position.Plane = Position.PlaneEnum.RIGHT;
+        myBeam.Insert();
+        <span class="highlight-keyword">return</span> myBeam;
+    }
+
+    <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> CreateFitting(<span class="highlight-keyword">double</span> thickness, Beam myPart)
+    {
+        Fitting myFitting = <span class="highlight-keyword">new</span> Fitting();
+        myFitting.Plane.Origin = <span class="highlight-keyword">new</span> Point(thickness, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>);
+        myFitting.Plane.AxisX = <span class="highlight-keyword">new</span> Vector(<span class="highlight-number">0</span>, <span class="highlight-number">1000</span>, <span class="highlight-number">0</span>);
+        myFitting.Plane.AxisY = <span class="highlight-keyword">new</span> Vector(<span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1000</span>);
+        myFitting.Father = myPart;
+
+        myFitting.Insert();
+    }
+
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">bool</span> Run()
+    {
+        <span class="highlight-keyword">try</span>
+        {
+            <span class="highlight-comment">// The default values</span>
+            <span class="highlight-keyword">if</span>(IsDefaultValue(data.Parameter1))
+                data.Parameter1 = <span class="highlight-number">300.0</span>;
+            <span class="highlight-keyword">if</span> (IsDefaultValue(data.Parameter2))
+                data.Parameter2 = <span class="highlight-literal">"PL10*300"</span>;
+
+            <span class="highlight-comment">// Get input points</span>
+            Point point1 = <span class="highlight-keyword">new</span> Point(<span class="highlight-keyword">this</span>.Positions[<span class="highlight-number">0</span>]);
+            Point point2 = <span class="highlight-keyword">new</span> Point(<span class="highlight-keyword">this</span>.Positions[<span class="highlight-number">1</span>]);
+            <span class="highlight-keyword">if</span> (data.Parameter1 &gt; <span class="highlight-number">0</span>)
+            {
+                point1.Y -= data.Parameter1 / <span class="highlight-number">2</span>;
+                point2.Y += data.Parameter1 / <span class="highlight-number">2</span>;
+            }
+
+            Beam newBeam = CreateBeam(point1, point2, data.Parameter2);
+
+            <span class="highlight-keyword">double</span> thickness = <span class="highlight-number">0.0</span>;
+            newBeam.GetReportProperty(<span class="highlight-literal">"PROFILE.WIDTH"</span>, <span class="highlight-keyword">ref</span> thickness);
+            CreateFitting(thickness, newBeam);
+        }
+        <span class="highlight-keyword">catch</span>(Exception e)
+        {
+            MessageBox.Show(e.ToString());
+        }
+
+        <span class="highlight-keyword">return</span> <span class="highlight-keyword">true</span>;
+    }
+
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> UserInterfaceDefinitions 
+    {
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">const</span> <span class="highlight-keyword">string</span> Plugin3 = <span class="highlight-literal">@""</span> +
+        <span class="highlight-literal">@"page("</span><span class="highlight-literal">"TeklaStructures"</span><span class="highlight-literal">","</span><span class="highlight-literal">""</span><span class="highlight-literal">")"</span> + <span class="highlight-literal">"\n"</span> +
+        <span class="highlight-literal">"{\n"</span> +
+        <span class="highlight-literal">"    joint(1, BeamConnection)\n"</span> +
+        <span class="highlight-literal">"    {\n"</span> +
+        <span class="highlight-literal">@"        tab_page("</span><span class="highlight-literal">"Beam test"</span><span class="highlight-literal">", "</span><span class="highlight-literal">"Parameters"</span><span class="highlight-literal">", 1)"</span> + <span class="highlight-literal">"\n"</span> +
+        <span class="highlight-literal">"        {\n"</span> +
+        <span class="highlight-literal">@"            parameter("</span><span class="highlight-literal">"Plate Length"</span><span class="highlight-literal">", "</span><span class="highlight-literal">"P1"</span><span class="highlight-literal">", distance, number, 1)"</span> + <span class="highlight-literal">"\n"</span> +
+        <span class="highlight-literal">@"            parameter("</span><span class="highlight-literal">"Profile"</span><span class="highlight-literal">", "</span><span class="highlight-literal">"P2"</span><span class="highlight-literal">", profile, text, 2)"</span> + <span class="highlight-literal">"\n"</span> +
+        <span class="highlight-literal">"        }\n"</span> +
+        <span class="highlight-literal">"    }\n"</span> +
+        <span class="highlight-literal">"}\n"</span>;
+    }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="05391e09-fa6f-9510-0ec2-377aed487078.htm">Tekla.Structures.Plugins Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.</p> </div></body></html>

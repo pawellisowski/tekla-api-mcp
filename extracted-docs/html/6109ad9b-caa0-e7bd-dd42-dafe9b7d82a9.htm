@@ -1,0 +1,146 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>ConnectionBase Class</title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="ConnectionBase class" /><meta name="System.Keywords" content="Tekla.Structures.Plugins.ConnectionBase class" /><meta name="System.Keywords" content="ConnectionBase class, about ConnectionBase class" /><meta name="Microsoft.Help.F1" content="Tekla.Structures.Plugins.ConnectionBase" /><meta name="Microsoft.Help.Id" content="T:Tekla.Structures.Plugins.ConnectionBase" /><meta name="Description" content="The ConnectionBase class is a base class for defining connections, details and seams. These types are more specialized and restricted by the input values than the ones derived from PluginBase." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Tekla.Structures.Plugins" /><meta name="file" content="6109ad9b-caa0-e7bd-dd42-dafe9b7d82a9" /><meta name="guid" content="6109ad9b-caa0-e7bd-dd42-dafe9b7d82a9" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Help1.css" /></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Tekla Open API Reference for Tekla Structures 2025</div><div class="pageBody"><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="logoColumn"><img src="../icons/logo.png" /></td><td class="titleColumn"><h1>ConnectionBase Class</h1></td></tr></table><span class="introStyle"></span> <div class="summary">
+            The ConnectionBase class is a base class for defining connections, details and seams.
+            These types are more specialized and restricted by the input values than the ones derived
+            from PluginBase.
+            <p>
+            The coordinate system for connections, details and seams is explained in the Tekla Structures
+            help, in the part about the position type of custom components. The position type defines the
+            origin of the custom component, relative to the main part.
+            </p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span></div><div id="ID0RBSection" class="collapsibleSection"><span class="nolink">System<span id="LSTFB39D36B_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFB39D36B_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span><br />  <span class="nolink">System<span id="LSTFB39D36B_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFB39D36B_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>MarshalByRefObject</span><br />    <span class="selflink">Tekla.Structures.Plugins<span id="LSTFB39D36B_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFB39D36B_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ConnectionBase</span><br /></div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="05391e09-fa6f-9510-0ec2-377aed487078.htm">Tekla.Structures.Plugins</a><br />
+    <strong>Assembly:</strong>
+   Tekla.Structures.Plugins (in Tekla.Structures.Plugins.dll) Version: 2025.0.0-alpha00048669+a99462f17964bc42624ada6e8d316db2d795d226<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">class</span> <span class="identifier">ConnectionBase</span> : <span class="identifier">MarshalByRefObject</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">MustInherit</span> <span class="keyword">Class</span> <span class="identifier">ConnectionBase</span>
+	<span class="keyword">Inherits</span> <span class="identifier">MarshalByRefObject</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script></div><p>The <span class="selflink">ConnectionBase</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID3RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="60397075-1252-12c6-deba-1f9275b078ff.htm">Code</a></td><td><div class="summary">
+            The connection code of the executable connection instance. The maximum length is 22 characters.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="835ac56b-075e-144a-298a-2fed8ff77d9a.htm">Identifier</a></td><td><div class="summary">
+            The identifier of the executable plug-in instance.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="619c304f-170b-2f81-0cf6-6281a1575cc6.htm">Positions</a></td><td><div class="summary">
+            The positional attributes for a detail or a seam instance; one for a detail, N for a seam.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="44d5df2e-93b6-236e-ae3d-19984869ebe5.htm">Primary</a></td><td><div class="summary">
+            The identifier that was selected as the primary object.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="2ab8cc3e-509b-bc37-03ab-f7e3a48adb32.htm">Secondaries</a></td><td><div class="summary">
+            A list of secondary identifiers of a connection or a seam.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="999607cd-78b3-27fa-2d16-477291d612e6.htm">IsDefaultValue(Double)</a></td><td><div class="summary">
+            Returns true if the given value is set to the default value for this type.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="8260c2f5-8b1b-fe04-715e-b5408f07da8b.htm">IsDefaultValue(Int32)</a></td><td><div class="summary">
+            Returns true if the given value is set to the default value for this type.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="ef9ef015-5d36-7c29-b229-3ae1bdd7be20.htm">IsDefaultValue(String)</a></td><td><div class="summary">
+            Returns true if the given value is set to the default value (empty string).
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="1fe2084f-e160-10b4-22a3-457d714a382b.htm">Run</a></td><td><div class="summary">
+            The main method of the component. Inside Run the user can implement the logic based on
+            the user given attributes and input. Inside the method input can be found from the provided 
+            properties: Primary, Secondaries and Positions.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID5RBSection" class="collapsibleSection">
+            In the following example, a .inp file is used for defining the dialog.
+            Notice that starting from version 15.0, the System.Windows.Forms namespace
+            can be used to create rich user interfaces. See e.g. the PluginFormBase class
+            in the Tekla.Structures.Dialog documentation for more information. When using System.Windows.Forms,
+            the name of the form has to be the same one as the connection name for ConnectionBase, otherwise
+            the form will be loaded and shown but the apply method won't work (modify will work).
+            <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> System;
+<span class="highlight-keyword">using</span> System.Windows.Forms;
+
+<span class="highlight-keyword">using</span> Tekla.Structures;
+<span class="highlight-keyword">using</span> Tekla.Structures.Plugins;
+<span class="highlight-keyword">using</span> Tekla.Structures.Geometry3d;
+<span class="highlight-keyword">using</span> Tekla.Structures.Model;
+
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> StructuresData3
+{
+    [StructuresField(<span class="highlight-literal">"P1"</span>)]
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">double</span> Parameter1;
+    [StructuresField(<span class="highlight-literal">"P2"</span>)]
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">string</span> Parameter2;
+}
+
+[Plugin(<span class="highlight-literal">"BeamConnection"</span>)] <span class="highlight-comment">// The name of the connection in the catalog</span>
+[PluginUserInterface(UserInterfaceDefinitions.Plugin3)]
+[SecondaryType(SecondaryType.SECONDARYTYPE_ONE)]
+[AutoDirectionType(AutoDirectionTypeEnum.AUTODIR_BASIC)]
+[PositionType(PositionTypeEnum.COLLISION_PLANE)]
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> BeamConnection : ConnectionBase
+{
+    <span class="highlight-keyword">private</span> <span class="highlight-keyword">readonly</span> StructuresData3 data;
+    <span class="highlight-keyword">private</span> <span class="highlight-keyword">readonly</span> Model myModel;
+    <span class="highlight-keyword">public</span> BeamConnection(StructuresData3 data)
+    {
+        <span class="highlight-keyword">this</span>.data = data;
+        myModel = <span class="highlight-keyword">new</span> Model();
+    }
+
+    <span class="highlight-keyword">static</span> Beam CreateBeam(Point point1, Point point2, <span class="highlight-keyword">string</span> profile)
+    {
+        Beam myBeam = <span class="highlight-keyword">new</span> Beam(point1, point2);
+        myBeam.Profile.ProfileString = profile;
+        myBeam.Finish = <span class="highlight-literal">"PAINT"</span>;
+        myBeam.Position.Depth = Position.DepthEnum.MIDDLE;
+        myBeam.Position.Plane = Position.PlaneEnum.RIGHT;
+        myBeam.Insert();
+        <span class="highlight-keyword">return</span> myBeam;
+    }
+
+    <span class="highlight-keyword">void</span> CreateFitting(<span class="highlight-keyword">double</span> thickness, ModelObject mySecondary)
+    {
+        Fitting myFitting = <span class="highlight-keyword">new</span> Fitting();
+        myFitting.Plane.Origin = <span class="highlight-keyword">new</span> Point(thickness, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>);
+        myFitting.Plane.AxisX = <span class="highlight-keyword">new</span> Vector(<span class="highlight-number">0</span>, <span class="highlight-number">1000</span>, <span class="highlight-number">0</span>);
+        myFitting.Plane.AxisY = <span class="highlight-keyword">new</span> Vector(<span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1000</span>);
+        myFitting.Father = mySecondary;
+
+        myFitting.Insert();
+    }
+
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">bool</span> Run()
+    {
+        <span class="highlight-keyword">try</span>
+        {
+            <span class="highlight-comment">// The default values</span>
+            <span class="highlight-keyword">if</span> (IsDefaultValue(data.Parameter1))
+                data.Parameter1 = <span class="highlight-number">300.0</span>;
+            <span class="highlight-keyword">if</span> (IsDefaultValue(data.Parameter2))
+                data.Parameter2 = <span class="highlight-literal">"PL10*300"</span>;
+
+            <span class="highlight-comment">// Get secondary</span>
+            Beam secondary = myModel.SelectModelObject(Secondaries[<span class="highlight-number">0</span>]) <span class="highlight-keyword">as</span> Beam;
+
+            Point point1 = <span class="highlight-keyword">new</span> Point();
+            Point point2 = <span class="highlight-keyword">new</span> Point();
+
+            point1.Y -= data.Parameter1 / <span class="highlight-number">2</span>;
+            point2.Y += data.Parameter1 / <span class="highlight-number">2</span>;
+
+            Beam newBeam = CreateBeam(point1, point2, data.Parameter2);
+
+            <span class="highlight-keyword">double</span> thickness = <span class="highlight-number">0.0</span>;
+            newBeam.GetReportProperty(<span class="highlight-literal">"PROFILE.WIDTH"</span>, <span class="highlight-keyword">ref</span> thickness);
+            <span class="highlight-keyword">this</span>.CreateFitting(thickness, secondary);
+        }
+        <span class="highlight-keyword">catch</span> (Exception e)
+        {
+            MessageBox.Show(e.ToString());
+        }
+
+        <span class="highlight-keyword">return</span> <span class="highlight-keyword">true</span>;
+    }
+
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> UserInterfaceDefinitions
+    {
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">const</span> <span class="highlight-keyword">string</span> Plugin3 = <span class="highlight-literal">@""</span> +
+        <span class="highlight-literal">@"page("</span><span class="highlight-literal">"TeklaStructures"</span><span class="highlight-literal">","</span><span class="highlight-literal">""</span><span class="highlight-literal">")"</span> + <span class="highlight-literal">"\n"</span> +
+         <span class="highlight-literal">"{\n"</span> +
+         <span class="highlight-literal">"    joint(1, BeamConnection)\n"</span> +
+         <span class="highlight-literal">"    {\n"</span> +
+        <span class="highlight-literal">@"        tab_page("</span><span class="highlight-literal">"Beam test"</span><span class="highlight-literal">", "</span><span class="highlight-literal">"Parameters"</span><span class="highlight-literal">", 1)"</span> + <span class="highlight-literal">"\n"</span> +
+         <span class="highlight-literal">"        {\n"</span> +
+        <span class="highlight-literal">@"            parameter("</span><span class="highlight-literal">"Plate Length"</span><span class="highlight-literal">", "</span><span class="highlight-literal">"P1"</span><span class="highlight-literal">", distance, number, 1)"</span> + <span class="highlight-literal">"\n"</span> +
+        <span class="highlight-literal">@"            parameter("</span><span class="highlight-literal">"Profile"</span><span class="highlight-literal">", "</span><span class="highlight-literal">"P2"</span><span class="highlight-literal">", profile, text, 2)"</span> + <span class="highlight-literal">"\n"</span> +
+         <span class="highlight-literal">"        }\n"</span> +
+         <span class="highlight-literal">"    }\n"</span> +
+         <span class="highlight-literal">"}\n"</span>;
+    }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="05391e09-fa6f-9510-0ec2-377aed487078.htm">Tekla.Structures.Plugins Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.</p> </div></body></html>

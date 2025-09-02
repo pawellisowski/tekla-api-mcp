@@ -1,0 +1,146 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Tekla.Structures.Plugins Namespace</title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="Tekla.Structures.Plugins namespace" /><meta name="Microsoft.Help.F1" content="Tekla.Structures.Plugins" /><meta name="Microsoft.Help.Id" content="N:Tekla.Structures.Plugins" /><meta name="Description" content="The Tekla.Structures.Plugins namespace includes all the functionality to create a plug-in into Tekla Structures. Please see the Plug-in Guide to get started with developing plug-ins." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Tekla.Structures.Plugins" /><meta name="file" content="05391e09-fa6f-9510-0ec2-377aed487078" /><meta name="guid" content="05391e09-fa6f-9510-0ec2-377aed487078" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Help1.css" /></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Tekla Open API Reference for Tekla Structures 2025</div><div class="pageBody"><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="logoColumn"><img src="../icons/logo.png" /></td><td class="titleColumn"><h1>Tekla.Structures.Plugins Namespace</h1></td></tr></table><span class="introStyle"></span> <div class="summary">The Tekla.Structures.Plugins namespace includes all the functionality to create a plug-in into Tekla Structures. Please see the Plug-in Guide to get started with developing plug-ins.</div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Classes</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="classList"><tr><th class="iconColumn">
+					 
+				</th><th>Class</th><th>Description</th></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="6319f80e-cec4-116d-6232-c66ff4de6101.htm">AutoDirectionTypeAttribute</a></td><td><div class="summary">
+            The AutoDirectionTypeAttribute class is used for storing the auto direction type.
+            Based on the type the system will then calculate the up direction of the connection/detail
+            if the "Auto" up direction is chosen in the dialog.
+            The attribute is initialized from the custom attribute 
+                [AutoDirectionType(AutoDirectionTypeEnum.AUTODIR_DETAIL)] 
+            in the connection/detail source.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="6109ad9b-caa0-e7bd-dd42-dafe9b7d82a9.htm">ConnectionBase</a></td><td><div class="summary">
+            The ConnectionBase class is a base class for defining connections, details and seams.
+            These types are more specialized and restricted by the input values than the ones derived
+            from PluginBase.
+            <p>
+            The coordinate system for connections, details and seams is explained in the Tekla Structures
+            help, in the part about the position type of custom components. The position type defines the
+            origin of the custom component, relative to the main part.
+            </p></div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="b498d9fd-0928-7653-c323-d66cfb18f678.htm">CustomPartBase</a></td><td><div class="summary">
+            The CustomPartBase class is a base class for defining custom parts.
+            These types are more specialized and restricted by the input values than the ones derived
+            from PluginBase.
+            <p>
+            The coordinate system for connections, details and seams is explained in the Tekla Structures
+            help, in the part about the position type of custom components. The position type defines the
+            origin of the custom component, relative to the main part.
+            </p></div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="c53e4a0c-1bda-8552-dd7b-b83017d390ed.htm">CustomPartInputTypeAttribute</a></td><td><div class="summary">
+            The CustomPartInputTypeAttribute class is used for defining the input type.
+            Based on the type the system will then ask for the correct number of input points in the creation.
+            The attribute is initialized from the custom attribute 
+                [CustomPartInputType(CustomPartBase.CustomPartInputType.INPUT_1_POINT)] 
+            in the custom part source code.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="68e9e6e3-dc82-cd2c-637d-ec7b0bb89ef2.htm">CustomPartPositioningTypeAttribute</a></td><td><div class="summary">
+            The CustomPartInputTypeAttribute class is used for defining the input type.
+            Based on the type the system will then position the custom part either based on calculated
+            extrema center point or given input points.
+            
+            The attribute is initialized from the custom attribute i.e.
+                [CustomPartPositioningType((CustomPartBase.CustomPartPositioningType.POSITIONING_BY_INPUTPOINTS)] 
+            in the custom part source code.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="039e5970-ac37-24e7-cd99-658f3ede5126.htm">DetailTypeAttribute</a></td><td><div class="summary">
+            The DetailTypeAttribute class is used for storing the detail type.
+            Based on the type the system will then position the detail in the creation.
+            The attribute is initialized from the custom attribute 
+                [DetailType(DetailTypeEnum.END)] 
+            in the connection source.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="d888ea51-3dae-c2e2-2c18-d89cbf04ce23.htm">DrawingPluginBase</a></td><td><div class="summary">
+            The DrawingPluginBase class is an abstract base class for drawing plug-ins.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="671978ea-ae03-3158-95ff-a55cbd398d67.htm">DrawingPluginBase<span id="LSTCD7A3920_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCD7A3920_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>InputDefinition</a></td><td><div class="summary">
+            The InputDefinition class is a class for defining the plug-in dependency over the input (points or identifiers).
+            The user implemented method DefineInput() of the DrawingPluginBase interface should return an array list of 
+            input definition instances. This defines the points and identifiers the plug-in will receive as input
+            when the Run() method is called.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="683d0814-ff48-9371-384c-8b8a2db73b46.htm">InputObjectDependencyAttribute</a></td><td><div class="summary">
+            The InputObjectDependencyAttribute class is used for storing an input object dependency which determines when the plug-in is updated in the system.
+            The attribute is initialized from the custom attribute [InputObjectDependency(PluginBase.InputObjectDependency Type)] in the plug-in source.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="6d2240db-156e-3bf5-fd9d-10f29c411e8b.htm">InputObjectTypeAttribute</a></td><td><div class="summary">
+            The InputObjectTypeAttribute class is used for storing the type of the input.
+            Based on the type the system can then correctly ask for user input in the creation.
+            The attribute is initialized from the custom attribute 
+                [InputObjectType(ConnectionBase.InputObjectType.INPUTOBJECT_PART)] 
+            in the connection source.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="19308e33-a3f9-4297-8963-b9532788d8cf.htm">PluginAttribute</a></td><td><div class="summary">
+            The PluginAttribute class is used for storing the name of the plug-in to the system.
+            The attribute is initialized from the custom attribute [Plugin("PluginName")] in the plug-in source.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="5bd24240-26d1-39e2-9b6b-3f4556cdcd47.htm">PluginBase</a></td><td><div class="summary">
+            The PluginBase class in an abstract base class for model plug-ins.
+            Model plug-ins have to be inherited from this class. Drawing plug-ins have to be 
+            inherited from the DrawingPluginBase.
+            <p>
+            A plug-in is always executed in the plug-in's local coordinate system.
+            The origin of the plug-in's coordinate system is defined based on
+            the first input object or point. In case the first input is an object,
+            the origin of the plug-in's coordinate system is the first input point of the object. 
+            In case the first input is a point, the origin of the plug-in's coordinate system is
+            the input point. The X- and Y-axes of the coordinate system are defined in the current plane.
+            </p></div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="5a24f6b6-72e1-ef1b-1dfd-c51d9b39e460.htm">PluginBase<span id="LSTCD7A3920_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCD7A3920_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>InputDefinition</a></td><td><div class="summary">
+            The InputDefinition class is a class for defining the plug-in dependency over the input (points or identifiers).
+            The user implemented method DefineInput() of the PluginBase interface should return an array list of 
+            input definition instances. This defines the points and identifiers the plug-in will receive as input
+            when the Run() method is called.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="4e22e521-31d7-14cd-9322-b5e585d3cdee.htm">PluginCoordinateSystemAttribute</a></td><td><div class="summary">
+            The PluginCoordinateSystemAttribute class is used for defining  the coordinate system type for model plug-ins which are using points as an input.
+            The attribute is initialized from the custom attribute [PluginCoordinateSystem(PluginBase.CoordinateSystemType Type)] in the plug-in source.
+            If attribute is not defined or attribute has value PluginBase.CoordinateSystemType.FROM_FIRST_POINT_AND_GLOBAL coordinate system is calculated as earlier.
+            The attribute is used if the first Inputdefinition object contains at least two points (defined by two points, line, face or polygon).
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="3ae73917-956a-f7d8-520c-a60ea15ce79d.htm">PluginDescriptionAttribute</a></td><td><div class="summary">
+            Not supported at the moment.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="64260160-d2fd-baf5-377c-d4a0318a3def.htm">PluginNameAttribute</a></td><td><div class="summary">
+            Not supported at the moment.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="23b0191a-e544-1e01-af19-aa2b3bb67a70.htm">PluginPropertyFileLocationAttribute</a></td><td><div class="summary">Used to specify file location for a property file.</div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="34a54f53-8840-15d4-9cc6-d7a746bc3f49.htm">PluginSymbolVisiblityAttribute</a></td><td><div class="summary">
+            The PluginSymbolVisiblityAttribute class is used for defining the symbol visibility for model plug-ins.
+            The attribute is initialized from the custom attribute [PluginSymbolVisiblity(PluginBase.SymbolVisibility Type)] in the plug-in source.
+            If attribute is not defined or attribute has value PluginBase.SymbolVisibility.DRAW_SYMBOL plug-in symbol is drawn normally.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="48e673e5-d34c-6ed9-ce45-1a1d5a444898.htm">PluginUserInterfaceAttribute</a></td><td><div class="summary">
+            The PluginUserInterfaceAttribute class is used for storing the description of the plug-in user interface to the system.
+            The attribute is initialized from the custom attribute [PluginUserInterface(PluginName.UserInterfaceDefinitions.Plugin1)] in the plug-in source.
+            In this case the description string Plugin1 is a dialog written in inp format. 
+            If the plug-in dialog is inherited from the PluginFormBase the description string contains a class name of the dialog i.e. [PluginUserInterface("Model_Plug_in1.MainForm")]. 
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="85869afb-56cb-102f-dc01-3c8aa94b473c.htm">PositionTypeAttribute</a></td><td><div class="summary">
+            The PositionTypeAttribute class is used for storing the position type of the connection.
+            Based on the type the system will then position the connection in the creation.
+            The attribute is initialized from the custom attribute 
+                [PositionType(PositionTypeEnum.COLLISION_PLANE)] 
+            in the connection source.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="d4a9bbb6-876c-df62-b60a-424ef66dd3c0.htm">SeamInputTypeAttribute</a></td><td><div class="summary">
+            The SeamInputTypeAttribute class is used for identifying that the connection is a seam and defining the input type.
+            Based on the type the system will then ask for the correct number of input points in the creation.
+            The attribute is initialized from the custom attribute 
+                [SeamInputType(ConnectionBase.SeamInputType.INPUT_POLYGON)] 
+            in the connection source.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="babb5ce4-8ff1-4e7a-5190-f4ea99b35406.htm">SecondaryTypeAttribute</a></td><td><div class="summary">
+            The SecondaryTypeAttribute class is used for storing the number of needed secondaries in the connection.
+            Based on the type the system can then correctly ask for user input in the creation.
+            The attribute is initialized from the custom attribute i.e.
+                [SecondaryType(ConnectionBase.SecondaryType.SECONDARYTYPE_ONE)] 
+            in the connection source.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="1db3e6b8-6d5a-3d89-28df-6ff41b96fa92.htm">StructuresFieldAttribute</a></td><td><div class="summary">
+            The StructuresFieldAttribute class is used for mapping a database attribute to a data field that the plug-in uses in execution.
+            The attribute is initialized from the custom attribute [StructuresField(attributeName)] in the plug-in source.
+            In the plug-in the data field must be public and the type must be double, integer or string.
+            </div></td></tr></table></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Enumerations</span></div><div id="ID1RBSection" class="collapsibleSection"><table class="members" id="enumerationList"><tr><th class="iconColumn">
+					 
+				</th><th>Enumeration</th><th>Description</th></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="1a07ad5c-4674-2484-581f-40fd5bf24da7.htm">ConnectionBase<span id="LSTCD7A3920_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCD7A3920_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>InputObjectType</a></td><td><div class="summary">
+            Defines the input object type.
+            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="2603c888-2ddc-b32a-6f25-c65e32d1ff78.htm">ConnectionBase<span id="LSTCD7A3920_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCD7A3920_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>SeamInputType</a></td><td><div class="summary">
+            Defines the type of the input.
+            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="9568ad7f-6ab6-c04b-5307-4d30cc704931.htm">ConnectionBase<span id="LSTCD7A3920_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCD7A3920_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>SecondaryType</a></td><td><div class="summary">
+            Defines how many secondaries a connection can have.
+            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="c9fa6dad-b75e-dcee-2222-118095d0d763.htm">CustomPartBase<span id="LSTCD7A3920_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCD7A3920_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CustomPartInputType</a></td><td><div class="summary">
+            Defines the type of the input. 
+            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="e219db13-ecfa-4073-4879-1ca003da8543.htm">CustomPartBase<span id="LSTCD7A3920_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCD7A3920_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CustomPartPositioningType</a></td><td><div class="summary">
+            Defines the type of the positioning.
+            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="a7c9fa37-3ea6-4acf-dce6-ce37d13c0aff.htm">DrawingPluginBase<span id="LSTCD7A3920_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCD7A3920_7?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>InputDefinition<span id="LSTCD7A3920_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCD7A3920_8?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>InputTypes</a></td><td><div class="summary">
+            The possible input types for a drawing plug-in.
+            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="2ca38da1-1e87-f979-1b85-b488ab7fc312.htm">DrawingPluginBase<span id="LSTCD7A3920_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCD7A3920_9?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>UpdateMode</a></td><td><div class="summary">
+            Defines the update mode of the drawing plug-in.
+            The update mode tells the system when the plug-in is executed.
+            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="440d2b29-3abf-36bf-37a4-4d5f845580b8.htm">PluginBase<span id="LSTCD7A3920_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCD7A3920_10?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CoordinateSystemType</a></td><td><div class="summary">
+            Defines the coordinate system type for model plug-ins which are using points as an input.
+            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="fec18db9-7adc-f90c-030c-1318e59223ff.htm">PluginBase<span id="LSTCD7A3920_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCD7A3920_11?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>InputDefinition<span id="LSTCD7A3920_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCD7A3920_12?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>InputTypeEnum</a></td><td><div class="summary">
+            The possible input types for a plug-in.
+            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="9b621f28-934e-90ec-2996-fac877e7de20.htm">PluginBase<span id="LSTCD7A3920_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCD7A3920_13?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>InputObjectDependency</a></td><td><div class="summary">
+            Defines the input object dependency type for model plug-ins.
+            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="277a0471-12da-93d9-7307-c550a3086201.htm">PluginBase<span id="LSTCD7A3920_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCD7A3920_14?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>SymbolVisibility</a></td><td><div class="summary">
+            Defines the symbol visibility for model plug-ins in model views. 
+            </div></td></tr></table></div></div></div><div id="pageFooter" class="pageFooter"><p>Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.</p> </div></body></html>

@@ -1,0 +1,64 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Solid.GetCutPart Method </title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="GetCutPart method" /><meta name="System.Keywords" content="Solid.GetCutPart method" /><meta name="Microsoft.Help.F1" content="Tekla.Structures.Model.Solid.GetCutPart" /><meta name="Microsoft.Help.Id" content="M:Tekla.Structures.Model.Solid.GetCutPart(Tekla.Structures.Model.Solid)" /><meta name="Description" content="Returns a shell enumerator for the solid th at results cutting this solid with the given solid." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Tekla.Structures.Model" /><meta name="file" content="6df0f96a-ce73-cec1-6320-f3b7ddeae3cf" /><meta name="guid" content="6df0f96a-ce73-cec1-6320-f3b7ddeae3cf" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Help1.css" /></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Tekla Open API Reference for Tekla Structures 2025</div><div class="pageBody"><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="logoColumn"><img src="../icons/logo.png" /></td><td class="titleColumn"><h1>Solid<span id="LST5266DA83_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5266DA83_0?cpp=::|nu=.");</script>GetCutPart Method </h1></td></tr></table><span class="introStyle"></span> <div class="summary">
+             Returns a shell enumerator for the solid th at results cutting this solid with the given solid.
+             </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="ead2dd1b-97f2-a283-bd41-e985db80929d.htm">Tekla.Structures.Model</a><br />
+    <strong>Assembly:</strong>
+   Tekla.Structures.Model (in Tekla.Structures.Model.dll) Version: 2025.0.0-alpha00048669+a99462f17964bc42624ada6e8d316db2d795d226<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="identifier">ShellEnumerator</span> <span class="identifier">GetCutPart</span>(
+	<span class="identifier">Solid</span> <span class="parameter">CuttingPart</span>
+)</pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">GetCutPart</span> ( 
+	<span class="parameter">CuttingPart</span> <span class="keyword">As</span> <span class="identifier">Solid</span>
+) <span class="keyword">As</span> <span class="identifier">ShellEnumerator</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">CuttingPart</span></dt><dd>Type: <a href="7d939b20-a22f-7370-299b-a5a9fee8e54e.htm">Tekla.Structures.Model<span id="LST5266DA83_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5266DA83_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Solid</a><br />The solid to use for cutting.</dd></dl><h4 class="subHeading">Return Value</h4>Type: <a href="129adcea-7427-5204-6df8-622483d21f39.htm">ShellEnumerator</a><br />An shell enumerator to enumerate through the resulting solid's shells.</div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> Tekla.Structures.Model;
+<span class="highlight-keyword">using</span> Tekla.Structures.Solid;
+<span class="highlight-keyword">using</span> Tekla.Structures.Geometry3d;
+
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> Example
+{
+
+    <span class="highlight-keyword">private</span> <span class="highlight-keyword">static</span> Beam CreateBeam(Point p1, Point p2, String profileName, <span class="highlight-keyword">bool</span> SetAsOperativeClass)
+    {
+        Beam beam1 = <span class="highlight-keyword">new</span> Beam
+        {
+            StartPoint = p1,
+            EndPoint = p2,
+            Profile = { ProfileString = profileName },
+            Finish = <span class="highlight-literal">"PAINT"</span>,
+            Material = { MaterialString = <span class="highlight-literal">"S235JR"</span> },
+            Position = { Depth = Position.DepthEnum.MIDDLE },
+            Class = SetAsOperativeClass ? BooleanPart.BooleanOperativeClassName : <span class="highlight-literal">"1"</span>
+        };
+
+        <span class="highlight-keyword">return</span> beam1;
+    }
+
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> Example1()
+    {
+        Beam beam1 = CreateBeam(<span class="highlight-keyword">new</span> Point(<span class="highlight-number">1000.0</span>, <span class="highlight-number">1000.0</span>, <span class="highlight-number">0.0</span>), <span class="highlight-keyword">new</span> Point(<span class="highlight-number">1000.0</span>, <span class="highlight-number">2000.0</span>, <span class="highlight-number">0.0</span>), <span class="highlight-literal">"500*500"</span>, <span class="highlight-keyword">false</span>);
+        Beam beam2 = CreateBeam(<span class="highlight-keyword">new</span> Point(<span class="highlight-number">500.0</span>, <span class="highlight-number">1500.0</span>, <span class="highlight-number">250.0</span>), <span class="highlight-keyword">new</span> Point(<span class="highlight-number">1500.0</span>, <span class="highlight-number">1500.0</span>, <span class="highlight-number">250.0</span>), <span class="highlight-literal">"500*500"</span>, <span class="highlight-keyword">true</span>);
+        BooleanPart cut = <span class="highlight-keyword">new</span> BooleanPart { Father = beam1 };
+        cut.SetOperativePart(beam2);
+
+        Solid solid1 = beam1.GetSolid(Solid.SolidCreationTypeEnum.RAW);
+        Solid solid2 = beam1.GetSolid(Solid.SolidCreationTypeEnum.NORMAL);
+
+        ShellEnumerator shells = solid1.GetCutPart(solid2);
+
+        <span class="highlight-keyword">int</span> shellCount = <span class="highlight-number">0</span>;
+        List&lt;<span class="highlight-keyword">int</span>&gt; faceCounts = <span class="highlight-keyword">new</span> List&lt;<span class="highlight-keyword">int</span>&gt;();
+
+        <span class="highlight-keyword">while</span> (shells.MoveNext())
+        {
+            <span class="highlight-keyword">var</span> shell = shells.Current <span class="highlight-keyword">as</span> Shell;
+            <span class="highlight-keyword">if</span> (shell != <span class="highlight-keyword">null</span>)
+            {
+                FaceEnumerator faces = shell.GetFaceEnumerator();
+                faceCounts.Insert(shellCount, <span class="highlight-number">0</span>); 
+                <span class="highlight-keyword">while</span>(faces.MoveNext())
+                {
+                    faceCounts[shellCount]++; 
+                }
+            }
+            shellCount++;
+        }
+    }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID3RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="7d939b20-a22f-7370-299b-a5a9fee8e54e.htm">Solid Class</a></div><div class="seeAlsoStyle"><a href="ead2dd1b-97f2-a283-bd41-e985db80929d.htm">Tekla.Structures.Model Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.</p> </div></body></html>

@@ -1,0 +1,372 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>BinaryFilterExpressionCollection Class</title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="BinaryFilterExpressionCollection class" /><meta name="System.Keywords" content="Tekla.Structures.Filtering.BinaryFilterExpressionCollection class" /><meta name="System.Keywords" content="BinaryFilterExpressionCollection class, about BinaryFilterExpressionCollection class" /><meta name="Microsoft.Help.F1" content="Tekla.Structures.Filtering.BinaryFilterExpressionCollection" /><meta name="Microsoft.Help.Id" content="T:Tekla.Structures.Filtering.BinaryFilterExpressionCollection" /><meta name="Description" content="The BinaryFilterExpressionCollection class represents a collection of BinaryFilterItem objects. The class is used to represent linear expressions. This class cannot be inherited." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Tekla.Structures.Filtering" /><meta name="file" content="b265602f-8b11-715f-8159-73cbd7464c26" /><meta name="guid" content="b265602f-8b11-715f-8159-73cbd7464c26" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Help1.css" /></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Tekla Open API Reference for Tekla Structures 2025</div><div class="pageBody"><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="logoColumn"><img src="../icons/logo.png" /></td><td class="titleColumn"><h1>BinaryFilterExpressionCollection Class</h1></td></tr></table><span class="introStyle"></span> <div class="summary">
+             The BinaryFilterExpressionCollection class represents a collection of BinaryFilterItem objects.
+             The class is used to represent linear expressions. This class cannot be inherited.
+             </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span></div><div id="ID0RBSection" class="collapsibleSection"><span class="nolink">System<span id="LST6A20C527_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A20C527_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span><br />  <a href="0f6107cc-f4dc-2d5b-2160-8a8912965187.htm">Tekla.Structures.Filtering<span id="LST6A20C527_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A20C527_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Expression</a><br />    <a href="2de0e25f-b8f2-75d1-7b6a-d548d2bd3868.htm">Tekla.Structures.Filtering<span id="LST6A20C527_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A20C527_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>FilterExpression</a><br />      <span class="selflink">Tekla.Structures.Filtering<span id="LST6A20C527_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A20C527_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BinaryFilterExpressionCollection</span><br /></div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="1fd4ae67-7867-2364-b12f-63b7a39d6c6e.htm">Tekla.Structures.Filtering</a><br />
+    <strong>Assembly:</strong>
+   Tekla.Structures (in Tekla.Structures.dll) Version: 2025.0.0-alpha00048669+a99462f17964bc42624ada6e8d316db2d795d226<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+<span class="keyword">public</span> <span class="keyword">sealed</span> <span class="keyword">class</span> <span class="identifier">BinaryFilterExpressionCollection</span> : <span class="identifier">FilterExpression</span>, 
+	<span class="identifier">IList</span>&lt;<span class="identifier">BinaryFilterExpressionItem</span>&gt;, <span class="identifier">ICollection</span>&lt;<span class="identifier">BinaryFilterExpressionItem</span>&gt;, <span class="identifier">IEnumerable</span>&lt;<span class="identifier">BinaryFilterExpressionItem</span>&gt;, 
+	<span class="identifier">IEnumerable</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
+<span class="keyword">Public</span> <span class="keyword">NotInheritable</span> <span class="keyword">Class</span> <span class="identifier">BinaryFilterExpressionCollection</span>
+	<span class="keyword">Inherits</span> <span class="identifier">FilterExpression</span>
+	<span class="keyword">Implements</span> <span class="identifier">IList</span>(<span class="keyword">Of</span> <span class="identifier">BinaryFilterExpressionItem</span>), <span class="identifier">ICollection</span>(<span class="keyword">Of</span> <span class="identifier">BinaryFilterExpressionItem</span>), 
+	<span class="identifier">IEnumerable</span>(<span class="keyword">Of</span> <span class="identifier">BinaryFilterExpressionItem</span>), <span class="identifier">IEnumerable</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script></div><p>The <span class="selflink">BinaryFilterExpressionCollection</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID3RBSection" class="collapsibleSection"><table class="members" id="constructorList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="9a397fb6-0bdd-2f4f-0d72-ac65d61ee99b.htm">BinaryFilterExpressionCollection</a></td><td><div class="summary">
+            Initializes a new instance of the BinaryFilterExpressionCollection class.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="9e25aa77-870c-e8cb-c660-ff3c0383184c.htm">Count</a></td><td><div class="summary">
+            Gets the number of elements actually contained in the collection.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="a436cbc9-a74e-3b98-1736-723e4f015b27.htm">IsEnable</a></td><td><div class="summary">
+            Gets or sets the enabled state of the filter expression.
+            </div> (Inherited from <a href="2de0e25f-b8f2-75d1-7b6a-d548d2bd3868.htm">FilterExpression</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="a433f181-9907-871a-4204-2c09c211f3a2.htm">IsReadOnly</a></td><td><div class="summary">
+            Gets a value indicating whether the collection is read-only.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="102fbd99-34a7-73dc-61d9-33ebf3ea489b.htm">IsSynchronized</a></td><td><div class="summary">
+            Gets a value indicating whether the collection supports multithreading.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="561edc68-8980-5543-1048-227b6f5f3182.htm">Item</a></td><td><div class="summary">
+            Gets or sets the item at a specific index.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="d60ef229-2678-d000-38f6-466e5c32fd1b.htm">SyncRoot</a></td><td><div class="summary">
+            Gets the root for synchronization.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID5RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="37a55e1e-c3d1-ab03-a52f-1f0856960257.htm">Add</a></td><td><div class="summary">
+            Adds a BinaryFilterExpressionItem object at the end of the collection.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="d4879053-d92b-b022-d9a3-4d2381f59faa.htm">Clear</a></td><td><div class="summary">
+            Removes all the elements from the collection.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="692fe680-5d97-a396-86e7-c53e541ca7c8.htm">Contains</a></td><td><div class="summary">
+            Determines whether an element is in the collection.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="4aa802f3-e3bf-08cb-56ec-b5b6109cfbc3.htm">CopyTo</a></td><td><div class="summary">
+            Copies the collection to the input array.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="67080931-72ad-1368-a331-8b823209cc19.htm">GetFirst</a></td><td><div class="summary">
+            Gets the first item of the collection.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="ed7ab484-7f6e-9cc3-73af-519a3ebe6d5e.htm">GetLast</a></td><td><div class="summary">
+            Gets the last item of the collection.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="11f12bd5-c925-b507-86f1-6d1f242ac214.htm">IndexOf</a></td><td><div class="summary">
+            Searches for the specified BinaryFilterExpressionItem in the collection and returns a zero-based index if found.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="ed34cf70-121c-8d04-16fd-3dff463b7ca7.htm">Insert</a></td><td><div class="summary">
+            Inserts an element in the collection at a specified index.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="5cb79128-858c-ecc0-f8e2-aec6aa31db13.htm">IsFirst</a></td><td><div class="summary">
+            Determines whether an element is the first item of the collection.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="980afcfa-dae4-215d-1493-5caba0671bbd.htm">IsLast</a></td><td><div class="summary">
+            Determines whether an element is the last item of the collection.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="4488a5f8-cfac-c06e-9537-badb4d390f35.htm">Remove</a></td><td><div class="summary">
+            Removes the first occurrence of a specific object from the collection.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="51945f78-fec1-8f3c-1c9e-13a0ef3eeb1b.htm">RemoveAt</a></td><td><div class="summary">
+            Removes the element at the specified index from the collection.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="fece057a-34f0-fbb1-7184-27f66452ed40.htm">ToString</a></td><td><div class="summary">
+            Creates a string representation of the current object.
+            </div> (Inherited from <a href="0f6107cc-f4dc-2d5b-2160-8a8912965187.htm">Expression</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID6RBSection" class="collapsibleSection">
+             The following examples show how to compose different filter expression collections.
+             After the BinaryFilterExpressionCollection is composed use <a href="3fe566dd-d704-1455-1c24-352a7d77ec85.htm">Filter</a>
+             to build the filter file.
+             <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> System;
+<span class="highlight-keyword">using</span> Tekla.Structures.Filtering;
+<span class="highlight-keyword">using</span> Tekla.Structures.Filtering.Categories;
+
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> FilterExamples
+{
+       <span class="highlight-comment">// Creates a filter for the following filter expression:</span>
+       <span class="highlight-comment">// (PartName == BEAM1 OR PartName == BEAM2 OR PartName == BEAM3)</span>
+       <span class="highlight-keyword">public</span> BinaryFilterExpressionCollection CreateBinaryFilterExpressionCollection()
+       {
+           <span class="highlight-comment">// Creates the filter expressions</span>
+           PartFilterExpressions.Name PartName = <span class="highlight-keyword">new</span> PartFilterExpressions.Name();
+           StringConstantFilterExpression Beam1 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM1"</span>);
+           StringConstantFilterExpression Beam2 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM2"</span>);
+           StringConstantFilterExpression Beam3 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM3"</span>);
+
+           <span class="highlight-comment">// Creates the binary filter expressions</span>
+           BinaryFilterExpression Expression1 = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_EQUAL, Beam1);
+           BinaryFilterExpression Expression2 = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_EQUAL, Beam2);
+           BinaryFilterExpression Expression3 = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_EQUAL, Beam3);
+
+           <span class="highlight-comment">// Creates the binary filter expression collection</span>
+           BinaryFilterExpressionCollection ExpressionCollection = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           ExpressionCollection.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(Expression1, BinaryFilterOperatorType.BOOLEAN_OR));
+           ExpressionCollection.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(Expression2, BinaryFilterOperatorType.BOOLEAN_OR));
+           ExpressionCollection.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(Expression3));
+           <span class="highlight-keyword">return</span> ExpressionCollection;
+       }
+
+       <span class="highlight-comment">// Creates the following expression:</span>
+       <span class="highlight-comment">// (PartName != BEAM AND (PartName != BEAM1 AND PartName != BEAM2))</span>
+       <span class="highlight-keyword">public</span> <span class="highlight-keyword">static</span> FilterExpression CreateBinaryFilterExpressionCollection1()
+       {
+           PartFilterExpressions.Name PartName = <span class="highlight-keyword">new</span> PartFilterExpressions.Name();
+           StringConstantFilterExpression BeamName = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM"</span>);
+           StringConstantFilterExpression BeamName1 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM1"</span>);
+           StringConstantFilterExpression BeamName2 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM2"</span>);
+
+           BinaryFilterExpression A = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName);
+           BinaryFilterExpression C = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName1);
+           BinaryFilterExpression D = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName2);
+
+           BinaryFilterExpressionCollection BinaryFilterExpressionCollection = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           BinaryFilterExpressionCollection.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(C, BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(D));
+
+           BinaryFilterExpressionCollection BinaryFilterExpressionCollection1 = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           BinaryFilterExpressionCollection1.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(A, BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection1.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(BinaryFilterExpressionCollection));
+
+           <span class="highlight-keyword">return</span> BinaryFilterExpressionCollection1;
+       }
+
+       <span class="highlight-comment">// Creates the following expression:</span>
+       <span class="highlight-comment">// (PartName != BEAM AND PartName != BEAM1 AND (PartName != BEAM2 OR PartName != BEAM3))</span>
+       <span class="highlight-keyword">public</span> <span class="highlight-keyword">static</span> FilterExpression CreateBinaryFilterExpressionCollection2()
+       {
+           PartFilterExpressions.Name PartName = <span class="highlight-keyword">new</span> PartFilterExpressions.Name();
+           StringConstantFilterExpression BeamName = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM"</span>);
+           StringConstantFilterExpression BeamName1 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM1"</span>);
+           StringConstantFilterExpression BeamName2 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM2"</span>);
+           StringConstantFilterExpression BeamName3 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM3"</span>);
+
+           BinaryFilterExpression A = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName);
+           BinaryFilterExpression B = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName1);
+           BinaryFilterExpression C = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName2);
+           BinaryFilterExpression D = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName3);
+
+           BinaryFilterExpressionCollection BinaryFilterExpressionCollection = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           BinaryFilterExpressionCollection.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(C, BinaryFilterOperatorType.BOOLEAN_OR));
+           BinaryFilterExpressionCollection.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(D));
+
+           BinaryFilterExpressionCollection BinaryFilterExpressionCollection1 = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           BinaryFilterExpressionCollection1.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(A, BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection1.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(B, BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection1.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(BinaryFilterExpressionCollection));
+           <span class="highlight-keyword">return</span> BinaryFilterExpressionCollection1;
+       }
+
+       <span class="highlight-comment">// Creates the following expression:</span>
+       <span class="highlight-comment">// (PartName != BEAM AND (PartName != BEAM2 OR PartName != BEAM3) AND PartName != BEAM1)</span>
+       <span class="highlight-keyword">public</span> <span class="highlight-keyword">static</span> FilterExpression CreateBinaryFilterExpressionCollection3()
+       {
+           PartFilterExpressions.Name PartName = <span class="highlight-keyword">new</span> PartFilterExpressions.Name();
+           StringConstantFilterExpression BeamName = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM"</span>);
+           StringConstantFilterExpression BeamName1 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM1"</span>);
+           StringConstantFilterExpression BeamName2 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM2"</span>);
+           StringConstantFilterExpression BeamName3 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM3"</span>);
+
+           BinaryFilterExpression A = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName);
+           BinaryFilterExpression B = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName1);
+           BinaryFilterExpression C = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName2);
+           BinaryFilterExpression D = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName3);
+
+           BinaryFilterExpressionCollection BinaryFilterExpressionCollection = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           BinaryFilterExpressionCollection.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(C, BinaryFilterOperatorType.BOOLEAN_OR));
+           BinaryFilterExpressionCollection.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(D));
+
+           BinaryFilterExpressionCollection BinaryFilterExpressionCollection1 = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           BinaryFilterExpressionCollection1.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(A, BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection1.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(BinaryFilterExpressionCollection,
+               BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection1.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(B));
+
+           <span class="highlight-keyword">return</span> BinaryFilterExpressionCollection1;
+       }
+
+       <span class="highlight-comment">// Creates the following expression:</span>
+       <span class="highlight-comment">// ((PartName != BEAM AND PartName != BEAM1 AND PartName != BEAM2 OR PartName != BEAM3) AND</span>
+       <span class="highlight-comment">// (PartName != BEAM4 AND PartName != BEAM5 AND PartName != BEAM6 OR PartName != BEAM7))</span>
+       <span class="highlight-keyword">public</span> <span class="highlight-keyword">static</span> FilterExpression CreateBinaryFilterExpressionCollection4()
+       {
+           PartFilterExpressions.Name PartName = <span class="highlight-keyword">new</span> PartFilterExpressions.Name();
+           StringConstantFilterExpression BeamName = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM"</span>);
+           StringConstantFilterExpression BeamName1 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM1"</span>);
+           StringConstantFilterExpression BeamName2 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM2"</span>);
+           StringConstantFilterExpression BeamName3 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM3"</span>);
+           StringConstantFilterExpression BeamName4 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM4"</span>);
+           StringConstantFilterExpression BeamName5 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM5"</span>);
+           StringConstantFilterExpression BeamName6 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM6"</span>);
+           StringConstantFilterExpression BeamName7 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM7"</span>);
+
+           BinaryFilterExpression A = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName);
+           BinaryFilterExpression B = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName1);
+           BinaryFilterExpression C = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName2);
+           BinaryFilterExpression D = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName3);
+
+           BinaryFilterExpressionCollection BinaryFilterExpressionCollection = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           BinaryFilterExpressionCollection.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(A, BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(B, BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(C, BinaryFilterOperatorType.BOOLEAN_OR));
+           BinaryFilterExpressionCollection.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(D));
+
+           BinaryFilterExpression E = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName4);
+           BinaryFilterExpression F = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName5);
+           BinaryFilterExpression G = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName6);
+           BinaryFilterExpression H = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName7);
+
+           BinaryFilterExpressionCollection BinaryFilterExpressionCollection1 = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           BinaryFilterExpressionCollection1.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(E, BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection1.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(F, BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection1.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(G, BinaryFilterOperatorType.BOOLEAN_OR));
+           BinaryFilterExpressionCollection1.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(H));
+
+           BinaryFilterExpressionCollection BinaryFilterExpressionCollection2 = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           BinaryFilterExpressionCollection2.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(BinaryFilterExpressionCollection,
+               BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection2.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(BinaryFilterExpressionCollection1));
+
+           <span class="highlight-keyword">return</span> BinaryFilterExpressionCollection2;
+       }
+
+       <span class="highlight-comment">// Creates the following expression:</span>
+       <span class="highlight-comment">// ((PartName != BEAM AND PartName != BEAM1) AND</span>
+       <span class="highlight-comment">// (PartName != BEAM2 AND PartName != BEAM3) AND</span>
+       <span class="highlight-comment">// (PartName != BEAM4 AND PartName != BEAM5))</span>
+       <span class="highlight-keyword">public</span> <span class="highlight-keyword">static</span> FilterExpression CreateBinaryFilterExpressionCollection5()
+       {
+           PartFilterExpressions.Name PartName = <span class="highlight-keyword">new</span> PartFilterExpressions.Name();
+           StringConstantFilterExpression BeamName = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM"</span>);
+           StringConstantFilterExpression BeamName1 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM1"</span>);
+           StringConstantFilterExpression BeamName2 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM2"</span>);
+           StringConstantFilterExpression BeamName3 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM3"</span>);
+           StringConstantFilterExpression BeamName4 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM4"</span>);
+           StringConstantFilterExpression BeamName5 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM5"</span>);
+
+           BinaryFilterExpression A = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName);
+           BinaryFilterExpression B = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName1);
+
+           BinaryFilterExpressionCollection BinaryFilterExpressionCollection = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           BinaryFilterExpressionCollection.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(A, BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(B));
+
+           BinaryFilterExpression C = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName2);
+           BinaryFilterExpression D = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName3);
+
+           BinaryFilterExpressionCollection BinaryFilterExpressionCollection1 = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           BinaryFilterExpressionCollection1.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(C, BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection1.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(D));
+
+           BinaryFilterExpression E = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName4);
+           BinaryFilterExpression F = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName5);
+
+           BinaryFilterExpressionCollection BinaryFilterExpressionCollection2 = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           BinaryFilterExpressionCollection2.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(E, BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection2.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(F));
+
+           BinaryFilterExpressionCollection BinaryFilterExpressionCollection3 = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           BinaryFilterExpressionCollection3.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(BinaryFilterExpressionCollection,
+               BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection3.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(BinaryFilterExpressionCollection1,
+               BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection3.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(BinaryFilterExpressionCollection2));
+
+           <span class="highlight-keyword">return</span> BinaryFilterExpressionCollection3;
+       }
+
+       <span class="highlight-comment">// Creates the following expression:</span>
+       <span class="highlight-comment">// (((PartName != BEAM AND PartName != BEAM1) AND</span>
+       <span class="highlight-comment">// (PartName != BEAM2 AND PartName != BEAM3) AND</span>
+       <span class="highlight-comment">// (PartName != BEAM4 AND PartName != BEAM5)) OR</span>
+       <span class="highlight-comment">// (PartName != BEAM6 AND PartName != BEAM7))</span>
+       <span class="highlight-keyword">public</span> <span class="highlight-keyword">static</span> FilterExpression CreateBinaryFilterExpressionCollection6()
+       {
+           PartFilterExpressions.Name PartName = <span class="highlight-keyword">new</span> PartFilterExpressions.Name();
+           StringConstantFilterExpression BeamName = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM"</span>);
+           StringConstantFilterExpression BeamName1 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM1"</span>);
+           StringConstantFilterExpression BeamName2 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM2"</span>);
+           StringConstantFilterExpression BeamName3 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM3"</span>);
+           StringConstantFilterExpression BeamName4 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM4"</span>);
+           StringConstantFilterExpression BeamName5 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM5"</span>);
+           StringConstantFilterExpression BeamName6 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM6"</span>);
+           StringConstantFilterExpression BeamName7 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM7"</span>);
+
+           BinaryFilterExpression A = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName);
+           BinaryFilterExpression B = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName1);
+
+           BinaryFilterExpressionCollection BinaryFilterExpressionCollection = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           BinaryFilterExpressionCollection.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(A, BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(B));
+
+           BinaryFilterExpression C = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName2);
+           BinaryFilterExpression D = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName3);
+
+           BinaryFilterExpressionCollection BinaryFilterExpressionCollection1 = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           BinaryFilterExpressionCollection1.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(C, BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection1.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(D));
+
+           BinaryFilterExpression E = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName4);
+           BinaryFilterExpression F = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName5);
+
+           BinaryFilterExpressionCollection BinaryFilterExpressionCollection2 = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           BinaryFilterExpressionCollection2.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(E, BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection2.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(F));
+
+           BinaryFilterExpressionCollection BinaryFilterExpressionCollection3 = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           BinaryFilterExpressionCollection3.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(BinaryFilterExpressionCollection,
+               BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection3.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(BinaryFilterExpressionCollection1,
+               BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection3.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(BinaryFilterExpressionCollection2));
+
+           BinaryFilterExpression G = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName6);
+           BinaryFilterExpression H = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName7);
+
+           BinaryFilterExpressionCollection BinaryFilterExpressionCollection4 = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           BinaryFilterExpressionCollection4.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(G, BinaryFilterOperatorType.BOOLEAN_AND));
+           BinaryFilterExpressionCollection4.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(H));
+
+           BinaryFilterExpressionCollection BinaryFilterExpressionCollection5 = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           BinaryFilterExpressionCollection5.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(BinaryFilterExpressionCollection3,
+               BinaryFilterOperatorType.BOOLEAN_OR));
+           BinaryFilterExpressionCollection5.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(BinaryFilterExpressionCollection4));
+
+           <span class="highlight-keyword">return</span> BinaryFilterExpressionCollection5;
+       }
+
+       <span class="highlight-comment">// Creates the following expression:</span>
+       <span class="highlight-comment">// (PartName != BEAM OR (PartName != BEAM1 OR (PartName != BEAM2)))</span>
+       <span class="highlight-keyword">public</span> <span class="highlight-keyword">static</span> FilterExpression CreateBinaryFilterExpressionCollection7()
+       {
+           PartFilterExpressions.Name PartName = <span class="highlight-keyword">new</span> PartFilterExpressions.Name();
+           StringConstantFilterExpression BeamName = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM"</span>);
+           StringConstantFilterExpression BeamName1 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM1"</span>);
+           StringConstantFilterExpression BeamName2 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM2"</span>);
+
+           BinaryFilterExpression X = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName);
+           BinaryFilterExpression Y = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName1);
+           BinaryFilterExpression Z = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName2);
+
+           BinaryFilterExpressionCollection C2 = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           C2.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(Z));
+
+           BinaryFilterExpressionCollection C1 = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           C1.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(Y, BinaryFilterOperatorType.BOOLEAN_OR));
+           C1.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(C2));
+
+           BinaryFilterExpressionCollection C0 = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           C0.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(X, BinaryFilterOperatorType.BOOLEAN_OR));
+           C0.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(C1));
+
+           <span class="highlight-keyword">return</span> C0;
+       }
+
+       <span class="highlight-comment">// Creates the following expression:</span>
+       <span class="highlight-comment">// (((PartName != BEAM) OR PartName != BEAM1) OR PartName != BEAM2)</span>
+       <span class="highlight-keyword">public</span> <span class="highlight-keyword">static</span> FilterExpression CreateBinaryFilterExpressionCollection8()
+       {
+           PartFilterExpressions.Name PartName = <span class="highlight-keyword">new</span> PartFilterExpressions.Name();
+           StringConstantFilterExpression BeamName = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM"</span>);
+           StringConstantFilterExpression BeamName1 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM1"</span>);
+           StringConstantFilterExpression BeamName2 = <span class="highlight-keyword">new</span> StringConstantFilterExpression(<span class="highlight-literal">"BEAM2"</span>);
+
+           BinaryFilterExpression X = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName);
+           BinaryFilterExpression Y = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName1);
+           BinaryFilterExpression Z = <span class="highlight-keyword">new</span> BinaryFilterExpression(PartName, StringOperatorType.IS_NOT_EQUAL, BeamName2);
+
+           BinaryFilterExpressionCollection C0 = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           C0.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(X));
+           BinaryFilterExpressionCollection C1 = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           C1.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(C0, BinaryFilterOperatorType.BOOLEAN_OR));
+           C1.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(Y));
+           BinaryFilterExpressionCollection C2 = <span class="highlight-keyword">new</span> BinaryFilterExpressionCollection();
+           C2.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(C1, BinaryFilterOperatorType.BOOLEAN_OR));
+           C2.Add(<span class="highlight-keyword">new</span> BinaryFilterExpressionItem(Z));
+           <span class="highlight-keyword">return</span> C2;
+       }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID7RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="1fd4ae67-7867-2364-b12f-63b7a39d6c6e.htm">Tekla.Structures.Filtering Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.</p> </div></body></html>
