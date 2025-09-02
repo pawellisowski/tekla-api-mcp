@@ -1,0 +1,81 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Operation.AddToPourUnit Method </title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="AddToPourUnit method" /><meta name="System.Keywords" content="Operation.AddToPourUnit method" /><meta name="Microsoft.Help.F1" content="Tekla.Structures.Model.Operations.Operation.AddToPourUnit" /><meta name="Microsoft.Help.Id" content="M:Tekla.Structures.Model.Operations.Operation.AddToPourUnit(Tekla.Structures.Model.PourUnit,System.Collections.Generic.List{Tekla.Structures.Model.ModelObject})" /><meta name="Description" content="Adds model objects as part of a pour unit Model object types accepted are assembly types except cast in situ, reinforcements of different kind, components and bolts" /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Tekla.Structures.Model.Operations" /><meta name="file" content="e0d977f1-f6d9-4b5d-09ff-39534452abbd" /><meta name="guid" content="e0d977f1-f6d9-4b5d-09ff-39534452abbd" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Help1.css" /></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Tekla Open API Reference for Tekla Structures 2025</div><div class="pageBody"><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="logoColumn"><img src="../icons/logo.png" /></td><td class="titleColumn"><h1>Operation<span id="LSTE57D6080_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE57D6080_0?cpp=::|nu=.");</script>AddToPourUnit Method </h1></td></tr></table><span class="introStyle"></span> <div class="summary">
+             Adds model objects as part of a pour unit
+             Model object types accepted are assembly types except cast in situ,
+             reinforcements of different kind, components and bolts
+             </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="e1b7c3a4-9e84-2646-0fba-d6b4dd8481c5.htm">Tekla.Structures.Model.Operations</a><br />
+    <strong>Assembly:</strong>
+   Tekla.Structures.Model (in Tekla.Structures.Model.dll) Version: 2025.0.0-alpha00048669+a99462f17964bc42624ada6e8d316db2d795d226<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">static</span> <span class="identifier">bool</span> <span class="identifier">AddToPourUnit</span>(
+	<span class="identifier">PourUnit</span> <span class="parameter">inputPourUnit</span>,
+	<span class="identifier">List</span>&lt;<span class="identifier">ModelObject</span>&gt; <span class="parameter">objectsToBeAdded</span>
+)</pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Shared</span> <span class="keyword">Function</span> <span class="identifier">AddToPourUnit</span> ( 
+	<span class="parameter">inputPourUnit</span> <span class="keyword">As</span> <span class="identifier">PourUnit</span>,
+	<span class="parameter">objectsToBeAdded</span> <span class="keyword">As</span> <span class="identifier">List</span>(<span class="keyword">Of</span> <span class="identifier">ModelObject</span>)
+) <span class="keyword">As</span> <span class="identifier">Boolean</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">inputPourUnit</span></dt><dd>Type: <a href="ce3eec91-2dd7-6b90-ecd5-97f5017102c8.htm">Tekla.Structures.Model<span id="LSTE57D6080_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE57D6080_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>PourUnit</a><br />the instance of pour unit to add objects to. </dd><dt><span class="parameter">objectsToBeAdded</span></dt><dd>Type: <span class="nolink">System.Collections.Generic<span id="LSTE57D6080_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE57D6080_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>List</span><span id="LSTE57D6080_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE57D6080_3?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><a href="a90863bf-5ccc-e808-566a-a2ef79a9224d.htm">ModelObject</a><span id="LSTE57D6080_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE57D6080_4?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><br />the list of model objects to be added. </dd></dl><h4 class="subHeading">Return Value</h4>Type: <span class="nolink">Boolean</span><br />True on success.</div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Exceptions</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="tableSection"><table><tr><th>Exception</th><th>Condition</th></tr><tr><td><span class="nolink">ArgumentException</span></td><td>Throw exceptions if Pour or object has invalid ID,
+             do not exist in model or not valid object type.</td></tr></table></div></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID3RBSection" class="collapsibleSection">
+             The following example shows how to add all rebar groups in a model to a pour unit defined by the pour GUID.
+             You will have to replace the curly braces for the List with lesser and greater than signs.
+             <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> System.Collections.Generic;
+<span class="highlight-keyword">using</span> Tekla.Structures.Model;
+
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> Example
+{
+     <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> ExampleAddAllRebarGroupsToPour(Guid pourUnitGuid)
+     {
+            <span class="highlight-keyword">var</span> Model = <span class="highlight-keyword">new</span> Model();
+
+            ModelObjectEnumerator PourEnumerator =
+                Model.GetModelObjectSelector().GetAllObjectsWithType(ModelObject.ModelObjectEnum.POUR_UNIT);
+
+            PourUnit pour = <span class="highlight-keyword">null</span>;
+
+            <span class="highlight-keyword">if</span>(PourEnumerator.GetSize() &gt; <span class="highlight-number">0</span>)
+            {
+                <span class="highlight-keyword">while</span>(PourEnumerator.MoveNext())
+                {
+                    <span class="highlight-keyword">var</span> curPour = PourEnumerator.Current <span class="highlight-keyword">as</span> PourUnit;
+                    <span class="highlight-keyword">if</span>(curPour != <span class="highlight-keyword">null</span>)
+                    {
+                        <span class="highlight-keyword">if</span>(curPour.Identifier.GUID == pourUnitGuid)
+                        {
+                            pour = curPour;
+                            <span class="highlight-keyword">break</span>;
+                        }
+                    }
+                }
+            }
+
+            <span class="highlight-keyword">if</span>(pour != <span class="highlight-keyword">null</span>)
+            {
+                <span class="highlight-keyword">var</span> rebarGroupList = <span class="highlight-keyword">new</span> List{ModelObject}();
+
+                ModelObjectEnumerator ObjectEnumerator =
+                    Model.GetModelObjectSelector().GetAllObjectsWithType(ModelObject.ModelObjectEnum.REBARGROUP);
+
+                <span class="highlight-keyword">if</span>(ObjectEnumerator.GetSize() &gt; <span class="highlight-number">0</span>)
+                {
+                    <span class="highlight-keyword">while</span>(ObjectEnumerator.MoveNext())
+                    {
+                        <span class="highlight-keyword">var</span> rebargroup = ObjectEnumerator.Current <span class="highlight-keyword">as</span> RebarGroup;
+                        <span class="highlight-keyword">if</span>(rebargroup != <span class="highlight-keyword">null</span>)
+                        {
+                            rebarGroupList.Add(rebargroup);
+                        }
+                    }
+                }
+
+                <span class="highlight-keyword">if</span> (rebarGroupList.Count() &gt; <span class="highlight-number">0</span>)
+                {
+                   <span class="highlight-keyword">try</span>
+                   {
+                       AddToPourUnit(pour, rebarGroupList);
+                   }
+                   <span class="highlight-keyword">catch</span> (ArgumentException ex)
+                   {
+                       <span class="highlight-keyword">var</span> DoSomethingWithThisEx = ex;
+                   }
+                }
+            }
+     }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID4RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="d5bbc096-a164-49ea-16a8-3820e40b00be.htm">Operation Class</a></div><div class="seeAlsoStyle"><a href="e1b7c3a4-9e84-2646-0fba-d6b4dd8481c5.htm">Tekla.Structures.Model.Operations Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.</p> </div></body></html>

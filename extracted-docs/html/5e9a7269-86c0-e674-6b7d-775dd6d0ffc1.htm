@@ -1,0 +1,92 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Events Class</title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="Events class" /><meta name="System.Keywords" content="Tekla.Structures.Drawing.UI.Events class" /><meta name="System.Keywords" content="Events class, about Events class" /><meta name="Microsoft.Help.F1" content="Tekla.Structures.Drawing.UI.Events" /><meta name="Microsoft.Help.Id" content="T:Tekla.Structures.Drawing.UI.Events" /><meta name="Description" content="The Events class allows the user to register event listeners for drawing user interface events." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Tekla.Structures.Drawing.UI" /><meta name="file" content="5e9a7269-86c0-e674-6b7d-775dd6d0ffc1" /><meta name="guid" content="5e9a7269-86c0-e674-6b7d-775dd6d0ffc1" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Help1.css" /></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Tekla Open API Reference for Tekla Structures 2025</div><div class="pageBody"><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="logoColumn"><img src="../icons/logo.png" /></td><td class="titleColumn"><h1>Events Class</h1></td></tr></table><span class="introStyle"></span> <div class="summary">
+            The Events class allows the user to register event listeners for drawing user interface events.
+            </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span></div><div id="ID0RBSection" class="collapsibleSection"><span class="nolink">System<span id="LST9DE66C63_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9DE66C63_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span><br />  <span class="nolink">System<span id="LST9DE66C63_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9DE66C63_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>MarshalByRefObject</span><br />    <span class="selflink">Tekla.Structures.Drawing.UI<span id="LST9DE66C63_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9DE66C63_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Events</span><br /></div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="67cbd9d4-c133-877a-d145-4bccb89ea588.htm">Tekla.Structures.Drawing.UI</a><br />
+    <strong>Assembly:</strong>
+   Tekla.Structures.Drawing (in Tekla.Structures.Drawing.dll) Version: 2025.0.0-alpha00048669+a99462f17964bc42624ada6e8d316db2d795d226<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+<span class="keyword">public</span> <span class="keyword">sealed</span> <span class="keyword">class</span> <span class="identifier">Events</span> : <span class="identifier">MarshalByRefObject</span>, 
+	<span class="identifier">IUIEvents</span>, <span class="identifier">IDisposable</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
+<span class="keyword">Public</span> <span class="keyword">NotInheritable</span> <span class="keyword">Class</span> <span class="identifier">Events</span>
+	<span class="keyword">Inherits</span> <span class="identifier">MarshalByRefObject</span>
+	<span class="keyword">Implements</span> <span class="identifier">IUIEvents</span>, <span class="identifier">IDisposable</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script></div><p>The <span class="selflink">Events</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID3RBSection" class="collapsibleSection"><table class="members" id="constructorList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="c2696c0b-c71f-1680-d8c8-d6693858e0fc.htm">Events</a></td><td><div class="summary">
+            Constructs a new instance of Events.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="ad8753f7-5a3e-b9e5-07fc-cc5bf3bdcbcc.htm">Dispose</a></td><td><div class="summary">
+            Disposes of the Events instance.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="2d43bede-eff0-ea69-10ca-39097da266e4.htm">InitializeLifetimeService</a></td><td><div class="summary">
+            Initializes the lifetime service.
+            </div> (Overrides <span class="nolink">MarshalByRefObject<span id="LST9DE66C63_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9DE66C63_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>InitializeLifetimeService<span id="LST9DE66C63_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9DE66C63_4?cs=()|vb=|cpp=()|nu=()|fs=()");</script></span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="993d9fd4-eff0-c073-fa67-ea0f56113a5b.htm">OnInterrupted</a></td><td><div class="summary">
+            Called when uesr interrupts.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="40f9a059-e3b6-7441-9fe5-52a122ef9834.htm">Register</a></td><td><div class="summary">
+            Registers the instance to listen to the specified events.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="c5d65f46-f114-4387-fc57-4ce16baec662.htm">UnRegister</a></td><td><div class="summary">
+            Unregisters the instance from listening to events.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Events</span></div><div id="ID5RBSection" class="collapsibleSection"><table class="members" id="eventList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="5f7146c5-b5c4-4fdd-2082-98882bc08712.htm">DocumentManagerClosed</a></td><td><div class="summary">
+            The DocumentManagerClosed eventis raised when the document manager is closed.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="c74b3846-83ff-ae56-e133-7528a0b6773a.htm">DrawingEditorClosed</a></td><td><div class="summary">
+            The DrawingEditorClosed event is raised when the drawing editor is closed.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="41ddb49f-e0cd-a44d-a408-5ca172bed4ab.htm">DrawingEditorOpened</a></td><td><div class="summary">
+            The DrawingEditorOpened event is raised when the drawing editor is opened.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="43e29a01-2a71-56de-70b5-feab70afa5d6.htm">DrawingListSelectionChanged</a></td><td><div class="summary">
+            The DrawingListSelectionChanged event is raised when selection on the drawing list has changed.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="d4a747ac-8038-2da1-1f65-519cd8de16e0.htm">DrawingLoaded</a></td><td><div class="summary">
+            The DrawingLoaded event is raised when a new drawing is opened in the drawing editor.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="78b51d31-526d-0f15-e398-151534863260.htm">Interrupted</a></td><td><div class="summary">
+            Occurs when user interrupts.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="7050d35e-9db2-6988-15f3-b5805eee4100.htm">LayoutEditingModeEntered</a></td><td><div class="summary">
+            The LayoutEditingModeEntered event is raised when layout editing mode is started.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="265cc7d5-ee9d-23a0-f7e9-7c32880975e4.htm">LayoutEditingModeExited</a></td><td><div class="summary">
+            The LayoutEditingModeEntered event is raised when layout editing mode is finished.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="397e75fb-55aa-f902-0da0-9eec16361ad1.htm">LayoutOptionModified</a></td><td><div class="summary">
+            The event is raised when layout option is modified
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="1337f393-15f0-a718-b14a-af77be23a741.htm">LayoutTableDeleted</a></td><td><div class="summary">
+            The event is raised when table is deleted
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="f80d9c64-1523-52b1-dc61-f5fedcf5549e.htm">LayoutTableInserted</a></td><td><div class="summary">
+            The event is raised when table is inserted
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="b188cd2a-87d6-6b76-4873-bcad2dc8808f.htm">LayoutTableLayoutModified</a></td><td><div class="summary">
+            The event is raised when tablelayout is modified
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="539f548b-e6ad-b40f-2396-2644ac220015.htm">LayoutTableModified</a></td><td><div class="summary">
+            The event is never raised 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="c4f6d216-43ae-7d5e-3246-c7ef3f91b5db.htm">SelectionChange</a></td><td><div class="summary">
+            The SelectionChange event is raised when the selection is changed in a Tekla Structures drawing.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID6RBSection" class="collapsibleSection">
+            Asynchronous event handling
+            <p>Registered event handlers are called asynchronously so that many handlers may be running
+            simultaneously. Event handlers are not guaranteed to be run in the same thread where they were registered.
+            The asynchronous nature of the events requires the use of synchronization constructs on objects
+            and data structures that are not defined to be thread safe.</p><p><ul><li>Microsoft's documentation about the lock statement: http://msdn.microsoft.com/en-us/library/c5kehkcz.aspx</li><li>Microsoft's documentation about delegates: http://msdn.microsoft.com/en-us/library/900fyy8e.aspx</li><li>Microsoft's documentation about managed threading: http://msdn.microsoft.com/en-us/library/1c9txz50.aspx</li></ul></p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID7RBSection" class="collapsibleSection">
+            The following example shows how to make sure that only one selection event handler is running at a time.
+            <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> Tekla.Structures.Drawing;
+<span class="highlight-keyword">using</span> Tekla.Structures.Drawing.UI;
+
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> Example
+{
+    <span class="highlight-keyword">private</span> Tekla.Structures.Drawing.UI.Events _events = <span class="highlight-keyword">new</span> Tekla.Structures.Drawing.UI.Events();
+    <span class="highlight-keyword">private</span> <span class="highlight-keyword">object</span> _selectionEventHandlerLock = <span class="highlight-keyword">new</span> <span class="highlight-keyword">object</span>();
+
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> RegisterEventHandler()
+    {
+        _events.SelectionChange += Events_SelectionChangeEvent;
+        _events.Register();
+    }
+
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> UnRegisterEventHandler()
+    {
+        _events.UnRegister();
+    }
+
+    <span class="highlight-keyword">void</span> Events_SelectionChangeEvent()
+    {
+        <span class="highlight-comment">/* Make sure that the inner code block is running synchronously */</span>
+        <span class="highlight-keyword">lock</span>(_selectionEventHandlerLock)
+        {
+            System.Console.WriteLine(<span class="highlight-literal">"Selection changed event received."</span>);
+        }
+    }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID8RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="67cbd9d4-c133-877a-d145-4bccb89ea588.htm">Tekla.Structures.Drawing.UI Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.</p> </div></body></html>

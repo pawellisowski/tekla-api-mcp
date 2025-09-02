@@ -1,0 +1,139 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>PluginBase Class</title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="PluginBase class" /><meta name="System.Keywords" content="Tekla.Structures.Plugins.PluginBase class" /><meta name="System.Keywords" content="PluginBase class, about PluginBase class" /><meta name="Microsoft.Help.F1" content="Tekla.Structures.Plugins.PluginBase" /><meta name="Microsoft.Help.Id" content="T:Tekla.Structures.Plugins.PluginBase" /><meta name="Description" content="The PluginBase class in an abstract base class for model plug-ins. Model plug-ins have to be inherited from this class. Drawing plug-ins have to be inherited from the DrawingPluginBase. A plug-in is always executed in the plug-in's local coordinate system." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Tekla.Structures.Plugins" /><meta name="file" content="5bd24240-26d1-39e2-9b6b-3f4556cdcd47" /><meta name="guid" content="5bd24240-26d1-39e2-9b6b-3f4556cdcd47" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Help1.css" /></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Tekla Open API Reference for Tekla Structures 2025</div><div class="pageBody"><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="logoColumn"><img src="../icons/logo.png" /></td><td class="titleColumn"><h1>PluginBase Class</h1></td></tr></table><span class="introStyle"></span> <div class="summary">
+            The PluginBase class in an abstract base class for model plug-ins.
+            Model plug-ins have to be inherited from this class. Drawing plug-ins have to be 
+            inherited from the DrawingPluginBase.
+            <p>
+            A plug-in is always executed in the plug-in's local coordinate system.
+            The origin of the plug-in's coordinate system is defined based on
+            the first input object or point. In case the first input is an object,
+            the origin of the plug-in's coordinate system is the first input point of the object. 
+            In case the first input is a point, the origin of the plug-in's coordinate system is
+            the input point. The X- and Y-axes of the coordinate system are defined in the current plane.
+            </p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span></div><div id="ID0RBSection" class="collapsibleSection"><span class="nolink">System<span id="LSTDA39EE80_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDA39EE80_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span><br />  <span class="nolink">System<span id="LSTDA39EE80_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDA39EE80_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>MarshalByRefObject</span><br />    <span class="selflink">Tekla.Structures.Plugins<span id="LSTDA39EE80_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDA39EE80_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>PluginBase</span><br /></div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="05391e09-fa6f-9510-0ec2-377aed487078.htm">Tekla.Structures.Plugins</a><br />
+    <strong>Assembly:</strong>
+   Tekla.Structures.Plugins (in Tekla.Structures.Plugins.dll) Version: 2025.0.0-alpha00048669+a99462f17964bc42624ada6e8d316db2d795d226<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">class</span> <span class="identifier">PluginBase</span> : <span class="identifier">MarshalByRefObject</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">MustInherit</span> <span class="keyword">Class</span> <span class="identifier">PluginBase</span>
+	<span class="keyword">Inherits</span> <span class="identifier">MarshalByRefObject</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script></div><p>The <span class="selflink">PluginBase</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID3RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="d75f8800-5482-7625-40b0-11b58b915e92.htm">Identifier</a></td><td><div class="summary">
+            The identifier of the executable plug-in instance.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="eb486b17-396b-4b6f-689d-a957db5b3658.htm">DefineInput</a></td><td><div class="summary">
+            The method Tekla Structures calls for the plug-in to query the input.
+            The plug-in must then return a list of input definition instances. The plug-in
+            will be dependent on the items it returns. Dependent means that if any of these
+            items change, for example the user moves the points, the plug-in will be re-run with new 
+            input. DefineInput is not called during the re-run, and thus all the actual implementation
+            should be in the Run() method.
+            The maximum number of InputDefinitions in the List is 10.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="4a0abd49-6b0a-2bb5-a8ab-17c6e5b55c75.htm">IsDefaultValue(Double)</a></td><td><div class="summary">
+            Returns true if the given value is set to the default value for this type.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="79f0b6e7-7744-bb26-15ab-c97861855732.htm">IsDefaultValue(Int32)</a></td><td><div class="summary">
+            Returns true if the given value is set to the default value for this type.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="8da27f11-11c1-871b-71c1-91c93d729bc0.htm">IsDefaultValue(String)</a></td><td><div class="summary">
+            Returns true if the given value is set to the default value (empty string).
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="5c8c1a5b-438a-7950-fd69-8b4935074ec6.htm">Run</a></td><td><div class="summary">
+            The main method of the plug-in. It is called after the input has been defined with 
+            DefineInput(). This is the "main" method of the plug-in and should contain all the actual
+            implementation.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID5RBSection" class="collapsibleSection">
+            In the following example a .inp file is used for defining the dialog, because the designer code of the 
+            form is too large to present here. See this same plug-in implemented with Windows Forms in the Examples of the 
+            Start-Up package. The System.Windows.Forms namespace can be used starting from version 15.0.
+            See the PluginFormBase class in the Tekla.Structures.Dialog documentation for more information.
+            <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> System;
+<span class="highlight-keyword">using</span> System.Collections.Generic;
+<span class="highlight-keyword">using</span> Tekla.Structures.Plugins;
+<span class="highlight-keyword">using</span> Tekla.Structures.Geometry3d;
+<span class="highlight-keyword">using</span> Tekla.Structures.Model.UI;
+<span class="highlight-keyword">using</span> TSM = Tekla.Structures.Model;
+
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> StructuresData 
+{
+       [Tekla.Structures.Plugins.StructuresField(<span class="highlight-literal">"P1"</span>)]
+       <span class="highlight-keyword">public</span> <span class="highlight-keyword">double</span> Parameter1;
+}
+
+[Plugin(<span class="highlight-literal">"BeamPlugin"</span>)] <span class="highlight-comment">// Mandatory field which defines that this is the plug-in and stores the name of the plug-in to the system.</span>
+[PluginUserInterface(BeamPlugin.UserInterfaceDefinitions.Plugin1)] <span class="highlight-comment">// Mandatory field which defines the user interface the plug-in uses. A Windows Forms class or a .inp file.</span>
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> BeamPlugin: PluginBase
+{
+       <span class="highlight-keyword">private</span> <span class="highlight-keyword">readonly</span> StructuresData data;
+
+       <span class="highlight-comment">// The constructor argument defines the database class StructuresData and sets the data to be used in the plug-in.</span>
+       <span class="highlight-keyword">public</span> BeamPlugin(StructuresData data)
+       {
+           TSM.Model M = <span class="highlight-keyword">new</span> TSM.Model();
+           <span class="highlight-keyword">this</span>.data = data;
+       }
+
+       <span class="highlight-comment">//Defines the inputs to be passed to the plug-in.</span>
+       <span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> List&lt;InputDefinition&gt; DefineInput()
+       {
+           Picker BeamPicker = <span class="highlight-keyword">new</span> Picker();
+           List&lt;InputDefinition&gt; PointList = <span class="highlight-keyword">new</span> List&lt;InputDefinition&gt;();
+
+           Point Point1 = BeamPicker.PickPoint();
+           Point Point2 = BeamPicker.PickPoint();
+
+           InputDefinition Input1 = <span class="highlight-keyword">new</span> InputDefinition(Point1);
+           InputDefinition Input2 = <span class="highlight-keyword">new</span> InputDefinition(Point2);
+           PointList.Add(Input1);
+           PointList.Add(Input2);
+
+           <span class="highlight-keyword">return</span> PointList;
+       }
+
+       <span class="highlight-comment">//Main method of the plug-in.</span>
+       <span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">bool</span> Run(List&lt;InputDefinition&gt; Input)
+       {
+           <span class="highlight-keyword">try</span>
+           {
+               Point Point1 = (Point)(Input[<span class="highlight-number">0</span>]).GetInput();
+               Point Point2 = (Point)(Input[<span class="highlight-number">1</span>]).GetInput();
+               Point LengthVector = <span class="highlight-keyword">new</span> Point(Point2.X - Point1.X, Point2.Y - Point1.Y, Point2.Z - Point1.Z);
+
+               <span class="highlight-keyword">if</span>(data.Parameter1 &gt; <span class="highlight-number">0</span>)
+               {
+                   Point2.X = data.Parameter1 * LengthVector.X + Point1.X;
+                   Point2.Y = data.Parameter1 * LengthVector.Y + Point1.Y;
+                   Point2.Z = data.Parameter1 * LengthVector.Z + Point1.Z;
+               }
+
+               CreateBeam(Point1, Point2);
+           }
+           <span class="highlight-keyword">catch</span>(Exception)
+           {
+           }
+
+           <span class="highlight-keyword">return</span> <span class="highlight-keyword">true</span>;
+       }
+
+       <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> CreateBeam(Point Point1, Point Point2)
+       {
+           TSM.Beam MyBeam = <span class="highlight-keyword">new</span> TSM.Beam(Point1, Point2);
+
+           MyBeam.Profile.ProfileString = <span class="highlight-literal">"HEA400"</span>;
+           MyBeam.Finish = <span class="highlight-literal">"PAINT"</span>;
+           MyBeam.Insert();
+       }
+
+       <span class="highlight-comment">//.inp file user interface definition, check the Start-Up package for the Windows Forms dialog presentation.</span>
+       <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> UserInterfaceDefinitions
+       {
+           <span class="highlight-keyword">public</span> <span class="highlight-keyword">const</span> <span class="highlight-keyword">string</span> Plugin1 = <span class="highlight-literal">@""</span> +
+           <span class="highlight-literal">@"page("</span><span class="highlight-literal">"TeklaStructures"</span><span class="highlight-literal">","</span><span class="highlight-literal">""</span><span class="highlight-literal">")"</span> + <span class="highlight-literal">"\n"</span> +
+            <span class="highlight-literal">"{\n"</span> +
+            <span class="highlight-literal">"    plugin(1, BeamPlugin)\n"</span> +
+            <span class="highlight-literal">"    {\n"</span> +
+           <span class="highlight-literal">@"        tab_page("</span><span class="highlight-literal">"Beam test"</span><span class="highlight-literal">", "</span><span class="highlight-literal">"Parametri_1"</span><span class="highlight-literal">", 1)"</span> + <span class="highlight-literal">"\n"</span> +
+            <span class="highlight-literal">"        {\n"</span> +
+           <span class="highlight-literal">@"            parameter("</span><span class="highlight-literal">"Length factor"</span><span class="highlight-literal">", "</span><span class="highlight-literal">"P1"</span><span class="highlight-literal">", distance, number, 1)"</span> + <span class="highlight-literal">"\n"</span> +
+            <span class="highlight-literal">"        }\n"</span> +
+            <span class="highlight-literal">"    }\n"</span> +
+            <span class="highlight-literal">"}\n"</span>;
+
+       }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="05391e09-fa6f-9510-0ec2-377aed487078.htm">Tekla.Structures.Plugins Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.</p> </div></body></html>

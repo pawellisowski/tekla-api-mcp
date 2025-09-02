@@ -1,0 +1,40 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>ShapeItem Properties</title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="ShapeItem class, properties" /><meta name="Microsoft.Help.Id" content="Properties.T:Tekla.Structures.Catalogs.ShapeItem" /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Tekla.Structures.Catalogs" /><meta name="file" content="7465f7fe-fd9d-f466-d0e3-0bfdd314ad87" /><meta name="guid" content="7465f7fe-fd9d-f466-d0e3-0bfdd314ad87" /><link rel="stylesheet" type="text/css" href="../styles/branding-Help1.css" /></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Tekla Open API Reference for Tekla Structures 2025</div><div class="pageBody"><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="logoColumn"><img src="../icons/logo.png" /></td><td class="titleColumn"><h1>ShapeItem Properties</h1></td></tr></table><span class="introStyle"></span> <p>The <a href="3b2b9bdd-99b2-1ed9-3e1f-6a79989bfbd8.htm">ShapeItem</a> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="f2c91019-582a-0825-b472-6f21110838d2.htm">BrepType</a></td><td><div class="summary">
+            Defines BrepType of shapes.
+            @see enum BrepType
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="1703944d-6426-4bcb-556e-5b8a96b27971.htm">Extrema</a></td><td><div class="summary">
+            The extrema of the shape as an axis-aligned bounding box, as opposed to object-aligned
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="280bdf04-0f26-74f2-a480-c1c7c08b1b3d.htm">Fingerprint</a></td><td><div class="summary">
+            A fingerprint value calculated by Tekla Structures to provide quick comparison of geometries to avoid inserting
+            same shape multiple times to the catalog. More rigorous comparison is done only for geometries that result in
+            identical fingerprints.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="d21a7e86-3e88-1d33-d79b-84d760b8fb69.htm">GeometryGuid</a></td><td><div class="summary">
+            A unique identifier of the shape geometry, given initially by BrepStorage. This GUID is used as the body of
+            the filename for the shape geometry information found in the ShapeGeometries directory
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="b796ddcb-d1ce-9ff9-9459-fd64f98b6d54.htm">GeometryHash</a></td><td><div class="summary">
+            This obsolete property can still be used to store and externally provided unique hash value identifying
+            the shape. However, Tekla Structures does not use this value internally for anything. It is strongly
+            recommended to use the newer Fingerprint property for future implementations. That value is automatically
+            calculated by Tekla Structures for all inserted shapes and is used internally for shape identification.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="3bba663b-044b-05ca-d524-54edeef2c9a8.htm">Guid</a></td><td><div class="summary">
+            A unique identifier of the actual shape, given initially by the ShapeCatalog. This GUID is used as the body of
+            the filename for the shape information found in the Shape directory
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="3bee6dbb-c1b6-f8f8-281a-b31e6fc597be.htm">HandlePoints</a></td><td><div class="summary">
+             Defines handle points of the shape.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="0cc1c18a-7bbb-0877-92f6-96a62556deec.htm">IsSolid</a></td><td><div class="summary">
+            Set to true if the shape is detected by TS Core to be a valid solid
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="220ad418-f3ce-95ef-b7fb-f1a23c5b04da.htm">Name</a></td><td><div class="summary">
+            The shape Name
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="19128014-736c-8d4d-af15-1bc6d205edd3.htm">ShapeFacetedBrep</a></td><td><div class="summary">
+            The data structure containing the geometric information of the shape as a FacetedBRep
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="7ee8a9af-5756-9569-3f05-13fc729084ad.htm">UpAxis</a></td><td><div class="summary">
+            The direction defining what is understood as "up" in the shape that the API user is providing.
+            Typically this is the z-axis, if the data is in global coordinates, coming from a system where Z-axis
+            points to global up direction.
+            Possible values are: Undefined = 0, X_Axis = 1, Y_Axis = 2, Z_Axis = 3.
+            It is highly recommendable to orient shapes in the Tekla Structures native way, that is x-axis on the extrusion line
+            and Y-axis pointing up.
+            NOTE: Specifying UpAxis to be ShapeUpAxis.Undefined may throw a ‘System.ArgumentOutOfRangeException’ exception
+            in certain operations, because the system can not proceed without that information.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="3b2b9bdd-99b2-1ed9-3e1f-6a79989bfbd8.htm">ShapeItem Class</a></div><div class="seeAlsoStyle"><a href="cb701b36-e4be-454f-359a-34adaedd239d.htm">Tekla.Structures.Catalogs Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>Copyright © 1992-2025 Trimble Solutions Corporation and its licensors. All rights reserved.</p> </div></body></html>
