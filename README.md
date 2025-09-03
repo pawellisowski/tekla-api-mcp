@@ -73,6 +73,79 @@ After setup, add this to your Claude Desktop config file:
 
 > **Note**: This MCP server is designed for Windows environments where Tekla Structures runs.
 
+## 📋 Claude Code Local Setup
+
+For local development projects using Claude Code, you need to configure MCP servers in your project directory.
+
+### Required File: `.mcp.json`
+
+Create a `.mcp.json` file in your project root (e.g., `D:\Repos\Tekla2\.mcp.json`):
+
+**NPX Version (Recommended):**
+```json
+{
+  "McpServers": {
+    "tekla-api-mcp": {
+      "command": "npx",
+      "args": ["tekla-api-mcp"]
+    }
+  }
+}
+```
+
+**Global Install Version:**
+```json
+{
+  "McpServers": {
+    "tekla-api-mcp": {
+      "command": "tekla-api-mcp"
+    }
+  }
+}
+```
+
+### Optional File: `.claude/settings.local.json`
+
+You might need to create `.claude/settings.local.json` in your project if you encounter permission issues or need environment customization:
+
+```json
+{
+  "mcp": {
+    "serverPermissions": {
+      "tekla-api-mcp": {
+        "allowed": true
+      }
+    }
+  }
+}
+```
+
+> **Note**: The `.claude/settings.local.json` file is for personal project settings and is automatically ignored by git.
+
+### Setup Steps
+
+1. **Navigate to your project directory:**
+   ```cmd
+   cd D:\Repos\YourProject
+   ```
+
+2. **Create the `.mcp.json` file** with the configuration above
+
+3. **If needed, create `.claude` directory and `settings.local.json`:**
+   ```cmd
+   mkdir .claude
+   ```
+
+4. **Restart Claude Code** and verify the server appears in available tools
+
+5. **Test the setup:**
+   Ask Claude: "Search for Model classes in Tekla API"
+
+### Troubleshooting
+- If the server doesn't appear, try adding the `.claude/settings.local.json` file
+- Ensure Node.js 18+ is installed and accessible from your project directory
+- Check that `npx tekla-api-mcp` runs successfully from your project directory
+
 ## 🛠️ Requirements
 
 - **Windows OS** (required for Tekla Structures compatibility)

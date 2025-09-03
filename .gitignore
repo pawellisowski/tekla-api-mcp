@@ -51,3 +51,6 @@ run-parse.js
 
 # NPM package artifacts
 *.tgz
+
+# Claude Code files
+CLAUDE.md
