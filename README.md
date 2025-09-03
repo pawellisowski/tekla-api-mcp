@@ -110,13 +110,7 @@ You might need to create `.claude/settings.local.json` in your project if you en
 
 ```json
 {
-  "mcp": {
-    "serverPermissions": {
-      "tekla-api-mcp": {
-        "allowed": true
-      }
-    }
-  }
+  "enableAllProjectMcpServers": true
 }
 ```
 
