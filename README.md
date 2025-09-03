@@ -79,7 +79,7 @@ For local development projects using Claude Code, you need to configure MCP serv
 
 ### Required File: `.mcp.json`
 
-Create a `.mcp.json` file in your project root (e.g., `D:\Repos\Tekla2\.mcp.json`):
+Create a `.mcp.json` file in your project root (e.g., `<project-root>\.mcp.json`):
 
 **NPX Version (Recommended):**
 ```json
@@ -126,7 +126,7 @@ You might need to create `.claude/settings.local.json` in your project if you en
 
 1. **Navigate to your project directory:**
    ```cmd
-   cd D:\Repos\YourProject
+   cd <project-root>
    ```
 
 2. **Create the `.mcp.json` file** with the configuration above
