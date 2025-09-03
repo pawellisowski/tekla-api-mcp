@@ -14,24 +14,61 @@ A Model Context Protocol (MCP) server that provides **Claude Desktop** and **Cla
 - 🏷️ **Browse by Category** - Explore examples by type (Applications, Plugins, Drawings)
 - 🔗 **Claude Integration** - Works seamlessly with Claude Desktop and Claude Code
 
-## 🚀 Quick Start
+## 📋 Prerequisites
 
-### Option 1: NPX (Recommended)
-```bash
-# One-command setup
-npx tekla-api-mcp setup
+Before installing, ensure you have:
 
-# Or run directly
-npx tekla-api-mcp
+### Node.js 18+ Required
+- **Windows**: Download from [nodejs.org](https://nodejs.org/) (LTS version recommended)
+- **Alternative**: Use [Node Version Manager (nvm)](https://github.com/coreybutler/nvm-windows) for Windows
+
+**Verify Installation:**
+```cmd
+node --version    # Should show v18.0.0 or higher
+npm --version     # Should show npm version
 ```
 
-### Option 2: Global Install
+### System Requirements
+- **Windows OS** (required for Tekla Structures compatibility)
+- **Claude Desktop** or **Claude Code**
+- Internet connection (for initial setup and examples)
+
+## 🚀 Quick Start
+
+### Step 1: Run Setup (Recommended)
+```bash
+# Interactive setup - handles everything automatically
+npx tekla-api-mcp setup
+```
+
+**What this does:**
+- Downloads and installs the package
+- Builds the TypeScript code
+- Downloads Tekla API examples
+- Generates Claude Desktop configuration
+- **Takes 2-5 minutes** depending on internet speed
+
+### Step 2: Configure Claude Desktop
+Copy the generated configuration to your Claude Desktop config file:
+- **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+
+### Step 3: Restart Claude Desktop
+Restart Claude Desktop to load the new MCP server.
+
+### Step 4: Test the Setup
+Ask Claude: *"Search for Model classes in Tekla API"*
+
+---
+
+### Alternative Installation Methods
+
+**Global Install:**
 ```bash
 npm install -g tekla-api-mcp
 tekla-api-mcp setup
 ```
 
-### Option 3: Local Development
+**Local Development:**
 ```bash
 git clone https://github.com/pawellisowski/tekla-api-mcp.git
 cd tekla-api-mcp
@@ -192,6 +229,49 @@ View documentation coverage statistics.
 Ask Claude: "Show me API documentation statistics"
 ```
 
+## 🔧 Command Reference
+
+### Understanding the Commands
+
+**`npx tekla-api-mcp setup`** - One-time setup command
+- Installs and builds the MCP server
+- Downloads Tekla API examples from GitHub
+- Processes and indexes documentation
+- Generates Claude Desktop configuration
+- **Run this ONCE** when first installing
+
+**`npx tekla-api-mcp`** - Starts the MCP server  
+- Runs the actual MCP server that Claude connects to
+- This is what Claude Desktop calls automatically
+- **Don't run this manually** - Claude Desktop handles it
+- Used in your Claude Desktop configuration
+
+### Setup Process Details
+
+When you run `npx tekla-api-mcp setup`, expect to see:
+
+```
+🏗️ Tekla API MCP Server Setup
+=================================
+
+📦 Building project...
+✅ Build completed
+
+📥 Downloading Tekla API examples...  
+✅ Examples downloaded and processed
+
+🔍 Processing API documentation...
+✅ Documentation indexed
+
+📋 Generating Claude Desktop configuration...
+✅ Setup completed successfully!
+```
+
+**If setup appears stuck:**
+- The "Downloading examples" step takes 1-3 minutes
+- Large files are being processed in the background
+- Check your internet connection if it takes longer than 5 minutes
+
 ## 💡 Example Queries for Claude
 
 Once configured, you can ask Claude questions like:
@@ -258,29 +338,82 @@ For development or updates:
 
 ## 🐛 Troubleshooting
 
-### "Server not built" Error
+### Node.js Issues
+
+**"node is not recognized" or "npm is not recognized"**
+1. Download Node.js from [nodejs.org](https://nodejs.org/) (LTS version)
+2. Restart your command prompt/terminal
+3. Verify: `node --version` and `npm --version`
+4. If still issues, add Node.js to your Windows PATH manually
+
+**"Node version too old" Error**
+- Minimum required: Node.js 18+
+- Update to latest LTS version from [nodejs.org](https://nodejs.org/)
+- Alternatively, use [nvm for Windows](https://github.com/coreybutler/nvm-windows)
+
+### Setup Issues
+
+**Setup appears stuck on "Setting up Tekla API MCP Server..."**
+- Wait 2-5 minutes - downloading examples takes time
+- Check internet connection
+- If truly stuck (>10 minutes), press Ctrl+C and retry
+
+**"Server not built" Error**
 ```bash
 npx tekla-api-mcp setup
-# or
+# or if installed globally:
 npm run build
 ```
 
-### "No API data loaded" Warning  
+**Setup fails with "Permission denied" or "Access denied"**
+- Run command prompt as Administrator
+- Or try: `npx --yes tekla-api-mcp setup`
+- Check Windows antivirus isn't blocking npm
+
+### Claude Desktop Issues
+
+**MCP Server doesn't appear in Claude Desktop**
+1. Verify config file location: `%APPDATA%\Claude\claude_desktop_config.json`
+2. Check JSON syntax is valid (no trailing commas)
+3. Restart Claude Desktop completely
+4. Check Claude Desktop logs in the Help menu
+
+**"No API data loaded" Warning**
 This is rare since data is pre-bundled, but if it occurs:
-- Reinstall the package: `npm install -g tekla-api-mcp` or `npx tekla-api-mcp setup`
-- Check that the `parsed-api/` directory contains JSON files
-- Try running setup again: `npm run setup` (for local development)
+- Reinstall: `npx tekla-api-mcp setup`
+- Check that Node.js can access the npm cache
+- Try global install: `npm install -g tekla-api-mcp`
 
-### Claude Desktop Connection Issues
-- Verify the configuration file path and format
-- Restart Claude Desktop after config changes
-- Check Claude Desktop logs for error details
+### Network Issues
 
-### Memory Issues During Setup
-The setup automatically uses optimized parsing to avoid memory problems. If you encounter issues:
-- Ensure you have Node.js 18+ with sufficient memory
-- Close other applications during setup
-- Try running setup multiple times if it fails
+**"Failed to download examples" Error**
+- Check internet connection
+- Corporate firewall may block GitHub access
+- Try running setup from home network
+- Manual workaround: The server works without examples (API docs still available)
+
+### Performance Issues
+
+**Setup takes very long (>10 minutes)**
+- Ensure sufficient RAM (4GB+ recommended)
+- Close other applications
+- Try on a faster internet connection
+- Consider global install instead of npx
+
+**Memory Issues During Setup**
+- Close other applications
+- Restart your computer if needed
+- Try: `node --max-old-space-size=8192 npx tekla-api-mcp setup`
+
+### Getting Help
+
+If problems persist:
+1. Check existing issues: [GitHub Issues](https://github.com/pawellisowski/tekla-api-mcp/issues)
+2. Create new issue with:
+   - Your Node.js version (`node --version`)
+   - Windows version
+   - Complete error message
+   - Steps you tried
 
 ## 🤝 Contributing
 
