@@ -54,3 +54,5 @@ run-parse.js
 
 # Claude Code files
 CLAUDE.md
+.claude/
+.mcp.json
