@@ -1,11 +1,35 @@
 {
-  "totalItems": 1000,
+  "totalItems": 3000,
   "totalInToc": 9238,
+  "subsetSize": 3000,
   "namespaces": 1,
-  "classes": 75,
-  "interfaces": 0,
-  "enums": 58,
-  "methods": 235,
-  "properties": 483,
-  "processedAt": "2025-09-02T09:37:31.255Z"
+  "classes": 276,
+  "interfaces": 4,
+  "enums": 92,
+  "methods": 1147,
+  "properties": 895,
+  "processedAt": "2025-09-04T08:26:31.197Z",
+  "validation": {
+    "totalParsed": 3000,
+    "totalInToc": 9238,
+    "subsetSize": 3000,
+    "coveragePercentage": 32,
+    "subsetCoveragePercentage": 100,
+    "qualityMetrics": {
+      "withNamespace": 3000,
+      "withSummary": 2991,
+      "withDescription": 2440
+    },
+    "namespaceBreakdown": {
+      "Tekla.Structures": 152,
+      "Tekla.Structures.Analysis": 875,
+      "Tekla.Structures.Analysis.Operations": 7,
+      "Tekla.Structures.Analysis.UI": 11,
+      "Tekla.Structures.Catalogs": 505,
+      "Tekla.Structures.Datatype": 257,
+      "Tekla.Structures.Dialog": 221,
+      "Tekla.Structures.Dialog.UIControls": 403,
+      "Tekla.Structures.Drawing": 569
+    }
+  }
 }

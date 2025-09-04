@@ -1,6 +1,6 @@
 {
   "name": "tekla-api-mcp",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "MCP server for Tekla Open API documentation with code examples - works with Claude Desktop",
   "main": "dist/index.js",
   "type": "module",

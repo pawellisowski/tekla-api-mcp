@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import Fuse from 'fuse.js';
+import { OnlineApiFallback } from './online-api-fallback.js';
 export class TeklaApiDocumentation {
     apiData = [];
     searchIndex = null;
@@ -11,8 +12,10 @@ export class TeklaApiDocumentation {
     enums = [];
     interfaces = [];
     examples = [];
+    onlineFallback;
     constructor() {
         this.loadApiData();
+        this.onlineFallback = new OnlineApiFallback();
     }
     loadApiData() {
         try {
@@ -86,7 +89,9 @@ export class TeklaApiDocumentation {
     }
     async search(query, type = 'all', limit = 10) {
         if (!this.searchIndex) {
-            return [];
+            console.error('Search index not available, attempting online fallback');
+            const onlineResults = await this.onlineFallback.searchOnline(query, type, limit);
+            return this.convertOnlineResults(onlineResults);
         }
         try {
             const results = this.searchIndex.search(query);
@@ -95,12 +100,41 @@ export class TeklaApiDocumentation {
             if (type !== 'all') {
                 filteredResults = filteredResults.filter(item => item.type === type);
             }
-            return filteredResults.slice(0, limit);
+            const localResults = filteredResults.slice(0, limit);
+            // Check if we should use online fallback
+            if (this.onlineFallback.shouldUseFallback(localResults, query)) {
+                console.log(`[Fallback] Local results insufficient for "${query}", trying online fallback`);
+                const onlineResults = await this.onlineFallback.searchOnline(query, type, limit);
+                // Combine and deduplicate results
+                const combinedResults = [...localResults];
+                const existingTitles = new Set(localResults.map(r => r.title.toLowerCase()));
+                for (const onlineResult of this.convertOnlineResults(onlineResults)) {
+                    if (!existingTitles.has(onlineResult.title.toLowerCase()) && combinedResults.length < limit) {
+                        combinedResults.push(onlineResult);
+                        existingTitles.add(onlineResult.title.toLowerCase());
+                    }
+                }
+                return combinedResults;
+            }
+            return localResults;
         }
         catch (error) {
             console.error('Search error:', error);
-            return [];
+            // Fallback to online search on error
+            console.log(`[Fallback] Search error, trying online fallback for "${query}"`);
+            const onlineResults = await this.onlineFallback.searchOnline(query, type, limit);
+            return this.convertOnlineResults(onlineResults);
         }
+    }
+    convertOnlineResults(onlineResults) {
+        return onlineResults.map(result => ({
+            title: result.title,
+            type: result.type,
+            namespace: result.namespace,
+            summary: result.description,
+            description: result.description,
+            htmlFile: result.url // Use URL as htmlFile for online results
+        }));
     }
     async getClassDetails(className, includeMembers = true) {
         try {
@@ -108,7 +142,46 @@ export class TeklaApiDocumentation {
             const classItem = this.classes.find(item => item.title.toLowerCase().includes(className.toLowerCase()) ||
                 item.title.endsWith(` ${className}`));
             if (!classItem) {
+                // Try online fallback
+                console.log(`[Fallback] Class "${className}" not found locally, trying online fallback`);
+                const onlineResult = await this.onlineFallback.getClassDetailsOnline(className);
+                if (onlineResult) {
+                    return {
+                        title: onlineResult.title,
+                        description: onlineResult.description,
+                        summary: onlineResult.description,
+                        namespace: onlineResult.namespace,
+                        type: onlineResult.type,
+                        level: 0,
+                        htmlFile: onlineResult.url,
+                        members: [] // Online results don't include members details in this implementation
+                    };
+                }
                 return null;
+            }
+            // Check if local result has poor quality
+            const hasPoorQuality = !classItem.namespace ||
+                classItem.namespace === 'N/A' ||
+                (classItem.summary && classItem.summary.includes('Copyright ©'));
+            if (hasPoorQuality) {
+                console.log(`[Fallback] Local class details for "${className}" have poor quality, trying online fallback`);
+                const onlineResult = await this.onlineFallback.getClassDetailsOnline(className);
+                if (onlineResult) {
+                    // Use online result but keep local members if available
+                    const classMembers = includeMembers ? this.apiData.filter(item => item.namespace === classItem.namespace &&
+                        (item.type === 'method' || item.type === 'property') &&
+                        item.title.toLowerCase().includes(className.toLowerCase())) : [];
+                    return {
+                        title: onlineResult.title,
+                        description: onlineResult.description,
+                        summary: onlineResult.description,
+                        namespace: onlineResult.namespace,
+                        type: onlineResult.type,
+                        level: classItem.level,
+                        htmlFile: onlineResult.url,
+                        members: classMembers
+                    };
+                }
             }
             if (!includeMembers) {
                 return classItem;
