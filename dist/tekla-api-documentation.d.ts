@@ -1,19 +1,24 @@
 interface ApiItem {
-    title: string;
+    id: string;
+    name: string;
     description: string;
     summary: string;
     namespace: string;
+    normalizedNamespace: string;
     type: string;
     level: number;
     htmlFile: string;
 }
 interface SearchResult {
+    id: string;
     title: string;
+    name: string;
     type: string;
     namespace: string;
+    normalizedNamespace?: string;
     summary: string;
-    description: string;
-    htmlFile: string;
+    description?: string;
+    htmlFile?: string;
 }
 interface CodeExample {
     name: string;

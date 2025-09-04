@@ -4,22 +4,27 @@ import Fuse from 'fuse.js';
 import { OnlineApiFallback, OnlineApiResult } from './online-api-fallback.js';
 
 interface ApiItem {
-  title: string;
+  id: string;
+  name: string;
   description: string;
   summary: string;
   namespace: string;
+  normalizedNamespace: string;
   type: string;
   level: number;
   htmlFile: string;
 }
 
 interface SearchResult {
+  id: string;
   title: string;
+  name: string;
   type: string;
   namespace: string;
+  normalizedNamespace?: string;
   summary: string;
-  description: string;
-  htmlFile: string;
+  description?: string;
+  htmlFile?: string;
 }
 
 interface CodeExample {
@@ -72,10 +77,10 @@ export class TeklaApiDocumentation {
         // Initialize Fuse.js for fuzzy search
         this.searchIndex = new Fuse(searchData, {
           keys: [
-            { name: 'title', weight: 0.4 },
+            { name: 'name', weight: 0.4 },
             { name: 'namespace', weight: 0.3 },
             { name: 'summary', weight: 0.2 },
-            { name: 'description', weight: 0.1 }
+            { name: 'id', weight: 0.1 }
           ],
           threshold: 0.4, // Adjust for search sensitivity
           includeScore: true,
@@ -141,7 +146,18 @@ export class TeklaApiDocumentation {
     try {
       const results = this.searchIndex.search(query);
       
-      let filteredResults = results.map(result => result.item);
+      let filteredResults = results.map(result => {
+        const item = result.item;
+        // Find the corresponding item in full API data to get correct namespace
+        const fullItem = this.apiData.find(apiItem => 
+          apiItem.id === item.id || apiItem.name === item.name
+        );
+        
+        return {
+          ...item,
+          normalizedNamespace: fullItem?.normalizedNamespace || item.namespace || ''
+        } as SearchResult;
+      });
       
       // Filter by type if specified
       if (type !== 'all') {
@@ -182,9 +198,12 @@ export class TeklaApiDocumentation {
 
   private convertOnlineResults(onlineResults: OnlineApiResult[]): SearchResult[] {
     return onlineResults.map(result => ({
+      id: result.title,
       title: result.title,
+      name: result.title, // Use title as name for consistency
       type: result.type,
       namespace: result.namespace,
+      normalizedNamespace: result.namespace,
       summary: result.description,
       description: result.description,
       htmlFile: result.url // Use URL as htmlFile for online results
@@ -193,11 +212,37 @@ export class TeklaApiDocumentation {
 
   async getClassDetails(className: string, includeMembers: boolean = true): Promise<ApiItem | null> {
     try {
-      // Find the class
-      const classItem = this.classes.find(item => 
-        item.title.toLowerCase().includes(className.toLowerCase()) ||
-        item.title.endsWith(` ${className}`)
+      // Find the class - prioritize exact matches first
+      let classItem = this.classes.find(item => 
+        item.name.toLowerCase() === `${className.toLowerCase()} class` ||
+        item.name.toLowerCase() === className.toLowerCase() ||
+        item.id.toLowerCase() === `${className.toLowerCase()} class`
       );
+      
+      // If no exact match, look for exact word matches (not just contains)
+      if (!classItem) {
+        classItem = this.classes.find(item => {
+          const name = item.name.toLowerCase();
+          const id = item.id.toLowerCase();
+          const searchTerm = className.toLowerCase();
+          
+          // Check for "Beam Class" when searching for "Beam"
+          return name === `${searchTerm} class` || 
+                 id === `${searchTerm} class` ||
+                 name.startsWith(`${searchTerm} `) ||
+                 name.endsWith(` ${searchTerm}`) ||
+                 // Only match if it's a word boundary to avoid "AnalysisCompositeBeam" matching "Beam"
+                 (name.includes(` ${searchTerm} `) || name.includes(` ${searchTerm}class`));
+        });
+      }
+      
+      // If still no match, try broader search as last resort
+      if (!classItem) {
+        classItem = this.classes.find(item => 
+          item.name.toLowerCase().includes(className.toLowerCase()) ||
+          item.id.toLowerCase().includes(className.toLowerCase())
+        );
+      }
 
       if (!classItem) {
         // Try online fallback
@@ -206,15 +251,16 @@ export class TeklaApiDocumentation {
         
         if (onlineResult) {
           return {
-            title: onlineResult.title,
+            id: onlineResult.title,
+            name: onlineResult.title,
             description: onlineResult.description,
             summary: onlineResult.description,
             namespace: onlineResult.namespace,
+            normalizedNamespace: onlineResult.namespace,
             type: onlineResult.type,
             level: 0,
-            htmlFile: onlineResult.url,
-            members: [] // Online results don't include members details in this implementation
-          } as any;
+            htmlFile: onlineResult.url
+          } as ApiItem;
         }
         
         return null;
@@ -234,7 +280,7 @@ export class TeklaApiDocumentation {
           const classMembers = includeMembers ? this.apiData.filter(item => 
             item.namespace === classItem.namespace &&
             (item.type === 'method' || item.type === 'property') &&
-            item.title.toLowerCase().includes(className.toLowerCase())
+            item.name.toLowerCase().includes(className.toLowerCase())
           ) : [];
 
           return {
@@ -258,7 +304,7 @@ export class TeklaApiDocumentation {
       const classMembers = this.apiData.filter(item => 
         item.namespace === classItem.namespace &&
         (item.type === 'method' || item.type === 'property') &&
-        item.title.toLowerCase().includes(className.toLowerCase())
+        item.name.toLowerCase().includes(className.toLowerCase())
       );
 
       return {
@@ -274,17 +320,17 @@ export class TeklaApiDocumentation {
   async getMethodDetails(methodName: string, className?: string): Promise<ApiItem | null> {
     try {
       let methodItem = this.methods.find(item => {
-        const titleMatch = item.title.toLowerCase().includes(methodName.toLowerCase());
-        const classMatch = !className || item.title.toLowerCase().includes(className.toLowerCase());
-        return titleMatch && classMatch;
+        const nameMatch = item.name.toLowerCase().includes(methodName.toLowerCase());
+        const classMatch = !className || item.name.toLowerCase().includes(className.toLowerCase());
+        return nameMatch && classMatch;
       });
 
       if (!methodItem) {
         // Fallback: search in all API data
         methodItem = this.apiData.find(item => 
           item.type === 'method' && 
-          item.title.toLowerCase().includes(methodName.toLowerCase()) &&
-          (!className || item.title.toLowerCase().includes(className.toLowerCase()))
+          item.name.toLowerCase().includes(methodName.toLowerCase()) &&
+          (!className || item.name.toLowerCase().includes(className.toLowerCase()))
         );
       }
 

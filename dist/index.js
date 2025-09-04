@@ -258,9 +258,9 @@ class TeklaApiMcpServer {
                     type: 'text',
                     text: `Found ${results.length} results for "${query}":
 
-${results.map(result => `**${result.title}** (${result.type})
+${results.map(result => `**${result.name || result.title}** (${result.type})
   ${result.summary || result.description || 'No description available'}
-  Namespace: ${result.namespace || 'N/A'}
+  Namespace: ${result.normalizedNamespace || result.namespace || 'N/A'}
   
 `).join('')}`,
                 },
@@ -370,9 +370,9 @@ Total: ${namespaces.length} namespaces`,
         };
     }
     formatClassDetails(classDetails) {
-        let output = `# ${classDetails.title}
+        let output = `# ${classDetails.name || classDetails.title || 'Unnamed Class'}
 
-**Namespace:** ${classDetails.namespace}
+**Namespace:** ${classDetails.normalizedNamespace || classDetails.namespace}
 **Type:** ${classDetails.type}
 
 ## Description
