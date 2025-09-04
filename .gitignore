@@ -56,3 +56,6 @@ run-parse.js
 CLAUDE.md
 .claude/
 .mcp.json
+
+# Windows batch files
+Claude Code Launcher.bat
