@@ -39,11 +39,13 @@ export declare class TeklaApiDocumentation {
     private enums;
     private interfaces;
     private examples;
+    private onlineFallback;
     constructor();
     private loadApiData;
     private loadTypeSpecificData;
     private loadExamples;
     search(query: string, type?: string, limit?: number): Promise<SearchResult[]>;
+    private convertOnlineResults;
     getClassDetails(className: string, includeMembers?: boolean): Promise<ApiItem | null>;
     getMethodDetails(methodName: string, className?: string): Promise<ApiItem | null>;
     browseNamespace(namespace: string, includeMembers?: boolean): Promise<ApiItem[]>;

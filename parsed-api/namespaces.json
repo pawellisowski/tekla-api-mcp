@@ -1,11 +1,1 @@
-[
-  {
-    "title": "Tekla.Structures Namespace",
-    "description": "The Tekla.Structures namespace contains some basic common types that are shared between Tekla Structures Model and Drawing.",
-    "summary": "The EnvironmentVariables class contains a sorted list specializing in getting active\n            environment variables and advanced option settings. It also checks options.ini files\n            in the active model folder as well as options_user.ini files.",
-    "namespace": "Tekla.Structures",
-    "type": "namespace",
-    "level": 0,
-    "htmlFile": "9e348af4-4c32-9f4b-cd2f-6d83d1862bf1.htm"
-  }
-]
+[]
