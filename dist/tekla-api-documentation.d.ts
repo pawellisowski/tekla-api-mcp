@@ -1,3 +1,4 @@
+import { DetailedClassInfo } from './html-parser.js';
 interface ApiItem {
     id: string;
     name: string;
@@ -8,6 +9,7 @@ interface ApiItem {
     type: string;
     level: number;
     htmlFile: string;
+    detailedInfo?: DetailedClassInfo;
 }
 interface SearchResult {
     id: string;
@@ -45,6 +47,7 @@ export declare class TeklaApiDocumentation {
     private interfaces;
     private examples;
     private onlineFallback;
+    private htmlParser;
     constructor();
     private loadApiData;
     private loadTypeSpecificData;

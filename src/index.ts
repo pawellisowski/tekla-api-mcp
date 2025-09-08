@@ -441,22 +441,99 @@ ${classDetails.summary || classDetails.description || 'No description available'
 
 `;
 
-    if (classDetails.members && classDetails.members.length > 0) {
-      const properties = classDetails.members.filter((m: any) => m.type === 'property');
-      const methods = classDetails.members.filter((m: any) => m.type === 'method');
-      
-      if (properties.length > 0) {
-        output += `## Properties
-${properties.map((prop: any) => `- **${prop.title}**: ${prop.summary || 'No description'}`).join('\n')}
+    // Use detailed information from HTML parsing if available
+    if (classDetails.detailedInfo) {
+      const detailed = classDetails.detailedInfo;
+
+      // Add syntax if available
+      if (detailed.syntax) {
+        output += `## Syntax
+\`\`\`csharp
+${detailed.syntax}
+\`\`\`
 
 `;
       }
-      
-      if (methods.length > 0) {
+
+      // Add inheritance hierarchy
+      if (detailed.inheritance && detailed.inheritance.hierarchy.length > 0) {
+        output += `## Inheritance Hierarchy
+${detailed.inheritance.hierarchy.join(' → ')}
+
+`;
+      }
+
+      // Add constructors
+      if (detailed.constructors && detailed.constructors.length > 0) {
+        output += `## Constructors
+
+| Name | Description |
+|------|-------------|
+${detailed.constructors.map((ctor: any) => 
+  `| **${ctor.name}** | ${ctor.description} |`
+).join('\n')}
+
+`;
+      }
+
+      // Add properties with inheritance info
+      if (detailed.properties && detailed.properties.length > 0) {
+        output += `## Properties
+
+| Name | Description | Inherited |
+|------|-------------|-----------|
+${detailed.properties.map((prop: any) => 
+  `| **${prop.name}** | ${prop.description} | ${prop.inherited ? `Yes (from ${prop.inheritedFrom})` : 'No'} |`
+).join('\n')}
+
+`;
+      }
+
+      // Add methods with inheritance info
+      if (detailed.methods && detailed.methods.length > 0) {
         output += `## Methods
+
+| Name | Description | Inherited |
+|------|-------------|-----------|
+${detailed.methods.map((method: any) => 
+  `| **${method.name}** | ${method.description} | ${method.inherited ? `Yes (from ${method.inheritedFrom})` : 'No'} |`
+).join('\n')}
+
+`;
+      }
+
+      // Add examples if available
+      if (detailed.examples && detailed.examples.length > 0) {
+        output += `## Examples
+
+${detailed.examples.map((example: any, index: number) => 
+`### Example ${index + 1}
+\`\`\`csharp
+${example}
+\`\`\`
+`).join('\n')}
+
+`;
+      }
+    } else {
+      // Fallback to old format if detailed info not available
+      if (classDetails.members && classDetails.members.length > 0) {
+        const properties = classDetails.members.filter((m: any) => m.type === 'property');
+        const methods = classDetails.members.filter((m: any) => m.type === 'method');
+        
+        if (properties.length > 0) {
+          output += `## Properties
+${properties.map((prop: any) => `- **${prop.title}**: ${prop.summary || 'No description'}`).join('\n')}
+
+`;
+        }
+        
+        if (methods.length > 0) {
+          output += `## Methods
 ${methods.map((method: any) => `- **${method.title}**: ${method.summary || 'No description'}`).join('\n')}
 
 `;
+        }
       }
     }
 

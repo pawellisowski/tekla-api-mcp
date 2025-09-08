@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import Fuse from 'fuse.js';
 import { OnlineApiFallback, OnlineApiResult } from './online-api-fallback.js';
+import { HtmlParser, DetailedClassInfo } from './html-parser.js';
 
 interface ApiItem {
   id: string;
@@ -13,6 +14,7 @@ interface ApiItem {
   type: string;
   level: number;
   htmlFile: string;
+  detailedInfo?: DetailedClassInfo;
 }
 
 interface SearchResult {
@@ -53,10 +55,12 @@ export class TeklaApiDocumentation {
   private interfaces: ApiItem[] = [];
   private examples: CodeExample[] = [];
   private onlineFallback: OnlineApiFallback;
+  private htmlParser: HtmlParser;
 
   constructor() {
     this.loadApiData();
     this.onlineFallback = new OnlineApiFallback();
+    this.htmlParser = new HtmlParser();
   }
 
   private loadApiData(): void {
@@ -296,21 +300,21 @@ export class TeklaApiDocumentation {
         }
       }
 
-      if (!includeMembers) {
-        return classItem;
+      // If we want members, parse the HTML file for detailed information
+      if (includeMembers && classItem.htmlFile) {
+        console.log(`Parsing HTML for detailed class information: ${classItem.htmlFile}`);
+        const detailedInfo = await this.htmlParser.parseClassDetails(classItem.htmlFile);
+        
+        if (detailedInfo) {
+          // Add detailed information to the class item
+          classItem.detailedInfo = detailedInfo;
+          console.log(`Successfully parsed detailed info for ${className}: ${detailedInfo.constructors.length} constructors, ${detailedInfo.properties.length} properties, ${detailedInfo.methods.length} methods`);
+        } else {
+          console.log(`Failed to parse HTML details for ${className}, falling back to basic info`);
+        }
       }
 
-      // Find related members (methods, properties) if available
-      const classMembers = this.apiData.filter(item => 
-        item.namespace === classItem.namespace &&
-        (item.type === 'method' || item.type === 'property') &&
-        item.name.toLowerCase().includes(className.toLowerCase())
-      );
-
-      return {
-        ...classItem,
-        members: classMembers
-      } as any;
+      return classItem;
     } catch (error) {
       console.error('Error getting class details:', error);
       return null;

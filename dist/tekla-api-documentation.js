@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import Fuse from 'fuse.js';
 import { OnlineApiFallback } from './online-api-fallback.js';
+import { HtmlParser } from './html-parser.js';
 export class TeklaApiDocumentation {
     apiData = [];
     searchIndex = null;
@@ -13,9 +14,11 @@ export class TeklaApiDocumentation {
     interfaces = [];
     examples = [];
     onlineFallback;
+    htmlParser;
     constructor() {
         this.loadApiData();
         this.onlineFallback = new OnlineApiFallback();
+        this.htmlParser = new HtmlParser();
     }
     loadApiData() {
         try {
@@ -216,17 +219,20 @@ export class TeklaApiDocumentation {
                     };
                 }
             }
-            if (!includeMembers) {
-                return classItem;
+            // If we want members, parse the HTML file for detailed information
+            if (includeMembers && classItem.htmlFile) {
+                console.log(`Parsing HTML for detailed class information: ${classItem.htmlFile}`);
+                const detailedInfo = await this.htmlParser.parseClassDetails(classItem.htmlFile);
+                if (detailedInfo) {
+                    // Add detailed information to the class item
+                    classItem.detailedInfo = detailedInfo;
+                    console.log(`Successfully parsed detailed info for ${className}: ${detailedInfo.constructors.length} constructors, ${detailedInfo.properties.length} properties, ${detailedInfo.methods.length} methods`);
+                }
+                else {
+                    console.log(`Failed to parse HTML details for ${className}, falling back to basic info`);
+                }
             }
-            // Find related members (methods, properties) if available
-            const classMembers = this.apiData.filter(item => item.namespace === classItem.namespace &&
-                (item.type === 'method' || item.type === 'property') &&
-                item.name.toLowerCase().includes(className.toLowerCase()));
-            return {
-                ...classItem,
-                members: classMembers
-            };
+            return classItem;
         }
         catch (error) {
             console.error('Error getting class details:', error);
