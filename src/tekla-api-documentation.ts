@@ -216,36 +216,65 @@ export class TeklaApiDocumentation {
 
   async getClassDetails(className: string, includeMembers: boolean = true): Promise<ApiItem | null> {
     try {
+      console.log(`[getClassDetails] Starting search for class: "${className}", includeMembers: ${includeMembers}`);
+
       // Find the class - prioritize exact matches first
-      let classItem = this.classes.find(item => 
+      let classItems = this.classes.filter(item =>
         item.name.toLowerCase() === `${className.toLowerCase()} class` ||
         item.name.toLowerCase() === className.toLowerCase() ||
         item.id.toLowerCase() === `${className.toLowerCase()} class`
       );
-      
+      console.log(`[getClassDetails] Exact match search found ${classItems.length} results`);
+
       // If no exact match, look for exact word matches (not just contains)
-      if (!classItem) {
-        classItem = this.classes.find(item => {
+      if (classItems.length === 0) {
+        console.log(`[getClassDetails] Trying word boundary search for "${className}"`);
+        classItems = this.classes.filter(item => {
           const name = item.name.toLowerCase();
           const id = item.id.toLowerCase();
           const searchTerm = className.toLowerCase();
-          
+
           // Check for "Beam Class" when searching for "Beam"
-          return name === `${searchTerm} class` || 
+          return name === `${searchTerm} class` ||
                  id === `${searchTerm} class` ||
                  name.startsWith(`${searchTerm} `) ||
                  name.endsWith(` ${searchTerm}`) ||
                  // Only match if it's a word boundary to avoid "AnalysisCompositeBeam" matching "Beam"
                  (name.includes(` ${searchTerm} `) || name.includes(` ${searchTerm}class`));
         });
+        console.log(`[getClassDetails] Word boundary search found ${classItems.length} results`);
       }
-      
+
       // If still no match, try broader search as last resort
-      if (!classItem) {
-        classItem = this.classes.find(item => 
+      if (classItems.length === 0) {
+        console.log(`[getClassDetails] Trying broad search for "${className}"`);
+        classItems = this.classes.filter(item =>
           item.name.toLowerCase().includes(className.toLowerCase()) ||
           item.id.toLowerCase().includes(className.toLowerCase())
         );
+        console.log(`[getClassDetails] Broad search found ${classItems.length} results`);
+      }
+
+      // Handle multiple matches - prioritize Tekla.Structures.Model over Drawing
+      let classItem: ApiItem | undefined;
+      if (classItems.length > 1) {
+        console.log(`[getClassDetails] Found ${classItems.length} matches for "${className}": ${classItems.map(item => `${item.name} (${item.namespace})`).join(', ')}`);
+
+        // Prioritize Tekla.Structures.Model namespace over Drawing for ambiguous cases
+        const modelMatch = classItems.find(item => item.namespace?.includes('Tekla.Structures.Model'));
+        const drawingMatch = classItems.find(item => item.namespace?.includes('Tekla.Structures.Drawing'));
+
+        if (modelMatch && drawingMatch) {
+          console.log(`[getClassDetails] Ambiguous class "${className}" - prioritizing Model namespace over Drawing`);
+          console.log(`[getClassDetails] Selected: ${modelMatch.name} (${modelMatch.namespace})`);
+          classItem = modelMatch;
+        } else {
+          console.log(`[getClassDetails] Using first match: ${classItems[0].name} (${classItems[0].namespace})`);
+          classItem = classItems[0];
+        }
+      } else if (classItems.length === 1) {
+        console.log(`[getClassDetails] Found single match: ${classItems[0].name} (${classItems[0].namespace})`);
+        classItem = classItems[0];
       }
 
       if (!classItem) {
@@ -302,21 +331,37 @@ export class TeklaApiDocumentation {
 
       // If we want members, parse the HTML file for detailed information
       if (includeMembers && classItem.htmlFile) {
-        console.log(`Parsing HTML for detailed class information: ${classItem.htmlFile}`);
-        const detailedInfo = await this.htmlParser.parseClassDetails(classItem.htmlFile);
-        
-        if (detailedInfo) {
-          // Add detailed information to the class item
-          classItem.detailedInfo = detailedInfo;
-          console.log(`Successfully parsed detailed info for ${className}: ${detailedInfo.constructors.length} constructors, ${detailedInfo.properties.length} properties, ${detailedInfo.methods.length} methods`);
-        } else {
-          console.log(`Failed to parse HTML details for ${className}, falling back to basic info`);
+        console.log(`[getClassDetails] Parsing HTML for detailed class information: ${classItem.htmlFile}`);
+        try {
+          const detailedInfo = await this.htmlParser.parseClassDetails(classItem.htmlFile);
+
+          if (detailedInfo) {
+            // Add detailed information to the class item
+            classItem.detailedInfo = detailedInfo;
+            console.log(`[getClassDetails] Successfully parsed detailed info for ${className}:`);
+            console.log(`  - Constructors: ${detailedInfo.constructors?.length || 0}`);
+            console.log(`  - Properties: ${detailedInfo.properties?.length || 0}`);
+            console.log(`  - Methods: ${detailedInfo.methods?.length || 0}`);
+            console.log(`  - Examples: ${detailedInfo.examples?.length || 0}`);
+            console.log(`  - Inheritance: ${detailedInfo.inheritance?.hierarchy?.length || 0} levels`);
+          } else {
+            console.log(`[getClassDetails] HTML parsing returned null for ${className}, falling back to basic info`);
+          }
+        } catch (htmlError) {
+          console.error(`[getClassDetails] Error parsing HTML for ${className}:`, htmlError);
+          console.log(`[getClassDetails] Continuing with basic class info despite HTML parsing failure`);
         }
+      } else if (includeMembers) {
+        console.log(`[getClassDetails] No HTML file available for ${className}, using basic info only`);
+      } else {
+        console.log(`[getClassDetails] Members not requested, skipping HTML parsing`);
       }
 
+      console.log(`[getClassDetails] Returning class details for ${className}: ${classItem ? 'SUCCESS' : 'NULL'}`);
       return classItem;
     } catch (error) {
-      console.error('Error getting class details:', error);
+      console.error(`[getClassDetails] Fatal error getting class details for "${className}":`, error);
+      console.error(`[getClassDetails] Error stack:`, error instanceof Error ? error.stack : 'No stack available');
       return null;
     }
   }

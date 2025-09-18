@@ -62,70 +62,188 @@ export class HtmlParser {
 
   async parseClassDetails(htmlFile: string): Promise<DetailedClassInfo | null> {
     try {
+      console.log(`[HTML Parser] Starting to parse: ${htmlFile}`);
       const filePath = path.join(this.extractedDocsPath, htmlFile);
-      
+
       if (!fs.existsSync(filePath)) {
-        console.error(`HTML file not found: ${filePath}`);
+        console.error(`[HTML Parser] HTML file not found: ${filePath}`);
         return null;
       }
 
+      // Check file size for potential issues
+      const stats = fs.statSync(filePath);
+      console.log(`[HTML Parser] File size: ${stats.size} bytes`);
+
+      if (stats.size === 0) {
+        console.error(`[HTML Parser] HTML file is empty: ${filePath}`);
+        return null;
+      }
+
+      if (stats.size > 10 * 1024 * 1024) { // 10MB limit
+        console.warn(`[HTML Parser] Large HTML file detected (${stats.size} bytes): ${filePath}`);
+      }
+
       const htmlContent = fs.readFileSync(filePath, 'utf-8');
-      const dom = new JSDOM(htmlContent);
+
+      if (!htmlContent || htmlContent.trim().length === 0) {
+        console.error(`[HTML Parser] HTML content is empty after reading: ${filePath}`);
+        return null;
+      }
+
+      console.log(`[HTML Parser] Creating JSDOM for ${htmlFile}`);
+      const dom = new JSDOM(htmlContent, {
+        // Add some options for better compatibility
+        contentType: "text/html",
+        includeNodeLocations: false,
+        storageQuota: 10000000
+      });
       const document = dom.window.document;
 
-      // Extract basic information
-      const titleElement = document.querySelector('h1');
-      const className = this.cleanText(titleElement?.textContent || 'Unknown Class');
-      
+      if (!document) {
+        console.error(`[HTML Parser] Failed to create document from HTML: ${filePath}`);
+        return null;
+      }
+
+      console.log(`[HTML Parser] Document created successfully, extracting content`);
+
+
+      // Extract basic information with error handling
+      let className = 'Unknown Class';
+      try {
+        const titleElement = document.querySelector('h1');
+        if (titleElement?.textContent) {
+          className = this.cleanText(titleElement.textContent);
+          console.log(`[HTML Parser] Extracted class name: ${className}`);
+        } else {
+          console.warn(`[HTML Parser] No h1 title element found in ${htmlFile}`);
+        }
+      } catch (error) {
+        console.error(`[HTML Parser] Error extracting class name:`, error);
+      }
+
       // Find namespace by looking for the pattern
       let namespace = 'Unknown';
-      const strongElements = Array.from(document.querySelectorAll('strong'));
-      for (const strongEl of strongElements) {
-        if (strongEl.textContent?.includes('Namespace:')) {
-          const namespaceLink = strongEl.parentElement?.querySelector('a');
-          if (namespaceLink) {
-            namespace = this.cleanText(namespaceLink.textContent || 'Unknown');
+      try {
+        const strongElements = Array.from(document.querySelectorAll('strong'));
+        for (const strongEl of strongElements) {
+          if (strongEl.textContent?.includes('Namespace:')) {
+            const namespaceLink = strongEl.parentElement?.querySelector('a');
+            if (namespaceLink) {
+              namespace = this.cleanText(namespaceLink.textContent || 'Unknown');
+              console.log(`[HTML Parser] Extracted namespace: ${namespace}`);
+              break;
+            }
           }
-          break;
         }
+      } catch (error) {
+        console.error(`[HTML Parser] Error extracting namespace:`, error);
       }
 
       // Extract description from summary div
-      const summaryDiv = document.querySelector('.summary, div.summary');
-      const description = this.cleanText(summaryDiv?.textContent || 'No description available');
+      let description = 'No description available';
+      try {
+        const summaryDiv = document.querySelector('.summary, div.summary');
+        if (summaryDiv?.textContent) {
+          description = this.cleanText(summaryDiv.textContent);
+          console.log(`[HTML Parser] Extracted description length: ${description.length} chars`);
+        }
+      } catch (error) {
+        console.error(`[HTML Parser] Error extracting description:`, error);
+      }
 
-      // Extract syntax
-      const syntax = this.extractSyntax(document);
+      // Extract content sections with individual error handling
+      let syntax: string | undefined;
+      let inheritance: InheritanceInfo;
+      let constructors: Constructor[];
+      let properties: Property[];
+      let methods: Method[];
+      let examples: string[];
 
-      // Extract inheritance hierarchy
-      const inheritance = this.extractInheritance(document);
+      try {
+        syntax = this.extractSyntax(document);
+        console.log(`[HTML Parser] Syntax extraction: ${syntax ? 'SUCCESS' : 'NONE'}`);
+      } catch (error) {
+        console.error(`[HTML Parser] Error extracting syntax:`, error);
+        syntax = undefined;
+      }
 
-      // Extract constructors
-      const constructors = this.extractConstructors(document);
+      try {
+        const inheritanceResult = this.extractInheritance(document);
+        inheritance = inheritanceResult || { baseClasses: [], hierarchy: [] };
+        console.log(`[HTML Parser] Inheritance extraction: ${inheritance.hierarchy?.length || 0} levels`);
+      } catch (error) {
+        console.error(`[HTML Parser] Error extracting inheritance:`, error);
+        inheritance = { baseClasses: [], hierarchy: [] };
+      }
 
-      // Extract properties
-      const properties = this.extractProperties(document);
+      try {
+        const constructorsResult = this.extractConstructors(document);
+        constructors = constructorsResult || [];
+        console.log(`[HTML Parser] Constructors extraction: ${constructors.length} found`);
+      } catch (error) {
+        console.error(`[HTML Parser] Error extracting constructors:`, error);
+        constructors = [];
+      }
 
-      // Extract methods
-      const methods = this.extractMethods(document);
+      try {
+        const propertiesResult = this.extractProperties(document);
+        properties = propertiesResult || [];
+        console.log(`[HTML Parser] Properties extraction: ${properties.length} found`);
+      } catch (error) {
+        console.error(`[HTML Parser] Error extracting properties:`, error);
+        properties = [];
+      }
 
-      // Extract examples
-      const examples = this.extractExamples(document);
+      try {
+        const methodsResult = this.extractMethods(document);
+        methods = methodsResult || [];
+        console.log(`[HTML Parser] Methods extraction: ${methods.length} found`);
+      } catch (error) {
+        console.error(`[HTML Parser] Error extracting methods:`, error);
+        methods = [];
+      }
 
-      return {
-        name: className,
-        namespace,
-        description,
-        syntax,
-        inheritance,
-        constructors,
-        properties,
-        methods,
-        examples
+      try {
+        const examplesResult = this.extractExamples(document);
+        examples = examplesResult || [];
+        console.log(`[HTML Parser] Examples extraction: ${examples.length} found`);
+      } catch (error) {
+        console.error(`[HTML Parser] Error extracting examples:`, error);
+        examples = [];
+      }
+
+      console.log(`[HTML Parser] Successfully parsed ${htmlFile}:`);
+      console.log(`  - Class: ${className}`);
+      console.log(`  - Namespace: ${namespace}`);
+      console.log(`  - Description: ${description.length} chars`);
+      console.log(`  - Syntax: ${syntax ? 'present' : 'none'}`);
+      console.log(`  - Inheritance: ${inheritance?.hierarchy?.length || 0} levels`);
+      console.log(`  - Constructors: ${constructors?.length || 0}`);
+      console.log(`  - Properties: ${properties?.length || 0}`);
+      console.log(`  - Methods: ${methods?.length || 0}`);
+      console.log(`  - Examples: ${examples?.length || 0}`);
+
+      // Ensure all arrays are properly initialized
+      const result = {
+        name: className || 'Unknown Class',
+        namespace: namespace || 'Unknown',
+        description: description || 'No description available',
+        syntax: syntax || undefined,
+        inheritance: inheritance || { baseClasses: [], hierarchy: [] },
+        constructors: Array.isArray(constructors) ? constructors : [],
+        properties: Array.isArray(properties) ? properties : [],
+        methods: Array.isArray(methods) ? methods : [],
+        examples: Array.isArray(examples) ? examples : []
       };
 
+      return result;
+
     } catch (error) {
-      console.error(`Error parsing HTML file ${htmlFile}:`, error);
+      console.error(`[HTML Parser] Fatal error parsing HTML file ${htmlFile}:`, error);
+      if (error instanceof Error) {
+        console.error(`[HTML Parser] Error stack:`, error.stack);
+      }
+      console.error(`[HTML Parser] File path:`, path.join(this.extractedDocsPath, htmlFile));
       return null;
     }
   }

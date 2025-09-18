@@ -271,10 +271,26 @@ class TeklaApiMcpServer {
             );
         }
       } catch (error) {
-        const errorMessage = error instanceof Error ? error.message : 'Unknown error occurred';
+        console.error(`[MCP Server] Tool execution failed for "${name}":`, error);
+
+        let errorMessage = 'Unknown error occurred';
+        let errorDetails = '';
+
+        if (error instanceof Error) {
+          errorMessage = error.message;
+          errorDetails = error.stack || '';
+          console.error(`[MCP Server] Error stack:`, error.stack);
+        } else {
+          errorMessage = String(error);
+          console.error(`[MCP Server] Non-Error object thrown:`, error);
+        }
+
+        // Log the arguments for debugging
+        console.error(`[MCP Server] Tool arguments:`, JSON.stringify(args, null, 2));
+
         throw new McpError(
           ErrorCode.InternalError,
-          `Tool execution failed: ${errorMessage}`
+          `Tool execution failed for "${name}": ${errorMessage}`
         );
       }
     });
@@ -307,26 +323,40 @@ ${results.map(result =>
   }
 
   private async handleGetClassDetails(args: any) {
+    console.log(`[handleGetClassDetails] Called with args:`, JSON.stringify(args, null, 2));
+
     const { className, includeMembers = true } = args;
-    
+
     if (!className || typeof className !== 'string') {
+      console.error(`[handleGetClassDetails] Invalid className parameter:`, className);
       throw new McpError(ErrorCode.InvalidParams, 'className parameter is required and must be a string');
     }
 
+    console.log(`[handleGetClassDetails] Calling getClassDetails for "${className}"`);
     const classDetails = await this.apiDocs.getClassDetails(className, includeMembers);
-    
+
     if (!classDetails) {
+      console.error(`[handleGetClassDetails] No class details found for "${className}"`);
       throw new McpError(ErrorCode.InvalidParams, `Class "${className}" not found in API documentation`);
     }
 
-    return {
-      content: [
-        {
-          type: 'text',
-          text: this.formatClassDetails(classDetails),
-        },
-      ],
-    };
+    console.log(`[handleGetClassDetails] Class details found, formatting response for "${className}"`);
+    try {
+      const formattedText = this.formatClassDetails(classDetails);
+      console.log(`[handleGetClassDetails] Successfully formatted class details for "${className}"`);
+
+      return {
+        content: [
+          {
+            type: 'text',
+            text: formattedText,
+          },
+        ],
+      };
+    } catch (formatError) {
+      console.error(`[handleGetClassDetails] Error formatting class details for "${className}":`, formatError);
+      throw new McpError(ErrorCode.InternalError, `Failed to format class details for "${className}": ${formatError instanceof Error ? formatError.message : String(formatError)}`);
+    }
   }
 
   private async handleGetMethodDetails(args: any) {
@@ -445,75 +475,125 @@ ${classDetails.summary || classDetails.description || 'No description available'
     if (classDetails.detailedInfo) {
       const detailed = classDetails.detailedInfo;
 
-      // Add syntax if available
-      if (detailed.syntax) {
-        output += `## Syntax
+      // Add syntax if available with null safety
+      try {
+        if (detailed.syntax && typeof detailed.syntax === 'string' && detailed.syntax.trim()) {
+          output += `## Syntax
 \`\`\`csharp
 ${detailed.syntax}
 \`\`\`
 
 `;
+        }
+      } catch (error) {
+        console.error('Error formatting syntax:', error);
+        output += `## Syntax\n*Error formatting syntax information*\n\n`;
       }
 
-      // Add inheritance hierarchy
-      if (detailed.inheritance && detailed.inheritance.hierarchy.length > 0) {
-        output += `## Inheritance Hierarchy
-${detailed.inheritance.hierarchy.join(' → ')}
+      // Add inheritance hierarchy with null safety
+      try {
+        if (detailed.inheritance &&
+            detailed.inheritance.hierarchy &&
+            Array.isArray(detailed.inheritance.hierarchy) &&
+            detailed.inheritance.hierarchy.length > 0) {
+          const validHierarchy = detailed.inheritance.hierarchy.filter((item: any) =>
+            item && typeof item === 'string' && item.trim()
+          );
+          if (validHierarchy.length > 0) {
+            output += `## Inheritance Hierarchy
+${validHierarchy.join(' → ')}
 
 `;
+          }
+        }
+      } catch (error) {
+        console.error('Error formatting inheritance hierarchy:', error);
+        output += `## Inheritance Hierarchy\n*Error formatting inheritance information*\n\n`;
       }
 
-      // Add constructors
-      if (detailed.constructors && detailed.constructors.length > 0) {
-        output += `## Constructors
+      // Add constructors with null safety
+      try {
+        if (detailed.constructors && Array.isArray(detailed.constructors) && detailed.constructors.length > 0) {
+          const validConstructors = detailed.constructors.filter((ctor: any) => ctor && typeof ctor === 'object');
+          if (validConstructors.length > 0) {
+            output += `## Constructors
 
 | Name | Description |
 |------|-------------|
-${detailed.constructors.map((ctor: any) => 
-  `| **${ctor.name}** | ${ctor.description} |`
+${validConstructors.map((ctor: any) =>
+  `| **${ctor.name || 'Unknown'}** | ${ctor.description || 'No description available'} |`
 ).join('\n')}
 
 `;
+          }
+        }
+      } catch (error) {
+        console.error('Error formatting constructors:', error);
+        output += `## Constructors\n*Error formatting constructor information*\n\n`;
       }
 
-      // Add properties with inheritance info
-      if (detailed.properties && detailed.properties.length > 0) {
-        output += `## Properties
+      // Add properties with inheritance info and null safety
+      try {
+        if (detailed.properties && Array.isArray(detailed.properties) && detailed.properties.length > 0) {
+          const validProperties = detailed.properties.filter((prop: any) => prop && typeof prop === 'object');
+          if (validProperties.length > 0) {
+            output += `## Properties
 
 | Name | Description | Inherited |
 |------|-------------|-----------|
-${detailed.properties.map((prop: any) => 
-  `| **${prop.name}** | ${prop.description} | ${prop.inherited ? `Yes (from ${prop.inheritedFrom})` : 'No'} |`
+${validProperties.map((prop: any) =>
+  `| **${prop.name || 'Unknown'}** | ${prop.description || 'No description available'} | ${prop.inherited ? `Yes (from ${prop.inheritedFrom || 'Unknown'})` : 'No'} |`
 ).join('\n')}
 
 `;
+          }
+        }
+      } catch (error) {
+        console.error('Error formatting properties:', error);
+        output += `## Properties\n*Error formatting property information*\n\n`;
       }
 
-      // Add methods with inheritance info
-      if (detailed.methods && detailed.methods.length > 0) {
-        output += `## Methods
+      // Add methods with inheritance info and null safety
+      try {
+        if (detailed.methods && Array.isArray(detailed.methods) && detailed.methods.length > 0) {
+          const validMethods = detailed.methods.filter((method: any) => method && typeof method === 'object');
+          if (validMethods.length > 0) {
+            output += `## Methods
 
 | Name | Description | Inherited |
 |------|-------------|-----------|
-${detailed.methods.map((method: any) => 
-  `| **${method.name}** | ${method.description} | ${method.inherited ? `Yes (from ${method.inheritedFrom})` : 'No'} |`
+${validMethods.map((method: any) =>
+  `| **${method.name || 'Unknown'}** | ${method.description || 'No description available'} | ${method.inherited ? `Yes (from ${method.inheritedFrom || 'Unknown'})` : 'No'} |`
 ).join('\n')}
 
 `;
+          }
+        }
+      } catch (error) {
+        console.error('Error formatting methods:', error);
+        output += `## Methods\n*Error formatting method information*\n\n`;
       }
 
-      // Add examples if available
-      if (detailed.examples && detailed.examples.length > 0) {
-        output += `## Examples
+      // Add examples if available with null safety
+      try {
+        if (detailed.examples && Array.isArray(detailed.examples) && detailed.examples.length > 0) {
+          const validExamples = detailed.examples.filter((example: any) => example);
+          if (validExamples.length > 0) {
+            output += `## Examples
 
-${detailed.examples.map((example: any, index: number) => 
+${validExamples.map((example: any, index: number) =>
 `### Example ${index + 1}
 \`\`\`csharp
-${example}
+${typeof example === 'string' ? example : JSON.stringify(example, null, 2)}
 \`\`\`
 `).join('\n')}
 
 `;
+          }
+        }
+      } catch (error) {
+        console.error('Error formatting examples:', error);
+        output += `## Examples\n*Error formatting example information*\n\n`;
       }
     } else {
       // Fallback to old format if detailed info not available
